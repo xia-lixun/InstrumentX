@@ -1,0 +1,11 @@
+WARNING:EDK -  *************************************************************
+
+WARNING:EDK -  ** To get full timing path analysis when using asynchronous *
+
+WARNING:EDK -  ** LUTRAM FSL FIFO (C_ASYNC_CLKS = 1, C_IMP_STYLE = 0)      *
+
+WARNING:EDK -  ** include "ENABLE=sr_reg_o;" in the top level UCF file.    *
+
+WARNING:EDK -  *************************************************************
+
+

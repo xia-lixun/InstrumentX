@@ -1,0 +1,553 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "sensor_fsl_v20_1_i2s_mb0_wrapper_xst.prj"
+Verilog Include Directory          : {"D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z010clg400-1
+Output File Name                   : "../implementation/sensor_fsl_v20_1_i2s_mb0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : sensor_fsl_v20_1_i2s_mb0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/gen_srlfifo.vhd" into library fsl_v20_v2_11_f
+Parsing entity <SRL_FIFO>.
+Parsing architecture <IMP> of entity <srl_fifo>.
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/gen_sync_bram.vhd" into library fsl_v20_v2_11_f
+Parsing entity <Sync_BRAM>.
+Parsing architecture <syn> of entity <sync_bram>.
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/gen_sync_dpram.vhd" into library fsl_v20_v2_11_f
+Parsing entity <Sync_DPRAM>.
+Parsing architecture <syn> of entity <sync_dpram>.
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/sync_fifo.vhd" into library fsl_v20_v2_11_f
+Parsing entity <Sync_FIFO>.
+Parsing architecture <VHDL_RTL> of entity <sync_fifo>.
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/async_fifo.vhd" into library fsl_v20_v2_11_f
+Parsing entity <Async_FIFO>.
+Parsing architecture <VHDL_RTL> of entity <async_fifo>.
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/async_fifo_bram.vhd" into library fsl_v20_v2_11_f
+Parsing entity <Async_FIFO_BRAM>.
+Parsing architecture <IMP> of entity <async_fifo_bram>.
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/fsl_v20.vhd" into library fsl_v20_v2_11_f
+Parsing entity <fsl_v20>.
+Parsing architecture <IMP> of entity <fsl_v20>.
+Parsing VHDL file "D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_v20_1_i2s_mb0_wrapper.vhd" into library work
+Parsing entity <sensor_fsl_v20_1_i2s_mb0_wrapper>.
+Parsing architecture <STRUCTURE> of entity <sensor_fsl_v20_1_i2s_mb0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <sensor_fsl_v20_1_i2s_mb0_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <fsl_v20> (architecture <IMP>) with generics from library <fsl_v20_v2_11_f>.
+
+Elaborating entity <Async_FIFO_BRAM> (architecture <IMP>) with generics from library <fsl_v20_v2_11_f>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sensor_fsl_v20_1_i2s_mb0_wrapper>.
+    Related source file is "D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_v20_1_i2s_mb0_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <sensor_fsl_v20_1_i2s_mb0_wrapper> synthesized.
+
+Synthesizing Unit <fsl_v20>.
+    Related source file is "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/fsl_v20.vhd".
+        C_EXT_RESET_HIGH = 1
+        C_ASYNC_CLKS = 1
+        C_IMPL_STYLE = 1
+        C_USE_CONTROL = 0
+        C_FSL_DWIDTH = 32
+        C_FSL_DEPTH = 4096
+        C_READ_CLOCK_PERIOD = 0
+WARNING:Xst:647 - Input <FSL_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_M_Control> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <fsl_v20> synthesized.
+
+Synthesizing Unit <Async_FIFO_BRAM>.
+    Related source file is "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_f/hdl/vhdl/async_fifo_bram.vhd".
+        WordSize = 32
+        MemSize = 4096
+        Protect = true
+    Set property "ram_style = block" for signal <ram_mem>.
+    Found 4096x32-bit dual-port RAM <Mram_ram_mem> for signal <ram_mem>.
+    Found 1-bit register for signal <full_i>.
+    Found 1-bit register for signal <empty>.
+    Found 12-bit register for signal <read_addr>.
+    Found 12-bit register for signal <write_addr>.
+    Found 12-bit register for signal <read_nextgray>.
+    Found 12-bit register for signal <write_nextgray>.
+    Found 12-bit register for signal <read_addrgray>.
+    Found 12-bit register for signal <write_addrgray>.
+    Found 12-bit register for signal <read_lastgray>.
+    Found 32-bit register for signal <DataOut>.
+    Found 12-bit adder for signal <read_addr[11]_GND_8_o_add_3_OUT> created at line 1241.
+    Found 12-bit adder for signal <write_addr[11]_GND_8_o_add_12_OUT> created at line 1241.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred 118 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Async_FIFO_BRAM> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4096x32-bit dual-port RAM                             : 1
+# Adders/Subtractors                                   : 2
+ 12-bit adder                                          : 2
+# Registers                                            : 10
+ 1-bit register                                        : 2
+ 12-bit register                                       : 7
+ 32-bit register                                       : 1
+# Multiplexers                                         : 1
+ 12-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 70
+ 1-bit xor2                                            : 70
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Async_FIFO_BRAM>.
+The following registers are absorbed into counter <read_addr>: 1 register on signal <read_addr>.
+The following registers are absorbed into counter <write_addr>: 1 register on signal <write_addr>.
+INFO:Xst:3226 - The RAM <Mram_ram_mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <DataOut>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4096-word x 32-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <WrClk>         | rise     |
+    |     weA            | connected to signal <write_allow>   | high     |
+    |     addrA          | connected to signal <write_addr>    |          |
+    |     diA            | connected to signal <DataIn>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 4096-word x 32-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <RdClk>         | rise     |
+    |     addrB          | connected to signal <read_addr_next> |          |
+    |     doB            | connected to signal <DataOut>       |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <Async_FIFO_BRAM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4096x32-bit dual-port block RAM                       : 1
+# Adders/Subtractors                                   : 1
+ 12-bit adder                                          : 1
+# Counters                                             : 2
+ 12-bit up counter                                     : 2
+# Registers                                            : 63
+ Flip-Flops                                            : 63
+# Multiplexers                                         : 1
+ 12-bit 2-to-1 multiplexer                             : 1
+# Xors                                                 : 70
+ 1-bit xor2                                            : 70
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sensor_fsl_v20_1_i2s_mb0_wrapper> ...
+
+Optimizing unit <Async_FIFO_BRAM> ...
+INFO:Xst:2261 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addr_1> in Unit <sensor_fsl_v20_1_i2s_mb0_wrapper> is equivalent to the following FF/Latch, which will be removed : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_nextgray_0> 
+INFO:Xst:2261 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_1> in Unit <sensor_fsl_v20_1_i2s_mb0_wrapper> is equivalent to the following FF/Latch, which will be removed : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_nextgray_0> 
+INFO:Xst:2261 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addr_2> in Unit <sensor_fsl_v20_1_i2s_mb0_wrapper> is equivalent to the following FF/Latch, which will be removed : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addrgray_1> 
+INFO:Xst:3203 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_1> in Unit <sensor_fsl_v20_1_i2s_mb0_wrapper> is the opposite to the following FF/Latch, which will be removed : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_lastgray_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block sensor_fsl_v20_1_i2s_mb0_wrapper, actual ratio is 0.
+FlipFlop fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 85
+ Flip-Flops                                            : 85
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sensor_fsl_v20_1_i2s_mb0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 199
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 34
+#      LUT2                        : 25
+#      LUT3                        : 3
+#      LUT4                        : 37
+#      MUXCY                       : 33
+#      MUXCY_L                     : 24
+#      VCC                         : 1
+#      XORCY                       : 36
+# FlipFlops/Latches                : 85
+#      FDC                         : 12
+#      FDCE                        : 60
+#      FDPE                        : 12
+#      FDS                         : 1
+# RAMS                             : 4
+#      RAMB36E1                    : 4
+# Shift Registers                  : 1
+#      SRL16                       : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z010clg400-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              85  out of  35200     0%  
+ Number of Slice LUTs:                  105  out of  17600     0%  
+    Number used as Logic:               104  out of  17600     0%  
+    Number used as Memory:                1  out of   6000     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    131
+   Number with an unused Flip Flop:      46  out of    131    35%  
+   Number with an unused LUT:            26  out of    131    19%  
+   Number of fully used LUT-FF pairs:    59  out of    131    45%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          78
+ Number of bonded IOBs:                   0  out of    100     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                4  out of     60     6%  
+    Number using Block RAM only:          4
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                               | Load  |
+-----------------------------------+-----------------------------------------------------------------------------------------------------+-------+
+FSL_M_Clk                          | NONE(fsl_v20_1_i2s_mb0/POR_FF_I)                                                                    | 41    |
+FSL_S_Clk                          | NONE(fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_11)| 53    |
+-----------------------------------+-----------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.643ns (Maximum Frequency: 608.643MHz)
+   Minimum input arrival time before clock: 1.034ns
+   Maximum output required time after clock: 0.918ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FSL_M_Clk'
+  Clock period: 1.607ns (frequency: 622.278MHz)
+  Total number of paths / destination ports: 220 / 106
+-------------------------------------------------------------------------
+Delay:               1.607ns (Levels of Logic = 13)
+  Source:            fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addrgray_0 (FF)
+  Destination:       fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/full_i (FF)
+  Source Clock:      FSL_M_Clk rising
+  Destination Clock: FSL_M_Clk rising
+
+  Data Path: fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addrgray_0 to fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/full_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             3   0.282   0.616  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addrgray_0 (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addrgray_0)
+     LUT4:I1->O            1   0.053   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fcomp<0>21 (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fcomp<0>)
+     MUXCY_L:S->LO         1   0.291   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcylow (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<0>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[1].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<1>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[2].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<2>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[3].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<3>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[4].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<4>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[5].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<5>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[6].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<6>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[7].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<7>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[8].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<8>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[9].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<9>)
+     MUXCY_L:CI->LO        1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Gen_fmuxcy[10].fmuxcy (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyo<10>)
+     MUXCY_L:CI->LO        1   0.204   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fmuxcyhigh (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/fullg)
+     FDPE:D                    0.011          fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/full_i
+    ----------------------------------------
+    Total                      1.607ns (0.991ns logic, 0.616ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FSL_S_Clk'
+  Clock period: 1.643ns (frequency: 608.643MHz)
+  Total number of paths / destination ports: 280 / 86
+-------------------------------------------------------------------------
+Delay:               1.643ns (Levels of Logic = 13)
+  Source:            fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1 (FF)
+  Destination:       fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_11 (FF)
+  Source Clock:      FSL_S_Clk rising
+  Destination Clock: FSL_S_Clk rising
+
+  Data Path: fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1 to fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             1   0.282   0.413  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1 (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1)
+     LUT2:I1->O            1   0.053   0.399  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_allow1_1 (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_allow1)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<0> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<1> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<2> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<3> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<4> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<5> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<6> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<6>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<7> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<7>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<8> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<8>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<9> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<9>)
+     MUXCY:CI->O           0   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<10> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<10>)
+     XORCY:CI->O           1   0.320   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_xor<11> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr11)
+     FDC:D                     0.011          fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_11
+    ----------------------------------------
+    Total                      1.643ns (0.831ns logic, 0.812ns route)
+                                       (50.6% logic, 49.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FSL_M_Clk'
+  Total number of paths / destination ports: 68 / 68
+-------------------------------------------------------------------------
+Offset:              0.894ns (Levels of Logic = 1)
+  Source:            FSL_M_Write (PAD)
+  Destination:       fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addr_11 (FF)
+  Destination Clock: FSL_M_Clk rising
+
+  Data Path: FSL_M_Write to fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_addr_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT2:I0->O           47   0.053   0.555  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_allow1 (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_allow)
+     FDCE:CE                   0.200          fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/write_nextgray_2
+    ----------------------------------------
+    Total                      0.894ns (0.339ns logic, 0.555ns route)
+                                       (37.9% logic, 62.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FSL_S_Clk'
+  Total number of paths / destination ports: 49 / 49
+-------------------------------------------------------------------------
+Offset:              1.034ns (Levels of Logic = 13)
+  Source:            FSL_S_Read (PAD)
+  Destination:       fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_11 (FF)
+  Destination Clock: FSL_S_Clk rising
+
+  Data Path: FSL_S_Read to fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT2:I0->O            1   0.053   0.399  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_allow1_1 (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_allow1)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<0> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<1> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<2> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<3> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<4> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<5> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<6> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<6>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<7> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<7>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<8> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<8>)
+     MUXCY:CI->O           1   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<9> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<9>)
+     MUXCY:CI->O           0   0.015   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<10> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_cy<10>)
+     XORCY:CI->O           1   0.320   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr_xor<11> (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mcount_read_addr11)
+     FDC:D                     0.011          fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/read_addr_11
+    ----------------------------------------
+    Total                      1.034ns (0.635ns logic, 0.399ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSL_M_Clk'
+  Total number of paths / destination ports: 4 / 3
+-------------------------------------------------------------------------
+Offset:              0.918ns (Levels of Logic = 1)
+  Source:            fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/full_i (FF)
+  Destination:       FSL_M_Full (PAD)
+  Source Clock:      FSL_M_Clk rising
+
+  Data Path: fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/full_i to FSL_M_Full
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q            16   0.282   0.583  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/full_i (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/full_i)
+     LUT2:I0->O            0   0.053   0.000  fsl_v20_1_i2s_mb0/FSL_M_Full1 (FSL_M_Full)
+    ----------------------------------------
+    Total                      0.918ns (0.335ns logic, 0.583ns route)
+                                       (36.5% logic, 63.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSL_S_Clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              0.899ns (Levels of Logic = 1)
+  Source:            fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty (FF)
+  Destination:       FSL_S_Exists (PAD)
+  Source Clock:      FSL_S_Clk rising
+
+  Data Path: fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty to FSL_S_Exists
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q            27   0.282   0.550  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty (fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty)
+     INV:I->O              0   0.067   0.000  fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Exists1_INV_0 (FSL_Has_Data)
+    ----------------------------------------
+    Total                      0.899ns (0.349ns logic, 0.550ns route)
+                                       (38.8% logic, 61.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock FSL_M_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+FSL_M_Clk      |    1.607|         |         |         |
+FSL_S_Clk      |    1.666|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock FSL_S_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+FSL_M_Clk      |    1.664|         |         |         |
+FSL_S_Clk      |    1.643|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 33.00 secs
+Total CPU time to Xst completion: 33.27 secs
+ 
+--> 
+
+Total memory usage is 503004 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

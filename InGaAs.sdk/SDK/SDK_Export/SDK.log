@@ -1,0 +1,239 @@
+21:43:47.880 INFO  - Processing command line option -hwspec C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+21:50:47.243 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/RemoteSystemsTempFiles' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+21:54:24.152 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:54:24.262 INFO  - PS initialization will be done as it is not done before. 
+21:54:24.262 INFO  - Running PS initialization.... 
+21:54:24.667 INFO  - ps7_init is completed. 
+21:54:24.776 INFO  - PS Initialization is complete. 
+21:56:40.778 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:16:30.023 INFO  - Settings changed on project ethernet_test_bsp. Triggering a rebuild... 
+22:16:31.333 INFO  - Refreshed build settings on project ethernet_test 
+22:18:18.956 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:19:54.941 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:19:55.050 INFO  - PS initialization will be done as it is not done before. 
+22:19:55.050 INFO  - Running PS initialization.... 
+22:19:55.456 INFO  - ps7_init is completed. 
+22:19:55.565 INFO  - PS Initialization is complete. 
+22:21:01.925 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:24:09.023 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:25:05.732 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:25:09.071 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:28:22.275 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+22:28:22.290 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:54:13.688 INFO  - Processing command line option -hwspec C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+00:54:16.545 INFO  - The hardware specification for project 'sensor_hw_platform' is different from C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+00:54:16.897 INFO  - Copied contents of C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml into \sensor_hw_platform\system.xml. 
+00:54:16.915 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.c into \sensor_hw_platform\ps7_init.c. 
+00:54:16.922 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.h into \sensor_hw_platform\ps7_init.h. 
+00:54:16.976 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.html into \sensor_hw_platform\ps7_init.html. 
+00:54:16.991 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \sensor_hw_platform\ps7_init.tcl. 
+00:54:17.362 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:55:09.371 INFO  - Updating hardware inferred compiler options for ethernet_test. 
+00:55:10.126 INFO  - Updating hardware inferred compiler options for mem_test. 
+00:55:10.161 INFO  - Clearing existing target manager status. 
+01:02:05.485 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+01:03:33.049 INFO  - Processing command line option -hwspec C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+01:06:33.480 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+01:14:27.734 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:41:06.106 INFO  - Processing command line option -hwspec C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+16:41:06.469 INFO  - The hardware specification for project 'sensor_hw_platform' is different from C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+16:41:08.033 INFO  - Copied contents of C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml into \sensor_hw_platform\system.xml. 
+16:41:08.059 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\sensor_stub.bit into \sensor_hw_platform\system.bit. 
+16:41:08.069 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\sensor_stub_bd.bmm into \sensor_hw_platform\system_bd.bmm. 
+16:41:08.085 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.c into \sensor_hw_platform\ps7_init.c. 
+16:41:08.094 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.h into \sensor_hw_platform\ps7_init.h. 
+16:41:08.142 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.html into \sensor_hw_platform\ps7_init.html. 
+16:41:08.157 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \sensor_hw_platform\ps7_init.tcl. 
+16:41:08.819 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:41:48.800 INFO  - Updating hardware inferred compiler options for ethernet_test. 
+16:41:49.659 INFO  - Updating hardware inferred compiler options for hello. 
+16:41:50.414 INFO  - Updating hardware inferred compiler options for mem_test. 
+16:41:50.453 INFO  - Clearing existing target manager status. 
+16:41:52.781 INFO  - Closing and re-opening the MSS file of ther project hello_bsp 
+16:41:55.279 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+18:05:35.060 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/system.bit" 
+18:40:48.834 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/system.bit" 
+18:42:11.737 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/system.bit" 
+19:04:21.349 ERROR - Unable to read in MSS file C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\test_bsp\system.mss. 
+19:04:21.355 INFO  - Settings changed on project test_bsp. Triggering a rebuild... 
+19:04:34.627 ERROR - Unable to read in MSS file C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\test_bsp\system.mss. 
+19:19:35.027 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/system.bit" 
+19:24:37.791 ERROR - Unable to read in MSS file C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\test_bsp\system.mss. 
+19:24:47.207 ERROR - Unable to read in MSS file C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\test_bsp\system.mss. 
+19:25:46.182 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:33:02.015 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/system.bit" 
+19:33:59.499 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:33:59.599 INFO  - PS initialization will be done as it is not done before. 
+19:33:59.604 INFO  - Running PS initialization.... 
+19:34:00.030 INFO  - ps7_init is completed. 
+19:34:00.130 INFO  - ps7_post_config is completed. 
+19:34:00.230 INFO  - PS Initialization is complete. 
+19:38:02.922 INFO  - Successfully generated C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\test\src\lscript.ld. 
+19:38:02.927 INFO  - Applying linker script to all configurations of project test. 
+19:38:02.933 INFO  - Setting rebuild state to true for all configurations of project test. 
+19:38:42.368 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/download.bit" 
+19:39:16.034 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:55:05.561 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:39:35.399 INFO  - Processing command line option -hwspec C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+21:39:38.461 INFO  - The hardware specification for project 'sensor_hw_platform' is different from C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml. 
+21:39:39.786 INFO  - Copied contents of C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/hw/sensor.xml into \sensor_hw_platform\system.xml. 
+21:39:39.809 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\sensor_stub.bit into \sensor_hw_platform\system.bit. 
+21:39:39.819 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\sensor_stub_bd.bmm into \sensor_hw_platform\system_bd.bmm. 
+21:39:39.841 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.c into \sensor_hw_platform\ps7_init.c. 
+21:39:39.850 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.h into \sensor_hw_platform\ps7_init.h. 
+21:39:39.904 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.html into \sensor_hw_platform\ps7_init.html. 
+21:39:39.921 INFO  - Copied contents of C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \sensor_hw_platform\ps7_init.tcl. 
+21:39:41.122 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:40:34.730 INFO  - Updating hardware inferred compiler options for cortexa9_test. 
+21:40:35.490 INFO  - Updating hardware inferred compiler options for ethernet_test. 
+21:40:36.246 INFO  - Updating hardware inferred compiler options for mem_test. 
+21:40:37.082 INFO  - Updating hardware inferred compiler options for test. 
+21:40:37.097 INFO  - Clearing existing target manager status. 
+21:40:40.353 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+21:48:17.384 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:13:23.290 INFO  - Settings changed on project app_cpu_1_bsp. Triggering a rebuild... 
+13:13:24.148 INFO  - Refreshed build settings on project app_cpu_1 
+13:14:15.347 INFO  - Settings changed on project app_cpu_1_bsp. Triggering a rebuild... 
+13:14:16.049 INFO  - Refreshed build settings on project app_cpu_1 
+13:42:21.013 INFO  - Processor reset is completed for ps7_cortexa9_1 
+13:42:21.123 INFO  - PS initialization will be done as it is not done before. 
+13:42:21.123 INFO  - Running PS initialization.... 
+13:42:21.528 INFO  - ps7_init is completed. 
+13:42:21.637 INFO  - ps7_post_config is completed. 
+13:42:21.747 INFO  - PS Initialization is complete. 
+13:42:56.738 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:46:42.521 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+13:46:42.630 INFO  - Processor reset is completed for ps7_cortexa9_1 
+13:47:10.493 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:56:56.361 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:59:50.585 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:01:37.105 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+15:01:37.215 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:05:03.232 INFO  - ps7_init.tcl file does not exists in HwPlatform 
+15:05:03.341 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:05:24.651 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:08:16.938 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:08:17.047 INFO  - PS initialization will be done as it is not done before. 
+15:08:17.047 INFO  - Running PS initialization.... 
+15:08:17.702 INFO  - ps7_init is completed. 
+15:08:17.811 INFO  - ps7_post_config is completed. 
+15:08:17.921 INFO  - PS Initialization is complete. 
+15:08:36.985 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:21:54.648 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:22:11.731 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:24:41.135 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:24:41.135 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+15:24:41.244 INFO  - PS initialization will be done as it is not done before. 
+15:24:41.244 INFO  - Running PS initialization.... 
+15:24:41.650 INFO  - ps7_init is completed. 
+15:24:41.759 INFO  - ps7_post_config is completed. 
+15:24:41.868 INFO  - PS Initialization is complete. 
+15:24:46.019 INFO  - System reset is completed. 
+15:24:46.034 INFO  - Running PS initialization.... 
+15:24:46.394 INFO  - ps7_init is completed. 
+15:24:46.612 INFO  - ps7_post_config is completed. 
+15:24:46.831 INFO  - PS Initialization is complete. 
+15:26:07.395 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:26:07.504 INFO  - PS initialization will be done as it is not done before. 
+15:26:07.504 INFO  - Running PS initialization.... 
+15:26:07.909 INFO  - ps7_init is completed. 
+15:26:08.019 INFO  - ps7_post_config is completed. 
+15:26:08.128 INFO  - PS Initialization is complete. 
+15:26:27.598 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:28:13.072 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:28:13.213 WARN  - ELF C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\app_cpu_1\Debug\app_cpu_1.elf was not built with -pg compiler and linker option. Profiling information will not be available. 
+15:28:40.202 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:19:04.107 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:19:04.256 WARN  - ELF C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\app_cpu_1\Debug\app_cpu_1.elf was not built with -pg compiler and linker option. Profiling information will not be available. 
+16:19:56.238 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:20:08.818 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:23:13.450 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:23:15.014 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:25:35.061 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:25:36.203 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:25:56.334 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:25:57.677 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:26:58.061 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:26:58.161 INFO  - PS initialization will be done as it is not done before. 
+16:26:58.165 INFO  - Running PS initialization.... 
+16:26:58.569 INFO  - ps7_init is completed. 
+16:26:58.587 INFO  - ps7_post_config is completed. 
+16:26:58.687 INFO  - PS Initialization is complete. 
+16:27:14.082 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:33:11.082 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:33:58.771 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:34:18.346 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:34:35.470 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:34:36.807 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:36:17.297 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:36:31.378 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:36:32.482 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:36:50.527 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:36:59.604 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+16:38:02.924 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:38:03.024 INFO  - PS initialization will be done as it is not done before. 
+16:38:03.028 INFO  - Running PS initialization.... 
+16:38:03.431 INFO  - ps7_init is completed. 
+16:38:03.531 INFO  - ps7_post_config is completed. 
+16:38:03.631 INFO  - PS Initialization is complete. 
+16:38:19.246 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:58:15.697 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:58:15.806 INFO  - PS initialization will be done as it is not done before. 
+16:58:15.806 INFO  - Running PS initialization.... 
+16:58:16.196 INFO  - ps7_init is completed. 
+16:58:16.305 INFO  - ps7_post_config is completed. 
+16:58:16.414 INFO  - PS Initialization is complete. 
+16:58:30.143 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:15:51.759 INFO  - Processor reset is completed for ps7_cortexa9_1 
+17:16:07.828 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:16:38.437 INFO  - Processor reset is completed for ps7_cortexa9_1 
+20:07:27.053 INFO  - Project test_bsp was a BSP project. Please update references. 
+20:07:27.053 ERROR - SDK has detected that project test_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+20:52:04.272 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/download.bit" 
+20:52:57.078 INFO  - Processor reset is completed for ps7_cortexa9_1 
+20:52:57.187 INFO  - PS initialization will be done as it is not done before. 
+20:52:57.187 INFO  - Running PS initialization.... 
+20:52:57.593 INFO  - ps7_init is completed. 
+20:52:57.702 INFO  - ps7_post_config is completed. 
+20:52:57.811 INFO  - PS Initialization is complete. 
+20:53:13.085 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:55:51.915 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/download.bit" 
+20:58:04.700 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/download.bit" 
+20:58:28.350 INFO  - Processor reset is completed for ps7_cortexa9_1 
+20:58:28.459 INFO  - PS initialization will be done as it is not done before. 
+20:58:28.459 INFO  - Running PS initialization.... 
+20:58:28.849 INFO  - ps7_init is completed. 
+20:58:28.958 INFO  - ps7_post_config is completed. 
+20:58:29.067 INFO  - PS Initialization is complete. 
+20:58:41.347 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:01:53.238 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/download.bit" 
+21:02:17.855 INFO  - Processor reset is completed for ps7_cortexa9_1 
+21:02:17.965 INFO  - PS initialization will be done as it is not done before. 
+21:02:17.965 INFO  - Running PS initialization.... 
+21:02:18.370 INFO  - ps7_init is completed. 
+21:02:18.479 INFO  - ps7_post_config is completed. 
+21:02:18.589 INFO  - PS Initialization is complete. 
+21:02:29.822 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:04:29.792 INFO  - FPGA configured successfully with bitstream "C:/Users/lixun/Documents/Hardware/zynq7010/InGaAs/InGaAs.sdk/SDK/SDK_Export/sensor_hw_platform/download.bit" 
+21:04:44.752 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:04:47.046 INFO  - Processor reset is completed for ps7_cortexa9_1 
+21:05:39.870 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

@@ -1,0 +1,14 @@
+20:06:12 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../test_bsp/microblaze_0/include -mlittle-endian -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:5: error: 'semaphore_mb_cpu1' undeclared (first use in this function)
+../src/helloworld.c:57:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:63:5: error: 'COMM_VAL' undeclared (first use in this function)
+../src/helloworld.c:62:9: warning: unused variable 'c' [-Wunused-variable]
+make: *** [src/helloworld.o] ´íÎó 1
+
+20:06:13 Build Finished (took 453ms)
+

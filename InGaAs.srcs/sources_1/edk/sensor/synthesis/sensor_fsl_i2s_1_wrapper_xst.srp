@@ -1,0 +1,385 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "sensor_fsl_i2s_1_wrapper_xst.prj"
+Verilog Include Directory          : {"D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z010clg400-1
+Output File Name                   : "../implementation/sensor_fsl_i2s_1_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : sensor_fsl_i2s_1_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd" into library fsl_i2s_v1_00_a
+Parsing entity <fsl_i2s>.
+Parsing architecture <structure> of entity <fsl_i2s>.
+Parsing VHDL file "D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_i2s_1_wrapper.vhd" into library work
+Parsing entity <sensor_fsl_i2s_1_wrapper>.
+Parsing architecture <STRUCTURE> of entity <sensor_fsl_i2s_1_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <sensor_fsl_i2s_1_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <fsl_i2s> (architecture <structure>) from library <fsl_i2s_v1_00_a>.
+WARNING:HDLCompiler:1127 - "D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd" Line 177: Assignment to lrck_fall ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sensor_fsl_i2s_1_wrapper>.
+    Related source file is "D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_i2s_1_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <sensor_fsl_i2s_1_wrapper> synthesized.
+
+Synthesizing Unit <fsl_i2s>.
+    Related source file is "D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd".
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:647 - Input <FSL_S_Data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_Rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Control> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Exists> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_M_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <adc_sregl>.
+    Found 2-bit register for signal <lrck>.
+    Found 3-bit register for signal <strcnt>.
+    Found 3-bit adder for signal <strcnt[2]_GND_6_o_add_1_OUT> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  37 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <fsl_i2s> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 3-bit adder                                           : 1
+# Registers                                            : 3
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 1
+# Multiplexers                                         : 1
+ 1-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <fsl_i2s>.
+The following registers are absorbed into counter <strcnt>: 1 register on signal <strcnt>.
+Unit <fsl_i2s> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sensor_fsl_i2s_1_wrapper> ...
+
+Optimizing unit <fsl_i2s> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block sensor_fsl_i2s_1_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <sensor_fsl_i2s_1_wrapper> :
+	Found 4-bit shift register for signal <fsl_i2s_1/adc_sregl_3>.
+Unit <sensor_fsl_i2s_1_wrapper> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+# Shift Registers                                      : 1
+ 4-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sensor_fsl_i2s_1_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 8
+#      GND                         : 1
+#      INV                         : 2
+#      LUT3                        : 2
+#      LUT4                        : 1
+#      LUT5                        : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 34
+#      FD                          : 3
+#      FD_1                        : 2
+#      FDE                         : 1
+#      FDE_1                       : 28
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z010clg400-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              34  out of  35200     0%  
+ Number of Slice LUTs:                    7  out of  17600     0%  
+    Number used as Logic:                 6  out of  17600     0%  
+    Number used as Memory:                1  out of   6000     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     35
+   Number with an unused Flip Flop:       1  out of     35     2%  
+   Number with an unused LUT:            28  out of     35    80%  
+   Number of fully used LUT-FF pairs:     6  out of     35    17%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          77
+ Number of bonded IOBs:                   0  out of    100     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)       | Load  |
+-----------------------------------+-----------------------------+-------+
+i2s_bck                            | NONE(fsl_i2s_1/adc_sregl_31)| 35    |
+-----------------------------------+-----------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.716ns (Maximum Frequency: 582.751MHz)
+   Minimum input arrival time before clock: 0.934ns
+   Maximum output required time after clock: 0.847ns
+   Maximum combinational path delay: 0.256ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'i2s_bck'
+  Clock period: 1.716ns (frequency: 582.751MHz)
+  Total number of paths / destination ports: 42 / 33
+-------------------------------------------------------------------------
+Delay:               0.858ns (Levels of Logic = 1)
+  Source:            fsl_i2s_1/lrck_0 (FF)
+  Destination:       fsl_i2s_1/strcnt_2 (FF)
+  Source Clock:      i2s_bck falling
+  Destination Clock: i2s_bck rising
+
+  Data Path: fsl_i2s_1/lrck_0 to fsl_i2s_1/strcnt_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             4   0.289   0.505  fsl_i2s_1/lrck_0 (fsl_i2s_1/lrck_0)
+     LUT3:I1->O            1   0.053   0.000  fsl_i2s_1/strcnt_0_rstpot (fsl_i2s_1/strcnt_0_rstpot)
+     FD:D                      0.011          fsl_i2s_1/strcnt_0
+    ----------------------------------------
+    Total                      0.858ns (0.353ns logic, 0.505ns route)
+                                       (41.1% logic, 58.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'i2s_bck'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.934ns (Levels of Logic = 1)
+  Source:            i2s_lrck (PAD)
+  Destination:       fsl_i2s_1/Mshreg_adc_sregl_3 (FF)
+  Destination Clock: i2s_bck falling
+
+  Data Path: i2s_lrck to fsl_i2s_1/Mshreg_adc_sregl_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     INV:I->O             30   0.067   0.551  fsl_i2s_1/i2s_lrck_inv1_INV_0 (fsl_i2s_1/i2s_lrck_inv)
+     SRLC16E:CE                0.316          fsl_i2s_1/Mshreg_adc_sregl_3
+    ----------------------------------------
+    Total                      0.934ns (0.383ns logic, 0.551ns route)
+                                       (41.0% logic, 59.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'i2s_bck'
+  Total number of paths / destination ports: 34 / 33
+-------------------------------------------------------------------------
+Offset:              0.847ns (Levels of Logic = 1)
+  Source:            fsl_i2s_1/lrck_0 (FF)
+  Destination:       FSL_M_Write (PAD)
+  Source Clock:      i2s_bck falling
+
+  Data Path: fsl_i2s_1/lrck_0 to FSL_M_Write
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             4   0.289   0.505  fsl_i2s_1/lrck_0 (fsl_i2s_1/lrck_0)
+     LUT3:I1->O            0   0.053   0.000  fsl_i2s_1/FSL_M_Write1 (FSL_M_Write)
+    ----------------------------------------
+    Total                      0.847ns (0.342ns logic, 0.505ns route)
+                                       (40.4% logic, 59.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               0.256ns (Levels of Logic = 1)
+  Source:            FSL_M_Full (PAD)
+  Destination:       FSL_M_Write (PAD)
+
+  Data Path: FSL_M_Full to FSL_M_Write
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT3:I0->O            0   0.053   0.000  fsl_i2s_1/FSL_M_Write1 (FSL_M_Write)
+    ----------------------------------------
+    Total                      0.256ns (0.256ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock i2s_bck
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+i2s_bck        |    1.071|    0.858|    1.303|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 29.00 secs
+Total CPU time to Xst completion: 28.38 secs
+ 
+--> 
+
+Total memory usage is 470044 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="synth_2" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Timing Performance without IOB Packing" State="current"/>
+	<Run Id="impl_2" Type="Ft2:EntireDesign" SynthRun="synth_2" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="MAP Timing Driven Global Optimization for Speed Logic Optimization Retiming Register Duplication High Effort Normal Extra Effort, PAR High Effort" State="current"/>
+</Runs>
+

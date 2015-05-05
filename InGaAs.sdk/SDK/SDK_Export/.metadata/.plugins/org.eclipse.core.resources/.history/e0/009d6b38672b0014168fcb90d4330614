@@ -1,0 +1,282 @@
+/*
+ * Copyright (c) 2009-2012 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
+
+/*
+ * Reed Solomon (255, 239) Encoder and Syndrome calculator
+ *
+ *
+ * This application configures UART 16550 to baud rate 9600.
+ * PS7 UART (Zynq) is not initialized by this application, since
+ * bootrom/bsp configures it to baud rate 115200
+ *
+ * ------------------------------------------------
+ * | UART TYPE   BAUD RATE                        |
+ * ------------------------------------------------
+ *   uartns550   9600
+ *   uartlite    Configurable only in HW design
+ *   ps7_uart    115200 (configured by bootrom/bsp)
+ *
+ *   Created on August 16, 2014, 10:32 PM
+ *   Xia Lixun
+ */
+
+//generic headers
+#include <stdio.h>
+#include "platform.h"
+
+
+//headers for IPC communication
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_mmu.h"
+#include "xil_cache.h"
+#include "xil_exception.h"
+#include "sleep.h"
+
+
+//headers for channel encoding
+#include <stdlib.h>
+#include <string.h>
+#include <inttypes.h>
+
+//headers for benchmark
+#include <time.h>
+#include <sys/time.h>
+
+
+
+
+//semaphore flags for IPC communication
+#define COMM_VAL    (*(volatile unsigned long *)(0xFFFF0000))
+
+
+
+
+
+//macros and variables for forward error checking
+#define ML (239 + NPAR)
+//N = 255
+//K = 239
+//t = (N - K) / 2 = 8
+//m = 8
+
+
+static uint8_t   x[255];    //polynomial division working buffer [x^254 x^253 x^252 ... x^16   x^15 ... x^2 x^1 x^0]
+static uint8_t i2d[255];  //map index form [alpha^0 .. alpha^254] to symbols (decimal)
+static uint8_t d2i[256];  //map symbols to index form
+//static uint8_t g[17] = {1, 59, 13, 104, 189, 68, 209, 30, 8, 163, 65, 41, 229, 98, 50, 36, 59}; //DSUB-TV Standard
+static uint8_t   g[17] = {1, 118, 52, 103, 31, 104, 126, 187, 232, 17, 56, 183, 49, 100, 81, 44, 79};
+static uint8_t q;
+static uint16_t ind, ind1, ind2;
+
+
+
+
+
+//generate Galois field arithmetic operation table
+void rs255239_init(void) {
+
+    //generate index-to-decimal form lookup table
+    // P(x) = x^8 + x^4 + x^3 + x^2 + 1
+    uint16_t Px = 0x11D;
+    uint16_t a  = 0x1;
+
+    i2d[0] = (uint8_t)a;
+    for(int i = 1; i < 255; i++) {
+        a = a << 1;
+        if(a & 0x100) {
+            a = a ^ Px;
+        }
+        i2d[i] = (uint8_t)a;
+    }
+
+
+    //generate decimal-to-index form lookup table
+    //note that i2d[i] belongs to 1..255
+    //d2i[0] is a padding slot for operation reduction
+    for(int i = 0; i < 255; i++) {
+        d2i[i2d[i]] = (uint8_t)i;
+    }
+
+}
+
+
+
+
+//Galois field polynomial division
+void rs255239_pdiv(void) {
+
+    //polynomial division from kx^238 to kx^0
+    for(int i = 0; i < 239; i++) {
+        if(x[i] == 0x0) {
+            continue;
+        } else {
+            ind1 = (uint16_t) d2i[x[i]];
+            for(int j = 0; j < 17; j++) {
+                //convert from decimal to index
+                ind2 = (uint16_t) d2i[g[j]];
+                ind  = ind1 + ind2;
+                ind  = ind % 255;
+                q  = i2d[ind];
+                x[i+j] ^= q;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+//msg[] must be at least of length 239 bytes
+//the polynomial remainder will be stored in x[239 .. 254] for [... x^15 ... x^2 x^1 x^0]
+//append the remainder to msg[] bytes to form 255 byte encoded block
+void rs255239_encode(uint8_t msg[]) {
+
+    memcpy(x, msg, 239);
+    memset(x+239, 0x0, 16);
+    rs255239_pdiv();
+}
+
+
+
+
+
+//code[] must be at least of length 255 bytes
+//syndrome will be stored in x[239 .. 254]
+//correct code word results in all zeros
+void rs255239_synd(uint8_t code[]) {
+
+    memcpy(x, code, 255);
+    rs255239_pdiv();
+}
+
+
+
+
+
+void sanity_test(void) {
+
+	uint8_t msg[256];
+
+	//encode
+	for(int i = 0; i < 256; i++) {
+		msg[i] = (uint8_t)i;
+	}
+	rs255239_encode(msg+1);
+	//form the code word
+	for(int k = 239; k < 255; k++) {
+		msg[k+1] = x[k];
+	}
+
+	//print the parity
+	for(int k = 239; k < 255; k++) {
+		xil_printf("%d ", x[k]);
+	}
+	print("\n\r");
+
+	//calculate the syndrome, must be zeros
+	rs255239_synd(msg+1);
+	for(int k = 239; k < 255; k++) {
+		xil_printf("%d ", x[k]);
+	}
+	print("\n\r");
+}
+
+
+
+
+void benchmark(int total) {
+
+    uint8_t msg[256];
+    for(int i = 0; i < 256; i++) msg[i] = (uint8_t)i;
+
+    struct timeval start, stop;
+
+    _gettimeofday(&start, NULL);
+    for(int loop = 0; loop < total; loop++) {
+
+    	rs255239_encode(msg+1);
+
+    	//form the code word
+    	for(int k = 239; k < 255; k++) {
+    		msg[k+1] = x[k];
+    	}
+
+//    	print("++");     //parity
+//    	for(int k=240; k<256; k++ ) xil_printf("%d ", msg[k]);
+//    	print("++\n\r");
+//
+//    	int errpos = (rand() % 255)+1;
+//    	msg[errpos] ^= rand() % 256;
+//    	print("<");     //parity
+//    	xil_printf("%d -> %d", errpos, msg[errpos]);
+//    	print(">\n\r");
+
+    	rs255239_synd(msg+1);  //syndrome
+//    	print("--");
+//    	for(int k = 239; k < 255; k++) xil_printf("%d ", x[k]);
+//    	print("--\n\r");
+    }
+    _gettimeofday(&stop, NULL);
+    long stop_usec = stop.tv_sec * 1000000 + stop.tv_usec;
+    long start_usec = start.tv_sec * 1000000 + start.tv_usec;
+    xil_printf("Done: %d iterations. %d micro seconds\n\r", total, stop_usec - start_usec);
+}
+
+
+
+
+/*
+ *
+ */
+int main(int argc, char** argv) {
+
+
+	init_platform();
+
+    //Disable cache on OCM
+	Xil_SetTlbAttributes(0xFFFF0000,0x14de2);           // S=b1 TEX=b100 AP=b11, Domain=b1111, C=b0, B=b0
+    print("CPU1: init_platform...\n\r");
+
+
+	rs255239_init();
+
+
+    //semaphore control
+    while(1){
+    	while(COMM_VAL == 0){};
+    	print("CPU1: Calculating channel coding tasks...\n\r");
+    	//sanity_test();
+    	benchmark(256);
+    	exit(EXIT_SUCCESS);
+    	COMM_VAL = 0;
+    }
+
+
+    return (EXIT_SUCCESS);
+}
+
+
+
+
+
+
+
+

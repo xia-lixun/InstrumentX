@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue May 05 13:00:34 2015
+# Process ID: 9480
+# Log file: D:/Workspace/Hardware/zynq7010/InGaAs/planAhead.log
+# Journal file: D:/Workspace/Hardware/zynq7010/InGaAs\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+set env(JAVA_TOOL_OPTIONS) -Xmx2048m
+open_project {D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.ppr}
+update_compile_order -fileset sources_1

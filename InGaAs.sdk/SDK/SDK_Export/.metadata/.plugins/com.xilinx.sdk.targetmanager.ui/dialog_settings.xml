@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\sensor_hw_platform\system_bd.bmm" key="sensor_hw_platform-bmmFile"/>
+	<item value="C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\test\Debug\test.elf" key="sensor_hw_platform-microblaze_0-initElf"/>
+	<item value="C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\sensor_hw_platform\system.bit" key="sensor_hw_platform-bitFile"/>
+	<item value="C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.sdk\SDK\SDK_Export\app_mb_0\Debug\app_mb_0.elf" key="sensor_hw_platform-sensor_i/microblaze_0-initElf"/>
+</section>

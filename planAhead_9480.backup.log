@@ -1,0 +1,179 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue May 05 11:12:26 2015
+# Process ID: 9076
+# Log file: D:/Workspace/Hardware/zynq7010/InGaAs/planAhead.log
+# Journal file: D:/Workspace/Hardware/zynq7010/InGaAs\planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.ppr}
+Scanning sources...
+Finished scanning sources
+update_compile_order -fileset sources_1
+delete_run synth_1
+open_run impl_2
+Parsing EDIF File [./InGaAs.runs/impl_2/sensor_stub.edf]
+WARNING: [EDIF 20-100] Multiple nets with the same name 'i2s_bck_inv' specified. Folding connectivity of these nets into a single net. [D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.runs/impl_2/sensor_stub.edf:21394]
+WARNING: [EDIF 20-100] Multiple nets with the same name 'i2s_bck_inv' specified. Folding connectivity of these nets into a single net. [D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.runs/impl_2/sensor_stub.edf:30894]
+Finished Parsing EDIF File [./InGaAs.runs/impl_2/sensor_stub.edf]
+INFO: [Netlist 29-17] Analyzing 207 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/zynq/xc7z010/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/zynq/xc7z010/ClockBuffers.xml
+Loading clock placement rules from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/zynq/xc7z010/clg400/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/zynq/IOStandards.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/zynq/drc.xml
+Parsing UCF File [D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.runs/impl_2/.constrs/ZYBO_Master.ucf]
+Finished Parsing UCF File [D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.runs/impl_2/.constrs/ZYBO_Master.ucf]
+INFO: [Designutils 20-669] Parsing Placement File : D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.runs/impl_2/sensor_stub_routed.xdl
+INFO: [Designutils 20-658] Finished Parsing Placement File : D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.runs/impl_2/sensor_stub_routed.xdl
+INFO: [Designutils 20-671] Placed 7632 instances
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2906 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 2 instances
+  FD => FDCE: 242 instances
+  FDC => FDCE: 62 instances
+  FDC_1 => FDCE (inverted pins: C): 5 instances
+  FDE => FDCE: 825 instances
+  FDE => FDCE (inverted pins: C): 2 instances
+  FDE_1 => FDCE (inverted pins: C): 64 instances
+  FDP => FDPE: 83 instances
+  FDR => FDRE: 859 instances
+  FDRE_1 => FDRE (inverted pins: C): 1 instances
+  FDS => FDSE: 14 instances
+  FD_1 => FDCE (inverted pins: C): 4 instances
+  INV => LUT1: 174 instances
+  LUT6_2 => LUT6_2 (LUT6, LUT5): 118 instances
+  MULT_AND => LUT2: 2 instances
+  MUXCY_L => MUXCY: 226 instances
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, RAMD64E, RAMD64E, MUXF7, MUXF7): 44 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 25 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 4 instances
+  RAMB36 => RAMB36E1: 1 instances
+  SRL16 => SRL16E: 3 instances
+  SRLC16E => SRL16E: 144 instances
+  SRLC16E => SRL16E (inverted pins: CLK): 2 instances
+
+Phase 0 | Netlist Checksum: bcb4def4
+open_run: Time (s): elapsed = 00:00:42 . Memory (MB): peak = 934.879 ; gain = 397.012
+INFO: [Edk 24-184] Launching XPS (Xilinx Platform Studio) for configuring XPS sub-design source 'sensor'...
+
+Xilinx Platform Studio
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Launching XPS GUI...
+INFO:EDK - Simulation, Implementation and Device configuration flows are
+   disabled in XPS when launched from PlanAhead. All these features are
+   available in PlanAhead.
+MainWindow
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 216 
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 216 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+ZynqConfig: Terminated for gui mode
+Writing filter settings....
+Done writing filter settings to:
+	D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\etc\sens
+or.filters
+Done writing Tab View settings to:
+	D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\etc\sens
+or.gui
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 216 
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\sensor
+   .mhs line 216 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+Clock_generator configuration can be edited in the following configuration
+dialog.
+Use of direct editing will overwrite the original clock wizard settings.
+
+The clock wizard can be launched from the Hardware -> Launch Clock Wizard menu.
+Overriding Xilinx file <TextEditor.cfg> with local file
+<D:/Xilinx/14.7/ISE_DS/EDK/data/TextEditor.cfg>
+ZynqConfig: Terminated for gui mode
+Writing filter settings....
+Done writing filter settings to:
+	D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\etc\sens
+or.filters
+Done writing Tab View settings to:
+	D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\etc\sens
+or.gui
+INFO: [Edk 24-128] XPS launched
+set env(JAVA_TOOL_OPTIONS) -Xmx2048m
+-Xmx2048m
+file delete -force D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/implementation/sensor.ngc
+remove_files D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/implementation/sensor.ngc
+update_compile_order -fileset sources_1
+reset_run impl_2
+reset_run: Time (s): elapsed = 00:00:12 . Memory (MB): peak = 1022.230 ; gain = 0.000
+reset_run synth_2
+reset_run: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 1022.230 ; gain = 0.000
+close_design
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Tue May 05 13:00:23 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

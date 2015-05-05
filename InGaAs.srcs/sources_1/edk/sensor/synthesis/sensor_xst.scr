@@ -1,0 +1,15 @@
+set -tmpdir D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\synthesis\xst_temp_dir\
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc7z010clg400-1
+-top sensor
+-ifmt MIXED
+-ifn sensor_xst.prj
+-ofn ../implementation/sensor.ngc
+-hierarchy_separator /
+-iobuf NO
+-max_fanout 10000
+-sd {../implementation}
+-vlgincdir {"D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

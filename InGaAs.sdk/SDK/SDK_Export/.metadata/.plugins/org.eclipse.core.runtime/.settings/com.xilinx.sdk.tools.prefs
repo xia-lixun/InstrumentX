@@ -1,0 +1,13 @@
+com.xilinx.sdk.linkgen.prefs.test\:.bss=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:.data=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:.rodata=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:.sbss=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:.sbss2=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:.sdata=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:.sdata2=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:.text=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:Heap=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.test\:Stack=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.test\:Stack-size=1024
+eclipse.preferences.version=1
