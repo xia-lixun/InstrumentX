@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          C:\Users\lixun\Documents\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\pcores/fsl_i2s_v1_00_a/data/fsl_i2s_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sun Sep 14 22:33:58 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib fsl_i2s_v1_00_a fsl_i2s vhdl

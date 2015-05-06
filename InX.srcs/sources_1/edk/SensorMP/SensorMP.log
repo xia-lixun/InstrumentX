@@ -1,0 +1,2401 @@
+=====================
+Opened log file
+=====================
+Created pcores directory
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Copied D:/Xilinx/14.7/ISE_DS/EDK/data/xflow/bitgen_zynq.ut to etc directory
+Copied file D:/Xilinx/14.7/ISE_DS/EDK/data/xflow/fast_runtime_zynq.opt to etc
+directory
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+
+Checking platform address map ...
+Created backup of etc/bitgen.ut to etc/bitgen.ut.virtex5
+Copied D:/Xilinx/14.7/ISE_DS/EDK/data/xflow/bitgen_zynq.ut to etc directory
+Created backup of etc/fast_runtime.opt to etc/fast_runtime.opt.virtex5
+Copied file D:/Xilinx/14.7/ISE_DS/EDK/data/xflow/fast_runtime_zynq.opt to etc
+directory
+No changes to be saved in MHS file
+Saved project XMP file
+Saved Make file
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Assigned Driver generic 1.00.a for instance processing_system7_0
+processing_system7_0 has been added to the project
+INFO:EDK:3901 - please connect bus interface, set up port and generate address manually
+Overriding Xilinx file <TextEditor.cfg> with local file <D:/Xilinx/14.7/ISE_DS/EDK/data/TextEditor.cfg>
+Writing filter settings....
+Done writing filter settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.filters
+Done writing Tab View settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.gui
+Writing filter settings....
+Done writing filter settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.filters
+Done writing Tab View settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.gui
+The project's MHS file has changed on disk.
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 - Pre-Production version not verified on hardware for architecture 'zynq' - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production version not verified on hardware for architecture 'zynq' - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 - Pre-Production version not verified on hardware for architecture 'zynq' - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production version not verified on hardware for architecture 'zynq' - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 - Pre-Production version not verified on hardware for architecture 'zynq' - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production version not verified on hardware for architecture 'zynq' - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+Writing filter settings....
+Done writing filter settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.filters
+Done writing Tab View settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+Writing filter settings....
+Done writing filter settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.filters
+Done writing Tab View settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.gui
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+Overriding Xilinx file <TextEditor.cfg> with local file <D:/Xilinx/14.7/ISE_DS/EDK/data/TextEditor.cfg>
+
+Running DRCs...
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_PACKAGE_NAME value to clg400 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is overriding PARAMETER C_BASEFAMILY value to zynq - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is overriding PARAMETER C_BASEFAMILY value to zynq - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding PARAMETER C_ENDIANNESS value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 198 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding PARAMETER C_ICACHE_USE_FSL value to 0 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 339 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding PARAMETER C_DCACHE_USE_FSL value to 0 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin' is not specified. Clock DRCs will not be performed for IPs connected to that clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK:740 - Cannot determine the input clock associated with port : bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port : bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter: fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter: fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is 0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a master on processing_system7 AXI slave interfaces, please use the top half of the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For all other master, any subset of the DDR address can be used. See Xilinx Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0, PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD. Its value should not be overwritten in the MHS. 
+INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding PARAMETER C_MEMSIZE value to 0x4000 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER C_LMB_NUM_SLAVES value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data\lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER C_LMB_NUM_SLAVES value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data\lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: axi_interconnect, INSTANCE: microblaze_0_axi_periph - 1 master(s) : 2 slave(s) 
+IPNAME: axi_interconnect, INSTANCE: microblaze_0_axi_ipc - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: lmb_v10_0 - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: lmb_v10_1 - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_0_i2s_mb0 - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_1_i2s_mb0 - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR: fsl_v20_0_i2s_mb0_OPB_Rst - No driver found. Port will be driven to GND - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fsl_i2s_v2_1_0.mpd line 26 
+WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR: fsl_v20_0_i2s_mb0_FSL_M_Clk - No driver found. Port will be driven to GND - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fsl_i2s_v2_1_0.mpd line 32 
+WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR: fsl_v20_1_i2s_mb0_OPB_Rst - No driver found. Port will be driven to GND - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fsl_i2s_v2_1_0.mpd line 26 
+WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR: fsl_v20_1_i2s_mb0_FSL_M_Clk - No driver found. Port will be driven to GND - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fsl_i2s_v2_1_0.mpd line 32 
+WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR: microblaze_0_reset_Peripheral_Reset - floating connection - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 140 
+WARNING:EDK:4181 - PORT: FSL0_S_CLK, CONNECTOR: fsl_v20_0_i2s_mb0_FSL_S_Clk - floating connection - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 741 
+WARNING:EDK:4181 - PORT: FSL1_S_CLK, CONNECTOR: fsl_v20_1_i2s_mb0_FSL_S_Clk - floating connection - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 751 
+
+Performing Clock DRCs...
+INFO:EDK:4060 - INSTANCE: fsl_v20_0_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: fsl_v20_1_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_FCLK_CLK1_BUF value to FALSE - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 351 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_FCLK_CLK2_BUF value to FALSE - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 352 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is overriding PARAMETER C_FCLK_CLK3_BUF value to FALSE - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 353 
+
+INFO: Setting C_RANGE_CHECK = ON for axi_interconnect microblaze_0_axi_periph.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is overriding PARAMETER C_RANGE_CHECK value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 149 
+
+INFO: Setting C_RANGE_CHECK = OFF for axi_interconnect microblaze_0_axi_ipc; no DECERR checking will be performed.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is overriding PARAMETER C_RANGE_CHECK value to 0 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 149 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding PARAMETER C_D_AXI value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 232 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding PARAMETER C_ADDR_TAG_BITS value to 0 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 337 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding PARAMETER C_USE_EXT_BRK value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 402 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding PARAMETER C_USE_EXT_NM_BRK value to 1 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 403 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:bram_cntlr_instruction - tcl is overriding PARAMETER C_MASK value to 0x60000000 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:bram_cntlr_data - tcl is overriding PARAMETER C_MASK value to 0x60000000 - D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Done!
+
+********************************************************************************
+At Local date and time: Wed May 06 22:30:53 2015
+ make -f SensorMP.make netlist started...
+"****************************************************"
+"Creating system netlist for hardware specification.."
+"****************************************************"
+platgen -p xc7z010clg400-1 -lang verilog -intstyle pa   -toplevel no -ti SensorMP_i -msg __xps/ise/xmsgprops.lst SensorMP.mhs
+
+Command Line: platgen -p xc7z010clg400-1 -lang verilog -intstyle pa -toplevel no
+-ti SensorMP_i -msg __xps/ise/xmsgprops.lst SensorMP.mhs 
+
+Parse D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/SensorMP.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl
+   is overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK_pin' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding
+   PARAMETER C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding
+   PARAMETER C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: axi_interconnect, INSTANCE: microblaze_0_axi_periph - 1 master(s) : 2
+slave(s) 
+IPNAME: axi_interconnect, INSTANCE: microblaze_0_axi_ipc - 1 master(s) : 1
+slave(s) 
+IPNAME: lmb_v10, INSTANCE: lmb_v10_0 - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: lmb_v10_1 - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_0_i2s_mb0 - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_1_i2s_mb0 - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR: fsl_v20_0_i2s_mb0_OPB_Rst - No
+   driver found. Port will be driven to GND -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
+   l_i2s_v2_1_0.mpd line 26 
+WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR: fsl_v20_0_i2s_mb0_FSL_M_Clk - No
+   driver found. Port will be driven to GND -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
+   l_i2s_v2_1_0.mpd line 32 
+WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR: fsl_v20_1_i2s_mb0_OPB_Rst - No
+   driver found. Port will be driven to GND -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
+   l_i2s_v2_1_0.mpd line 26 
+WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR: fsl_v20_1_i2s_mb0_FSL_M_Clk - No
+   driver found. Port will be driven to GND -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
+   l_i2s_v2_1_0.mpd line 32 
+WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR:
+   microblaze_0_reset_Peripheral_Reset - floating connection -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 140 
+WARNING:EDK:4181 - PORT: FSL0_S_CLK, CONNECTOR: fsl_v20_0_i2s_mb0_FSL_S_Clk -
+   floating connection -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 741 
+WARNING:EDK:4181 - PORT: FSL1_S_CLK, CONNECTOR: fsl_v20_1_i2s_mb0_FSL_S_Clk -
+   floating connection -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 751 
+
+Performing Clock DRCs...
+INFO:EDK:4060 - INSTANCE: fsl_v20_0_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD -
+   Did not implement clock DRCs for the parameter. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:4060 - INSTANCE: fsl_v20_1_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD -
+   Did not implement clock DRCs for the parameter. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK1_BUF value to FALSE -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 351 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK2_BUF value to FALSE -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 352 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK3_BUF value to FALSE -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 353 
+
+INFO: Setting C_RANGE_CHECK = ON for axi_interconnect microblaze_0_axi_periph.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl
+   is overriding PARAMETER C_RANGE_CHECK value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 149 
+
+INFO: Setting C_RANGE_CHECK = OFF for axi_interconnect microblaze_0_axi_ipc; no
+DECERR checking will be performed.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_RANGE_CHECK value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 149 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_D_AXI value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 232 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ADDR_TAG_BITS value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 337 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_EXT_BRK value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 402 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_USE_EXT_NM_BRK value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 403 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:bram_cntlr_instruction - tcl
+   is overriding PARAMETER C_MASK value to 0x60000000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v3
+   _10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:bram_cntlr_data - tcl is
+   overriding PARAMETER C_MASK value to 0x60000000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v3
+   _10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+INFO: No asynchronous clock conversions in axi_interconnect
+microblaze_0_axi_periph.
+INFO: No asynchronous clock conversions in axi_interconnect
+microblaze_0_axi_ipc.
+INFO: Setting timing constaints for microblaze_0.
+INFO: The microblaze_0 core has constraints automatically generated by XPS in
+implementation/microblaze_0_wrapper/microblaze_0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: Setting timing constaints for lmb_v10_0.
+INFO: The lmb_v10_0 core has constraints automatically generated by XPS in
+implementation/lmb_v10_0_wrapper/lmb_v10_0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: Setting timing constaints for lmb_v10_1.
+INFO: The lmb_v10_1 core has constraints automatically generated by XPS in
+implementation/lmb_v10_1_wrapper/lmb_v10_1_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The fsl_v20_0_i2s_mb0 core has constraints automatically generated by XPS
+in implementation/fsl_v20_0_i2s_mb0_wrapper/fsl_v20_0_i2s_mb0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The fsl_v20_1_i2s_mb0 core has constraints automatically generated by XPS
+in implementation/fsl_v20_1_i2s_mb0_wrapper/fsl_v20_1_i2s_mb0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:bram_block_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 -
+elaborating IP
+IPNAME:clock_generator INSTANCE:clock_generator_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 -
+elaborating IP
+ClkGen elaborate status: PASSED
+----------------------------------------
+----------------------------------------
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 2.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:processing_system7_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 35 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:microblaze_0_reset -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 129 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:microblaze_0_axi_periph -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 143 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:microblaze_0_axi_ipc -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 151 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:microblaze_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 158 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:debug_module_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 193 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:clock_generator_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:bram_block_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:bram_cntlr_instruction -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 223 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:bram_cntlr_data -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 233 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:lmb_v10_0 - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs
+line 243 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:lmb_v10_1 - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs
+line 250 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:fsl_i2s_0 - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs
+line 257 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:fsl_v20_0_i2s_mb0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 266 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:fsl_v20_1_i2s_mb0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 278 - Running
+XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:fsl_i2s_1 - D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs
+line 290 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Running NGCBUILD ...
+IPNAME:SensorMP_microblaze_0_axi_periph_wrapper INSTANCE:microblaze_0_axi_periph
+- D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 143 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd ..
+SensorMP_microblaze_0_axi_periph_wrapper.ngc
+../SensorMP_microblaze_0_axi_periph_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/microblaze_0_axi_
+periph_wrapper/SensorMP_microblaze_0_axi_periph_wrapper.ngc" ...
+Loading design module
+"../SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1.ngc"...
+Loading design module
+"../SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_microblaze_0_axi_periph_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  12 sec
+Total CPU time to NGCBUILD completion:   12 sec
+
+Writing NGCBUILD log file "../SensorMP_microblaze_0_axi_periph_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:SensorMP_microblaze_0_axi_ipc_wrapper INSTANCE:microblaze_0_axi_ipc -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 151 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd ..
+SensorMP_microblaze_0_axi_ipc_wrapper.ngc
+../SensorMP_microblaze_0_axi_ipc_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/microblaze_0_axi_
+ipc_wrapper/SensorMP_microblaze_0_axi_ipc_wrapper.ngc" ...
+Loading design module
+"../SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1.ngc"...
+Loading design module
+"../SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_microblaze_0_axi_ipc_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  12 sec
+Total CPU time to NGCBUILD completion:   12 sec
+
+Writing NGCBUILD log file "../SensorMP_microblaze_0_axi_ipc_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:SensorMP_microblaze_0_wrapper INSTANCE:microblaze_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 158 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd .. SensorMP_microblaze_0_wrapper.ngc
+../SensorMP_microblaze_0_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/microblaze_0_wrap
+per/SensorMP_microblaze_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_microblaze_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  12 sec
+Total CPU time to NGCBUILD completion:   12 sec
+
+Writing NGCBUILD log file "../SensorMP_microblaze_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:SensorMP_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd ..
+SensorMP_clock_generator_0_wrapper.ngc ../SensorMP_clock_generator_0_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/clock_generator_0
+_wrapper/SensorMP_clock_generator_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_clock_generator_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  12 sec
+Total CPU time to NGCBUILD completion:   12 sec
+
+Writing NGCBUILD log file "../SensorMP_clock_generator_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:SensorMP_lmb_v10_0_wrapper INSTANCE:lmb_v10_0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 243 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd .. SensorMP_lmb_v10_0_wrapper.ngc
+../SensorMP_lmb_v10_0_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/lmb_v10_0_wrapper
+/SensorMP_lmb_v10_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_lmb_v10_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  12 sec
+Total CPU time to NGCBUILD completion:   12 sec
+
+Writing NGCBUILD log file "../SensorMP_lmb_v10_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:SensorMP_lmb_v10_1_wrapper INSTANCE:lmb_v10_1 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 250 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd .. SensorMP_lmb_v10_1_wrapper.ngc
+../SensorMP_lmb_v10_1_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/lmb_v10_1_wrapper
+/SensorMP_lmb_v10_1_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_lmb_v10_1_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  11 sec
+Total CPU time to NGCBUILD completion:   11 sec
+
+Writing NGCBUILD log file "../SensorMP_lmb_v10_1_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:SensorMP_fsl_v20_0_i2s_mb0_wrapper INSTANCE:fsl_v20_0_i2s_mb0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 266 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd ..
+SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ../SensorMP_fsl_v20_0_i2s_mb0_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/fsl_v20_0_i2s_mb0
+_wrapper/SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  11 sec
+Total CPU time to NGCBUILD completion:   11 sec
+
+Writing NGCBUILD log file "../SensorMP_fsl_v20_0_i2s_mb0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:SensorMP_fsl_v20_1_i2s_mb0_wrapper INSTANCE:fsl_v20_1_i2s_mb0 -
+D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 278 - Running
+NGCBUILD
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd ..
+SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ../SensorMP_fsl_v20_1_i2s_mb0_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/fsl_v20_1_i2s_mb0
+_wrapper/SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  11 sec
+Total CPU time to NGCBUILD completion:   11 sec
+
+Writing NGCBUILD log file "../SensorMP_fsl_v20_1_i2s_mb0_wrapper.blc"...
+
+NGCBUILD done.
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/SensorMP.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 1324.00 seconds
+"Running synthesis..."
+cd synthesis & synthesis.cmd
+"xst -ifn "SensorMP_xst.scr" -intstyle silent"
+"Running XST synthesis ..."
+PMSPEC -- Overriding Xilinx file <D:/Xilinx/14.7/ISE_DS/EDK/zynq/data/zynq.acd>
+with local file <D:/Xilinx/14.7/ISE_DS/ISE/zynq/data/zynq.acd>
+"XST completed"
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.filters
+Done writing Tab View settings to:
+	D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\etc\SensorMP.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+Xilinx EDK 14.7 Build EDK_P.20131013
+
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+WARNING:EDK - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+WARNING:EDK - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_PACKAGE_NAME value to clg400 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 185 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP0_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 300 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP1_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 304 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP2_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 308 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_S_AXI_HP3_HIGHADDR value to 0x1FFFFFFF -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 312 
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_03_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_periph - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:microblaze_0_axi_ipc - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ENDIANNESS value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 198 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ICACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 339 
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_USE_FSL value to 0 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
+   ata\microblaze_v2_1_0.mpd line 369 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK_pin'
+   is not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_instruction:BRAM_Clk_A. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK - Cannot determine the input clock associated with port :
+   bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
+   cores connected to it. 
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK - Did not update the value for parameter:
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x1FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+Address Map for Processor microblaze_0
+  (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
+  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0,
+   PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
+   Its value should not be overwritten in the MHS. 
+INFO:EDK - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding PARAMETER
+   C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+
+Checking platform address map ...

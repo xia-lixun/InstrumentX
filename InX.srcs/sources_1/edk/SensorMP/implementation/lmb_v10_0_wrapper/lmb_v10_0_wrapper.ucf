@@ -1,0 +1,2 @@
+INST "lmb_v10_0/POR_FF_I" TNM = "lmb_v10_0_POR_FF_I_dst";
+TIMESPEC "TS_TIG_lmb_v10_0_POR_FF_I" = FROM FFS TO "lmb_v10_0_POR_FF_I_dst" TIG;

@@ -1,0 +1,466 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'sensor'
+
+Design Information
+------------------
+Command Line   : map -o sensor_map.ncd -w -pr b -ol high -timing -detail
+-logic_opt on -intstyle pa -register_duplication -xe n sensor.ngd sensor.pcf 
+Target Device  : xc7z010
+Target Package : clg400
+Target Speed   : -1
+Mapper Version : zynq -- $Revision: 1.55 $
+Mapped Date    : Wed May 06 21:29:43 2015
+
+Mapping design into LUTs...
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<0>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<0>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<0>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<10>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<10>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<10>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<11>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<11>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<11>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<1>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<1>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addr<2>" which will be trimmed. See Section 5
+   of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<2>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<2>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<2>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<3>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<3>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<3>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<4>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<4>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<4>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<5>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<5>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<5>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<6>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<6>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<6>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<7>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<7>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<7>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<8>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<8>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<8>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<9>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<9>) has input signal
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<9>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<0>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<0>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<0>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<10>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<10>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<10>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<11>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<11>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<11>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<1>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<1>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addr<2>" which will be trimmed. See Section 5
+   of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<2>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<2>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<2>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<3>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<3>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<3>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<4>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<4>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<4>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<5>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<5>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<5>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<6>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<6>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<6>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<7>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<7>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<7>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<8>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<8>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<8>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<9>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<9>) has input signal
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/write_addrgray<9>" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT2 symbol
+   "microblaze_0_reset/microblaze_0_reset/EXT_LPF/External_System_Reset_MB_Debug
+   _Sys_Rst_OR_8_o1" (output
+   signal=microblaze_0_reset/microblaze_0_reset/EXT_LPF/External_System_Reset_MB
+   _Debug_Sys_Rst_OR_8_o) has input signal "RESET" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+WARNING:MapLib:701 - Signal RESET connected to top level port RESET has been
+   removed.
+WARNING:MapLib:701 - Signal fsl_i2s_0_i2s_dati_pin connected to top level port
+   fsl_i2s_0_i2s_dati_pin has been removed.
+WARNING:MapLib:701 - Signal fsl_i2s_0_i2s_bck_pin connected to top level port
+   fsl_i2s_0_i2s_bck_pin has been removed.
+WARNING:MapLib:701 - Signal fsl_i2s_0_i2s_lrck_pin connected to top level port
+   fsl_i2s_0_i2s_lrck_pin has been removed.
+WARNING:MapLib:701 - Signal fsl_i2s_1_i2s_bck_pin connected to top level port
+   fsl_i2s_1_i2s_bck_pin has been removed.
+WARNING:MapLib:701 - Signal fsl_i2s_1_i2s_dati_pin connected to top level port
+   fsl_i2s_1_i2s_dati_pin has been removed.
+WARNING:MapLib:701 - Signal fsl_i2s_1_i2s_lrck_pin connected to top level port
+   fsl_i2s_1_i2s_lrck_pin has been removed.
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<0>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<0>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<10>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<10>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<11>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<11>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<1>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<1>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<2>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<2>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<3>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<3>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<4>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<4>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<5>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<5>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<6>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<6>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<7>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<7>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<8>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<8>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<9>21" (output
+   signal=fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<9>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<0>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<0>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<10>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<10>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<11>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<11>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<1>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<1>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<2>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<2>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<3>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<3>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<4>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<4>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<5>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<5>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<6>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<6>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<7>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<7>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<8>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<8>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_B
+   RAM0.Async_FIFO_BRAM_I1/ecomp<9>21" (output
+   signal=fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data
+   .Use_BRAM0.Async_FIFO_BRAM_I1/ecomp<9>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT2 symbol
+   "microblaze_0_reset/microblaze_0_reset/EXT_LPF/External_System_Reset_MB_Debug
+   _Sys_Rst_OR_8_o1" (output
+   signal=microblaze_0_reset/microblaze_0_reset/EXT_LPF/External_System_Reset_MB
+   _Debug_Sys_Rst_OR_8_o) has an equation that uses input pin I0, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+WARNING:MapLib:39 - The timing specification "PERIOD=50000 pS HIGH 50%" on net
+   "fsl_i2s_0_i2s_bck_pin" has been discarded, because the net was optimized out
+   of the design.
+WARNING:MapLib:39 - The timing specification "PERIOD=50000 pS HIGH 50%" on net
+   "fsl_i2s_1_i2s_bck_pin" has been discarded, because the net was optimized out
+   of the design.
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   :  50
+Number of warnings :   9

@@ -1,0 +1,29 @@
+Release 14.7 ngcbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd .. SensorMP_lmb_v10_0_wrapper.ngc
+../SensorMP_lmb_v10_0_wrapper
+
+Reading NGO file
+"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/lmb_v10_0_wrapper
+/SensorMP_lmb_v10_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 198604 kilobytes
+
+Writing NGC file "../SensorMP_lmb_v10_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  12 sec
+Total CPU time to NGCBUILD completion:   12 sec
+
+Writing NGCBUILD log file "../SensorMP_lmb_v10_0_wrapper.blc"...

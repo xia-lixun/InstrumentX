@@ -1,0 +1,9 @@
+INFO:NgdBuild - Release 14.7 edif2ngd P.20131013 (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+WARNING:NgdBuild:683 - Two nets were found with the same name 'i2s_bck_inv' in
+   the same level of heirarchy. The second net is being renamed to
+   'i2s_bck_inv_x'.
+WARNING:NgdBuild:683 - Two nets were found with the same name 'i2s_bck_inv' in
+   the same level of heirarchy. The second net is being renamed to
+   'i2s_bck_inv_x'.
+Writing module to "_ngo/SensorMP_stub.ngo"...

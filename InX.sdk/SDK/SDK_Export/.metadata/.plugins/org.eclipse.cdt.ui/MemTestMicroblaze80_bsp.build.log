@@ -1,0 +1,6 @@
+00:29:18 **** Auto Build of project MemTestMicroblaze80_bsp ****
+make -k all 
+'Finished building libraries'
+
+00:29:19 Build Finished (took 149ms)
+

@@ -1,0 +1,14 @@
+// File: D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\implementation\SensorMP.bmm
+
+ADDRESS_MAP microblaze_0 MICROBLAZE-LE 100
+	ADDRESS_SPACE bram_block_0_combined COMBINED [0x20000000:0x20003fff]
+		ADDRESS_RANGE RAMB32
+		BUS_BLOCK
+			bram_block_0/bram_block_0/ramb36e1_0 [31:24] INPUT = bram_block_0_combined_0.mem ;
+			bram_block_0/bram_block_0/ramb36e1_1 [23:16] INPUT = bram_block_0_combined_1.mem ;
+			bram_block_0/bram_block_0/ramb36e1_2 [15:8] INPUT = bram_block_0_combined_2.mem ;
+			bram_block_0/bram_block_0/ramb36e1_3 [7:0] INPUT = bram_block_0_combined_3.mem ;
+		END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+	END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

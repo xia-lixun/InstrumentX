@@ -1,0 +1,6 @@
+00:39:29 **** Incremental Build of configuration Debug for project MemTestCortexA90 ****
+make all 
+make: Nothing to be done for `all'.
+
+00:39:30 Build Finished (took 200ms)
+

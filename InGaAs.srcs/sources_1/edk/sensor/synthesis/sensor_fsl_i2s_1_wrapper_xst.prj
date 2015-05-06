@@ -1,2 +1,2 @@
-vhdl fsl_i2s_v1_00_a D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\pcores\fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd
+vhdl fsl_i2s_v1_00_a D:\Git\InstrumentX\InGaAs.srcs\sources_1\edk\sensor\pcores\fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd
 vhdl work ../hdl/sensor_fsl_i2s_1_wrapper.vhd

@@ -1,10 +1,10 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to D:\Git\InstrumentX\InGaAs.srcs\sources_1\edk\sensor\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "sensor_fsl_i2s_1_wrapper_xst.prj"
-Verilog Include Directory          : {"D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"D:\Git\InstrumentX\InGaAs.srcs\sources_1\edk\sensor\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc7z010clg400-1
@@ -62,10 +62,10 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd" into library fsl_i2s_v1_00_a
+Parsing VHDL file "D:/Git/InstrumentX/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd" into library fsl_i2s_v1_00_a
 Parsing entity <fsl_i2s>.
 Parsing architecture <structure> of entity <fsl_i2s>.
-Parsing VHDL file "D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_i2s_1_wrapper.vhd" into library work
+Parsing VHDL file "D:\Git\InstrumentX\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_i2s_1_wrapper.vhd" into library work
 Parsing entity <sensor_fsl_i2s_1_wrapper>.
 Parsing architecture <STRUCTURE> of entity <sensor_fsl_i2s_1_wrapper>.
 
@@ -76,20 +76,20 @@ Parsing architecture <STRUCTURE> of entity <sensor_fsl_i2s_1_wrapper>.
 Elaborating entity <sensor_fsl_i2s_1_wrapper> (architecture <STRUCTURE>) from library <work>.
 
 Elaborating entity <fsl_i2s> (architecture <structure>) from library <fsl_i2s_v1_00_a>.
-WARNING:HDLCompiler:1127 - "D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd" Line 177: Assignment to lrck_fall ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:/Git/InstrumentX/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd" Line 177: Assignment to lrck_fall ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <sensor_fsl_i2s_1_wrapper>.
-    Related source file is "D:\Workspace\Hardware\zynq7010\InGaAs\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_i2s_1_wrapper.vhd".
+    Related source file is "D:\Git\InstrumentX\InGaAs.srcs\sources_1\edk\sensor\hdl\sensor_fsl_i2s_1_wrapper.vhd".
     Summary:
 	no macro.
 Unit <sensor_fsl_i2s_1_wrapper> synthesized.
 
 Synthesizing Unit <fsl_i2s>.
-    Related source file is "D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd".
+    Related source file is "D:/Git/InstrumentX/InGaAs.srcs/sources_1/edk/sensor/pcores/fsl_i2s_v1_00_a/hdl/vhdl/fsl_i2s.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -372,12 +372,12 @@ i2s_bck        |    1.071|    0.858|    1.303|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 29.00 secs
-Total CPU time to Xst completion: 28.38 secs
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.39 secs
  
 --> 
 
-Total memory usage is 470044 kilobytes
+Total memory usage is 455208 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   14 (   0 filtered)

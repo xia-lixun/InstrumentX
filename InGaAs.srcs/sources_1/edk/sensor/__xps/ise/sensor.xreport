@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-05-05T12:12:46</DateModified>
+  <DateModified>2015-05-06T20:07:11</DateModified>
   <ModuleName>sensor</ModuleName>
-  <SummaryTimeStamp>2015-05-05T12:12:46</SummaryTimeStamp>
-  <SavedFilePath>D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/__xps/ise/sensor.xreport</SavedFilePath>
+  <SummaryTimeStamp>2015-05-06T20:07:11</SummaryTimeStamp>
+  <SavedFilePath>D:/Git/InstrumentX/InGaAs.srcs/sources_1/edk/sensor/__xps/ise/sensor.xreport</SavedFilePath>
   <FilterFile>filter.filter</FilterFile>
-  <SavedFilterFilePath>D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor/__xps/ise</SavedFilterFilePath>
+  <SavedFilterFilePath>D:/Git/InstrumentX/InGaAs.srcs/sources_1/edk/sensor/__xps/ise</SavedFilterFilePath>
   <DateInitialized>2014-07-31T21:26:30</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

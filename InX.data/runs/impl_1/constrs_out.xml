@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="constrs_out" Type="Constrs" RelSrcDir="$PRUNDIR/impl_1/.constrs">
+    <File Path="$PRUNDIR/impl_1/.constrs/ZYBO_Master.ucf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_clock_generator_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_fsl_v20_0_i2s_mb0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_fsl_v20_1_i2s_mb0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_lmb_v10_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_lmb_v10_1_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_microblaze_0_axi_ipc_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_microblaze_0_axi_periph_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_microblaze_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/impl_1/.constrs/SensorMP_processing_system7_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="UCF"/>
+    </Config>
+  </FileSet>
+</DARoots>

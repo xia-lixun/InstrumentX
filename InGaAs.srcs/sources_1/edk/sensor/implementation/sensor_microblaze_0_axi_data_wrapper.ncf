@@ -1,3 +1,0 @@
-INST "microblaze_0_axi_data/*clock_conv*/*_resync*" TNM = FFS "microblaze_0_axi_data_reset_resync";
-TIMEGRP "microblaze_0_axi_data_reset_source" = FFS PADS CPUS;
-TIMESPEC "TS_microblaze_0_axi_data_reset_resync" = FROM "microblaze_0_axi_data_reset_source" TO "microblaze_0_axi_data_reset_resync" TIG;

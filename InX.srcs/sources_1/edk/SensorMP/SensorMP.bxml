@@ -1,0 +1,193 @@
+
+<Root MajorVersion="0" MinorVersion="20" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Compositefile.xsd">
+
+  <CompositeFile CanBeSetAsTop="false" CanDisplayChildGraph="false" CompositeFileTopName="SensorMP" Part="xc7z010clg400-1">
+    <Description>A description of the composite file</Description>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1430926431"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1430926431"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1430920320"/>
+    <Processor DefaultBootloopFile="sw/lib/microblaze/mb_bootloop_le.elf" Endian="LITTLE" Name="microblaze_0/microblaze_0"/>
+    <Processor DefaultBootloopFile="" Endian="LITTLE" Name="processing_system7_0/processing_system7_0"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <Description>A description for this file collection</Description>
+      <File Name="SensorMP.mhs" Type="MHS">
+        <Description>This is MHS file</Description>
+        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="false" IsVisible="true" Timestamp="1430922587"/>
+        <UsedIn Val="NONE"/>
+      </File>
+      <File Name="data/ps7_SensorMP_prj.xml" Type="PS7XML">
+        <Description>This is PS7 XML file</Description>
+        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1430922582"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430925034"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP.bmm" Type="BMM">
+        <Description>This is BMM file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926389"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="hdl/SensorMP.vhd" Type="VHDL">
+        <Description>This is VHDL file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="true" Timestamp="1430926389"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_processing_system7_0_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922696"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_processing_system7_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_microblaze_0_reset_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_microblaze_0_axi_periph_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922697"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_microblaze_0_axi_periph_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_microblaze_0_axi_ipc_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922697"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_microblaze_0_axi_ipc_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_microblaze_0_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922697"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_microblaze_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_debug_module_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_clock_generator_0_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926386"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_clock_generator_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926430"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_bram_block_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_bram_cntlr_instruction_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_bram_cntlr_data_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_lmb_v10_0_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922697"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_lmb_v10_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_lmb_v10_1_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922697"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_lmb_v10_1_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_fsl_i2s_0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_fsl_v20_0_i2s_mb0_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922697"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_fsl_v20_1_i2s_mb0_wrapper.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430922697"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="implementation/SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="implementation/SensorMP_fsl_i2s_1_wrapper.ngc" Type="NGC">
+        <Description>This is NGC file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="false" IsUserDisableable="false" IsVisible="true" Timestamp="1430926385"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="data/SensorMP.ucf" Type="UCF">
+        <Description>This is UCF file</Description>
+        <Properties IsDisabled="false" IsEditable="true" IsTrackable="true" IsUserDisableable="false" IsVisible="true" Timestamp="1430920320"/>
+        <UsedIn Val="NONE"/>
+      </File>
+      <File Name="data/SensorMP.ncf" Type="NCF">
+        <Description>This is NCF file</Description>
+        <Properties IsDisabled="false" IsEditable="false" IsTrackable="true" IsUserDisableable="false" IsVisible="false" Timestamp="1430926431"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+
+</Root>

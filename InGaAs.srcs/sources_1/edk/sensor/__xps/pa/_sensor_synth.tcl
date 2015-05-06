@@ -5,7 +5,7 @@
 ######################################################
 
 proc _main_ {} {
-  cd "D:/Workspace/Hardware/zynq7010/InGaAs/InGaAs.srcs/sources_1/edk/sensor"
+  cd "D:/Git/InstrumentX/InGaAs.srcs/sources_1/edk/sensor"
   if { [ catch {xload xmp sensor.xmp} result ] } {
     exit 10
   }

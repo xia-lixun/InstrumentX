@@ -1,0 +1,13 @@
+-p
+xc7z010clg400-1
+-lang
+vhdl
+-intstyle
+pa
+-toplevel
+no
+-ti
+SensorMP_i
+-msg
+__xps/ise/xmsgprops.lst
+SensorMP.mhs

@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=D:\Git\Sandbox\InX.runs\impl_1\SensorMP_stub_routed.ncd
+OUTFILE=D:\Git\Sandbox\InX.runs\impl_1\SensorMP_stub.bit
+FAMILY=Zynq
+PART=xc7z010-1clg400
+WORKINGDIR=D:\Git\Sandbox\InX.runs\impl_1
+LICENSE=WebPack
+USER_INFO=__0_0_0

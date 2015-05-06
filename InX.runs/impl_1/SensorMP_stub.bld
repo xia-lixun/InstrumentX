@@ -1,0 +1,127 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -p xc7z010clg400-1 -dd _ngo -uc SensorMP_stub.ucf -bm
+SensorMP_stub.bmm SensorMP_stub.edf
+
+Executing edif2ngd -quiet "SensorMP_stub.edf" "_ngo\SensorMP_stub.ngo"
+Release 14.7 - edif2ngd P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+WARNING:NgdBuild:683 - Two nets were found with the same name 'i2s_bck_inv' in
+   the same level of heirarchy. The second net is being renamed to
+   'i2s_bck_inv_x'.
+WARNING:NgdBuild:683 - Two nets were found with the same name 'i2s_bck_inv' in
+   the same level of heirarchy. The second net is being renamed to
+   'i2s_bck_inv_x'.
+Reading NGO file "D:/Git/Sandbox/InX.runs/impl_1/_ngo/SensorMP_stub.ngo" ...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_PORB_pin_IBUF'.  All constraints associated with
+   this symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_CLK_pin_IBUF'.  All constraints associated with this
+   symbol will be ignored.
+INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
+   'processing_system7_0_PS_SRSTB_pin_IBUF'.  All constraints associated with
+   this symbol will be ignored.
+
+Annotating constraints to design from ucf file "SensorMP_stub.ucf" ...
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_1' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_2' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   microblaze_0_axi_periph_reset_source =   FFS  PADS  CPUS;>
+   [SensorMP_stub.ucf(532)]: CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
+   microblaze_0_axi_ipc_reset_source =   FFS  PADS  CPUS;>
+   [SensorMP_stub.ucf(540)]: CPUS "*" does not match any design objects.
+
+INFO:ConstraintSystem:178 - TNM 'clk_fpga_0', used in period specification
+   'TS_clk_fpga_0', was traced into MMCME2_ADV instance
+   clock_generator_0/MMCM1_INST/MMCM_ADV_inst. The following new TNM groups and
+   period specifications were generated at the MMCME2_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
+   "SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
+   TS_clk_fpga_0 * 1.25 HIGH 50%>
+
+INFO:ConstraintSystem - The Period constraint <NET "fsl_i2s_0_i2s_bck_pin"
+   PERIOD = 50 ns;> [SensorMP_stub.ucf(577)], is specified using the Net Period
+   method which is not recommended. Please use the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <NET "fsl_i2s_1_i2s_bck_pin"
+   PERIOD = 50 ns;> [SensorMP_stub.ucf(578)], is specified using the Net Period
+   method which is not recommended. Please use the Timespec PERIOD method.
+
+Done...
+
+Processing BMM file "SensorMP_stub.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "CLOCK_HOLD" is not allowed on symbol
+   "clock_generator_0/MMCM1_INST/MMCM_ADV_inst" of type "MMCME2_ADV".  This
+   attribute will be ignored.
+WARNING:NgdBuild:443 - SFF primitive
+   'SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/
+   Using_FPGA.Gen_Bits[27].MEM_EX_Result_Inst' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'SensorMP_i/fsl_v20_0_i2s_mb0_FSL_M_Control'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'SensorMP_i/fsl_v20_1_i2s_mb0_FSL_M_Control'
+   has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  10
+
+Total memory usage is 265968 kilobytes
+
+Writing NGD file "SensorMP_stub.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  37 sec
+Total CPU time to NGDBUILD completion:   51 sec
+
+Writing NGDBUILD log file "SensorMP_stub.bld"...

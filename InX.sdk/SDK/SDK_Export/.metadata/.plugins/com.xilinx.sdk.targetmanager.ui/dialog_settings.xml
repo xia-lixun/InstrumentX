@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="system.bit" key="SensorMP_hw_platform-bitFile"/>
+	<item value="system_bd.bmm" key="SensorMP_hw_platform-bmmFile"/>
+	<item value="bootloop" key="SensorMP_hw_platform-SensorMP_i/microblaze_0-initElf"/>
+</section>

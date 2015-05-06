@@ -1,0 +1,12 @@
+set -loop_iteration_limit 1000
+run
+-ifn SensorMP_stub.prj
+-top SensorMP_stub
+-p xc7z010clg400-1
+-ofn SensorMP_stub.ngc
+-sd {..\..\InX.srcs\sources_1\edk\SensorMP\implementation}
+-opt_mode speed
+-opt_level 2
+-register_balancing yes
+-iob false
+-netlist_hierarchy rebuilt

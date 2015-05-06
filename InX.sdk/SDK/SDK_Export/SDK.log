@@ -1,0 +1,18 @@
+00:17:52.228 INFO  - Processing command line option -hwspec D:/Git/Sandbox/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml. 
+00:29:07.801 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\Sandbox\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+00:29:17.994 INFO  - FPGA configured successfully with bitstream "D:/Git/Sandbox/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+00:31:01.433 ERROR - Port COM5 is already in use. 
+00:31:01.781 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:31:01.881 INFO  - PS initialization will be done as it is not done before. 
+00:31:01.881 INFO  - Running PS initialization.... 
+00:31:02.280 INFO  - ps7_init is completed. 
+00:31:02.380 INFO  - ps7_post_config is completed. 
+00:31:02.480 INFO  - PS Initialization is complete. 
+00:31:17.737 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+00:32:03.299 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:35:12.074 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:35:28.216 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+00:35:30.438 ERROR - Port COM5 is already in use. 
+00:35:53.781 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:39:31.699 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:40:08.342 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

@@ -3,7 +3,7 @@ xc7z010clg400-1
 -lang
 vhdl
 -intstyle
-pa
+default
 -toplevel
 no
 -ti
