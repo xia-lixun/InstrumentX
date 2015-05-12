@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  25220	   1096	  29780	  56096	   db20	MemTestCortexA90.elf
+  25528	   1096	1316464	1343088	 147e70	MemTestCortexA90.elf

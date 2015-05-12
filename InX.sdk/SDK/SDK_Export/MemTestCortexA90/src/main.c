@@ -25,6 +25,12 @@
 #include "xpseudo_asm.h"
 #include "remap_ocm.h"
 #include <xil_cache.h>
+#include <stdlib.h>
+#include <xtime_l.h>
+
+#include "xparameters.h"
+#include "xil_exception.h"
+#include "sleep.h"
 
 #define GPIO_BASE  0xE000A000
 #define GPIO_DIRM  (GPIO_BASE+0x0284)
@@ -32,6 +38,15 @@
 
 // OCM memory used to communicate with CPU0
 #define COMM_VAL  (*(volatile u32 *)(0xFFFC0000))
+
+
+//u32 OnChipMemBuffer[262143];
+#define MN (65535)
+u32 OnChipMemBuffer[MN];
+XTime start = 0x0;
+XTime stop;
+
+
 
 
 int main()
@@ -57,8 +72,8 @@ int main()
      * If using SDK/XMD to download the Microblaze application
      * uncomment the following two lines of code
      **********************************************************/
-	//Xil_Out32(0x30000000, 0xb8000000);
-	//Xil_DCacheFlush();
+	Xil_Out32(0x30000000, 0xb8000000);
+	Xil_DCacheFlush();
 
 	///////////////////////////////////////////////
 	//Take PL out of reset
@@ -70,14 +85,49 @@ int main()
 
 	///////////////////////////////////////////////
 	// Loop forever
+	volatile u32 * Ocm = NULL;
+	s32 i;
+
+	u32 Endian = 0x12345678;
+	u8 * pEndian = (u8 *) (&Endian);
+
+	XTime_SetTime(start);
+	xil_printf("Endianess: 0x12345678\n\r");
+	xil_printf("Memory: %x - %x - %x - %x\n\r", *pEndian, *(pEndian+1), *(pEndian+2), *(pEndian+3));
+	xil_printf("CPU0: start to write random number to shared location...\n\r");
+	// Wait until UART TX FIFO is empty
+	while ((Xil_In32(STDOUT_BASEADDRESS + 0x2C) & 0x08) != 0x08);
+	XTime_GetTime(&stop);
+	xil_printf("Time calibrate: %d CPU cycles from PMU.\n\r", (stop - start)*2);
+
     while(1) {
-    	xil_printf("CPU0: Hello World\n\r");
 
-    	// Wait until UART TX FIFO is empty
-    	while ((Xil_In32(STDOUT_BASEADDRESS + 0x2C) & 0x08) != 0x08);
+    	//Ocm = (volatile u32 *) 0xFFFC0004;
+    	//for(i = 0; i < MN; i++) {
+    	//	OnChipMemBuffer[i] = rand();
+    	//	*Ocm = OnChipMemBuffer[i];
+    	//	Ocm += 1;
+        //	//xil_printf("Ocm address: %x\n\r", Ocm);
+        //  }
 
+        //from this point OCM belongs to Microblaze
     	COMM_VAL = 1;
+    	XTime_SetTime(start);
     	while(COMM_VAL == 1);
+    	XTime_GetTime(&stop);
+    	xil_printf("Time benchmark: %d CPU cycles from PMU.\n\r", (stop - start)*2);
+
+    	//now OCM belongs to Cortex A9
+    	//Ocm = (volatile u32 *) 0xFFFC0004;
+    	//for(i = 0; i < MN; i++) {
+    	//	if(*Ocm != OnChipMemBuffer[i]+1) {
+    	//		xil_printf("CPU0: mismatch found: %x - %x\n\r", *Ocm, OnChipMemBuffer[i]+1);
+    	//	}
+    	//	Ocm += 1;
+    	//}
+
+		//xil_printf("CPU0: transaction done!\n\r");
+
     }
 
     return 0;
