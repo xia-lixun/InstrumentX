@@ -12,7 +12,7 @@
 ##
 ##  Xilinx, Inc. 2006            www.xilinx.com
 ############################################################################
-##  File name :       D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/processing_system7_0_wrapper/processing_system7_0_wrapper.ucf
+##  File name :       D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/implementation/processing_system7_0_wrapper/processing_system7_0_wrapper.ucf
 ##
 ##  Details :     Constraints file
 ##                    FPGA family:       zynq
@@ -548,18 +548,18 @@ INST "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Reset_DFF.reset_tem
 TIMESPEC TS_TIG_microblaze_0_Reset = FROM  FFS TO "microblaze_0_Reset_dst" TIG ;
 
 ####################################################################################
-# Constraints from file : 'SensorMP_lmb_v10_0_wrapper.ncf'
-####################################################################################
-
-INST "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I" TNM = "lmb_v10_0_POR_FF_I_dst";
-TIMESPEC TS_TIG_lmb_v10_0_POR_FF_I = FROM  FFS TO "lmb_v10_0_POR_FF_I_dst" TIG ;
-
-####################################################################################
 # Constraints from file : 'SensorMP_lmb_v10_1_wrapper.ncf'
 ####################################################################################
 
 INST "SensorMP_i/lmb_v10_1/lmb_v10_1/POR_FF_I" TNM = "lmb_v10_1_POR_FF_I_dst";
 TIMESPEC TS_TIG_lmb_v10_1_POR_FF_I = FROM  FFS TO "lmb_v10_1_POR_FF_I_dst" TIG ;
+
+####################################################################################
+# Constraints from file : 'SensorMP_lmb_v10_0_wrapper.ncf'
+####################################################################################
+
+INST "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I" TNM = "lmb_v10_0_POR_FF_I_dst";
+TIMESPEC TS_TIG_lmb_v10_0_POR_FF_I = FROM  FFS TO "lmb_v10_0_POR_FF_I_dst" TIG ;
 
 ####################################################################################
 # Constraints from file : 'ZYBO_Master.ucf'
@@ -578,7 +578,7 @@ NET "fsl_i2s_0_i2s_bck_pin" PERIOD = 50 ns;
 NET "fsl_i2s_1_i2s_bck_pin" PERIOD = 50 ns;
 
 NET "SensorMP_i/clock_generator_0_CLKOUT0" TNM_NET = "tnm_clk_125MHz";
-TIMESPEC TS_clock_generator_0_CLKOUT0 = PERIOD "tnm_clk_125MHz" 8 ns HIGH 50 %;
+TIMESPEC TS_clock_generator_0_CLKOUT0 = PERIOD "tnm_clk_125MHz" 7.5 ns HIGH 50 %;
 # Shall we introduce OFFSET_IN constraints here?
 
 ############################################################################

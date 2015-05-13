@@ -232,45 +232,45 @@ module SensorMP
   wire [0:0] microblaze_0_axi_ipc_S_WUSER;
   wire [0:0] microblaze_0_axi_ipc_S_WVALID;
   wire [0:0] microblaze_0_axi_mem_INTERCONNECT_ARESETN;
-  wire [63:0] microblaze_0_axi_periph_M_ARADDR;
-  wire [3:0] microblaze_0_axi_periph_M_ARBURST;
-  wire [7:0] microblaze_0_axi_periph_M_ARCACHE;
-  wire [1:0] microblaze_0_axi_periph_M_ARESETN;
-  wire [1:0] microblaze_0_axi_periph_M_ARID;
-  wire [15:0] microblaze_0_axi_periph_M_ARLEN;
-  wire [3:0] microblaze_0_axi_periph_M_ARLOCK;
-  wire [5:0] microblaze_0_axi_periph_M_ARPROT;
-  wire [7:0] microblaze_0_axi_periph_M_ARQOS;
-  wire [1:0] microblaze_0_axi_periph_M_ARREADY;
-  wire [5:0] microblaze_0_axi_periph_M_ARSIZE;
-  wire [1:0] microblaze_0_axi_periph_M_ARVALID;
-  wire [63:0] microblaze_0_axi_periph_M_AWADDR;
-  wire [3:0] microblaze_0_axi_periph_M_AWBURST;
-  wire [7:0] microblaze_0_axi_periph_M_AWCACHE;
-  wire [1:0] microblaze_0_axi_periph_M_AWID;
-  wire [15:0] microblaze_0_axi_periph_M_AWLEN;
-  wire [3:0] microblaze_0_axi_periph_M_AWLOCK;
-  wire [5:0] microblaze_0_axi_periph_M_AWPROT;
-  wire [7:0] microblaze_0_axi_periph_M_AWQOS;
-  wire [1:0] microblaze_0_axi_periph_M_AWREADY;
-  wire [5:0] microblaze_0_axi_periph_M_AWSIZE;
-  wire [1:0] microblaze_0_axi_periph_M_AWVALID;
-  wire [1:0] microblaze_0_axi_periph_M_BID;
-  wire [1:0] microblaze_0_axi_periph_M_BREADY;
-  wire [3:0] microblaze_0_axi_periph_M_BRESP;
-  wire [1:0] microblaze_0_axi_periph_M_BVALID;
-  wire [63:0] microblaze_0_axi_periph_M_RDATA;
-  wire [1:0] microblaze_0_axi_periph_M_RID;
-  wire [1:0] microblaze_0_axi_periph_M_RLAST;
-  wire [1:0] microblaze_0_axi_periph_M_RREADY;
-  wire [3:0] microblaze_0_axi_periph_M_RRESP;
-  wire [1:0] microblaze_0_axi_periph_M_RVALID;
-  wire [63:0] microblaze_0_axi_periph_M_WDATA;
-  wire [1:0] microblaze_0_axi_periph_M_WID;
-  wire [1:0] microblaze_0_axi_periph_M_WLAST;
-  wire [1:0] microblaze_0_axi_periph_M_WREADY;
-  wire [7:0] microblaze_0_axi_periph_M_WSTRB;
-  wire [1:0] microblaze_0_axi_periph_M_WVALID;
+  wire [95:0] microblaze_0_axi_periph_M_ARADDR;
+  wire [5:0] microblaze_0_axi_periph_M_ARBURST;
+  wire [11:0] microblaze_0_axi_periph_M_ARCACHE;
+  wire [2:0] microblaze_0_axi_periph_M_ARESETN;
+  wire [2:0] microblaze_0_axi_periph_M_ARID;
+  wire [23:0] microblaze_0_axi_periph_M_ARLEN;
+  wire [5:0] microblaze_0_axi_periph_M_ARLOCK;
+  wire [8:0] microblaze_0_axi_periph_M_ARPROT;
+  wire [11:0] microblaze_0_axi_periph_M_ARQOS;
+  wire [2:0] microblaze_0_axi_periph_M_ARREADY;
+  wire [8:0] microblaze_0_axi_periph_M_ARSIZE;
+  wire [2:0] microblaze_0_axi_periph_M_ARVALID;
+  wire [95:0] microblaze_0_axi_periph_M_AWADDR;
+  wire [5:0] microblaze_0_axi_periph_M_AWBURST;
+  wire [11:0] microblaze_0_axi_periph_M_AWCACHE;
+  wire [2:0] microblaze_0_axi_periph_M_AWID;
+  wire [23:0] microblaze_0_axi_periph_M_AWLEN;
+  wire [5:0] microblaze_0_axi_periph_M_AWLOCK;
+  wire [8:0] microblaze_0_axi_periph_M_AWPROT;
+  wire [11:0] microblaze_0_axi_periph_M_AWQOS;
+  wire [2:0] microblaze_0_axi_periph_M_AWREADY;
+  wire [8:0] microblaze_0_axi_periph_M_AWSIZE;
+  wire [2:0] microblaze_0_axi_periph_M_AWVALID;
+  wire [2:0] microblaze_0_axi_periph_M_BID;
+  wire [2:0] microblaze_0_axi_periph_M_BREADY;
+  wire [5:0] microblaze_0_axi_periph_M_BRESP;
+  wire [2:0] microblaze_0_axi_periph_M_BVALID;
+  wire [95:0] microblaze_0_axi_periph_M_RDATA;
+  wire [2:0] microblaze_0_axi_periph_M_RID;
+  wire [2:0] microblaze_0_axi_periph_M_RLAST;
+  wire [2:0] microblaze_0_axi_periph_M_RREADY;
+  wire [5:0] microblaze_0_axi_periph_M_RRESP;
+  wire [2:0] microblaze_0_axi_periph_M_RVALID;
+  wire [95:0] microblaze_0_axi_periph_M_WDATA;
+  wire [2:0] microblaze_0_axi_periph_M_WID;
+  wire [2:0] microblaze_0_axi_periph_M_WLAST;
+  wire [2:0] microblaze_0_axi_periph_M_WREADY;
+  wire [11:0] microblaze_0_axi_periph_M_WSTRB;
+  wire [2:0] microblaze_0_axi_periph_M_WVALID;
   wire [31:0] microblaze_0_axi_periph_S_ARADDR;
   wire [1:0] microblaze_0_axi_periph_S_ARBURST;
   wire [3:0] microblaze_0_axi_periph_S_ARCACHE;
@@ -329,7 +329,7 @@ module SensorMP
   wire [63:0] net_gnd64;
   wire [0:4095] net_gnd4096;
   wire net_vcc0;
-  wire [1:0] pgassign1;
+  wire [2:0] pgassign1;
   wire processing_system7_0_DDR_WEB;
   wire processing_system7_0_FCLK_CLK0;
   wire processing_system7_0_PS_CLK;
@@ -349,8 +349,12 @@ module SensorMP
   assign net_fsl_i2s_1_i2s_lrck_pin = fsl_i2s_1_i2s_lrck_pin;
   assign net_fsl_i2s_1_i2s_dati_pin = fsl_i2s_1_i2s_dati_pin;
   assign microblaze_0_axi_periph_M_RLAST[1:1] = 1'b0;
+  assign microblaze_0_axi_periph_M_RLAST[2:2] = 1'b0;
   assign microblaze_0_axi_periph_M_BID[1:1] = 1'b0;
+  assign microblaze_0_axi_periph_M_BID[2:2] = 1'b0;
   assign microblaze_0_axi_periph_M_RID[1:1] = 1'b0;
+  assign microblaze_0_axi_periph_M_RID[2:2] = 1'b0;
+  assign pgassign1[2:2] = clock_generator_0_CLKOUT0[0:0];
   assign pgassign1[1:1] = clock_generator_0_CLKOUT0[0:0];
   assign pgassign1[0:0] = clock_generator_0_CLKOUT0[0:0];
   assign net_gnd0 = 1'b0;
@@ -1150,7 +1154,7 @@ module SensorMP
       .M_AXI_WREADY ( microblaze_0_axi_periph_M_WREADY ),
       .M_AXI_BID ( microblaze_0_axi_periph_M_BID ),
       .M_AXI_BRESP ( microblaze_0_axi_periph_M_BRESP ),
-      .M_AXI_BUSER ( net_gnd2 ),
+      .M_AXI_BUSER ( net_gnd3 ),
       .M_AXI_BVALID ( microblaze_0_axi_periph_M_BVALID ),
       .M_AXI_BREADY ( microblaze_0_axi_periph_M_BREADY ),
       .M_AXI_ARID ( microblaze_0_axi_periph_M_ARID ),
@@ -1170,7 +1174,7 @@ module SensorMP
       .M_AXI_RDATA ( microblaze_0_axi_periph_M_RDATA ),
       .M_AXI_RRESP ( microblaze_0_axi_periph_M_RRESP ),
       .M_AXI_RLAST ( microblaze_0_axi_periph_M_RLAST ),
-      .M_AXI_RUSER ( net_gnd2 ),
+      .M_AXI_RUSER ( net_gnd3 ),
       .M_AXI_RVALID ( microblaze_0_axi_periph_M_RVALID ),
       .M_AXI_RREADY ( microblaze_0_axi_periph_M_RREADY ),
       .S_AXI_CTRL_AWADDR ( net_gnd32[0:31] ),
@@ -2139,6 +2143,148 @@ module SensorMP
     );
 
   (* BOX_TYPE = "user_black_box" *)
+  SensorMP_lmb_v10_1_wrapper
+    lmb_v10_1 (
+      .LMB_Clk ( clock_generator_0_CLKOUT0[0] ),
+      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
+      .LMB_Rst ( lmb_v10_1_LMB_Rst ),
+      .M_ABus ( lmb_v10_1_M_ABus ),
+      .M_ReadStrobe ( lmb_v10_1_M_ReadStrobe ),
+      .M_WriteStrobe ( lmb_v10_1_M_WriteStrobe ),
+      .M_AddrStrobe ( lmb_v10_1_M_AddrStrobe ),
+      .M_DBus ( lmb_v10_1_M_DBus ),
+      .M_BE ( lmb_v10_1_M_BE ),
+      .Sl_DBus ( lmb_v10_1_Sl_DBus ),
+      .Sl_Ready ( lmb_v10_1_Sl_Ready[0:0] ),
+      .Sl_Wait ( lmb_v10_1_Sl_Wait[0:0] ),
+      .Sl_UE ( lmb_v10_1_Sl_UE[0:0] ),
+      .Sl_CE ( lmb_v10_1_Sl_CE[0:0] ),
+      .LMB_ABus ( lmb_v10_1_LMB_ABus ),
+      .LMB_ReadStrobe ( lmb_v10_1_LMB_ReadStrobe ),
+      .LMB_WriteStrobe ( lmb_v10_1_LMB_WriteStrobe ),
+      .LMB_AddrStrobe ( lmb_v10_1_LMB_AddrStrobe ),
+      .LMB_ReadDBus ( lmb_v10_1_LMB_ReadDBus ),
+      .LMB_WriteDBus ( lmb_v10_1_LMB_WriteDBus ),
+      .LMB_Ready ( lmb_v10_1_LMB_Ready ),
+      .LMB_Wait ( lmb_v10_1_LMB_Wait ),
+      .LMB_UE ( lmb_v10_1_LMB_UE ),
+      .LMB_CE ( lmb_v10_1_LMB_CE ),
+      .LMB_BE ( lmb_v10_1_LMB_BE )
+    );
+
+  (* BOX_TYPE = "user_black_box" *)
+  SensorMP_lmb_v10_0_wrapper
+    lmb_v10_0 (
+      .LMB_Clk ( clock_generator_0_CLKOUT0[0] ),
+      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
+      .LMB_Rst ( lmb_v10_0_LMB_Rst ),
+      .M_ABus ( lmb_v10_0_M_ABus ),
+      .M_ReadStrobe ( lmb_v10_0_M_ReadStrobe ),
+      .M_WriteStrobe ( net_gnd0 ),
+      .M_AddrStrobe ( lmb_v10_0_M_AddrStrobe ),
+      .M_DBus ( net_gnd32 ),
+      .M_BE ( net_gnd4 ),
+      .Sl_DBus ( lmb_v10_0_Sl_DBus ),
+      .Sl_Ready ( lmb_v10_0_Sl_Ready[0:0] ),
+      .Sl_Wait ( lmb_v10_0_Sl_Wait[0:0] ),
+      .Sl_UE ( lmb_v10_0_Sl_UE[0:0] ),
+      .Sl_CE ( lmb_v10_0_Sl_CE[0:0] ),
+      .LMB_ABus ( lmb_v10_0_LMB_ABus ),
+      .LMB_ReadStrobe ( lmb_v10_0_LMB_ReadStrobe ),
+      .LMB_WriteStrobe ( lmb_v10_0_LMB_WriteStrobe ),
+      .LMB_AddrStrobe ( lmb_v10_0_LMB_AddrStrobe ),
+      .LMB_ReadDBus ( lmb_v10_0_LMB_ReadDBus ),
+      .LMB_WriteDBus ( lmb_v10_0_LMB_WriteDBus ),
+      .LMB_Ready ( lmb_v10_0_LMB_Ready ),
+      .LMB_Wait ( lmb_v10_0_LMB_Wait ),
+      .LMB_UE ( lmb_v10_0_LMB_UE ),
+      .LMB_CE ( lmb_v10_0_LMB_CE ),
+      .LMB_BE ( lmb_v10_0_LMB_BE )
+    );
+
+  (* BOX_TYPE = "user_black_box" *)
+  SensorMP_fsl_v20_1_i2s_mb0_wrapper
+    fsl_v20_1_i2s_mb0 (
+      .FSL_Clk ( net_gnd0 ),
+      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
+      .FSL_Rst (  ),
+      .FSL_M_Clk ( net_fsl_i2s_1_i2s_bck_pin ),
+      .FSL_M_Data ( fsl_v20_1_i2s_mb0_FSL_M_Data ),
+      .FSL_M_Control ( fsl_v20_1_i2s_mb0_FSL_M_Control ),
+      .FSL_M_Write ( fsl_v20_1_i2s_mb0_FSL_M_Write ),
+      .FSL_M_Full ( fsl_v20_1_i2s_mb0_FSL_M_Full ),
+      .FSL_S_Clk ( clock_generator_0_CLKOUT0[0] ),
+      .FSL_S_Data ( fsl_v20_1_i2s_mb0_FSL_S_Data ),
+      .FSL_S_Control ( fsl_v20_1_i2s_mb0_FSL_S_Control ),
+      .FSL_S_Read ( fsl_v20_1_i2s_mb0_FSL_S_Read ),
+      .FSL_S_Exists ( fsl_v20_1_i2s_mb0_FSL_S_Exists ),
+      .FSL_Full (  ),
+      .FSL_Has_Data (  ),
+      .FSL_Control_IRQ (  )
+    );
+
+  (* BOX_TYPE = "user_black_box" *)
+  SensorMP_fsl_v20_0_i2s_mb0_wrapper
+    fsl_v20_0_i2s_mb0 (
+      .FSL_Clk ( net_gnd0 ),
+      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
+      .FSL_Rst (  ),
+      .FSL_M_Clk ( net_fsl_i2s_0_i2s_bck_pin ),
+      .FSL_M_Data ( fsl_v20_0_i2s_mb0_FSL_M_Data ),
+      .FSL_M_Control ( fsl_v20_0_i2s_mb0_FSL_M_Control ),
+      .FSL_M_Write ( fsl_v20_0_i2s_mb0_FSL_M_Write ),
+      .FSL_M_Full ( fsl_v20_0_i2s_mb0_FSL_M_Full ),
+      .FSL_S_Clk ( clock_generator_0_CLKOUT0[0] ),
+      .FSL_S_Data ( fsl_v20_0_i2s_mb0_FSL_S_Data ),
+      .FSL_S_Control ( fsl_v20_0_i2s_mb0_FSL_S_Control ),
+      .FSL_S_Read ( fsl_v20_0_i2s_mb0_FSL_S_Read ),
+      .FSL_S_Exists ( fsl_v20_0_i2s_mb0_FSL_S_Exists ),
+      .FSL_Full (  ),
+      .FSL_Has_Data (  ),
+      .FSL_Control_IRQ (  )
+    );
+
+  (* BOX_TYPE = "user_black_box" *)
+  SensorMP_fsl_i2s_1_wrapper
+    fsl_i2s_1 (
+      .FSL_Clk ( net_gnd0 ),
+      .FSL_Rst ( net_gnd0 ),
+      .FSL_S_Clk ( net_gnd0 ),
+      .FSL_S_Read (  ),
+      .FSL_S_Data ( net_gnd32 ),
+      .FSL_S_Control ( net_gnd0 ),
+      .FSL_S_Exists ( net_gnd0 ),
+      .FSL_M_Clk ( net_gnd0 ),
+      .FSL_M_Write ( fsl_v20_1_i2s_mb0_FSL_M_Write ),
+      .FSL_M_Data ( fsl_v20_1_i2s_mb0_FSL_M_Data ),
+      .FSL_M_Control ( fsl_v20_1_i2s_mb0_FSL_M_Control ),
+      .FSL_M_Full ( fsl_v20_1_i2s_mb0_FSL_M_Full ),
+      .i2s_bck ( net_fsl_i2s_1_i2s_bck_pin ),
+      .i2s_lrck ( net_fsl_i2s_1_i2s_lrck_pin ),
+      .i2s_dati ( net_fsl_i2s_1_i2s_dati_pin )
+    );
+
+  (* BOX_TYPE = "user_black_box" *)
+  SensorMP_fsl_i2s_0_wrapper
+    fsl_i2s_0 (
+      .FSL_Clk ( net_gnd0 ),
+      .FSL_Rst ( net_gnd0 ),
+      .FSL_S_Clk ( net_gnd0 ),
+      .FSL_S_Read (  ),
+      .FSL_S_Data ( net_gnd32 ),
+      .FSL_S_Control ( net_gnd0 ),
+      .FSL_S_Exists ( net_gnd0 ),
+      .FSL_M_Clk ( net_gnd0 ),
+      .FSL_M_Write ( fsl_v20_0_i2s_mb0_FSL_M_Write ),
+      .FSL_M_Data ( fsl_v20_0_i2s_mb0_FSL_M_Data ),
+      .FSL_M_Control ( fsl_v20_0_i2s_mb0_FSL_M_Control ),
+      .FSL_M_Full ( fsl_v20_0_i2s_mb0_FSL_M_Full ),
+      .i2s_bck ( net_fsl_i2s_0_i2s_bck_pin ),
+      .i2s_lrck ( net_fsl_i2s_0_i2s_lrck_pin ),
+      .i2s_dati ( net_fsl_i2s_0_i2s_dati_pin )
+    );
+
+  (* BOX_TYPE = "user_black_box" *)
   SensorMP_debug_module_0_wrapper
     debug_module_0 (
       .Interrupt (  ),
@@ -2519,25 +2665,6 @@ module SensorMP
     );
 
   (* BOX_TYPE = "user_black_box" *)
-  SensorMP_bram_block_0_wrapper
-    bram_block_0 (
-      .BRAM_Rst_A ( bram_cntlr_instruction_porta_BRAM_Rst ),
-      .BRAM_Clk_A ( bram_cntlr_instruction_porta_BRAM_Clk ),
-      .BRAM_EN_A ( bram_cntlr_instruction_porta_BRAM_EN ),
-      .BRAM_WEN_A ( bram_cntlr_instruction_porta_BRAM_WEN ),
-      .BRAM_Addr_A ( bram_cntlr_instruction_porta_BRAM_Addr ),
-      .BRAM_Din_A ( bram_cntlr_instruction_porta_BRAM_Din ),
-      .BRAM_Dout_A ( bram_cntlr_instruction_porta_BRAM_Dout ),
-      .BRAM_Rst_B ( bram_cntlr_data_portb_BRAM_Rst ),
-      .BRAM_Clk_B ( bram_cntlr_data_portb_BRAM_Clk ),
-      .BRAM_EN_B ( bram_cntlr_data_portb_BRAM_EN ),
-      .BRAM_WEN_B ( bram_cntlr_data_portb_BRAM_WEN ),
-      .BRAM_Addr_B ( bram_cntlr_data_portb_BRAM_Addr ),
-      .BRAM_Din_B ( bram_cntlr_data_portb_BRAM_Din ),
-      .BRAM_Dout_B ( bram_cntlr_data_portb_BRAM_Dout )
-    );
-
-  (* BOX_TYPE = "user_black_box" *)
   SensorMP_bram_cntlr_instruction_wrapper
     bram_cntlr_instruction (
       .LMB_Clk ( clock_generator_0_CLKOUT0[0] ),
@@ -2778,145 +2905,53 @@ module SensorMP
     );
 
   (* BOX_TYPE = "user_black_box" *)
-  SensorMP_lmb_v10_0_wrapper
-    lmb_v10_0 (
-      .LMB_Clk ( clock_generator_0_CLKOUT0[0] ),
-      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
-      .LMB_Rst ( lmb_v10_0_LMB_Rst ),
-      .M_ABus ( lmb_v10_0_M_ABus ),
-      .M_ReadStrobe ( lmb_v10_0_M_ReadStrobe ),
-      .M_WriteStrobe ( net_gnd0 ),
-      .M_AddrStrobe ( lmb_v10_0_M_AddrStrobe ),
-      .M_DBus ( net_gnd32 ),
-      .M_BE ( net_gnd4 ),
-      .Sl_DBus ( lmb_v10_0_Sl_DBus ),
-      .Sl_Ready ( lmb_v10_0_Sl_Ready[0:0] ),
-      .Sl_Wait ( lmb_v10_0_Sl_Wait[0:0] ),
-      .Sl_UE ( lmb_v10_0_Sl_UE[0:0] ),
-      .Sl_CE ( lmb_v10_0_Sl_CE[0:0] ),
-      .LMB_ABus ( lmb_v10_0_LMB_ABus ),
-      .LMB_ReadStrobe ( lmb_v10_0_LMB_ReadStrobe ),
-      .LMB_WriteStrobe ( lmb_v10_0_LMB_WriteStrobe ),
-      .LMB_AddrStrobe ( lmb_v10_0_LMB_AddrStrobe ),
-      .LMB_ReadDBus ( lmb_v10_0_LMB_ReadDBus ),
-      .LMB_WriteDBus ( lmb_v10_0_LMB_WriteDBus ),
-      .LMB_Ready ( lmb_v10_0_LMB_Ready ),
-      .LMB_Wait ( lmb_v10_0_LMB_Wait ),
-      .LMB_UE ( lmb_v10_0_LMB_UE ),
-      .LMB_CE ( lmb_v10_0_LMB_CE ),
-      .LMB_BE ( lmb_v10_0_LMB_BE )
+  SensorMP_bram_block_0_wrapper
+    bram_block_0 (
+      .BRAM_Rst_A ( bram_cntlr_instruction_porta_BRAM_Rst ),
+      .BRAM_Clk_A ( bram_cntlr_instruction_porta_BRAM_Clk ),
+      .BRAM_EN_A ( bram_cntlr_instruction_porta_BRAM_EN ),
+      .BRAM_WEN_A ( bram_cntlr_instruction_porta_BRAM_WEN ),
+      .BRAM_Addr_A ( bram_cntlr_instruction_porta_BRAM_Addr ),
+      .BRAM_Din_A ( bram_cntlr_instruction_porta_BRAM_Din ),
+      .BRAM_Dout_A ( bram_cntlr_instruction_porta_BRAM_Dout ),
+      .BRAM_Rst_B ( bram_cntlr_data_portb_BRAM_Rst ),
+      .BRAM_Clk_B ( bram_cntlr_data_portb_BRAM_Clk ),
+      .BRAM_EN_B ( bram_cntlr_data_portb_BRAM_EN ),
+      .BRAM_WEN_B ( bram_cntlr_data_portb_BRAM_WEN ),
+      .BRAM_Addr_B ( bram_cntlr_data_portb_BRAM_Addr ),
+      .BRAM_Din_B ( bram_cntlr_data_portb_BRAM_Din ),
+      .BRAM_Dout_B ( bram_cntlr_data_portb_BRAM_Dout )
     );
 
   (* BOX_TYPE = "user_black_box" *)
-  SensorMP_lmb_v10_1_wrapper
-    lmb_v10_1 (
-      .LMB_Clk ( clock_generator_0_CLKOUT0[0] ),
-      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
-      .LMB_Rst ( lmb_v10_1_LMB_Rst ),
-      .M_ABus ( lmb_v10_1_M_ABus ),
-      .M_ReadStrobe ( lmb_v10_1_M_ReadStrobe ),
-      .M_WriteStrobe ( lmb_v10_1_M_WriteStrobe ),
-      .M_AddrStrobe ( lmb_v10_1_M_AddrStrobe ),
-      .M_DBus ( lmb_v10_1_M_DBus ),
-      .M_BE ( lmb_v10_1_M_BE ),
-      .Sl_DBus ( lmb_v10_1_Sl_DBus ),
-      .Sl_Ready ( lmb_v10_1_Sl_Ready[0:0] ),
-      .Sl_Wait ( lmb_v10_1_Sl_Wait[0:0] ),
-      .Sl_UE ( lmb_v10_1_Sl_UE[0:0] ),
-      .Sl_CE ( lmb_v10_1_Sl_CE[0:0] ),
-      .LMB_ABus ( lmb_v10_1_LMB_ABus ),
-      .LMB_ReadStrobe ( lmb_v10_1_LMB_ReadStrobe ),
-      .LMB_WriteStrobe ( lmb_v10_1_LMB_WriteStrobe ),
-      .LMB_AddrStrobe ( lmb_v10_1_LMB_AddrStrobe ),
-      .LMB_ReadDBus ( lmb_v10_1_LMB_ReadDBus ),
-      .LMB_WriteDBus ( lmb_v10_1_LMB_WriteDBus ),
-      .LMB_Ready ( lmb_v10_1_LMB_Ready ),
-      .LMB_Wait ( lmb_v10_1_LMB_Wait ),
-      .LMB_UE ( lmb_v10_1_LMB_UE ),
-      .LMB_CE ( lmb_v10_1_LMB_CE ),
-      .LMB_BE ( lmb_v10_1_LMB_BE )
-    );
-
-  (* BOX_TYPE = "user_black_box" *)
-  SensorMP_fsl_i2s_0_wrapper
-    fsl_i2s_0 (
-      .FSL_Clk ( net_gnd0 ),
-      .FSL_Rst ( net_gnd0 ),
-      .FSL_S_Clk ( net_gnd0 ),
-      .FSL_S_Read (  ),
-      .FSL_S_Data ( net_gnd32 ),
-      .FSL_S_Control ( net_gnd0 ),
-      .FSL_S_Exists ( net_gnd0 ),
-      .FSL_M_Clk ( net_gnd0 ),
-      .FSL_M_Write ( fsl_v20_0_i2s_mb0_FSL_M_Write ),
-      .FSL_M_Data ( fsl_v20_0_i2s_mb0_FSL_M_Data ),
-      .FSL_M_Control ( fsl_v20_0_i2s_mb0_FSL_M_Control ),
-      .FSL_M_Full ( fsl_v20_0_i2s_mb0_FSL_M_Full ),
-      .i2s_bck ( net_fsl_i2s_0_i2s_bck_pin ),
-      .i2s_lrck ( net_fsl_i2s_0_i2s_lrck_pin ),
-      .i2s_dati ( net_fsl_i2s_0_i2s_dati_pin )
-    );
-
-  (* BOX_TYPE = "user_black_box" *)
-  SensorMP_fsl_v20_0_i2s_mb0_wrapper
-    fsl_v20_0_i2s_mb0 (
-      .FSL_Clk ( net_gnd0 ),
-      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
-      .FSL_Rst (  ),
-      .FSL_M_Clk ( net_fsl_i2s_0_i2s_bck_pin ),
-      .FSL_M_Data ( fsl_v20_0_i2s_mb0_FSL_M_Data ),
-      .FSL_M_Control ( fsl_v20_0_i2s_mb0_FSL_M_Control ),
-      .FSL_M_Write ( fsl_v20_0_i2s_mb0_FSL_M_Write ),
-      .FSL_M_Full ( fsl_v20_0_i2s_mb0_FSL_M_Full ),
-      .FSL_S_Clk ( clock_generator_0_CLKOUT0[0] ),
-      .FSL_S_Data ( fsl_v20_0_i2s_mb0_FSL_S_Data ),
-      .FSL_S_Control ( fsl_v20_0_i2s_mb0_FSL_S_Control ),
-      .FSL_S_Read ( fsl_v20_0_i2s_mb0_FSL_S_Read ),
-      .FSL_S_Exists ( fsl_v20_0_i2s_mb0_FSL_S_Exists ),
-      .FSL_Full (  ),
-      .FSL_Has_Data (  ),
-      .FSL_Control_IRQ (  )
-    );
-
-  (* BOX_TYPE = "user_black_box" *)
-  SensorMP_fsl_v20_1_i2s_mb0_wrapper
-    fsl_v20_1_i2s_mb0 (
-      .FSL_Clk ( net_gnd0 ),
-      .SYS_Rst ( microblaze_0_reset_Bus_Struct_Reset[0] ),
-      .FSL_Rst (  ),
-      .FSL_M_Clk ( net_fsl_i2s_1_i2s_bck_pin ),
-      .FSL_M_Data ( fsl_v20_1_i2s_mb0_FSL_M_Data ),
-      .FSL_M_Control ( fsl_v20_1_i2s_mb0_FSL_M_Control ),
-      .FSL_M_Write ( fsl_v20_1_i2s_mb0_FSL_M_Write ),
-      .FSL_M_Full ( fsl_v20_1_i2s_mb0_FSL_M_Full ),
-      .FSL_S_Clk ( clock_generator_0_CLKOUT0[0] ),
-      .FSL_S_Data ( fsl_v20_1_i2s_mb0_FSL_S_Data ),
-      .FSL_S_Control ( fsl_v20_1_i2s_mb0_FSL_S_Control ),
-      .FSL_S_Read ( fsl_v20_1_i2s_mb0_FSL_S_Read ),
-      .FSL_S_Exists ( fsl_v20_1_i2s_mb0_FSL_S_Exists ),
-      .FSL_Full (  ),
-      .FSL_Has_Data (  ),
-      .FSL_Control_IRQ (  )
-    );
-
-  (* BOX_TYPE = "user_black_box" *)
-  SensorMP_fsl_i2s_1_wrapper
-    fsl_i2s_1 (
-      .FSL_Clk ( net_gnd0 ),
-      .FSL_Rst ( net_gnd0 ),
-      .FSL_S_Clk ( net_gnd0 ),
-      .FSL_S_Read (  ),
-      .FSL_S_Data ( net_gnd32 ),
-      .FSL_S_Control ( net_gnd0 ),
-      .FSL_S_Exists ( net_gnd0 ),
-      .FSL_M_Clk ( net_gnd0 ),
-      .FSL_M_Write ( fsl_v20_1_i2s_mb0_FSL_M_Write ),
-      .FSL_M_Data ( fsl_v20_1_i2s_mb0_FSL_M_Data ),
-      .FSL_M_Control ( fsl_v20_1_i2s_mb0_FSL_M_Control ),
-      .FSL_M_Full ( fsl_v20_1_i2s_mb0_FSL_M_Full ),
-      .i2s_bck ( net_fsl_i2s_1_i2s_bck_pin ),
-      .i2s_lrck ( net_fsl_i2s_1_i2s_lrck_pin ),
-      .i2s_dati ( net_fsl_i2s_1_i2s_dati_pin )
+  SensorMP_axi_timer_0_wrapper
+    axi_timer_0 (
+      .CaptureTrig0 ( net_gnd0 ),
+      .CaptureTrig1 ( net_gnd0 ),
+      .GenerateOut0 (  ),
+      .GenerateOut1 (  ),
+      .PWM0 (  ),
+      .Interrupt (  ),
+      .Freeze ( net_gnd0 ),
+      .S_AXI_ACLK ( clock_generator_0_CLKOUT0[0] ),
+      .S_AXI_ARESETN ( microblaze_0_axi_periph_M_ARESETN[2] ),
+      .S_AXI_AWADDR ( microblaze_0_axi_periph_M_AWADDR[68:64] ),
+      .S_AXI_AWVALID ( microblaze_0_axi_periph_M_AWVALID[2] ),
+      .S_AXI_AWREADY ( microblaze_0_axi_periph_M_AWREADY[2] ),
+      .S_AXI_WDATA ( microblaze_0_axi_periph_M_WDATA[95:64] ),
+      .S_AXI_WSTRB ( microblaze_0_axi_periph_M_WSTRB[11:8] ),
+      .S_AXI_WVALID ( microblaze_0_axi_periph_M_WVALID[2] ),
+      .S_AXI_WREADY ( microblaze_0_axi_periph_M_WREADY[2] ),
+      .S_AXI_BRESP ( microblaze_0_axi_periph_M_BRESP[5:4] ),
+      .S_AXI_BVALID ( microblaze_0_axi_periph_M_BVALID[2] ),
+      .S_AXI_BREADY ( microblaze_0_axi_periph_M_BREADY[2] ),
+      .S_AXI_ARADDR ( microblaze_0_axi_periph_M_ARADDR[68:64] ),
+      .S_AXI_ARVALID ( microblaze_0_axi_periph_M_ARVALID[2] ),
+      .S_AXI_ARREADY ( microblaze_0_axi_periph_M_ARREADY[2] ),
+      .S_AXI_RDATA ( microblaze_0_axi_periph_M_RDATA[95:64] ),
+      .S_AXI_RRESP ( microblaze_0_axi_periph_M_RRESP[5:4] ),
+      .S_AXI_RVALID ( microblaze_0_axi_periph_M_RVALID[2] ),
+      .S_AXI_RREADY ( microblaze_0_axi_periph_M_RREADY[2] )
     );
 
 endmodule
@@ -4531,7 +4566,7 @@ module SensorMP_microblaze_0_axi_periph_wrapper
   input INTERCONNECT_ACLK;
   input INTERCONNECT_ARESETN;
   output [0:0] S_AXI_ARESET_OUT_N;
-  output [1:0] M_AXI_ARESET_OUT_N;
+  output [2:0] M_AXI_ARESET_OUT_N;
   output IRQ;
   input [0:0] S_AXI_ACLK;
   input [0:0] S_AXI_AWID;
@@ -4577,52 +4612,52 @@ module SensorMP_microblaze_0_axi_periph_wrapper
   output [0:0] S_AXI_RUSER;
   output [0:0] S_AXI_RVALID;
   input [0:0] S_AXI_RREADY;
-  input [1:0] M_AXI_ACLK;
-  output [1:0] M_AXI_AWID;
-  output [63:0] M_AXI_AWADDR;
-  output [15:0] M_AXI_AWLEN;
-  output [5:0] M_AXI_AWSIZE;
-  output [3:0] M_AXI_AWBURST;
-  output [3:0] M_AXI_AWLOCK;
-  output [7:0] M_AXI_AWCACHE;
-  output [5:0] M_AXI_AWPROT;
-  output [7:0] M_AXI_AWREGION;
-  output [7:0] M_AXI_AWQOS;
-  output [1:0] M_AXI_AWUSER;
-  output [1:0] M_AXI_AWVALID;
-  input [1:0] M_AXI_AWREADY;
-  output [1:0] M_AXI_WID;
-  output [63:0] M_AXI_WDATA;
-  output [7:0] M_AXI_WSTRB;
-  output [1:0] M_AXI_WLAST;
-  output [1:0] M_AXI_WUSER;
-  output [1:0] M_AXI_WVALID;
-  input [1:0] M_AXI_WREADY;
-  input [1:0] M_AXI_BID;
-  input [3:0] M_AXI_BRESP;
-  input [1:0] M_AXI_BUSER;
-  input [1:0] M_AXI_BVALID;
-  output [1:0] M_AXI_BREADY;
-  output [1:0] M_AXI_ARID;
-  output [63:0] M_AXI_ARADDR;
-  output [15:0] M_AXI_ARLEN;
-  output [5:0] M_AXI_ARSIZE;
-  output [3:0] M_AXI_ARBURST;
-  output [3:0] M_AXI_ARLOCK;
-  output [7:0] M_AXI_ARCACHE;
-  output [5:0] M_AXI_ARPROT;
-  output [7:0] M_AXI_ARREGION;
-  output [7:0] M_AXI_ARQOS;
-  output [1:0] M_AXI_ARUSER;
-  output [1:0] M_AXI_ARVALID;
-  input [1:0] M_AXI_ARREADY;
-  input [1:0] M_AXI_RID;
-  input [63:0] M_AXI_RDATA;
-  input [3:0] M_AXI_RRESP;
-  input [1:0] M_AXI_RLAST;
-  input [1:0] M_AXI_RUSER;
-  input [1:0] M_AXI_RVALID;
-  output [1:0] M_AXI_RREADY;
+  input [2:0] M_AXI_ACLK;
+  output [2:0] M_AXI_AWID;
+  output [95:0] M_AXI_AWADDR;
+  output [23:0] M_AXI_AWLEN;
+  output [8:0] M_AXI_AWSIZE;
+  output [5:0] M_AXI_AWBURST;
+  output [5:0] M_AXI_AWLOCK;
+  output [11:0] M_AXI_AWCACHE;
+  output [8:0] M_AXI_AWPROT;
+  output [11:0] M_AXI_AWREGION;
+  output [11:0] M_AXI_AWQOS;
+  output [2:0] M_AXI_AWUSER;
+  output [2:0] M_AXI_AWVALID;
+  input [2:0] M_AXI_AWREADY;
+  output [2:0] M_AXI_WID;
+  output [95:0] M_AXI_WDATA;
+  output [11:0] M_AXI_WSTRB;
+  output [2:0] M_AXI_WLAST;
+  output [2:0] M_AXI_WUSER;
+  output [2:0] M_AXI_WVALID;
+  input [2:0] M_AXI_WREADY;
+  input [2:0] M_AXI_BID;
+  input [5:0] M_AXI_BRESP;
+  input [2:0] M_AXI_BUSER;
+  input [2:0] M_AXI_BVALID;
+  output [2:0] M_AXI_BREADY;
+  output [2:0] M_AXI_ARID;
+  output [95:0] M_AXI_ARADDR;
+  output [23:0] M_AXI_ARLEN;
+  output [8:0] M_AXI_ARSIZE;
+  output [5:0] M_AXI_ARBURST;
+  output [5:0] M_AXI_ARLOCK;
+  output [11:0] M_AXI_ARCACHE;
+  output [8:0] M_AXI_ARPROT;
+  output [11:0] M_AXI_ARREGION;
+  output [11:0] M_AXI_ARQOS;
+  output [2:0] M_AXI_ARUSER;
+  output [2:0] M_AXI_ARVALID;
+  input [2:0] M_AXI_ARREADY;
+  input [2:0] M_AXI_RID;
+  input [95:0] M_AXI_RDATA;
+  input [5:0] M_AXI_RRESP;
+  input [2:0] M_AXI_RLAST;
+  input [2:0] M_AXI_RUSER;
+  input [2:0] M_AXI_RVALID;
+  output [2:0] M_AXI_RREADY;
   input [31:0] S_AXI_CTRL_AWADDR;
   input S_AXI_CTRL_AWVALID;
   output S_AXI_CTRL_AWREADY;
@@ -6432,6 +6467,260 @@ module SensorMP_microblaze_0_wrapper
   input DCACHE_FSL_OUT_FULL;
 endmodule
 
+module SensorMP_lmb_v10_1_wrapper
+  (
+    LMB_Clk,
+    SYS_Rst,
+    LMB_Rst,
+    M_ABus,
+    M_ReadStrobe,
+    M_WriteStrobe,
+    M_AddrStrobe,
+    M_DBus,
+    M_BE,
+    Sl_DBus,
+    Sl_Ready,
+    Sl_Wait,
+    Sl_UE,
+    Sl_CE,
+    LMB_ABus,
+    LMB_ReadStrobe,
+    LMB_WriteStrobe,
+    LMB_AddrStrobe,
+    LMB_ReadDBus,
+    LMB_WriteDBus,
+    LMB_Ready,
+    LMB_Wait,
+    LMB_UE,
+    LMB_CE,
+    LMB_BE
+  );
+  input LMB_Clk;
+  input SYS_Rst;
+  output LMB_Rst;
+  input [0:31] M_ABus;
+  input M_ReadStrobe;
+  input M_WriteStrobe;
+  input M_AddrStrobe;
+  input [0:31] M_DBus;
+  input [0:3] M_BE;
+  input [0:31] Sl_DBus;
+  input [0:0] Sl_Ready;
+  input [0:0] Sl_Wait;
+  input [0:0] Sl_UE;
+  input [0:0] Sl_CE;
+  output [0:31] LMB_ABus;
+  output LMB_ReadStrobe;
+  output LMB_WriteStrobe;
+  output LMB_AddrStrobe;
+  output [0:31] LMB_ReadDBus;
+  output [0:31] LMB_WriteDBus;
+  output LMB_Ready;
+  output LMB_Wait;
+  output LMB_UE;
+  output LMB_CE;
+  output [0:3] LMB_BE;
+endmodule
+
+module SensorMP_lmb_v10_0_wrapper
+  (
+    LMB_Clk,
+    SYS_Rst,
+    LMB_Rst,
+    M_ABus,
+    M_ReadStrobe,
+    M_WriteStrobe,
+    M_AddrStrobe,
+    M_DBus,
+    M_BE,
+    Sl_DBus,
+    Sl_Ready,
+    Sl_Wait,
+    Sl_UE,
+    Sl_CE,
+    LMB_ABus,
+    LMB_ReadStrobe,
+    LMB_WriteStrobe,
+    LMB_AddrStrobe,
+    LMB_ReadDBus,
+    LMB_WriteDBus,
+    LMB_Ready,
+    LMB_Wait,
+    LMB_UE,
+    LMB_CE,
+    LMB_BE
+  );
+  input LMB_Clk;
+  input SYS_Rst;
+  output LMB_Rst;
+  input [0:31] M_ABus;
+  input M_ReadStrobe;
+  input M_WriteStrobe;
+  input M_AddrStrobe;
+  input [0:31] M_DBus;
+  input [0:3] M_BE;
+  input [0:31] Sl_DBus;
+  input [0:0] Sl_Ready;
+  input [0:0] Sl_Wait;
+  input [0:0] Sl_UE;
+  input [0:0] Sl_CE;
+  output [0:31] LMB_ABus;
+  output LMB_ReadStrobe;
+  output LMB_WriteStrobe;
+  output LMB_AddrStrobe;
+  output [0:31] LMB_ReadDBus;
+  output [0:31] LMB_WriteDBus;
+  output LMB_Ready;
+  output LMB_Wait;
+  output LMB_UE;
+  output LMB_CE;
+  output [0:3] LMB_BE;
+endmodule
+
+module SensorMP_fsl_v20_1_i2s_mb0_wrapper
+  (
+    FSL_Clk,
+    SYS_Rst,
+    FSL_Rst,
+    FSL_M_Clk,
+    FSL_M_Data,
+    FSL_M_Control,
+    FSL_M_Write,
+    FSL_M_Full,
+    FSL_S_Clk,
+    FSL_S_Data,
+    FSL_S_Control,
+    FSL_S_Read,
+    FSL_S_Exists,
+    FSL_Full,
+    FSL_Has_Data,
+    FSL_Control_IRQ
+  );
+  input FSL_Clk;
+  input SYS_Rst;
+  output FSL_Rst;
+  input FSL_M_Clk;
+  input [0:31] FSL_M_Data;
+  input FSL_M_Control;
+  input FSL_M_Write;
+  output FSL_M_Full;
+  input FSL_S_Clk;
+  output [0:31] FSL_S_Data;
+  output FSL_S_Control;
+  input FSL_S_Read;
+  output FSL_S_Exists;
+  output FSL_Full;
+  output FSL_Has_Data;
+  output FSL_Control_IRQ;
+endmodule
+
+module SensorMP_fsl_v20_0_i2s_mb0_wrapper
+  (
+    FSL_Clk,
+    SYS_Rst,
+    FSL_Rst,
+    FSL_M_Clk,
+    FSL_M_Data,
+    FSL_M_Control,
+    FSL_M_Write,
+    FSL_M_Full,
+    FSL_S_Clk,
+    FSL_S_Data,
+    FSL_S_Control,
+    FSL_S_Read,
+    FSL_S_Exists,
+    FSL_Full,
+    FSL_Has_Data,
+    FSL_Control_IRQ
+  );
+  input FSL_Clk;
+  input SYS_Rst;
+  output FSL_Rst;
+  input FSL_M_Clk;
+  input [0:31] FSL_M_Data;
+  input FSL_M_Control;
+  input FSL_M_Write;
+  output FSL_M_Full;
+  input FSL_S_Clk;
+  output [0:31] FSL_S_Data;
+  output FSL_S_Control;
+  input FSL_S_Read;
+  output FSL_S_Exists;
+  output FSL_Full;
+  output FSL_Has_Data;
+  output FSL_Control_IRQ;
+endmodule
+
+module SensorMP_fsl_i2s_1_wrapper
+  (
+    FSL_Clk,
+    FSL_Rst,
+    FSL_S_Clk,
+    FSL_S_Read,
+    FSL_S_Data,
+    FSL_S_Control,
+    FSL_S_Exists,
+    FSL_M_Clk,
+    FSL_M_Write,
+    FSL_M_Data,
+    FSL_M_Control,
+    FSL_M_Full,
+    i2s_bck,
+    i2s_lrck,
+    i2s_dati
+  );
+  input FSL_Clk;
+  input FSL_Rst;
+  input FSL_S_Clk;
+  output FSL_S_Read;
+  input [0:31] FSL_S_Data;
+  input FSL_S_Control;
+  input FSL_S_Exists;
+  input FSL_M_Clk;
+  output FSL_M_Write;
+  output [0:31] FSL_M_Data;
+  output FSL_M_Control;
+  input FSL_M_Full;
+  input i2s_bck;
+  input i2s_lrck;
+  input i2s_dati;
+endmodule
+
+module SensorMP_fsl_i2s_0_wrapper
+  (
+    FSL_Clk,
+    FSL_Rst,
+    FSL_S_Clk,
+    FSL_S_Read,
+    FSL_S_Data,
+    FSL_S_Control,
+    FSL_S_Exists,
+    FSL_M_Clk,
+    FSL_M_Write,
+    FSL_M_Data,
+    FSL_M_Control,
+    FSL_M_Full,
+    i2s_bck,
+    i2s_lrck,
+    i2s_dati
+  );
+  input FSL_Clk;
+  input FSL_Rst;
+  input FSL_S_Clk;
+  output FSL_S_Read;
+  input [0:31] FSL_S_Data;
+  input FSL_S_Control;
+  input FSL_S_Exists;
+  input FSL_M_Clk;
+  output FSL_M_Write;
+  output [0:31] FSL_M_Data;
+  output FSL_M_Control;
+  input FSL_M_Full;
+  input i2s_bck;
+  input i2s_lrck;
+  input i2s_dati;
+endmodule
+
 module SensorMP_debug_module_0_wrapper
   (
     Interrupt,
@@ -7182,39 +7471,6 @@ module SensorMP_clock_generator_0_wrapper
   output LOCKED;
 endmodule
 
-module SensorMP_bram_block_0_wrapper
-  (
-    BRAM_Rst_A,
-    BRAM_Clk_A,
-    BRAM_EN_A,
-    BRAM_WEN_A,
-    BRAM_Addr_A,
-    BRAM_Din_A,
-    BRAM_Dout_A,
-    BRAM_Rst_B,
-    BRAM_Clk_B,
-    BRAM_EN_B,
-    BRAM_WEN_B,
-    BRAM_Addr_B,
-    BRAM_Din_B,
-    BRAM_Dout_B
-  );
-  input BRAM_Rst_A;
-  input BRAM_Clk_A;
-  input BRAM_EN_A;
-  input [0:3] BRAM_WEN_A;
-  input [0:31] BRAM_Addr_A;
-  output [0:31] BRAM_Din_A;
-  input [0:31] BRAM_Dout_A;
-  input BRAM_Rst_B;
-  input BRAM_Clk_B;
-  input BRAM_EN_B;
-  input [0:3] BRAM_WEN_B;
-  input [0:31] BRAM_Addr_B;
-  output [0:31] BRAM_Din_B;
-  input [0:31] BRAM_Dout_B;
-endmodule
-
 module SensorMP_bram_cntlr_instruction_wrapper
   (
     LMB_Clk,
@@ -7685,257 +7941,93 @@ module SensorMP_bram_cntlr_data_wrapper
   input S_AXI_CTRL_RREADY;
 endmodule
 
-module SensorMP_lmb_v10_0_wrapper
+module SensorMP_bram_block_0_wrapper
   (
-    LMB_Clk,
-    SYS_Rst,
-    LMB_Rst,
-    M_ABus,
-    M_ReadStrobe,
-    M_WriteStrobe,
-    M_AddrStrobe,
-    M_DBus,
-    M_BE,
-    Sl_DBus,
-    Sl_Ready,
-    Sl_Wait,
-    Sl_UE,
-    Sl_CE,
-    LMB_ABus,
-    LMB_ReadStrobe,
-    LMB_WriteStrobe,
-    LMB_AddrStrobe,
-    LMB_ReadDBus,
-    LMB_WriteDBus,
-    LMB_Ready,
-    LMB_Wait,
-    LMB_UE,
-    LMB_CE,
-    LMB_BE
+    BRAM_Rst_A,
+    BRAM_Clk_A,
+    BRAM_EN_A,
+    BRAM_WEN_A,
+    BRAM_Addr_A,
+    BRAM_Din_A,
+    BRAM_Dout_A,
+    BRAM_Rst_B,
+    BRAM_Clk_B,
+    BRAM_EN_B,
+    BRAM_WEN_B,
+    BRAM_Addr_B,
+    BRAM_Din_B,
+    BRAM_Dout_B
   );
-  input LMB_Clk;
-  input SYS_Rst;
-  output LMB_Rst;
-  input [0:31] M_ABus;
-  input M_ReadStrobe;
-  input M_WriteStrobe;
-  input M_AddrStrobe;
-  input [0:31] M_DBus;
-  input [0:3] M_BE;
-  input [0:31] Sl_DBus;
-  input [0:0] Sl_Ready;
-  input [0:0] Sl_Wait;
-  input [0:0] Sl_UE;
-  input [0:0] Sl_CE;
-  output [0:31] LMB_ABus;
-  output LMB_ReadStrobe;
-  output LMB_WriteStrobe;
-  output LMB_AddrStrobe;
-  output [0:31] LMB_ReadDBus;
-  output [0:31] LMB_WriteDBus;
-  output LMB_Ready;
-  output LMB_Wait;
-  output LMB_UE;
-  output LMB_CE;
-  output [0:3] LMB_BE;
+  input BRAM_Rst_A;
+  input BRAM_Clk_A;
+  input BRAM_EN_A;
+  input [0:3] BRAM_WEN_A;
+  input [0:31] BRAM_Addr_A;
+  output [0:31] BRAM_Din_A;
+  input [0:31] BRAM_Dout_A;
+  input BRAM_Rst_B;
+  input BRAM_Clk_B;
+  input BRAM_EN_B;
+  input [0:3] BRAM_WEN_B;
+  input [0:31] BRAM_Addr_B;
+  output [0:31] BRAM_Din_B;
+  input [0:31] BRAM_Dout_B;
 endmodule
 
-module SensorMP_lmb_v10_1_wrapper
+module SensorMP_axi_timer_0_wrapper
   (
-    LMB_Clk,
-    SYS_Rst,
-    LMB_Rst,
-    M_ABus,
-    M_ReadStrobe,
-    M_WriteStrobe,
-    M_AddrStrobe,
-    M_DBus,
-    M_BE,
-    Sl_DBus,
-    Sl_Ready,
-    Sl_Wait,
-    Sl_UE,
-    Sl_CE,
-    LMB_ABus,
-    LMB_ReadStrobe,
-    LMB_WriteStrobe,
-    LMB_AddrStrobe,
-    LMB_ReadDBus,
-    LMB_WriteDBus,
-    LMB_Ready,
-    LMB_Wait,
-    LMB_UE,
-    LMB_CE,
-    LMB_BE
+    CaptureTrig0,
+    CaptureTrig1,
+    GenerateOut0,
+    GenerateOut1,
+    PWM0,
+    Interrupt,
+    Freeze,
+    S_AXI_ACLK,
+    S_AXI_ARESETN,
+    S_AXI_AWADDR,
+    S_AXI_AWVALID,
+    S_AXI_AWREADY,
+    S_AXI_WDATA,
+    S_AXI_WSTRB,
+    S_AXI_WVALID,
+    S_AXI_WREADY,
+    S_AXI_BRESP,
+    S_AXI_BVALID,
+    S_AXI_BREADY,
+    S_AXI_ARADDR,
+    S_AXI_ARVALID,
+    S_AXI_ARREADY,
+    S_AXI_RDATA,
+    S_AXI_RRESP,
+    S_AXI_RVALID,
+    S_AXI_RREADY
   );
-  input LMB_Clk;
-  input SYS_Rst;
-  output LMB_Rst;
-  input [0:31] M_ABus;
-  input M_ReadStrobe;
-  input M_WriteStrobe;
-  input M_AddrStrobe;
-  input [0:31] M_DBus;
-  input [0:3] M_BE;
-  input [0:31] Sl_DBus;
-  input [0:0] Sl_Ready;
-  input [0:0] Sl_Wait;
-  input [0:0] Sl_UE;
-  input [0:0] Sl_CE;
-  output [0:31] LMB_ABus;
-  output LMB_ReadStrobe;
-  output LMB_WriteStrobe;
-  output LMB_AddrStrobe;
-  output [0:31] LMB_ReadDBus;
-  output [0:31] LMB_WriteDBus;
-  output LMB_Ready;
-  output LMB_Wait;
-  output LMB_UE;
-  output LMB_CE;
-  output [0:3] LMB_BE;
-endmodule
-
-module SensorMP_fsl_i2s_0_wrapper
-  (
-    FSL_Clk,
-    FSL_Rst,
-    FSL_S_Clk,
-    FSL_S_Read,
-    FSL_S_Data,
-    FSL_S_Control,
-    FSL_S_Exists,
-    FSL_M_Clk,
-    FSL_M_Write,
-    FSL_M_Data,
-    FSL_M_Control,
-    FSL_M_Full,
-    i2s_bck,
-    i2s_lrck,
-    i2s_dati
-  );
-  input FSL_Clk;
-  input FSL_Rst;
-  input FSL_S_Clk;
-  output FSL_S_Read;
-  input [0:31] FSL_S_Data;
-  input FSL_S_Control;
-  input FSL_S_Exists;
-  input FSL_M_Clk;
-  output FSL_M_Write;
-  output [0:31] FSL_M_Data;
-  output FSL_M_Control;
-  input FSL_M_Full;
-  input i2s_bck;
-  input i2s_lrck;
-  input i2s_dati;
-endmodule
-
-module SensorMP_fsl_v20_0_i2s_mb0_wrapper
-  (
-    FSL_Clk,
-    SYS_Rst,
-    FSL_Rst,
-    FSL_M_Clk,
-    FSL_M_Data,
-    FSL_M_Control,
-    FSL_M_Write,
-    FSL_M_Full,
-    FSL_S_Clk,
-    FSL_S_Data,
-    FSL_S_Control,
-    FSL_S_Read,
-    FSL_S_Exists,
-    FSL_Full,
-    FSL_Has_Data,
-    FSL_Control_IRQ
-  );
-  input FSL_Clk;
-  input SYS_Rst;
-  output FSL_Rst;
-  input FSL_M_Clk;
-  input [0:31] FSL_M_Data;
-  input FSL_M_Control;
-  input FSL_M_Write;
-  output FSL_M_Full;
-  input FSL_S_Clk;
-  output [0:31] FSL_S_Data;
-  output FSL_S_Control;
-  input FSL_S_Read;
-  output FSL_S_Exists;
-  output FSL_Full;
-  output FSL_Has_Data;
-  output FSL_Control_IRQ;
-endmodule
-
-module SensorMP_fsl_v20_1_i2s_mb0_wrapper
-  (
-    FSL_Clk,
-    SYS_Rst,
-    FSL_Rst,
-    FSL_M_Clk,
-    FSL_M_Data,
-    FSL_M_Control,
-    FSL_M_Write,
-    FSL_M_Full,
-    FSL_S_Clk,
-    FSL_S_Data,
-    FSL_S_Control,
-    FSL_S_Read,
-    FSL_S_Exists,
-    FSL_Full,
-    FSL_Has_Data,
-    FSL_Control_IRQ
-  );
-  input FSL_Clk;
-  input SYS_Rst;
-  output FSL_Rst;
-  input FSL_M_Clk;
-  input [0:31] FSL_M_Data;
-  input FSL_M_Control;
-  input FSL_M_Write;
-  output FSL_M_Full;
-  input FSL_S_Clk;
-  output [0:31] FSL_S_Data;
-  output FSL_S_Control;
-  input FSL_S_Read;
-  output FSL_S_Exists;
-  output FSL_Full;
-  output FSL_Has_Data;
-  output FSL_Control_IRQ;
-endmodule
-
-module SensorMP_fsl_i2s_1_wrapper
-  (
-    FSL_Clk,
-    FSL_Rst,
-    FSL_S_Clk,
-    FSL_S_Read,
-    FSL_S_Data,
-    FSL_S_Control,
-    FSL_S_Exists,
-    FSL_M_Clk,
-    FSL_M_Write,
-    FSL_M_Data,
-    FSL_M_Control,
-    FSL_M_Full,
-    i2s_bck,
-    i2s_lrck,
-    i2s_dati
-  );
-  input FSL_Clk;
-  input FSL_Rst;
-  input FSL_S_Clk;
-  output FSL_S_Read;
-  input [0:31] FSL_S_Data;
-  input FSL_S_Control;
-  input FSL_S_Exists;
-  input FSL_M_Clk;
-  output FSL_M_Write;
-  output [0:31] FSL_M_Data;
-  output FSL_M_Control;
-  input FSL_M_Full;
-  input i2s_bck;
-  input i2s_lrck;
-  input i2s_dati;
+  input CaptureTrig0;
+  input CaptureTrig1;
+  output GenerateOut0;
+  output GenerateOut1;
+  output PWM0;
+  output Interrupt;
+  input Freeze;
+  input S_AXI_ACLK;
+  input S_AXI_ARESETN;
+  input [4:0] S_AXI_AWADDR;
+  input S_AXI_AWVALID;
+  output S_AXI_AWREADY;
+  input [31:0] S_AXI_WDATA;
+  input [3:0] S_AXI_WSTRB;
+  input S_AXI_WVALID;
+  output S_AXI_WREADY;
+  output [1:0] S_AXI_BRESP;
+  output S_AXI_BVALID;
+  input S_AXI_BREADY;
+  input [4:0] S_AXI_ARADDR;
+  input S_AXI_ARVALID;
+  output S_AXI_ARREADY;
+  output [31:0] S_AXI_RDATA;
+  output [1:0] S_AXI_RRESP;
+  output S_AXI_RVALID;
+  input S_AXI_RREADY;
 endmodule
 

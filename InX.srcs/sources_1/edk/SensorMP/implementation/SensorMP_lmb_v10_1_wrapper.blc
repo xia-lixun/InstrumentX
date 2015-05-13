@@ -6,8 +6,8 @@ xc7z010clg400-1 -intstyle silent -i -sd .. SensorMP_lmb_v10_1_wrapper.ngc
 ../SensorMP_lmb_v10_1_wrapper
 
 Reading NGO file
-"D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/lmb_v10_1_wrapper
-/SensorMP_lmb_v10_1_wrapper.ngc" ...
+"D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/implementation/lmb_v10_1_wra
+pper/SensorMP_lmb_v10_1_wrapper.ngc" ...
 
 Partition Implementation Status
 -------------------------------
@@ -23,7 +23,7 @@ NGCBUILD Design Results Summary:
 Total memory usage is 199052 kilobytes
 
 Writing NGC file "../SensorMP_lmb_v10_1_wrapper.ngc" ...
-Total REAL time to NGCBUILD completion:  11 sec
-Total CPU time to NGCBUILD completion:   11 sec
+Total REAL time to NGCBUILD completion:  13 sec
+Total CPU time to NGCBUILD completion:   12 sec
 
 Writing NGCBUILD log file "../SensorMP_lmb_v10_1_wrapper.blc"...

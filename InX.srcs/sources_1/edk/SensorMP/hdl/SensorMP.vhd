@@ -752,7 +752,7 @@ architecture STRUCTURE of SensorMP is
       INTERCONNECT_ACLK : in std_logic;
       INTERCONNECT_ARESETN : in std_logic;
       S_AXI_ARESET_OUT_N : out std_logic_vector(0 to 0);
-      M_AXI_ARESET_OUT_N : out std_logic_vector(1 downto 0);
+      M_AXI_ARESET_OUT_N : out std_logic_vector(2 downto 0);
       IRQ : out std_logic;
       S_AXI_ACLK : in std_logic_vector(0 to 0);
       S_AXI_AWID : in std_logic_vector(0 to 0);
@@ -798,52 +798,52 @@ architecture STRUCTURE of SensorMP is
       S_AXI_RUSER : out std_logic_vector(0 to 0);
       S_AXI_RVALID : out std_logic_vector(0 to 0);
       S_AXI_RREADY : in std_logic_vector(0 to 0);
-      M_AXI_ACLK : in std_logic_vector(1 downto 0);
-      M_AXI_AWID : out std_logic_vector(1 downto 0);
-      M_AXI_AWADDR : out std_logic_vector(63 downto 0);
-      M_AXI_AWLEN : out std_logic_vector(15 downto 0);
-      M_AXI_AWSIZE : out std_logic_vector(5 downto 0);
-      M_AXI_AWBURST : out std_logic_vector(3 downto 0);
-      M_AXI_AWLOCK : out std_logic_vector(3 downto 0);
-      M_AXI_AWCACHE : out std_logic_vector(7 downto 0);
-      M_AXI_AWPROT : out std_logic_vector(5 downto 0);
-      M_AXI_AWREGION : out std_logic_vector(7 downto 0);
-      M_AXI_AWQOS : out std_logic_vector(7 downto 0);
-      M_AXI_AWUSER : out std_logic_vector(1 downto 0);
-      M_AXI_AWVALID : out std_logic_vector(1 downto 0);
-      M_AXI_AWREADY : in std_logic_vector(1 downto 0);
-      M_AXI_WID : out std_logic_vector(1 downto 0);
-      M_AXI_WDATA : out std_logic_vector(63 downto 0);
-      M_AXI_WSTRB : out std_logic_vector(7 downto 0);
-      M_AXI_WLAST : out std_logic_vector(1 downto 0);
-      M_AXI_WUSER : out std_logic_vector(1 downto 0);
-      M_AXI_WVALID : out std_logic_vector(1 downto 0);
-      M_AXI_WREADY : in std_logic_vector(1 downto 0);
-      M_AXI_BID : in std_logic_vector(1 downto 0);
-      M_AXI_BRESP : in std_logic_vector(3 downto 0);
-      M_AXI_BUSER : in std_logic_vector(1 downto 0);
-      M_AXI_BVALID : in std_logic_vector(1 downto 0);
-      M_AXI_BREADY : out std_logic_vector(1 downto 0);
-      M_AXI_ARID : out std_logic_vector(1 downto 0);
-      M_AXI_ARADDR : out std_logic_vector(63 downto 0);
-      M_AXI_ARLEN : out std_logic_vector(15 downto 0);
-      M_AXI_ARSIZE : out std_logic_vector(5 downto 0);
-      M_AXI_ARBURST : out std_logic_vector(3 downto 0);
-      M_AXI_ARLOCK : out std_logic_vector(3 downto 0);
-      M_AXI_ARCACHE : out std_logic_vector(7 downto 0);
-      M_AXI_ARPROT : out std_logic_vector(5 downto 0);
-      M_AXI_ARREGION : out std_logic_vector(7 downto 0);
-      M_AXI_ARQOS : out std_logic_vector(7 downto 0);
-      M_AXI_ARUSER : out std_logic_vector(1 downto 0);
-      M_AXI_ARVALID : out std_logic_vector(1 downto 0);
-      M_AXI_ARREADY : in std_logic_vector(1 downto 0);
-      M_AXI_RID : in std_logic_vector(1 downto 0);
-      M_AXI_RDATA : in std_logic_vector(63 downto 0);
-      M_AXI_RRESP : in std_logic_vector(3 downto 0);
-      M_AXI_RLAST : in std_logic_vector(1 downto 0);
-      M_AXI_RUSER : in std_logic_vector(1 downto 0);
-      M_AXI_RVALID : in std_logic_vector(1 downto 0);
-      M_AXI_RREADY : out std_logic_vector(1 downto 0);
+      M_AXI_ACLK : in std_logic_vector(2 downto 0);
+      M_AXI_AWID : out std_logic_vector(2 downto 0);
+      M_AXI_AWADDR : out std_logic_vector(95 downto 0);
+      M_AXI_AWLEN : out std_logic_vector(23 downto 0);
+      M_AXI_AWSIZE : out std_logic_vector(8 downto 0);
+      M_AXI_AWBURST : out std_logic_vector(5 downto 0);
+      M_AXI_AWLOCK : out std_logic_vector(5 downto 0);
+      M_AXI_AWCACHE : out std_logic_vector(11 downto 0);
+      M_AXI_AWPROT : out std_logic_vector(8 downto 0);
+      M_AXI_AWREGION : out std_logic_vector(11 downto 0);
+      M_AXI_AWQOS : out std_logic_vector(11 downto 0);
+      M_AXI_AWUSER : out std_logic_vector(2 downto 0);
+      M_AXI_AWVALID : out std_logic_vector(2 downto 0);
+      M_AXI_AWREADY : in std_logic_vector(2 downto 0);
+      M_AXI_WID : out std_logic_vector(2 downto 0);
+      M_AXI_WDATA : out std_logic_vector(95 downto 0);
+      M_AXI_WSTRB : out std_logic_vector(11 downto 0);
+      M_AXI_WLAST : out std_logic_vector(2 downto 0);
+      M_AXI_WUSER : out std_logic_vector(2 downto 0);
+      M_AXI_WVALID : out std_logic_vector(2 downto 0);
+      M_AXI_WREADY : in std_logic_vector(2 downto 0);
+      M_AXI_BID : in std_logic_vector(2 downto 0);
+      M_AXI_BRESP : in std_logic_vector(5 downto 0);
+      M_AXI_BUSER : in std_logic_vector(2 downto 0);
+      M_AXI_BVALID : in std_logic_vector(2 downto 0);
+      M_AXI_BREADY : out std_logic_vector(2 downto 0);
+      M_AXI_ARID : out std_logic_vector(2 downto 0);
+      M_AXI_ARADDR : out std_logic_vector(95 downto 0);
+      M_AXI_ARLEN : out std_logic_vector(23 downto 0);
+      M_AXI_ARSIZE : out std_logic_vector(8 downto 0);
+      M_AXI_ARBURST : out std_logic_vector(5 downto 0);
+      M_AXI_ARLOCK : out std_logic_vector(5 downto 0);
+      M_AXI_ARCACHE : out std_logic_vector(11 downto 0);
+      M_AXI_ARPROT : out std_logic_vector(8 downto 0);
+      M_AXI_ARREGION : out std_logic_vector(11 downto 0);
+      M_AXI_ARQOS : out std_logic_vector(11 downto 0);
+      M_AXI_ARUSER : out std_logic_vector(2 downto 0);
+      M_AXI_ARVALID : out std_logic_vector(2 downto 0);
+      M_AXI_ARREADY : in std_logic_vector(2 downto 0);
+      M_AXI_RID : in std_logic_vector(2 downto 0);
+      M_AXI_RDATA : in std_logic_vector(95 downto 0);
+      M_AXI_RRESP : in std_logic_vector(5 downto 0);
+      M_AXI_RLAST : in std_logic_vector(2 downto 0);
+      M_AXI_RUSER : in std_logic_vector(2 downto 0);
+      M_AXI_RVALID : in std_logic_vector(2 downto 0);
+      M_AXI_RREADY : out std_logic_vector(2 downto 0);
       S_AXI_CTRL_AWADDR : in std_logic_vector(31 downto 0);
       S_AXI_CTRL_AWVALID : in std_logic;
       S_AXI_CTRL_AWREADY : out std_logic;
@@ -1810,6 +1810,148 @@ architecture STRUCTURE of SensorMP is
     );
   end component;
 
+  component SensorMP_lmb_v10_1_wrapper is
+    port (
+      LMB_Clk : in std_logic;
+      SYS_Rst : in std_logic;
+      LMB_Rst : out std_logic;
+      M_ABus : in std_logic_vector(0 to 31);
+      M_ReadStrobe : in std_logic;
+      M_WriteStrobe : in std_logic;
+      M_AddrStrobe : in std_logic;
+      M_DBus : in std_logic_vector(0 to 31);
+      M_BE : in std_logic_vector(0 to 3);
+      Sl_DBus : in std_logic_vector(0 to 31);
+      Sl_Ready : in std_logic_vector(0 to 0);
+      Sl_Wait : in std_logic_vector(0 to 0);
+      Sl_UE : in std_logic_vector(0 to 0);
+      Sl_CE : in std_logic_vector(0 to 0);
+      LMB_ABus : out std_logic_vector(0 to 31);
+      LMB_ReadStrobe : out std_logic;
+      LMB_WriteStrobe : out std_logic;
+      LMB_AddrStrobe : out std_logic;
+      LMB_ReadDBus : out std_logic_vector(0 to 31);
+      LMB_WriteDBus : out std_logic_vector(0 to 31);
+      LMB_Ready : out std_logic;
+      LMB_Wait : out std_logic;
+      LMB_UE : out std_logic;
+      LMB_CE : out std_logic;
+      LMB_BE : out std_logic_vector(0 to 3)
+    );
+  end component;
+
+  component SensorMP_lmb_v10_0_wrapper is
+    port (
+      LMB_Clk : in std_logic;
+      SYS_Rst : in std_logic;
+      LMB_Rst : out std_logic;
+      M_ABus : in std_logic_vector(0 to 31);
+      M_ReadStrobe : in std_logic;
+      M_WriteStrobe : in std_logic;
+      M_AddrStrobe : in std_logic;
+      M_DBus : in std_logic_vector(0 to 31);
+      M_BE : in std_logic_vector(0 to 3);
+      Sl_DBus : in std_logic_vector(0 to 31);
+      Sl_Ready : in std_logic_vector(0 to 0);
+      Sl_Wait : in std_logic_vector(0 to 0);
+      Sl_UE : in std_logic_vector(0 to 0);
+      Sl_CE : in std_logic_vector(0 to 0);
+      LMB_ABus : out std_logic_vector(0 to 31);
+      LMB_ReadStrobe : out std_logic;
+      LMB_WriteStrobe : out std_logic;
+      LMB_AddrStrobe : out std_logic;
+      LMB_ReadDBus : out std_logic_vector(0 to 31);
+      LMB_WriteDBus : out std_logic_vector(0 to 31);
+      LMB_Ready : out std_logic;
+      LMB_Wait : out std_logic;
+      LMB_UE : out std_logic;
+      LMB_CE : out std_logic;
+      LMB_BE : out std_logic_vector(0 to 3)
+    );
+  end component;
+
+  component SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+    port (
+      FSL_Clk : in std_logic;
+      SYS_Rst : in std_logic;
+      FSL_Rst : out std_logic;
+      FSL_M_Clk : in std_logic;
+      FSL_M_Data : in std_logic_vector(0 to 31);
+      FSL_M_Control : in std_logic;
+      FSL_M_Write : in std_logic;
+      FSL_M_Full : out std_logic;
+      FSL_S_Clk : in std_logic;
+      FSL_S_Data : out std_logic_vector(0 to 31);
+      FSL_S_Control : out std_logic;
+      FSL_S_Read : in std_logic;
+      FSL_S_Exists : out std_logic;
+      FSL_Full : out std_logic;
+      FSL_Has_Data : out std_logic;
+      FSL_Control_IRQ : out std_logic
+    );
+  end component;
+
+  component SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+    port (
+      FSL_Clk : in std_logic;
+      SYS_Rst : in std_logic;
+      FSL_Rst : out std_logic;
+      FSL_M_Clk : in std_logic;
+      FSL_M_Data : in std_logic_vector(0 to 31);
+      FSL_M_Control : in std_logic;
+      FSL_M_Write : in std_logic;
+      FSL_M_Full : out std_logic;
+      FSL_S_Clk : in std_logic;
+      FSL_S_Data : out std_logic_vector(0 to 31);
+      FSL_S_Control : out std_logic;
+      FSL_S_Read : in std_logic;
+      FSL_S_Exists : out std_logic;
+      FSL_Full : out std_logic;
+      FSL_Has_Data : out std_logic;
+      FSL_Control_IRQ : out std_logic
+    );
+  end component;
+
+  component SensorMP_fsl_i2s_1_wrapper is
+    port (
+      FSL_Clk : in std_logic;
+      FSL_Rst : in std_logic;
+      FSL_S_Clk : in std_logic;
+      FSL_S_Read : out std_logic;
+      FSL_S_Data : in std_logic_vector(0 to 31);
+      FSL_S_Control : in std_logic;
+      FSL_S_Exists : in std_logic;
+      FSL_M_Clk : in std_logic;
+      FSL_M_Write : out std_logic;
+      FSL_M_Data : out std_logic_vector(0 to 31);
+      FSL_M_Control : out std_logic;
+      FSL_M_Full : in std_logic;
+      i2s_bck : in std_logic;
+      i2s_lrck : in std_logic;
+      i2s_dati : in std_logic
+    );
+  end component;
+
+  component SensorMP_fsl_i2s_0_wrapper is
+    port (
+      FSL_Clk : in std_logic;
+      FSL_Rst : in std_logic;
+      FSL_S_Clk : in std_logic;
+      FSL_S_Read : out std_logic;
+      FSL_S_Data : in std_logic_vector(0 to 31);
+      FSL_S_Control : in std_logic;
+      FSL_S_Exists : in std_logic;
+      FSL_M_Clk : in std_logic;
+      FSL_M_Write : out std_logic;
+      FSL_M_Data : out std_logic_vector(0 to 31);
+      FSL_M_Control : out std_logic;
+      FSL_M_Full : in std_logic;
+      i2s_bck : in std_logic;
+      i2s_lrck : in std_logic;
+      i2s_dati : in std_logic
+    );
+  end component;
+
   component SensorMP_debug_module_0_wrapper is
     port (
       Interrupt : out std_logic;
@@ -2190,25 +2332,6 @@ architecture STRUCTURE of SensorMP is
     );
   end component;
 
-  component SensorMP_bram_block_0_wrapper is
-    port (
-      BRAM_Rst_A : in std_logic;
-      BRAM_Clk_A : in std_logic;
-      BRAM_EN_A : in std_logic;
-      BRAM_WEN_A : in std_logic_vector(0 to 3);
-      BRAM_Addr_A : in std_logic_vector(0 to 31);
-      BRAM_Din_A : out std_logic_vector(0 to 31);
-      BRAM_Dout_A : in std_logic_vector(0 to 31);
-      BRAM_Rst_B : in std_logic;
-      BRAM_Clk_B : in std_logic;
-      BRAM_EN_B : in std_logic;
-      BRAM_WEN_B : in std_logic_vector(0 to 3);
-      BRAM_Addr_B : in std_logic_vector(0 to 31);
-      BRAM_Din_B : out std_logic_vector(0 to 31);
-      BRAM_Dout_B : in std_logic_vector(0 to 31)
-    );
-  end component;
-
   component SensorMP_bram_cntlr_instruction_wrapper is
     port (
       LMB_Clk : in std_logic;
@@ -2449,145 +2572,53 @@ architecture STRUCTURE of SensorMP is
     );
   end component;
 
-  component SensorMP_lmb_v10_0_wrapper is
+  component SensorMP_bram_block_0_wrapper is
     port (
-      LMB_Clk : in std_logic;
-      SYS_Rst : in std_logic;
-      LMB_Rst : out std_logic;
-      M_ABus : in std_logic_vector(0 to 31);
-      M_ReadStrobe : in std_logic;
-      M_WriteStrobe : in std_logic;
-      M_AddrStrobe : in std_logic;
-      M_DBus : in std_logic_vector(0 to 31);
-      M_BE : in std_logic_vector(0 to 3);
-      Sl_DBus : in std_logic_vector(0 to 31);
-      Sl_Ready : in std_logic_vector(0 to 0);
-      Sl_Wait : in std_logic_vector(0 to 0);
-      Sl_UE : in std_logic_vector(0 to 0);
-      Sl_CE : in std_logic_vector(0 to 0);
-      LMB_ABus : out std_logic_vector(0 to 31);
-      LMB_ReadStrobe : out std_logic;
-      LMB_WriteStrobe : out std_logic;
-      LMB_AddrStrobe : out std_logic;
-      LMB_ReadDBus : out std_logic_vector(0 to 31);
-      LMB_WriteDBus : out std_logic_vector(0 to 31);
-      LMB_Ready : out std_logic;
-      LMB_Wait : out std_logic;
-      LMB_UE : out std_logic;
-      LMB_CE : out std_logic;
-      LMB_BE : out std_logic_vector(0 to 3)
+      BRAM_Rst_A : in std_logic;
+      BRAM_Clk_A : in std_logic;
+      BRAM_EN_A : in std_logic;
+      BRAM_WEN_A : in std_logic_vector(0 to 3);
+      BRAM_Addr_A : in std_logic_vector(0 to 31);
+      BRAM_Din_A : out std_logic_vector(0 to 31);
+      BRAM_Dout_A : in std_logic_vector(0 to 31);
+      BRAM_Rst_B : in std_logic;
+      BRAM_Clk_B : in std_logic;
+      BRAM_EN_B : in std_logic;
+      BRAM_WEN_B : in std_logic_vector(0 to 3);
+      BRAM_Addr_B : in std_logic_vector(0 to 31);
+      BRAM_Din_B : out std_logic_vector(0 to 31);
+      BRAM_Dout_B : in std_logic_vector(0 to 31)
     );
   end component;
 
-  component SensorMP_lmb_v10_1_wrapper is
+  component SensorMP_axi_timer_0_wrapper is
     port (
-      LMB_Clk : in std_logic;
-      SYS_Rst : in std_logic;
-      LMB_Rst : out std_logic;
-      M_ABus : in std_logic_vector(0 to 31);
-      M_ReadStrobe : in std_logic;
-      M_WriteStrobe : in std_logic;
-      M_AddrStrobe : in std_logic;
-      M_DBus : in std_logic_vector(0 to 31);
-      M_BE : in std_logic_vector(0 to 3);
-      Sl_DBus : in std_logic_vector(0 to 31);
-      Sl_Ready : in std_logic_vector(0 to 0);
-      Sl_Wait : in std_logic_vector(0 to 0);
-      Sl_UE : in std_logic_vector(0 to 0);
-      Sl_CE : in std_logic_vector(0 to 0);
-      LMB_ABus : out std_logic_vector(0 to 31);
-      LMB_ReadStrobe : out std_logic;
-      LMB_WriteStrobe : out std_logic;
-      LMB_AddrStrobe : out std_logic;
-      LMB_ReadDBus : out std_logic_vector(0 to 31);
-      LMB_WriteDBus : out std_logic_vector(0 to 31);
-      LMB_Ready : out std_logic;
-      LMB_Wait : out std_logic;
-      LMB_UE : out std_logic;
-      LMB_CE : out std_logic;
-      LMB_BE : out std_logic_vector(0 to 3)
-    );
-  end component;
-
-  component SensorMP_fsl_i2s_0_wrapper is
-    port (
-      FSL_Clk : in std_logic;
-      FSL_Rst : in std_logic;
-      FSL_S_Clk : in std_logic;
-      FSL_S_Read : out std_logic;
-      FSL_S_Data : in std_logic_vector(0 to 31);
-      FSL_S_Control : in std_logic;
-      FSL_S_Exists : in std_logic;
-      FSL_M_Clk : in std_logic;
-      FSL_M_Write : out std_logic;
-      FSL_M_Data : out std_logic_vector(0 to 31);
-      FSL_M_Control : out std_logic;
-      FSL_M_Full : in std_logic;
-      i2s_bck : in std_logic;
-      i2s_lrck : in std_logic;
-      i2s_dati : in std_logic
-    );
-  end component;
-
-  component SensorMP_fsl_v20_0_i2s_mb0_wrapper is
-    port (
-      FSL_Clk : in std_logic;
-      SYS_Rst : in std_logic;
-      FSL_Rst : out std_logic;
-      FSL_M_Clk : in std_logic;
-      FSL_M_Data : in std_logic_vector(0 to 31);
-      FSL_M_Control : in std_logic;
-      FSL_M_Write : in std_logic;
-      FSL_M_Full : out std_logic;
-      FSL_S_Clk : in std_logic;
-      FSL_S_Data : out std_logic_vector(0 to 31);
-      FSL_S_Control : out std_logic;
-      FSL_S_Read : in std_logic;
-      FSL_S_Exists : out std_logic;
-      FSL_Full : out std_logic;
-      FSL_Has_Data : out std_logic;
-      FSL_Control_IRQ : out std_logic
-    );
-  end component;
-
-  component SensorMP_fsl_v20_1_i2s_mb0_wrapper is
-    port (
-      FSL_Clk : in std_logic;
-      SYS_Rst : in std_logic;
-      FSL_Rst : out std_logic;
-      FSL_M_Clk : in std_logic;
-      FSL_M_Data : in std_logic_vector(0 to 31);
-      FSL_M_Control : in std_logic;
-      FSL_M_Write : in std_logic;
-      FSL_M_Full : out std_logic;
-      FSL_S_Clk : in std_logic;
-      FSL_S_Data : out std_logic_vector(0 to 31);
-      FSL_S_Control : out std_logic;
-      FSL_S_Read : in std_logic;
-      FSL_S_Exists : out std_logic;
-      FSL_Full : out std_logic;
-      FSL_Has_Data : out std_logic;
-      FSL_Control_IRQ : out std_logic
-    );
-  end component;
-
-  component SensorMP_fsl_i2s_1_wrapper is
-    port (
-      FSL_Clk : in std_logic;
-      FSL_Rst : in std_logic;
-      FSL_S_Clk : in std_logic;
-      FSL_S_Read : out std_logic;
-      FSL_S_Data : in std_logic_vector(0 to 31);
-      FSL_S_Control : in std_logic;
-      FSL_S_Exists : in std_logic;
-      FSL_M_Clk : in std_logic;
-      FSL_M_Write : out std_logic;
-      FSL_M_Data : out std_logic_vector(0 to 31);
-      FSL_M_Control : out std_logic;
-      FSL_M_Full : in std_logic;
-      i2s_bck : in std_logic;
-      i2s_lrck : in std_logic;
-      i2s_dati : in std_logic
+      CaptureTrig0 : in std_logic;
+      CaptureTrig1 : in std_logic;
+      GenerateOut0 : out std_logic;
+      GenerateOut1 : out std_logic;
+      PWM0 : out std_logic;
+      Interrupt : out std_logic;
+      Freeze : in std_logic;
+      S_AXI_ACLK : in std_logic;
+      S_AXI_ARESETN : in std_logic;
+      S_AXI_AWADDR : in std_logic_vector(4 downto 0);
+      S_AXI_AWVALID : in std_logic;
+      S_AXI_AWREADY : out std_logic;
+      S_AXI_WDATA : in std_logic_vector(31 downto 0);
+      S_AXI_WSTRB : in std_logic_vector(3 downto 0);
+      S_AXI_WVALID : in std_logic;
+      S_AXI_WREADY : out std_logic;
+      S_AXI_BRESP : out std_logic_vector(1 downto 0);
+      S_AXI_BVALID : out std_logic;
+      S_AXI_BREADY : in std_logic;
+      S_AXI_ARADDR : in std_logic_vector(4 downto 0);
+      S_AXI_ARVALID : in std_logic;
+      S_AXI_ARREADY : out std_logic;
+      S_AXI_RDATA : out std_logic_vector(31 downto 0);
+      S_AXI_RRESP : out std_logic_vector(1 downto 0);
+      S_AXI_RVALID : out std_logic;
+      S_AXI_RREADY : in std_logic
     );
   end component;
 
@@ -2762,45 +2793,45 @@ architecture STRUCTURE of SensorMP is
   signal microblaze_0_axi_ipc_S_WUSER : std_logic_vector(0 to 0);
   signal microblaze_0_axi_ipc_S_WVALID : std_logic_vector(0 to 0);
   signal microblaze_0_axi_mem_INTERCONNECT_ARESETN : std_logic_vector(0 to 0);
-  signal microblaze_0_axi_periph_M_ARADDR : std_logic_vector(63 downto 0);
-  signal microblaze_0_axi_periph_M_ARBURST : std_logic_vector(3 downto 0);
-  signal microblaze_0_axi_periph_M_ARCACHE : std_logic_vector(7 downto 0);
-  signal microblaze_0_axi_periph_M_ARESETN : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_ARID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_ARLEN : std_logic_vector(15 downto 0);
-  signal microblaze_0_axi_periph_M_ARLOCK : std_logic_vector(3 downto 0);
-  signal microblaze_0_axi_periph_M_ARPROT : std_logic_vector(5 downto 0);
-  signal microblaze_0_axi_periph_M_ARQOS : std_logic_vector(7 downto 0);
-  signal microblaze_0_axi_periph_M_ARREADY : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_ARSIZE : std_logic_vector(5 downto 0);
-  signal microblaze_0_axi_periph_M_ARVALID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_AWADDR : std_logic_vector(63 downto 0);
-  signal microblaze_0_axi_periph_M_AWBURST : std_logic_vector(3 downto 0);
-  signal microblaze_0_axi_periph_M_AWCACHE : std_logic_vector(7 downto 0);
-  signal microblaze_0_axi_periph_M_AWID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_AWLEN : std_logic_vector(15 downto 0);
-  signal microblaze_0_axi_periph_M_AWLOCK : std_logic_vector(3 downto 0);
-  signal microblaze_0_axi_periph_M_AWPROT : std_logic_vector(5 downto 0);
-  signal microblaze_0_axi_periph_M_AWQOS : std_logic_vector(7 downto 0);
-  signal microblaze_0_axi_periph_M_AWREADY : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_AWSIZE : std_logic_vector(5 downto 0);
-  signal microblaze_0_axi_periph_M_AWVALID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_BID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_BREADY : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_BRESP : std_logic_vector(3 downto 0);
-  signal microblaze_0_axi_periph_M_BVALID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_RDATA : std_logic_vector(63 downto 0);
-  signal microblaze_0_axi_periph_M_RID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_RLAST : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_RREADY : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_RRESP : std_logic_vector(3 downto 0);
-  signal microblaze_0_axi_periph_M_RVALID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_WDATA : std_logic_vector(63 downto 0);
-  signal microblaze_0_axi_periph_M_WID : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_WLAST : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_WREADY : std_logic_vector(1 downto 0);
-  signal microblaze_0_axi_periph_M_WSTRB : std_logic_vector(7 downto 0);
-  signal microblaze_0_axi_periph_M_WVALID : std_logic_vector(1 downto 0);
+  signal microblaze_0_axi_periph_M_ARADDR : std_logic_vector(95 downto 0);
+  signal microblaze_0_axi_periph_M_ARBURST : std_logic_vector(5 downto 0);
+  signal microblaze_0_axi_periph_M_ARCACHE : std_logic_vector(11 downto 0);
+  signal microblaze_0_axi_periph_M_ARESETN : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_ARID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_ARLEN : std_logic_vector(23 downto 0);
+  signal microblaze_0_axi_periph_M_ARLOCK : std_logic_vector(5 downto 0);
+  signal microblaze_0_axi_periph_M_ARPROT : std_logic_vector(8 downto 0);
+  signal microblaze_0_axi_periph_M_ARQOS : std_logic_vector(11 downto 0);
+  signal microblaze_0_axi_periph_M_ARREADY : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_ARSIZE : std_logic_vector(8 downto 0);
+  signal microblaze_0_axi_periph_M_ARVALID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_AWADDR : std_logic_vector(95 downto 0);
+  signal microblaze_0_axi_periph_M_AWBURST : std_logic_vector(5 downto 0);
+  signal microblaze_0_axi_periph_M_AWCACHE : std_logic_vector(11 downto 0);
+  signal microblaze_0_axi_periph_M_AWID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_AWLEN : std_logic_vector(23 downto 0);
+  signal microblaze_0_axi_periph_M_AWLOCK : std_logic_vector(5 downto 0);
+  signal microblaze_0_axi_periph_M_AWPROT : std_logic_vector(8 downto 0);
+  signal microblaze_0_axi_periph_M_AWQOS : std_logic_vector(11 downto 0);
+  signal microblaze_0_axi_periph_M_AWREADY : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_AWSIZE : std_logic_vector(8 downto 0);
+  signal microblaze_0_axi_periph_M_AWVALID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_BID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_BREADY : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_BRESP : std_logic_vector(5 downto 0);
+  signal microblaze_0_axi_periph_M_BVALID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_RDATA : std_logic_vector(95 downto 0);
+  signal microblaze_0_axi_periph_M_RID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_RLAST : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_RREADY : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_RRESP : std_logic_vector(5 downto 0);
+  signal microblaze_0_axi_periph_M_RVALID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_WDATA : std_logic_vector(95 downto 0);
+  signal microblaze_0_axi_periph_M_WID : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_WLAST : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_WREADY : std_logic_vector(2 downto 0);
+  signal microblaze_0_axi_periph_M_WSTRB : std_logic_vector(11 downto 0);
+  signal microblaze_0_axi_periph_M_WVALID : std_logic_vector(2 downto 0);
   signal microblaze_0_axi_periph_S_ARADDR : std_logic_vector(31 downto 0);
   signal microblaze_0_axi_periph_S_ARBURST : std_logic_vector(1 downto 0);
   signal microblaze_0_axi_periph_S_ARCACHE : std_logic_vector(3 downto 0);
@@ -2859,7 +2890,7 @@ architecture STRUCTURE of SensorMP is
   signal net_gnd64 : std_logic_vector(63 downto 0);
   signal net_gnd4096 : std_logic_vector(0 to 4095);
   signal net_vcc0 : std_logic;
-  signal pgassign1 : std_logic_vector(1 downto 0);
+  signal pgassign1 : std_logic_vector(2 downto 0);
   signal processing_system7_0_DDR_WEB : std_logic;
   signal processing_system7_0_FCLK_CLK0 : std_logic;
   signal processing_system7_0_PS_CLK : std_logic;
@@ -2872,17 +2903,18 @@ architecture STRUCTURE of SensorMP is
   attribute BOX_TYPE of SensorMP_microblaze_0_axi_periph_wrapper : component is "user_black_box";
   attribute BOX_TYPE of SensorMP_microblaze_0_axi_ipc_wrapper : component is "user_black_box";
   attribute BOX_TYPE of SensorMP_microblaze_0_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_lmb_v10_1_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_lmb_v10_0_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_fsl_v20_1_i2s_mb0_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_fsl_v20_0_i2s_mb0_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_fsl_i2s_1_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_fsl_i2s_0_wrapper : component is "user_black_box";
   attribute BOX_TYPE of SensorMP_debug_module_0_wrapper : component is "user_black_box";
   attribute BOX_TYPE of SensorMP_clock_generator_0_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of SensorMP_bram_block_0_wrapper : component is "user_black_box";
   attribute BOX_TYPE of SensorMP_bram_cntlr_instruction_wrapper : component is "user_black_box";
   attribute BOX_TYPE of SensorMP_bram_cntlr_data_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of SensorMP_lmb_v10_0_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of SensorMP_lmb_v10_1_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of SensorMP_fsl_i2s_0_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of SensorMP_fsl_v20_0_i2s_mb0_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of SensorMP_fsl_v20_1_i2s_mb0_wrapper : component is "user_black_box";
-  attribute BOX_TYPE of SensorMP_fsl_i2s_1_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_bram_block_0_wrapper : component is "user_black_box";
+  attribute BOX_TYPE of SensorMP_axi_timer_0_wrapper : component is "user_black_box";
 
 begin
 
@@ -2899,8 +2931,12 @@ begin
   net_fsl_i2s_1_i2s_lrck_pin <= fsl_i2s_1_i2s_lrck_pin;
   net_fsl_i2s_1_i2s_dati_pin <= fsl_i2s_1_i2s_dati_pin;
   microblaze_0_axi_periph_M_RLAST(1 downto 1) <= B"0";
+  microblaze_0_axi_periph_M_RLAST(2 downto 2) <= B"0";
   microblaze_0_axi_periph_M_BID(1 downto 1) <= B"0";
+  microblaze_0_axi_periph_M_BID(2 downto 2) <= B"0";
   microblaze_0_axi_periph_M_RID(1 downto 1) <= B"0";
+  microblaze_0_axi_periph_M_RID(2 downto 2) <= B"0";
+  pgassign1(2 downto 2) <= clock_generator_0_CLKOUT0(0 to 0);
   pgassign1(1 downto 1) <= clock_generator_0_CLKOUT0(0 to 0);
   pgassign1(0 downto 0) <= clock_generator_0_CLKOUT0(0 to 0);
   net_gnd0 <= '0';
@@ -3180,7 +3216,7 @@ begin
       S_AXI_GP0_RDATA => microblaze_0_axi_periph_M_RDATA(31 downto 0),
       S_AXI_GP0_BID => microblaze_0_axi_periph_M_BID(0 downto 0),
       S_AXI_GP0_RID => microblaze_0_axi_periph_M_RID(0 downto 0),
-      S_AXI_GP0_ACLK => pgassign1(1),
+      S_AXI_GP0_ACLK => pgassign1(2),
       S_AXI_GP0_ARVALID => microblaze_0_axi_periph_M_ARVALID(0),
       S_AXI_GP0_AWVALID => microblaze_0_axi_periph_M_AWVALID(0),
       S_AXI_GP0_BREADY => microblaze_0_axi_periph_M_BREADY(0),
@@ -3352,7 +3388,7 @@ begin
       S_AXI_HP1_WCOUNT => open,
       S_AXI_HP1_RACOUNT => open,
       S_AXI_HP1_WACOUNT => open,
-      S_AXI_HP1_ACLK => pgassign1(1),
+      S_AXI_HP1_ACLK => pgassign1(2),
       S_AXI_HP1_ARVALID => microblaze_0_axi_ipc_M_ARVALID(0),
       S_AXI_HP1_AWVALID => microblaze_0_axi_ipc_M_AWVALID(0),
       S_AXI_HP1_BREADY => microblaze_0_axi_ipc_M_BREADY(0),
@@ -3597,7 +3633,7 @@ begin
 
   microblaze_0_reset : SensorMP_microblaze_0_reset_wrapper
     port map (
-      Slowest_sync_clk => pgassign1(1),
+      Slowest_sync_clk => pgassign1(2),
       Ext_Reset_In => RESET,
       Aux_Reset_In => net_gnd0,
       MB_Debug_Sys_Rst => debug_module_0_Debug_SYS_Rst,
@@ -3623,12 +3659,12 @@ begin
 
   microblaze_0_axi_periph : SensorMP_microblaze_0_axi_periph_wrapper
     port map (
-      INTERCONNECT_ACLK => pgassign1(1),
+      INTERCONNECT_ACLK => pgassign1(2),
       INTERCONNECT_ARESETN => microblaze_0_axi_mem_INTERCONNECT_ARESETN(0),
       S_AXI_ARESET_OUT_N => open,
       M_AXI_ARESET_OUT_N => microblaze_0_axi_periph_M_ARESETN,
       IRQ => open,
-      S_AXI_ACLK => pgassign1(1 downto 1),
+      S_AXI_ACLK => pgassign1(2 downto 2),
       S_AXI_AWID => microblaze_0_axi_periph_S_AWID(0 to 0),
       S_AXI_AWADDR => microblaze_0_axi_periph_S_AWADDR,
       S_AXI_AWLEN => microblaze_0_axi_periph_S_AWLEN,
@@ -3695,7 +3731,7 @@ begin
       M_AXI_WREADY => microblaze_0_axi_periph_M_WREADY,
       M_AXI_BID => microblaze_0_axi_periph_M_BID,
       M_AXI_BRESP => microblaze_0_axi_periph_M_BRESP,
-      M_AXI_BUSER => net_gnd2,
+      M_AXI_BUSER => net_gnd3,
       M_AXI_BVALID => microblaze_0_axi_periph_M_BVALID,
       M_AXI_BREADY => microblaze_0_axi_periph_M_BREADY,
       M_AXI_ARID => microblaze_0_axi_periph_M_ARID,
@@ -3715,7 +3751,7 @@ begin
       M_AXI_RDATA => microblaze_0_axi_periph_M_RDATA,
       M_AXI_RRESP => microblaze_0_axi_periph_M_RRESP,
       M_AXI_RLAST => microblaze_0_axi_periph_M_RLAST,
-      M_AXI_RUSER => net_gnd2,
+      M_AXI_RUSER => net_gnd3,
       M_AXI_RVALID => microblaze_0_axi_periph_M_RVALID,
       M_AXI_RREADY => microblaze_0_axi_periph_M_RREADY,
       S_AXI_CTRL_AWADDR => net_gnd32(0 to 31),
@@ -3831,12 +3867,12 @@ begin
 
   microblaze_0_axi_ipc : SensorMP_microblaze_0_axi_ipc_wrapper
     port map (
-      INTERCONNECT_ACLK => pgassign1(1),
+      INTERCONNECT_ACLK => pgassign1(2),
       INTERCONNECT_ARESETN => microblaze_0_axi_mem_INTERCONNECT_ARESETN(0),
       S_AXI_ARESET_OUT_N => open,
       M_AXI_ARESET_OUT_N => open,
       IRQ => open,
-      S_AXI_ACLK => pgassign1(1 downto 1),
+      S_AXI_ACLK => pgassign1(2 downto 2),
       S_AXI_AWID => microblaze_0_axi_ipc_S_AWID(0 to 0),
       S_AXI_AWADDR => microblaze_0_axi_ipc_S_AWADDR,
       S_AXI_AWLEN => microblaze_0_axi_ipc_S_AWLEN,
@@ -3880,7 +3916,7 @@ begin
       S_AXI_RUSER => microblaze_0_axi_ipc_S_RUSER(0 downto 0),
       S_AXI_RVALID => microblaze_0_axi_ipc_S_RVALID(0 to 0),
       S_AXI_RREADY => microblaze_0_axi_ipc_S_RREADY(0 to 0),
-      M_AXI_ACLK => pgassign1(1 downto 1),
+      M_AXI_ACLK => pgassign1(2 downto 2),
       M_AXI_AWID => microblaze_0_axi_ipc_M_AWID(0 to 0),
       M_AXI_AWADDR => microblaze_0_axi_ipc_M_AWADDR,
       M_AXI_AWLEN => microblaze_0_axi_ipc_M_AWLEN,
@@ -4039,7 +4075,7 @@ begin
 
   microblaze_0 : SensorMP_microblaze_0_wrapper
     port map (
-      CLK => pgassign1(1),
+      CLK => pgassign1(2),
       RESET => lmb_v10_1_LMB_Rst,
       MB_RESET => microblaze_0_MB_Reset,
       INTERRUPT => net_gnd0,
@@ -4681,13 +4717,149 @@ begin
       DCACHE_FSL_OUT_FULL => net_gnd0
     );
 
+  lmb_v10_1 : SensorMP_lmb_v10_1_wrapper
+    port map (
+      LMB_Clk => pgassign1(2),
+      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
+      LMB_Rst => lmb_v10_1_LMB_Rst,
+      M_ABus => lmb_v10_1_M_ABus,
+      M_ReadStrobe => lmb_v10_1_M_ReadStrobe,
+      M_WriteStrobe => lmb_v10_1_M_WriteStrobe,
+      M_AddrStrobe => lmb_v10_1_M_AddrStrobe,
+      M_DBus => lmb_v10_1_M_DBus,
+      M_BE => lmb_v10_1_M_BE,
+      Sl_DBus => lmb_v10_1_Sl_DBus,
+      Sl_Ready => lmb_v10_1_Sl_Ready(0 to 0),
+      Sl_Wait => lmb_v10_1_Sl_Wait(0 to 0),
+      Sl_UE => lmb_v10_1_Sl_UE(0 to 0),
+      Sl_CE => lmb_v10_1_Sl_CE(0 to 0),
+      LMB_ABus => lmb_v10_1_LMB_ABus,
+      LMB_ReadStrobe => lmb_v10_1_LMB_ReadStrobe,
+      LMB_WriteStrobe => lmb_v10_1_LMB_WriteStrobe,
+      LMB_AddrStrobe => lmb_v10_1_LMB_AddrStrobe,
+      LMB_ReadDBus => lmb_v10_1_LMB_ReadDBus,
+      LMB_WriteDBus => lmb_v10_1_LMB_WriteDBus,
+      LMB_Ready => lmb_v10_1_LMB_Ready,
+      LMB_Wait => lmb_v10_1_LMB_Wait,
+      LMB_UE => lmb_v10_1_LMB_UE,
+      LMB_CE => lmb_v10_1_LMB_CE,
+      LMB_BE => lmb_v10_1_LMB_BE
+    );
+
+  lmb_v10_0 : SensorMP_lmb_v10_0_wrapper
+    port map (
+      LMB_Clk => pgassign1(2),
+      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
+      LMB_Rst => lmb_v10_0_LMB_Rst,
+      M_ABus => lmb_v10_0_M_ABus,
+      M_ReadStrobe => lmb_v10_0_M_ReadStrobe,
+      M_WriteStrobe => net_gnd0,
+      M_AddrStrobe => lmb_v10_0_M_AddrStrobe,
+      M_DBus => net_gnd32,
+      M_BE => net_gnd4,
+      Sl_DBus => lmb_v10_0_Sl_DBus,
+      Sl_Ready => lmb_v10_0_Sl_Ready(0 to 0),
+      Sl_Wait => lmb_v10_0_Sl_Wait(0 to 0),
+      Sl_UE => lmb_v10_0_Sl_UE(0 to 0),
+      Sl_CE => lmb_v10_0_Sl_CE(0 to 0),
+      LMB_ABus => lmb_v10_0_LMB_ABus,
+      LMB_ReadStrobe => lmb_v10_0_LMB_ReadStrobe,
+      LMB_WriteStrobe => lmb_v10_0_LMB_WriteStrobe,
+      LMB_AddrStrobe => lmb_v10_0_LMB_AddrStrobe,
+      LMB_ReadDBus => lmb_v10_0_LMB_ReadDBus,
+      LMB_WriteDBus => lmb_v10_0_LMB_WriteDBus,
+      LMB_Ready => lmb_v10_0_LMB_Ready,
+      LMB_Wait => lmb_v10_0_LMB_Wait,
+      LMB_UE => lmb_v10_0_LMB_UE,
+      LMB_CE => lmb_v10_0_LMB_CE,
+      LMB_BE => lmb_v10_0_LMB_BE
+    );
+
+  fsl_v20_1_i2s_mb0 : SensorMP_fsl_v20_1_i2s_mb0_wrapper
+    port map (
+      FSL_Clk => net_gnd0,
+      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
+      FSL_Rst => open,
+      FSL_M_Clk => net_fsl_i2s_1_i2s_bck_pin,
+      FSL_M_Data => fsl_v20_1_i2s_mb0_FSL_M_Data,
+      FSL_M_Control => fsl_v20_1_i2s_mb0_FSL_M_Control,
+      FSL_M_Write => fsl_v20_1_i2s_mb0_FSL_M_Write,
+      FSL_M_Full => fsl_v20_1_i2s_mb0_FSL_M_Full,
+      FSL_S_Clk => clock_generator_0_CLKOUT0(0),
+      FSL_S_Data => fsl_v20_1_i2s_mb0_FSL_S_Data,
+      FSL_S_Control => fsl_v20_1_i2s_mb0_FSL_S_Control,
+      FSL_S_Read => fsl_v20_1_i2s_mb0_FSL_S_Read,
+      FSL_S_Exists => fsl_v20_1_i2s_mb0_FSL_S_Exists,
+      FSL_Full => open,
+      FSL_Has_Data => open,
+      FSL_Control_IRQ => open
+    );
+
+  fsl_v20_0_i2s_mb0 : SensorMP_fsl_v20_0_i2s_mb0_wrapper
+    port map (
+      FSL_Clk => net_gnd0,
+      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
+      FSL_Rst => open,
+      FSL_M_Clk => net_fsl_i2s_0_i2s_bck_pin,
+      FSL_M_Data => fsl_v20_0_i2s_mb0_FSL_M_Data,
+      FSL_M_Control => fsl_v20_0_i2s_mb0_FSL_M_Control,
+      FSL_M_Write => fsl_v20_0_i2s_mb0_FSL_M_Write,
+      FSL_M_Full => fsl_v20_0_i2s_mb0_FSL_M_Full,
+      FSL_S_Clk => clock_generator_0_CLKOUT0(0),
+      FSL_S_Data => fsl_v20_0_i2s_mb0_FSL_S_Data,
+      FSL_S_Control => fsl_v20_0_i2s_mb0_FSL_S_Control,
+      FSL_S_Read => fsl_v20_0_i2s_mb0_FSL_S_Read,
+      FSL_S_Exists => fsl_v20_0_i2s_mb0_FSL_S_Exists,
+      FSL_Full => open,
+      FSL_Has_Data => open,
+      FSL_Control_IRQ => open
+    );
+
+  fsl_i2s_1 : SensorMP_fsl_i2s_1_wrapper
+    port map (
+      FSL_Clk => net_gnd0,
+      FSL_Rst => net_gnd0,
+      FSL_S_Clk => net_gnd0,
+      FSL_S_Read => open,
+      FSL_S_Data => net_gnd32,
+      FSL_S_Control => net_gnd0,
+      FSL_S_Exists => net_gnd0,
+      FSL_M_Clk => net_gnd0,
+      FSL_M_Write => fsl_v20_1_i2s_mb0_FSL_M_Write,
+      FSL_M_Data => fsl_v20_1_i2s_mb0_FSL_M_Data,
+      FSL_M_Control => fsl_v20_1_i2s_mb0_FSL_M_Control,
+      FSL_M_Full => fsl_v20_1_i2s_mb0_FSL_M_Full,
+      i2s_bck => net_fsl_i2s_1_i2s_bck_pin,
+      i2s_lrck => net_fsl_i2s_1_i2s_lrck_pin,
+      i2s_dati => net_fsl_i2s_1_i2s_dati_pin
+    );
+
+  fsl_i2s_0 : SensorMP_fsl_i2s_0_wrapper
+    port map (
+      FSL_Clk => net_gnd0,
+      FSL_Rst => net_gnd0,
+      FSL_S_Clk => net_gnd0,
+      FSL_S_Read => open,
+      FSL_S_Data => net_gnd32,
+      FSL_S_Control => net_gnd0,
+      FSL_S_Exists => net_gnd0,
+      FSL_M_Clk => net_gnd0,
+      FSL_M_Write => fsl_v20_0_i2s_mb0_FSL_M_Write,
+      FSL_M_Data => fsl_v20_0_i2s_mb0_FSL_M_Data,
+      FSL_M_Control => fsl_v20_0_i2s_mb0_FSL_M_Control,
+      FSL_M_Full => fsl_v20_0_i2s_mb0_FSL_M_Full,
+      i2s_bck => net_fsl_i2s_0_i2s_bck_pin,
+      i2s_lrck => net_fsl_i2s_0_i2s_lrck_pin,
+      i2s_dati => net_fsl_i2s_0_i2s_dati_pin
+    );
+
   debug_module_0 : SensorMP_debug_module_0_wrapper
     port map (
       Interrupt => open,
       Debug_SYS_Rst => debug_module_0_Debug_SYS_Rst,
       Ext_BRK => Ext_BRK,
       Ext_NM_BRK => Ext_NM_BRK,
-      S_AXI_ACLK => pgassign1(1),
+      S_AXI_ACLK => pgassign1(2),
       S_AXI_ARESETN => microblaze_0_axi_periph_M_ARESETN(1),
       S_AXI_AWADDR => microblaze_0_axi_periph_M_AWADDR(63 downto 32),
       S_AXI_AWVALID => microblaze_0_axi_periph_M_AWVALID(1),
@@ -5059,27 +5231,9 @@ begin
       LOCKED => clock_generator_0_LOCKED
     );
 
-  bram_block_0 : SensorMP_bram_block_0_wrapper
-    port map (
-      BRAM_Rst_A => bram_cntlr_instruction_porta_BRAM_Rst,
-      BRAM_Clk_A => bram_cntlr_instruction_porta_BRAM_Clk,
-      BRAM_EN_A => bram_cntlr_instruction_porta_BRAM_EN,
-      BRAM_WEN_A => bram_cntlr_instruction_porta_BRAM_WEN,
-      BRAM_Addr_A => bram_cntlr_instruction_porta_BRAM_Addr,
-      BRAM_Din_A => bram_cntlr_instruction_porta_BRAM_Din,
-      BRAM_Dout_A => bram_cntlr_instruction_porta_BRAM_Dout,
-      BRAM_Rst_B => bram_cntlr_data_portb_BRAM_Rst,
-      BRAM_Clk_B => bram_cntlr_data_portb_BRAM_Clk,
-      BRAM_EN_B => bram_cntlr_data_portb_BRAM_EN,
-      BRAM_WEN_B => bram_cntlr_data_portb_BRAM_WEN,
-      BRAM_Addr_B => bram_cntlr_data_portb_BRAM_Addr,
-      BRAM_Din_B => bram_cntlr_data_portb_BRAM_Din,
-      BRAM_Dout_B => bram_cntlr_data_portb_BRAM_Dout
-    );
-
   bram_cntlr_instruction : SensorMP_bram_cntlr_instruction_wrapper
     port map (
-      LMB_Clk => pgassign1(1),
+      LMB_Clk => pgassign1(2),
       LMB_Rst => lmb_v10_0_LMB_Rst,
       LMB_ABus => lmb_v10_0_LMB_ABus,
       LMB_WriteDBus => lmb_v10_0_LMB_WriteDBus,
@@ -5198,7 +5352,7 @@ begin
 
   bram_cntlr_data : SensorMP_bram_cntlr_data_wrapper
     port map (
-      LMB_Clk => pgassign1(1),
+      LMB_Clk => pgassign1(2),
       LMB_Rst => lmb_v10_1_LMB_Rst,
       LMB_ABus => lmb_v10_1_LMB_ABus,
       LMB_WriteDBus => lmb_v10_1_LMB_WriteDBus,
@@ -5315,140 +5469,52 @@ begin
       S_AXI_CTRL_RREADY => net_gnd0
     );
 
-  lmb_v10_0 : SensorMP_lmb_v10_0_wrapper
+  bram_block_0 : SensorMP_bram_block_0_wrapper
     port map (
-      LMB_Clk => pgassign1(1),
-      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
-      LMB_Rst => lmb_v10_0_LMB_Rst,
-      M_ABus => lmb_v10_0_M_ABus,
-      M_ReadStrobe => lmb_v10_0_M_ReadStrobe,
-      M_WriteStrobe => net_gnd0,
-      M_AddrStrobe => lmb_v10_0_M_AddrStrobe,
-      M_DBus => net_gnd32,
-      M_BE => net_gnd4,
-      Sl_DBus => lmb_v10_0_Sl_DBus,
-      Sl_Ready => lmb_v10_0_Sl_Ready(0 to 0),
-      Sl_Wait => lmb_v10_0_Sl_Wait(0 to 0),
-      Sl_UE => lmb_v10_0_Sl_UE(0 to 0),
-      Sl_CE => lmb_v10_0_Sl_CE(0 to 0),
-      LMB_ABus => lmb_v10_0_LMB_ABus,
-      LMB_ReadStrobe => lmb_v10_0_LMB_ReadStrobe,
-      LMB_WriteStrobe => lmb_v10_0_LMB_WriteStrobe,
-      LMB_AddrStrobe => lmb_v10_0_LMB_AddrStrobe,
-      LMB_ReadDBus => lmb_v10_0_LMB_ReadDBus,
-      LMB_WriteDBus => lmb_v10_0_LMB_WriteDBus,
-      LMB_Ready => lmb_v10_0_LMB_Ready,
-      LMB_Wait => lmb_v10_0_LMB_Wait,
-      LMB_UE => lmb_v10_0_LMB_UE,
-      LMB_CE => lmb_v10_0_LMB_CE,
-      LMB_BE => lmb_v10_0_LMB_BE
+      BRAM_Rst_A => bram_cntlr_instruction_porta_BRAM_Rst,
+      BRAM_Clk_A => bram_cntlr_instruction_porta_BRAM_Clk,
+      BRAM_EN_A => bram_cntlr_instruction_porta_BRAM_EN,
+      BRAM_WEN_A => bram_cntlr_instruction_porta_BRAM_WEN,
+      BRAM_Addr_A => bram_cntlr_instruction_porta_BRAM_Addr,
+      BRAM_Din_A => bram_cntlr_instruction_porta_BRAM_Din,
+      BRAM_Dout_A => bram_cntlr_instruction_porta_BRAM_Dout,
+      BRAM_Rst_B => bram_cntlr_data_portb_BRAM_Rst,
+      BRAM_Clk_B => bram_cntlr_data_portb_BRAM_Clk,
+      BRAM_EN_B => bram_cntlr_data_portb_BRAM_EN,
+      BRAM_WEN_B => bram_cntlr_data_portb_BRAM_WEN,
+      BRAM_Addr_B => bram_cntlr_data_portb_BRAM_Addr,
+      BRAM_Din_B => bram_cntlr_data_portb_BRAM_Din,
+      BRAM_Dout_B => bram_cntlr_data_portb_BRAM_Dout
     );
 
-  lmb_v10_1 : SensorMP_lmb_v10_1_wrapper
+  axi_timer_0 : SensorMP_axi_timer_0_wrapper
     port map (
-      LMB_Clk => pgassign1(1),
-      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
-      LMB_Rst => lmb_v10_1_LMB_Rst,
-      M_ABus => lmb_v10_1_M_ABus,
-      M_ReadStrobe => lmb_v10_1_M_ReadStrobe,
-      M_WriteStrobe => lmb_v10_1_M_WriteStrobe,
-      M_AddrStrobe => lmb_v10_1_M_AddrStrobe,
-      M_DBus => lmb_v10_1_M_DBus,
-      M_BE => lmb_v10_1_M_BE,
-      Sl_DBus => lmb_v10_1_Sl_DBus,
-      Sl_Ready => lmb_v10_1_Sl_Ready(0 to 0),
-      Sl_Wait => lmb_v10_1_Sl_Wait(0 to 0),
-      Sl_UE => lmb_v10_1_Sl_UE(0 to 0),
-      Sl_CE => lmb_v10_1_Sl_CE(0 to 0),
-      LMB_ABus => lmb_v10_1_LMB_ABus,
-      LMB_ReadStrobe => lmb_v10_1_LMB_ReadStrobe,
-      LMB_WriteStrobe => lmb_v10_1_LMB_WriteStrobe,
-      LMB_AddrStrobe => lmb_v10_1_LMB_AddrStrobe,
-      LMB_ReadDBus => lmb_v10_1_LMB_ReadDBus,
-      LMB_WriteDBus => lmb_v10_1_LMB_WriteDBus,
-      LMB_Ready => lmb_v10_1_LMB_Ready,
-      LMB_Wait => lmb_v10_1_LMB_Wait,
-      LMB_UE => lmb_v10_1_LMB_UE,
-      LMB_CE => lmb_v10_1_LMB_CE,
-      LMB_BE => lmb_v10_1_LMB_BE
-    );
-
-  fsl_i2s_0 : SensorMP_fsl_i2s_0_wrapper
-    port map (
-      FSL_Clk => net_gnd0,
-      FSL_Rst => net_gnd0,
-      FSL_S_Clk => net_gnd0,
-      FSL_S_Read => open,
-      FSL_S_Data => net_gnd32,
-      FSL_S_Control => net_gnd0,
-      FSL_S_Exists => net_gnd0,
-      FSL_M_Clk => net_gnd0,
-      FSL_M_Write => fsl_v20_0_i2s_mb0_FSL_M_Write,
-      FSL_M_Data => fsl_v20_0_i2s_mb0_FSL_M_Data,
-      FSL_M_Control => fsl_v20_0_i2s_mb0_FSL_M_Control,
-      FSL_M_Full => fsl_v20_0_i2s_mb0_FSL_M_Full,
-      i2s_bck => net_fsl_i2s_0_i2s_bck_pin,
-      i2s_lrck => net_fsl_i2s_0_i2s_lrck_pin,
-      i2s_dati => net_fsl_i2s_0_i2s_dati_pin
-    );
-
-  fsl_v20_0_i2s_mb0 : SensorMP_fsl_v20_0_i2s_mb0_wrapper
-    port map (
-      FSL_Clk => net_gnd0,
-      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
-      FSL_Rst => open,
-      FSL_M_Clk => net_fsl_i2s_0_i2s_bck_pin,
-      FSL_M_Data => fsl_v20_0_i2s_mb0_FSL_M_Data,
-      FSL_M_Control => fsl_v20_0_i2s_mb0_FSL_M_Control,
-      FSL_M_Write => fsl_v20_0_i2s_mb0_FSL_M_Write,
-      FSL_M_Full => fsl_v20_0_i2s_mb0_FSL_M_Full,
-      FSL_S_Clk => clock_generator_0_CLKOUT0(0),
-      FSL_S_Data => fsl_v20_0_i2s_mb0_FSL_S_Data,
-      FSL_S_Control => fsl_v20_0_i2s_mb0_FSL_S_Control,
-      FSL_S_Read => fsl_v20_0_i2s_mb0_FSL_S_Read,
-      FSL_S_Exists => fsl_v20_0_i2s_mb0_FSL_S_Exists,
-      FSL_Full => open,
-      FSL_Has_Data => open,
-      FSL_Control_IRQ => open
-    );
-
-  fsl_v20_1_i2s_mb0 : SensorMP_fsl_v20_1_i2s_mb0_wrapper
-    port map (
-      FSL_Clk => net_gnd0,
-      SYS_Rst => microblaze_0_reset_Bus_Struct_Reset(0),
-      FSL_Rst => open,
-      FSL_M_Clk => net_fsl_i2s_1_i2s_bck_pin,
-      FSL_M_Data => fsl_v20_1_i2s_mb0_FSL_M_Data,
-      FSL_M_Control => fsl_v20_1_i2s_mb0_FSL_M_Control,
-      FSL_M_Write => fsl_v20_1_i2s_mb0_FSL_M_Write,
-      FSL_M_Full => fsl_v20_1_i2s_mb0_FSL_M_Full,
-      FSL_S_Clk => clock_generator_0_CLKOUT0(0),
-      FSL_S_Data => fsl_v20_1_i2s_mb0_FSL_S_Data,
-      FSL_S_Control => fsl_v20_1_i2s_mb0_FSL_S_Control,
-      FSL_S_Read => fsl_v20_1_i2s_mb0_FSL_S_Read,
-      FSL_S_Exists => fsl_v20_1_i2s_mb0_FSL_S_Exists,
-      FSL_Full => open,
-      FSL_Has_Data => open,
-      FSL_Control_IRQ => open
-    );
-
-  fsl_i2s_1 : SensorMP_fsl_i2s_1_wrapper
-    port map (
-      FSL_Clk => net_gnd0,
-      FSL_Rst => net_gnd0,
-      FSL_S_Clk => net_gnd0,
-      FSL_S_Read => open,
-      FSL_S_Data => net_gnd32,
-      FSL_S_Control => net_gnd0,
-      FSL_S_Exists => net_gnd0,
-      FSL_M_Clk => net_gnd0,
-      FSL_M_Write => fsl_v20_1_i2s_mb0_FSL_M_Write,
-      FSL_M_Data => fsl_v20_1_i2s_mb0_FSL_M_Data,
-      FSL_M_Control => fsl_v20_1_i2s_mb0_FSL_M_Control,
-      FSL_M_Full => fsl_v20_1_i2s_mb0_FSL_M_Full,
-      i2s_bck => net_fsl_i2s_1_i2s_bck_pin,
-      i2s_lrck => net_fsl_i2s_1_i2s_lrck_pin,
-      i2s_dati => net_fsl_i2s_1_i2s_dati_pin
+      CaptureTrig0 => net_gnd0,
+      CaptureTrig1 => net_gnd0,
+      GenerateOut0 => open,
+      GenerateOut1 => open,
+      PWM0 => open,
+      Interrupt => open,
+      Freeze => net_gnd0,
+      S_AXI_ACLK => pgassign1(2),
+      S_AXI_ARESETN => microblaze_0_axi_periph_M_ARESETN(2),
+      S_AXI_AWADDR => microblaze_0_axi_periph_M_AWADDR(68 downto 64),
+      S_AXI_AWVALID => microblaze_0_axi_periph_M_AWVALID(2),
+      S_AXI_AWREADY => microblaze_0_axi_periph_M_AWREADY(2),
+      S_AXI_WDATA => microblaze_0_axi_periph_M_WDATA(95 downto 64),
+      S_AXI_WSTRB => microblaze_0_axi_periph_M_WSTRB(11 downto 8),
+      S_AXI_WVALID => microblaze_0_axi_periph_M_WVALID(2),
+      S_AXI_WREADY => microblaze_0_axi_periph_M_WREADY(2),
+      S_AXI_BRESP => microblaze_0_axi_periph_M_BRESP(5 downto 4),
+      S_AXI_BVALID => microblaze_0_axi_periph_M_BVALID(2),
+      S_AXI_BREADY => microblaze_0_axi_periph_M_BREADY(2),
+      S_AXI_ARADDR => microblaze_0_axi_periph_M_ARADDR(68 downto 64),
+      S_AXI_ARVALID => microblaze_0_axi_periph_M_ARVALID(2),
+      S_AXI_ARREADY => microblaze_0_axi_periph_M_ARREADY(2),
+      S_AXI_RDATA => microblaze_0_axi_periph_M_RDATA(95 downto 64),
+      S_AXI_RRESP => microblaze_0_axi_periph_M_RRESP(5 downto 4),
+      S_AXI_RVALID => microblaze_0_axi_periph_M_RVALID(2),
+      S_AXI_RREADY => microblaze_0_axi_periph_M_RREADY(2)
     );
 
 end architecture STRUCTURE;

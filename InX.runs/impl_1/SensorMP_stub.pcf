@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Thu May 07 00:06:59 2015
+// Written by: Map P.20131013 on Tue May 12 16:44:18 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -2665,8 +2665,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i"
         BEL
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_0"
-        BEL "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I" BEL
-        "SensorMP_i/lmb_v10_1/lmb_v10_1/POR_FF_I" BEL
+        BEL "SensorMP_i/lmb_v10_1/lmb_v10_1/POR_FF_I" BEL
+        "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I" BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/pushed_commands_0"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_29"
@@ -2781,6 +2781,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.USE_SPLIT.write_resp_inst/first_mi_word"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/cmd_b_push_block"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_data_inst/length_counter_1_7"
@@ -2810,6 +2812,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw"
+        BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/areset_d_1"
         BEL
@@ -2873,6 +2877,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/S_AXI_AADDR_Q_3"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_3"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/S_AXI_AADDR_Q_2"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_2"
@@ -2892,6 +2898,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/S_AXI_AREADY_I"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0"
+        BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_register_slice_bank/gen_reg_slot[2].register_slice_inst/reset"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/m_axi_reset_out_n_i"
         BEL
@@ -2937,6 +2945,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_arready_i"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_awready_i"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_arvalid_reg_0"
@@ -2965,6 +2975,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/S_AXI_AADDR_Q_0"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_ready_i_0"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2"
@@ -2980,6 +2992,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/access_is_incr_q"
+        BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/gen_conv_slot[2].clock_conv_inst/m_axi_reset_out_n_i"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/write_cs_FSM_FFd2"
         BEL
@@ -5806,10 +5820,10 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[16].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[1].Gen_Instr_DFF"
-        BEL "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/Sl_Rdy"
-        BEL "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/lmb_as"
         BEL "SensorMP_i/bram_cntlr_data/bram_cntlr_data/Sl_Rdy" BEL
         "SensorMP_i/bram_cntlr_data/bram_cntlr_data/lmb_as" BEL
+        "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/Sl_Rdy" BEL
+        "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/lmb_as" BEL
         "SensorMP_i/debug_module_0/debug_module_0/MDM_Core_I1/clear_Ext_BRK"
         BEL
         "SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg"
@@ -5921,6 +5935,424 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
         BEL
         "SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_31"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_26"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_30"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_25"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[0].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_24"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_19"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_23"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_18"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_22"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_17"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_21"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_16"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_20"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_15"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_14"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_13"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_12"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_11"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_10"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[3].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[29].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[10].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[23].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[1].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[10].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[28].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[9].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[2].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[2].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[11].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_5"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[22].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_4"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[3].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[27].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[8].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[12].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[1].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[4].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[21].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[10].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[13].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[26].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[31].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[7].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[5].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[11].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[0].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[14].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[20].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[12].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[25].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[30].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[6].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[20].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[15].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[29].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[13].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[16].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[21].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[8].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[19].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[24].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[5].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[14].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[22].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[17].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[28].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[9].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[20].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[15].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[23].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[18].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[18].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[23].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[4].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[27].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[16].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[21].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[24].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[19].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_9"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_8"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[17].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[22].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[22].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[17].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[3].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[30].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[25].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[31].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[26].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[18].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[23].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[31].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[26].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[16].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[21].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[2].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[29].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[24].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[19].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[30].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[25].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[32].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[27].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[30].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[25].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[15].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[20].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[1].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[28].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[28].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[24].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[19].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[31].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[26].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[29].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[14].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[0].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[0].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[27].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[32].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[27].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[23].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[18].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[1].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[28].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/counter_TC_Reg_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/counter_TC_Reg_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[13].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[31].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[26].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[22].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[17].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[2].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[29].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[12].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[3].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[25].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[30].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[21].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[16].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[29].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[4].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[9].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[11].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[24].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/rst"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[5].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[20].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[15].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[28].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[8].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[10].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[23].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[14].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[27].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[7].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[22].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[8].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_7"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[13].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_6"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[26].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_5"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[31].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_4"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[6].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[9].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[21].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[12].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[25].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[30].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[5].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[11].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[24].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_29"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[4].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_28"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_27"
         BEL
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM/SP"
         BEL
@@ -9102,8 +9534,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i"
         BEL
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_0"
-        BEL "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I" BEL
-        "SensorMP_i/lmb_v10_1/lmb_v10_1/POR_FF_I" BEL
+        BEL "SensorMP_i/lmb_v10_1/lmb_v10_1/POR_FF_I" BEL
+        "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I" BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/pushed_commands_0"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i_29"
@@ -9218,6 +9650,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.USE_SPLIT.write_resp_inst/first_mi_word"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/areset_d_1"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/cmd_b_push_block"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_data_inst/length_counter_1_7"
@@ -9247,6 +9681,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw"
+        BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/areset_d_1"
         BEL
@@ -9310,6 +9746,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/S_AXI_AADDR_Q_3"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_3"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/S_AXI_AADDR_Q_2"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_2"
@@ -9329,6 +9767,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/S_AXI_AREADY_I"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0"
+        BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_register_slice_bank/gen_reg_slot[2].register_slice_inst/reset"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/m_axi_reset_out_n_i"
         BEL
@@ -9374,6 +9814,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_arready_i"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/s_axi_awready_i"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_arvalid_reg_0"
@@ -9402,6 +9844,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/S_AXI_AADDR_Q_0"
         BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
+        BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/s_ready_i_0"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2"
@@ -9417,6 +9861,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[1].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/access_is_incr_q"
+        BEL
+        "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/gen_conv_slot[2].clock_conv_inst/m_axi_reset_out_n_i"
         BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.gen_decerr.decerr_slave_inst/write_cs_FSM_FFd2"
         BEL
@@ -12243,10 +12689,10 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[16].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[1].Gen_Instr_DFF"
-        BEL "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/Sl_Rdy"
-        BEL "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/lmb_as"
         BEL "SensorMP_i/bram_cntlr_data/bram_cntlr_data/Sl_Rdy" BEL
         "SensorMP_i/bram_cntlr_data/bram_cntlr_data/lmb_as" BEL
+        "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/Sl_Rdy" BEL
+        "SensorMP_i/bram_cntlr_instruction/bram_cntlr_instruction/lmb_as" BEL
         "SensorMP_i/debug_module_0/debug_module_0/MDM_Core_I1/clear_Ext_BRK"
         BEL
         "SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg"
@@ -12358,6 +12804,424 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
         BEL
         "SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_31"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_26"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_30"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_25"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[0].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_24"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_19"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_23"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_18"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_22"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_17"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_21"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_16"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_20"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_15"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_14"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_13"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_12"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_11"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_10"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[3].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[29].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[10].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[23].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[1].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[10].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[28].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[9].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[2].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[2].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[11].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_5"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[22].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_4"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_3"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/INCLUDE_DPHASE_TIMER.dpto_cnt_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[3].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[27].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[8].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[12].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[1].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[4].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[21].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[10].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[13].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[26].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[31].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[7].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[5].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[11].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[0].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[14].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[20].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[12].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[25].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[30].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[6].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[20].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[15].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[29].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[13].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[16].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[21].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[8].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[19].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[24].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[5].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[14].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[22].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[17].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[28].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[9].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[20].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[15].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[23].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[18].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[18].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[23].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[4].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[27].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[16].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[21].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[24].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[19].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_9"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_8"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[17].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[22].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_6"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_5"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[22].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[17].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[3].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_3"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[30].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[25].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[31].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[26].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[18].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[23].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[31].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[26].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[16].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[21].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[2].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[29].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[24].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[19].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[30].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[25].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[32].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[27].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[30].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[25].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[15].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[20].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[1].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[28].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[28].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[24].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[19].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[31].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[26].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[29].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[14].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[0].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[0].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[27].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[32].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[27].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[23].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[18].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[1].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[28].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/counter_TC_Reg_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/counter_TC_Reg_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[13].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[31].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[26].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[22].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[17].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[2].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[29].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[12].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[3].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[25].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[30].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[21].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[16].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[29].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[4].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[9].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[11].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[24].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/rst"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[5].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[20].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[15].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[28].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[8].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/state_FSM_FFd2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/state_FSM_FFd1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/LOAD_REG_GEN[10].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[23].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[14].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[27].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[7].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[7].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[22].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[8].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_7"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[13].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_6"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[26].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_5"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[31].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_4"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_2"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[6].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNTER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[9].FDRE_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[21].TCSR1_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[12].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[25].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[30].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[5].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[11].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[24].TCSR0_FF_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_29"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/LOAD_REG_GEN[4].LOAD_REG_I"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_28"
+        BEL
+        "SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_27"
         BEL
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM/SP"
         BEL
@@ -13179,10 +14043,10 @@ TIMEGRP microblaze_0_axi_ipc_reset_resync = BEL
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
         BEL
         "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0";
-TIMEGRP lmb_v10_0_POR_FF_I_dst = BEL
-        "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I";
 TIMEGRP lmb_v10_1_POR_FF_I_dst = BEL
         "SensorMP_i/lmb_v10_1/lmb_v10_1/POR_FF_I";
+TIMEGRP lmb_v10_0_POR_FF_I_dst = BEL
+        "SensorMP_i/lmb_v10_0/lmb_v10_0/POR_FF_I";
 TIMEGRP microblaze_0_axi_periph_reset_resync = BEL
         "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
         BEL
@@ -13208,16 +14072,17 @@ TIMEGRP "FFS" = FFS(*);
 PATH TS_TIG_microblaze_0_Reset_path = FROM TIMEGRP "FFS" TO TIMEGRP
         "microblaze_0_Reset_dst";
 PATH "TS_TIG_microblaze_0_Reset_path" TIG;
-PATH TS_TIG_lmb_v10_0_POR_FF_I_path = FROM TIMEGRP "FFS" TO TIMEGRP
-        "lmb_v10_0_POR_FF_I_dst";
-PATH "TS_TIG_lmb_v10_0_POR_FF_I_path" TIG;
 PATH TS_TIG_lmb_v10_1_POR_FF_I_path = FROM TIMEGRP "FFS" TO TIMEGRP
         "lmb_v10_1_POR_FF_I_dst";
 PATH "TS_TIG_lmb_v10_1_POR_FF_I_path" TIG;
-TS_clock_generator_0_CLKOUT0 = PERIOD TIMEGRP "tnm_clk_125MHz" 8 ns HIGH 50%;
+PATH TS_TIG_lmb_v10_0_POR_FF_I_path = FROM TIMEGRP "FFS" TO TIMEGRP
+        "lmb_v10_0_POR_FF_I_dst";
+PATH "TS_TIG_lmb_v10_0_POR_FF_I_path" TIG;
+TS_clock_generator_0_CLKOUT0 = PERIOD TIMEGRP "tnm_clk_125MHz" 7.5 ns HIGH
+        50%;
 TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
         TIMEGRP
         "SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
-        TS_clk_fpga_0 * 1.25 HIGH 50%;
+        TS_clk_fpga_0 * 1.33333333 HIGH 50%;
 SCHEMATIC END;
 

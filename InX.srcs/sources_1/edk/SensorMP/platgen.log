@@ -5,21 +5,21 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Command Line: platgen -p xc7z010clg400-1 -lang vhdl -intstyle pa -toplevel no
 -ti SensorMP_i -msg __xps/ise/xmsgprops.lst SensorMP.mhs 
 
-Parse D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/SensorMP.mhs ...
+Parse D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/SensorMP.mhs ...
 
 Read MPD definitions ...
 WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
    Pre-Production version not verified on hardware for architecture 'zynq' -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261 
 WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
    version not verified on hardware for architecture 'zynq' -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292 
 WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
    Pre-Production version not verified on hardware for architecture 'zynq' -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261 
 WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
    version not verified on hardware for architecture 'zynq' -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292 
 
 Overriding IP level properties ...
 INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
@@ -80,11 +80,11 @@ INFO:EDK:740 - Cannot determine the input clock associated with port :
    bram_cntlr_data:BRAM_Clk_A. Clock DRCs will not be performed on this core and
    cores connected to it. 
 INFO:EDK:1039 - Did not update the value for parameter:
-   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
    propagated to this IP. Please make sure that you have specified the frequency
    of the top-level clock port, and that the clocks are properly connected.
 INFO:EDK:1039 - Did not update the value for parameter:
-   fsl_v20_1_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
+   fsl_v20_0_i2s_mb0:C_READ_CLOCK_PERIOD. Top-level frequency could not be
    propagated to this IP. Please make sure that you have specified the frequency
    of the top-level clock port, and that the clocks are properly connected.
 
@@ -105,55 +105,56 @@ Address Map for Processor microblaze_0
   (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
   (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
   (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
+  (0x40010000-0x4001ffff) axi_timer_0	microblaze_0_axi_periph
   (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
 WARNING:EDK:4123 - IPNAME: processing_system7, INSTANCE: processing_system7_0,
    PARAMETER: C_DDR_RAM_BASEADDR - ASSIGNMENT=CONSTANT is defined in the MPD.
    Its value should not be overwritten in the MHS. 
-INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
-   PARAMETER C_MEMSIZE value to 0x4000 -
-   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
-   ata\bram_block_v2_1_0.mpd line 78 
-INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding
-   PARAMETER C_LMB_NUM_SLAVES value to 1 -
-   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
-   \lmb_v10_v2_1_0.mpd line 82 
 INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_1 - tool is overriding
    PARAMETER C_LMB_NUM_SLAVES value to 1 -
    D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
    \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding
+   PARAMETER C_LMB_NUM_SLAVES value to 1 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
+   \lmb_v10_v2_1_0.mpd line 82 
+INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
+   PARAMETER C_MEMSIZE value to 0x4000 -
+   D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
+   ata\bram_block_v2_1_0.mpd line 78 
 
 Checking platform address map ...
 
 Checking platform configuration ...
-IPNAME: axi_interconnect, INSTANCE: microblaze_0_axi_periph - 1 master(s) : 2
+IPNAME: axi_interconnect, INSTANCE: microblaze_0_axi_periph - 1 master(s) : 3
 slave(s) 
 IPNAME: axi_interconnect, INSTANCE: microblaze_0_axi_ipc - 1 master(s) : 1
 slave(s) 
-IPNAME: lmb_v10, INSTANCE: lmb_v10_0 - 1 master(s) : 1 slave(s) 
 IPNAME: lmb_v10, INSTANCE: lmb_v10_1 - 1 master(s) : 1 slave(s) 
-IPNAME: fsl_v20, INSTANCE: fsl_v20_0_i2s_mb0 - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: lmb_v10_0 - 1 master(s) : 1 slave(s) 
 IPNAME: fsl_v20, INSTANCE: fsl_v20_1_i2s_mb0 - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_0_i2s_mb0 - 1 master(s) : 1 slave(s) 
 
 Checking port drivers...
-WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR: fsl_v20_0_i2s_mb0_OPB_Rst - No
-   driver found. Port will be driven to GND -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
-   l_i2s_v2_1_0.mpd line 26 
-WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR: fsl_v20_0_i2s_mb0_FSL_M_Clk - No
-   driver found. Port will be driven to GND -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
-   l_i2s_v2_1_0.mpd line 32 
 WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR: fsl_v20_1_i2s_mb0_OPB_Rst - No
    driver found. Port will be driven to GND -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
-   l_i2s_v2_1_0.mpd line 26 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\dat
+   a\fsl_i2s_v2_1_0.mpd line 26 
 WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR: fsl_v20_1_i2s_mb0_FSL_M_Clk - No
    driver found. Port will be driven to GND -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fs
-   l_i2s_v2_1_0.mpd line 32 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\dat
+   a\fsl_i2s_v2_1_0.mpd line 32 
+WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR: fsl_v20_0_i2s_mb0_OPB_Rst - No
+   driver found. Port will be driven to GND -
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\dat
+   a\fsl_i2s_v2_1_0.mpd line 26 
+WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR: fsl_v20_0_i2s_mb0_FSL_M_Clk - No
+   driver found. Port will be driven to GND -
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\dat
+   a\fsl_i2s_v2_1_0.mpd line 32 
 WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR:
    microblaze_0_reset_Peripheral_Reset - floating connection -
-   D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 140 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 140 
 WARNING:EDK:4181 - PORT: FSL0_S_CLK, CONNECTOR: fsl_v20_0_i2s_mb0_FSL_S_Clk -
    floating connection -
    D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\d
@@ -164,12 +165,12 @@ WARNING:EDK:4181 - PORT: FSL1_S_CLK, CONNECTOR: fsl_v20_1_i2s_mb0_FSL_S_Clk -
    ata\microblaze_v2_1_0.mpd line 751 
 
 Performing Clock DRCs...
-INFO:EDK:4060 - INSTANCE: fsl_v20_0_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD -
+INFO:EDK:4060 - INSTANCE: fsl_v20_1_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD -
    Did not implement clock DRCs for the parameter. Top-level frequency could not
    be propagated to this IP. Please make sure that you have specified the
    frequency of the top-level clock port, and that the clocks are properly
    connected.
-INFO:EDK:4060 - INSTANCE: fsl_v20_1_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD -
+INFO:EDK:4060 - INSTANCE: fsl_v20_0_i2s_mb0, PARAMETER: C_READ_CLOCK_PERIOD -
    Did not implement clock DRCs for the parameter. Top-level frequency could not
    be propagated to this IP. Please make sure that you have specified the
    frequency of the top-level clock port, and that the clocks are properly
@@ -248,22 +249,22 @@ INFO: The microblaze_0 core has constraints automatically generated by XPS in
 implementation/microblaze_0_wrapper/microblaze_0_wrapper.ucf.
 It can be overridden by constraints placed in the system.ucf file.
 
-INFO: Setting timing constaints for lmb_v10_0.
-INFO: The lmb_v10_0 core has constraints automatically generated by XPS in
-implementation/lmb_v10_0_wrapper/lmb_v10_0_wrapper.ucf.
-It can be overridden by constraints placed in the system.ucf file.
-
 INFO: Setting timing constaints for lmb_v10_1.
 INFO: The lmb_v10_1 core has constraints automatically generated by XPS in
 implementation/lmb_v10_1_wrapper/lmb_v10_1_wrapper.ucf.
 It can be overridden by constraints placed in the system.ucf file.
 
-INFO: The fsl_v20_0_i2s_mb0 core has constraints automatically generated by XPS
-in implementation/fsl_v20_0_i2s_mb0_wrapper/fsl_v20_0_i2s_mb0_wrapper.ucf.
+INFO: Setting timing constaints for lmb_v10_0.
+INFO: The lmb_v10_0 core has constraints automatically generated by XPS in
+implementation/lmb_v10_0_wrapper/lmb_v10_0_wrapper.ucf.
 It can be overridden by constraints placed in the system.ucf file.
 
 INFO: The fsl_v20_1_i2s_mb0 core has constraints automatically generated by XPS
 in implementation/fsl_v20_1_i2s_mb0_wrapper/fsl_v20_1_i2s_mb0_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The fsl_v20_0_i2s_mb0 core has constraints automatically generated by XPS
+in implementation/fsl_v20_0_i2s_mb0_wrapper/fsl_v20_0_i2s_mb0_wrapper.ucf.
 It can be overridden by constraints placed in the system.ucf file.
 
 
@@ -280,57 +281,60 @@ Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
 IPNAME:processing_system7 INSTANCE:processing_system7_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 35 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 35 -
+Copying cache implementation netlist
 IPNAME:proc_sys_reset INSTANCE:microblaze_0_reset -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 129 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 129 -
+Copying cache implementation netlist
 IPNAME:axi_interconnect INSTANCE:microblaze_0_axi_periph -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 143 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 143 -
+Copying cache implementation netlist
 IPNAME:axi_interconnect INSTANCE:microblaze_0_axi_ipc -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 151 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 151 -
+Copying cache implementation netlist
 IPNAME:microblaze INSTANCE:microblaze_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 158 - Copying
-cache implementation netlist
-IPNAME:mdm INSTANCE:debug_module_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 193 - Copying
-cache implementation netlist
-IPNAME:bram_block INSTANCE:bram_block_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 - Copying
-cache implementation netlist
-IPNAME:lmb_bram_if_cntlr INSTANCE:bram_cntlr_instruction -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 223 - Copying
-cache implementation netlist
-IPNAME:lmb_bram_if_cntlr INSTANCE:bram_cntlr_data -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 233 - Copying
-cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:lmb_v10_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 243 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 158 -
+Copying cache implementation netlist
 IPNAME:lmb_v10 INSTANCE:lmb_v10_1 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 250 - Copying
-cache implementation netlist
-IPNAME:fsl_i2s INSTANCE:fsl_i2s_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 257 - Copying
-cache implementation netlist
-IPNAME:fsl_v20 INSTANCE:fsl_v20_0_i2s_mb0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 266 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 193 -
+Copying cache implementation netlist
+IPNAME:lmb_v10 INSTANCE:lmb_v10_0 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 200 -
+Copying cache implementation netlist
 IPNAME:fsl_v20 INSTANCE:fsl_v20_1_i2s_mb0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 278 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 207 -
+Copying cache implementation netlist
+IPNAME:fsl_v20 INSTANCE:fsl_v20_0_i2s_mb0 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 219 -
+Copying cache implementation netlist
 IPNAME:fsl_i2s INSTANCE:fsl_i2s_1 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 290 - Copying
-cache implementation netlist
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 231 -
+Copying cache implementation netlist
+IPNAME:fsl_i2s INSTANCE:fsl_i2s_0 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 240 -
+Copying cache implementation netlist
+IPNAME:mdm INSTANCE:debug_module_0 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 249 -
+Copying cache implementation netlist
+IPNAME:lmb_bram_if_cntlr INSTANCE:bram_cntlr_instruction -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 272 -
+Copying cache implementation netlist
+IPNAME:lmb_bram_if_cntlr INSTANCE:bram_cntlr_data -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 282 -
+Copying cache implementation netlist
+IPNAME:bram_block INSTANCE:bram_block_0 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292 -
+Copying cache implementation netlist
+IPNAME:axi_timer INSTANCE:axi_timer_0 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 299 -
+Copying cache implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:bram_block_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 216 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292 -
 elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261 -
 elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
@@ -342,7 +346,7 @@ Inserting wrapper level ...
 Completion time: 2.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -356,17 +360,17 @@ INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
 INSTANCE:clock_generator_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 - Running
-XST synthesis
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261 -
+Running XST synthesis
 
 Running NGCBUILD ...
 IPNAME:SensorMP_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
-D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 205 - Running
-NGCBUILD
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261 -
+Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/SensorMP.ucf file.
 
 Rebuilding cache ...
 
-Total run time: 96.00 seconds
+Total run time: 89.00 seconds

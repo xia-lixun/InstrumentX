@@ -9,23 +9,23 @@ Target Device  : xc7z010
 Target Package : clg400
 Target Speed   : -1
 Mapper Version : zynq -- $Revision: 1.55 $
-Mapped Date    : Thu May 07 00:02:52 2015
+Mapped Date    : Tue May 12 16:41:02 2015
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:   30
 Slice Logic Utilization:
-  Number of Slice Registers:                 3,018 out of  35,200    8%
-    Number used as Flip Flops:               2,967
+  Number of Slice Registers:                 3,234 out of  35,200    9%
+    Number used as Flip Flops:               3,183
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:               51
-  Number of Slice LUTs:                      3,428 out of  17,600   19%
-    Number used as logic:                    2,806 out of  17,600   15%
-      Number using O6 output only:           2,022
-      Number using O5 output only:             115
-      Number using O5 and O6:                  669
+  Number of Slice LUTs:                      3,720 out of  17,600   21%
+    Number used as logic:                    3,105 out of  17,600   17%
+      Number using O6 output only:           2,275
+      Number using O5 output only:             114
+      Number using O5 and O6:                  716
       Number used as ROM:                        0
     Number used as Memory:                     528 out of   6,000    8%
       Number used as Dual Port RAM:            284
@@ -37,20 +37,20 @@ Slice Logic Utilization:
         Number using O6 output only:           243
         Number using O5 output only:             1
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     94
-      Number with same-slice register load:     80
-      Number with same-slice carry load:        14
+    Number used exclusively as route-thrus:     87
+      Number with same-slice register load:     71
+      Number with same-slice carry load:        16
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 1,550 out of   4,400   35%
-  Number of LUT Flip Flop pairs used:        4,349
-    Number with an unused Flip Flop:         1,553 out of   4,349   35%
-    Number with an unused LUT:                 921 out of   4,349   21%
-    Number of fully used LUT-FF pairs:       1,875 out of   4,349   43%
-    Number of unique control sets:             211
+  Number of occupied Slices:                 1,727 out of   4,400   39%
+  Number of LUT Flip Flop pairs used:        4,698
+    Number with an unused Flip Flop:         1,685 out of   4,698   35%
+    Number with an unused LUT:                 978 out of   4,698   20%
+    Number of fully used LUT-FF pairs:       2,035 out of   4,698   43%
+    Number of unique control sets:             225
     Number of slice register sites lost
-      to control set restrictions:             913 out of  35,200    2%
+      to control set restrictions:             961 out of  35,200    2%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -99,11 +99,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                3.97
+Average Fanout of Non-Clock Nets:                4.08
 
-Peak Memory Usage:  821 MB
-Total REAL time to MAP completion:  4 mins 13 secs 
-Total CPU time to MAP completion:   4 mins 13 secs 
+Peak Memory Usage:  828 MB
+Total REAL time to MAP completion:  3 mins 21 secs 
+Total CPU time to MAP completion:   3 mins 21 secs 
 
 Table of Contents
 -----------------
@@ -159,8 +159,20 @@ WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/g
    en_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE
+   .write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generato
+   r/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/g
+   en_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE
    .write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_gen
    erator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_
+   bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE
+   _WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_ge
+   nerator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O>
    is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_
@@ -169,28 +181,12 @@ WARNING:PhysDesignRules:367 - The signal
    fo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D
    1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_
-   bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE
-   _WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_ge
-   nerator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O>
-   is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/g
-   en_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE
-   .write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generato
-   r/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
-   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy4_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
-   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
    che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
+   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
@@ -198,25 +194,33 @@ WARNING:PhysDesignRules:367 - The signal
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
-   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1_O> is
+   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[30]> is incomplete. The signal
-   does not drive any load pins in the design.
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
+   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy4_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[31]> is incomplete. The signal
    does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
    _I/Register_File_I/Using_LUT6.All_RAM32M[14].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[7].ram32m_i_RAMD_D1_O> is
+   _I/Register_File_I/Using_LUT6.All_RAM32M[9].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[30]> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[9].ram32m_i_RAMD_D1_O> is
+   _I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
@@ -228,31 +232,7 @@ WARNING:PhysDesignRules:367 - The signal
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[10].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_O> is
+   _I/Register_File_I/Using_LUT6.All_RAM32M[7].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
@@ -260,7 +240,27 @@ WARNING:PhysDesignRules:367 - The signal
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
    _I/Register_File_I/Using_LUT6.All_RAM32M[1].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[3].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[10].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
@@ -268,7 +268,7 @@ WARNING:PhysDesignRules:367 - The signal
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[3].ram32m_i_RAMD_D1_O> is
+   _I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 
 Section 3 - Informational
@@ -276,7 +276,7 @@ Section 3 - Informational
 INFO:Map:220 - The command line option -timing is automatically supported for
    this architecture. Therefore, it is not necessary to specify this option.
 INFO:LIT:243 - Logical network SensorMP_i/net_vcc0 has no load.
-INFO:LIT:395 - The above info message is repeated 1862 more times for the
+INFO:LIT:395 - The above info message is repeated 1868 more times for the
    following (max. 5 shown):
    SensorMP_i/microblaze_0_axi_ipc_M_BID,
    SensorMP_i/microblaze_0_axi_ipc_M_ARSIZE[2],
@@ -300,9 +300,9 @@ INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-1112 block(s) removed
- 265 block(s) optimized away
-2450 signal(s) removed
+1138 block(s) removed
+ 282 block(s) optimized away
+2479 signal(s) removed
 
 Section 5 - Removed Logic
 -------------------------
@@ -424,8 +424,6 @@ been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
 sd.crossbar_sasd_0/gen_crossbar.mi_rmesg_mux_inst/O<2>1" (ROM) removed.
-  The signal "SensorMP_i/microblaze_0_axi_periph_M_RRESP[1]" is loadless and has
-been removed.
   The signal "SensorMP_i/microblaze_0_axi_periph_M_RRESP[3]" is loadless and has
 been removed.
    Loadless block
@@ -436,6 +434,8 @@ and has been removed.
      Loadless block
 "SensorMP_i/debug_module_0/debug_module_0/MDM_Core_I1/ip2bus_error1" (ROM)
 removed.
+  The signal "SensorMP_i/microblaze_0_axi_periph_M_RRESP[1]" is loadless and has
+been removed.
 The signal "SensorMP_i/microblaze_0_axi_periph_S_RRESP[0]" is loadless and has
 been removed.
  Loadless block
@@ -448,6 +448,18 @@ been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
 sd.crossbar_sasd_0/gen_crossbar.mi_bmesg_mux_inst/O<1>1" (ROM) removed.
+  The signal "SensorMP_i/microblaze_0_axi_periph_M_BRESP[3]" is loadless and has
+been removed.
+   Loadless block
+"SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_A
+TTACHMENT/s_axi_bresp_i_1" (SFF) removed.
+    The signal "SensorMP_i/debug_module_0/VCC_19" is loadless and has been removed.
+    The signal
+"SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_A
+TTACHMENT/s_axi_bresp_i_1_rstpot" is loadless and has been removed.
+     Loadless block
+"SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_A
+TTACHMENT/s_axi_bresp_i_1_rstpot" (ROM) removed.
   The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_MC_MP_BRESP[3]" is loadless
 and has been removed.
    Loadless block
@@ -464,18 +476,6 @@ k/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_ban
 k/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE
 .USE_SPLIT.write_resp_inst/S_AXI_BRESP_ACC_1" (SFF) removed.
-  The signal "SensorMP_i/microblaze_0_axi_periph_M_BRESP[3]" is loadless and has
-been removed.
-   Loadless block
-"SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_A
-TTACHMENT/s_axi_bresp_i_1" (SFF) removed.
-    The signal "SensorMP_i/debug_module_0/VCC_19" is loadless and has been removed.
-    The signal
-"SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_A
-TTACHMENT/s_axi_bresp_i_1_rstpot" is loadless and has been removed.
-     Loadless block
-"SensorMP_i/debug_module_0/debug_module_0/Use_AXI_IPIF.AXI_LITE_IPIF_I/I_SLAVE_A
-TTACHMENT/s_axi_bresp_i_1_rstpot" (ROM) removed.
 The signal "SensorMP_i/microblaze_0_axi_periph_S_BRESP[0]" is loadless and has
 been removed.
  Loadless block
@@ -4168,22 +4168,27 @@ The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_MC_MP_BRESP[1]" is loadless
 and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/mi_bready<0>11" (ROM) removed.
-The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_AR_TARGET[1]" is loadless
+sd.crossbar_sasd_0/mi_bready<0>1" (ROM) removed.
+The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_AR_ERROR[0]" is loadless
 and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/n0204<1>1" (ROM) removed.
+sd.crossbar_sasd_0/Mmux_n020411" (ROM) removed.
 The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_MC_MP_WDATACONTROL[0]" is
 loadless and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/mi_wvalid<0>11" (ROM) removed.
+sd.crossbar_sasd_0/mi_wvalid<0>1" (ROM) removed.
+The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_AR_TARGET[1]" is loadless
+and has been removed.
+ Loadless block
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
+sd.crossbar_sasd_0/Mmux_n0202121" (ROM) removed.
 The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_AR_TARGET[0]" is loadless
 and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/n0204<0>1" (ROM) removed.
+sd.crossbar_sasd_0/Mmux_n0202111" (ROM) removed.
 The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_MC_MP_RDATACONTROL[2]" is
 loadless and has been removed.
  Loadless block
@@ -4194,22 +4199,27 @@ The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_MC_MP_RDATACONTROL[1]" is
 loadless and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/mi_rready<0>11" (ROM) removed.
+sd.crossbar_sasd_0/mi_rready<0>1" (ROM) removed.
 The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_SF_CB_RDATACONTROL[2]" is
 loadless and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/aa_rmesg<0>1" (ROM) removed.
+sd.crossbar_sasd_0/gen_crossbar.mi_rmesg_mux_inst/O<0>1" (ROM) removed.
 The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_AW_TARGET[1]" is loadless
 and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/n0201<1>1" (ROM) removed.
+sd.crossbar_sasd_0/Mmux_n020221" (ROM) removed.
 The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_AW_TARGET[0]" is loadless
 and has been removed.
  Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
-sd.crossbar_sasd_0/n0201<0>1" (ROM) removed.
+sd.crossbar_sasd_0/Mmux_n020213" (ROM) removed.
+The signal "SensorMP_i/microblaze_0_axi_periph/DEBUG_AW_ERROR[0]" is loadless
+and has been removed.
+ Loadless block
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
+sd.crossbar_sasd_0/Mmux_n020111" (ROM) removed.
 The signal
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
 n_conv_slot[0].clock_conv_inst/s_async_conv_reset" is loadless and has been
@@ -4262,6 +4272,41 @@ has been removed.
      Loadless block
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
 n_conv_slot[1].clock_conv_inst/interconnect_aresetn_resync_0" (FF) removed.
+The signal
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/m_async_conv_reset" is loadless and has been
+removed.
+ Loadless block
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/m_async_conv_reset" (FF) removed.
+The signal
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/s_async_conv_reset" is loadless and has been
+removed.
+ Loadless block
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/s_async_conv_reset" (FF) removed.
+The signal
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/interconnect_aresetn_resync[2]" is loadless and
+has been removed.
+ Loadless block
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/interconnect_aresetn_resync_2" (FF) removed.
+  The signal
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/interconnect_aresetn_resync[1]" is loadless and
+has been removed.
+   Loadless block
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/interconnect_aresetn_resync_1" (FF) removed.
+    The signal
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/interconnect_aresetn_resync[0]" is loadless and
+has been removed.
+     Loadless block
+"SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
+n_conv_slot[2].clock_conv_inst/interconnect_aresetn_resync_0" (FF) removed.
 The signal
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_converter_bank/ge
 n_conv_slot[1].clock_conv_inst/m_async_conv_reset" is loadless and has been
@@ -7599,6 +7644,25 @@ removed.
  Loadless block
 "SensorMP_i/debug_module_0/debug_module_0/MDM_Core_I1/Ext_JTAG_SEL1" (ROM)
 removed.
+The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Interrupt" is
+loadless and has been removed.
+ Loadless block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Interrupt" (SFF)
+removed.
+  The signal "SensorMP_i/axi_timer_0/VCC_20" is loadless and has been removed.
+  The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0[25]_TCSR1[25
+]_OR_206_o" is loadless and has been removed.
+   Loadless block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0[25]_TCSR1[25
+]_OR_206_o1" (ROM) removed.
+Loadless block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/COUNTER_0_I/COUNTER_I/STRUCTURAL_A
+_GEN.I_ADDSUB_GEN[32].MUXCY_I" (MUX) removed.
+Loadless block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/GEN_SECOND_TIMER.COUNTER_1_I/COUNT
+ER_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[32].MUXCY_I" (MUX) removed.
 Loadless block
 "SensorMP_i/clock_generator_0/clock_generator_0/MMCM1_CLKFBOUT_BUFG_INST"
 (CKBUF) removed.
@@ -7907,7 +7971,7 @@ The signal "SensorMP_i/microblaze_0_reset/microblaze_0_reset/Chip_Reset_Req" is
 unused and has been removed.
 The signal "SensorMP_i/microblaze_0_reset/microblaze_0_reset/System_Reset_Req"
 is unused and has been removed.
-The signal "SensorMP_i/fsl_i2s_0/VCC_2" is unused and has been removed.
+The signal "SensorMP_i/fsl_i2s_0/VCC_3" is unused and has been removed.
 The signal "SensorMP_i/fsl_i2s_0/GND_2" is unused and has been removed.
 The signal "SensorMP_i/fsl_i2s_1/VCC_5" is unused and has been removed.
 The signal "SensorMP_i/fsl_i2s_1/GND_3" is unused and has been removed.
@@ -8269,8 +8333,8 @@ The signal
 protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SP
 LIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/GND_7" is unused
 and has been removed.
-The signal "SensorMP_i/lmb_v10_0/VCC_10" is unused and has been removed.
-The signal "SensorMP_i/lmb_v10_1/VCC_11" is unused and has been removed.
+The signal "SensorMP_i/lmb_v10_1/VCC_10" is unused and has been removed.
+The signal "SensorMP_i/lmb_v10_0/VCC_11" is unused and has been removed.
 The signal
 "SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sa
 sd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_amesg_i[48]" is unused and
@@ -8835,10 +8899,97 @@ ive_wakeup_rstpot" is unused and has been removed.
 The signal
 "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/
 Using_DAXI_ALU_Carry.Using_FPGA.muxcy_di" is unused and has been removed.
-The signal "SensorMP_i/bram_cntlr_instruction/VCC_17" is unused and has been
+The signal "SensorMP_i/bram_cntlr_data/VCC_17" is unused and has been removed.
+The signal "SensorMP_i/bram_cntlr_instruction/VCC_18" is unused and has been
 removed.
-The signal "SensorMP_i/bram_cntlr_data/VCC_18" is unused and has been removed.
 The signal "SensorMP_i/debug_module_0/GND_13" is unused and has been removed.
+The signal "SensorMP_i/axi_timer_0/PWM0" is unused and has been removed.
+ Unused block "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/PWM_FF_I" (SFF)
+removed.
+  The signal "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/PWM_FF_I_glue_set" is
+unused and has been removed.
+   Unused block "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/PWM_FF_I_glue_set"
+(ROM) removed.
+    The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/GenerateOut0" is
+unused and has been removed.
+     Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/GenerateOut0"
+(SFF) removed.
+      The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre0_ge
+nerateOutPre1_OR_204_o" is unused and has been removed.
+       Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre0_ge
+nerateOutPre1_OR_204_o1" (ROM) removed.
+  The signal "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/pwm_Reset" is unused
+and has been removed.
+   Unused block "SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/pwm_Reset1" (ROM)
+removed.
+    The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/GenerateOut1" is
+unused and has been removed.
+     Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/GenerateOut1"
+(SFF) removed.
+      The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre1_ge
+nerateOutPre0_OR_205_o" is unused and has been removed.
+       Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/generateOutPre1_ge
+nerateOutPre0_OR_205_o1" (ROM) removed.
+The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_d_rst
+pot" is unused and has been removed.
+The signal "SensorMP_i/axi_timer_0/GND_14" is unused and has been removed.
+The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig1_d_rst
+pot" is unused and has been removed.
+The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/read_done0" is
+unused and has been removed.
+ Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/READ_DONE0_I"
+(SFF) removed.
+  The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/READ_DONE0_I_glue_
+set" is unused and has been removed.
+   Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/READ_DONE0_I_glue_
+set" (ROM) removed.
+The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_pulse
+_d1_rstpot" is unused and has been removed.
+The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/read_done1" is
+unused and has been removed.
+ Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/READ_DONE1_I"
+(SFF) removed.
+  The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/READ_DONE1_I_glue_
+set" is unused and has been removed.
+   Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/READ_DONE1_I_glue_
+set" (ROM) removed.
+The signal "SensorMP_i/axi_timer_0/N12" is unused and has been removed.
+ Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Mmux_Load_Load_Reg
+<1>1_SW0" (ROM) removed.
+The signal "SensorMP_i/axi_timer_0/N61" is unused and has been removed.
+ Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Mmux_Load_Load_Reg
+<1>1_SW1" (ROM) removed.
+The signal "SensorMP_i/axi_timer_0/N88" is unused and has been removed.
+ Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[23]
+.TCSR0_FF_I_glue_set_G" (ROM) removed.
+The signal
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/counter_TC_Reg2"
+is unused and has been removed.
+ Unused block
+"SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/counter_TC_Reg2"
+(SFF) removed.
 Unused block
 "SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/si_converter_bank/gen_conv
 _slot[0].gen_upsizer.upsizer_inst/USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/U
@@ -8865,6 +9016,58 @@ Unused block
 Optimized Block(s):
 TYPE 		BLOCK
 GND 		SensorMP_i/XST_GND
+GND 		SensorMP_i/axi_timer_0/GND
+VCC 		SensorMP_i/axi_timer_0/VCC
+GND 		SensorMP_i/axi_timer_0/XST_GND
+VCC 		SensorMP_i/axi_timer_0/XST_VCC
+LUT6
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Mmux_captureTrig0
+_Edge1
+   optimized to 0
+LUT4
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Mmux_captureTrig0
+_Edge112
+   optimized to 0
+LUT5
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Mmux_captureTrig0
+_Edge113
+   optimized to 0
+LUT3
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/Mmux_captureTrig0
+_Edge1_SW0
+   optimized to 0
+FDCE
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_d
+   optimized to 0
+FDRE
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_d2
+   optimized to 0
+LUT3
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_d_rs
+tpot
+   optimized to 0
+FDCE
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_puls
+e_d1
+   optimized to 0
+LUT3
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_puls
+e_d1_rstpot
+   optimized to 0
+FDRE
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig0_puls
+e_d2
+   optimized to 0
+FDCE
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig1_d
+   optimized to 0
+FDRE
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig1_d2
+   optimized to 0
+LUT3
+		SensorMP_i/axi_timer_0/axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/captureTrig1_d_rs
+tpot
+   optimized to 0
 VCC 		SensorMP_i/bram_cntlr_data/VCC
 GND 		SensorMP_i/bram_cntlr_data/XST_GND
 VCC 		SensorMP_i/bram_cntlr_instruction/VCC

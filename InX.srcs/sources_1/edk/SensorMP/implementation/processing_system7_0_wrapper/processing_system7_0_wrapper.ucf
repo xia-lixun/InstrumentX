@@ -2,7 +2,7 @@
 ##
 ##  Xilinx, Inc. 2006            www.xilinx.com
 ############################################################################
-##  File name :       D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/implementation/processing_system7_0_wrapper/processing_system7_0_wrapper.ucf
+##  File name :       D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/implementation/processing_system7_0_wrapper/processing_system7_0_wrapper.ucf
 ##
 ##  Details :     Constraints file
 ##                    FPGA family:       zynq

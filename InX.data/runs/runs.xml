@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Runs Version="1" Minor="8">
-	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" LaunchPart="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Timing Performance without IOB Packing" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1430925039">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" LaunchPart="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Timing Performance without IOB Packing" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1431419805">
 		<File Type="XST-NGC" Name="SensorMP_stub.ngc"/>
 		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
 		<File Type="XST-SRP" Name="SensorMP_stub.srp"/>
@@ -9,7 +9,7 @@
 		<File Type="PA-XSTPRJ" Name="SensorMP_stub.prj"/>
 		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
 	</Run>
-	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc7z010clg400-1" LaunchPart="xc7z010clg400-1" ConstrsSet="constrs_1" Description="MAP Timing Driven Global Optimization for Speed Logic Optimization Retiming Register Duplication High Effort Normal Extra Effort, PAR High Effort" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1430928065">
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc7z010clg400-1" LaunchPart="xc7z010clg400-1" ConstrsSet="constrs_1" Description="MAP Timing Driven Global Optimization for Speed Logic Optimization Retiming Register Duplication High Effort Normal Extra Effort, PAR High Effort" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1431419961">
 		<File Type="PA-EDIF" Name="SensorMP_stub.edf"/>
 		<File Type="MAP-PSR" Name="SensorMP_stub.psr"/>
 		<File Type="PA-UCF" Name="SensorMP_stub.ucf"/>

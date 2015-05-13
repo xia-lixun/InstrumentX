@@ -190,6 +190,62 @@ BEGIN microblaze
  PORT CLK = clock_generator_0_CLKOUT0
 END
 
+BEGIN lmb_v10
+ PARAMETER INSTANCE = lmb_v10_1
+ PARAMETER HW_VER = 2.00.b
+ PORT LMB_Clk = clock_generator_0_CLKOUT0
+ PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
+END
+
+BEGIN lmb_v10
+ PARAMETER INSTANCE = lmb_v10_0
+ PARAMETER HW_VER = 2.00.b
+ PORT LMB_Clk = clock_generator_0_CLKOUT0
+ PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
+END
+
+BEGIN fsl_v20
+ PARAMETER INSTANCE = fsl_v20_1_i2s_mb0
+ PARAMETER HW_VER = 2.11.f
+ PARAMETER C_ASYNC_CLKS = 1
+ PARAMETER C_IMPL_STYLE = 1
+ PARAMETER C_USE_CONTROL = 0
+ PARAMETER C_FSL_DEPTH = 4096
+ PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
+ PORT FSL_M_Clk = net_fsl_i2s_1_i2s_bck_pin
+ PORT FSL_S_Clk = clock_generator_0_CLKOUT0
+END
+
+BEGIN fsl_v20
+ PARAMETER INSTANCE = fsl_v20_0_i2s_mb0
+ PARAMETER HW_VER = 2.11.f
+ PARAMETER C_IMPL_STYLE = 1
+ PARAMETER C_USE_CONTROL = 0
+ PARAMETER C_FSL_DEPTH = 4096
+ PARAMETER C_ASYNC_CLKS = 1
+ PORT FSL_M_Clk = net_fsl_i2s_0_i2s_bck_pin
+ PORT FSL_S_Clk = clock_generator_0_CLKOUT0
+ PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
+END
+
+BEGIN fsl_i2s
+ PARAMETER INSTANCE = fsl_i2s_1
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE MFSL = fsl_v20_1_i2s_mb0
+ PORT i2s_bck = net_fsl_i2s_1_i2s_bck_pin
+ PORT i2s_lrck = net_fsl_i2s_1_i2s_lrck_pin
+ PORT i2s_dati = net_fsl_i2s_1_i2s_dati_pin
+END
+
+BEGIN fsl_i2s
+ PARAMETER INSTANCE = fsl_i2s_0
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE MFSL = fsl_v20_0_i2s_mb0
+ PORT i2s_bck = net_fsl_i2s_0_i2s_bck_pin
+ PORT i2s_lrck = net_fsl_i2s_0_i2s_lrck_pin
+ PORT i2s_dati = net_fsl_i2s_0_i2s_dati_pin
+END
+
 BEGIN mdm
  PARAMETER INSTANCE = debug_module_0
  PARAMETER HW_VER = 2.10.a
@@ -206,18 +262,11 @@ BEGIN clock_generator
  PARAMETER INSTANCE = clock_generator_0
  PARAMETER HW_VER = 4.03.a
  PARAMETER C_CLKIN_FREQ = 100000000
- PARAMETER C_CLKOUT0_FREQ = 125000000
+ PARAMETER C_CLKOUT0_FREQ = 133333333
  PORT CLKIN = processing_system7_0_FCLK_CLK0
  PORT CLKOUT0 = clock_generator_0_CLKOUT0
  PORT LOCKED = clock_generator_0_LOCKED
  PORT RST = RESET
-END
-
-BEGIN bram_block
- PARAMETER INSTANCE = bram_block_0
- PARAMETER HW_VER = 1.00.a
- BUS_INTERFACE PORTA = bram_cntlr_instruction_porta
- BUS_INTERFACE PORTB = bram_cntlr_data_portb
 END
 
 BEGIN lmb_bram_if_cntlr
@@ -240,59 +289,19 @@ BEGIN lmb_bram_if_cntlr
  BUS_INTERFACE BRAM_PORT = bram_cntlr_data_portb
 END
 
-BEGIN lmb_v10
- PARAMETER INSTANCE = lmb_v10_0
- PARAMETER HW_VER = 2.00.b
- PORT LMB_Clk = clock_generator_0_CLKOUT0
- PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
-END
-
-BEGIN lmb_v10
- PARAMETER INSTANCE = lmb_v10_1
- PARAMETER HW_VER = 2.00.b
- PORT LMB_Clk = clock_generator_0_CLKOUT0
- PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
-END
-
-BEGIN fsl_i2s
- PARAMETER INSTANCE = fsl_i2s_0
+BEGIN bram_block
+ PARAMETER INSTANCE = bram_block_0
  PARAMETER HW_VER = 1.00.a
- BUS_INTERFACE MFSL = fsl_v20_0_i2s_mb0
- PORT i2s_bck = net_fsl_i2s_0_i2s_bck_pin
- PORT i2s_lrck = net_fsl_i2s_0_i2s_lrck_pin
- PORT i2s_dati = net_fsl_i2s_0_i2s_dati_pin
+ BUS_INTERFACE PORTA = bram_cntlr_instruction_porta
+ BUS_INTERFACE PORTB = bram_cntlr_data_portb
 END
 
-BEGIN fsl_v20
- PARAMETER INSTANCE = fsl_v20_0_i2s_mb0
- PARAMETER HW_VER = 2.11.f
- PARAMETER C_IMPL_STYLE = 1
- PARAMETER C_USE_CONTROL = 0
- PARAMETER C_FSL_DEPTH = 4096
- PARAMETER C_ASYNC_CLKS = 1
- PORT FSL_M_Clk = net_fsl_i2s_0_i2s_bck_pin
- PORT FSL_S_Clk = clock_generator_0_CLKOUT0
- PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
-END
-
-BEGIN fsl_v20
- PARAMETER INSTANCE = fsl_v20_1_i2s_mb0
- PARAMETER HW_VER = 2.11.f
- PARAMETER C_ASYNC_CLKS = 1
- PARAMETER C_IMPL_STYLE = 1
- PARAMETER C_USE_CONTROL = 0
- PARAMETER C_FSL_DEPTH = 4096
- PORT SYS_Rst = microblaze_0_reset_Bus_Struct_Reset
- PORT FSL_M_Clk = net_fsl_i2s_1_i2s_bck_pin
- PORT FSL_S_Clk = clock_generator_0_CLKOUT0
-END
-
-BEGIN fsl_i2s
- PARAMETER INSTANCE = fsl_i2s_1
- PARAMETER HW_VER = 1.00.a
- BUS_INTERFACE MFSL = fsl_v20_1_i2s_mb0
- PORT i2s_bck = net_fsl_i2s_1_i2s_bck_pin
- PORT i2s_lrck = net_fsl_i2s_1_i2s_lrck_pin
- PORT i2s_dati = net_fsl_i2s_1_i2s_dati_pin
+BEGIN axi_timer
+ PARAMETER INSTANCE = axi_timer_0
+ PARAMETER HW_VER = 1.03.a
+ PARAMETER C_BASEADDR = 0x40010000
+ PARAMETER C_HIGHADDR = 0x4001FFFF
+ BUS_INTERFACE S_AXI = microblaze_0_axi_periph
+ PORT S_AXI_ACLK = clock_generator_0_CLKOUT0
 END
 

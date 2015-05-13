@@ -1,6 +1,6 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "SensorMP_bram_block_0_wrapper_xst.prj"
-Verilog Include Directory          : {"D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc7z010clg400-1
@@ -62,9 +62,9 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" into library bram_block_0_elaborate_v1_00_a
+Analyzing Verilog file "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" into library bram_block_0_elaborate_v1_00_a
 Parsing module <bram_block_0_elaborate>.
-Analyzing Verilog file "D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\hdl\SensorMP_bram_block_0_wrapper.v" into library work
+Analyzing Verilog file "D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\hdl\SensorMP_bram_block_0_wrapper.v" into library work
 Parsing module <SensorMP_bram_block_0_wrapper>.
 
 =========================================================================
@@ -74,10 +74,10 @@ Parsing module <SensorMP_bram_block_0_wrapper>.
 Elaborating module <SensorMP_bram_block_0_wrapper>.
 
 Elaborating module <bram_block_0_elaborate(C_MEMSIZE=32'b0100000000000000,C_PORT_DWIDTH=32,C_PORT_AWIDTH=32,C_NUM_WE=4,C_FAMILY="zynq")>.
-WARNING:HDLCompiler:1127 - "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 87: Assignment to pgassign1 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 88: Assignment to pgassign2 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 89: Assignment to pgassign3 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 90: Assignment to pgassign4 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 87: Assignment to pgassign1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 88: Assignment to pgassign2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 89: Assignment to pgassign3 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v" Line 90: Assignment to pgassign4 ignored, since the identifier is never used
 
 Elaborating module <RAMB36E1(WRITE_MODE_A="WRITE_FIRST",WRITE_MODE_B="WRITE_FIRST",INIT_FILE="bram_block_0_combined_0.mem",READ_WIDTH_A=9,READ_WIDTH_B=9,WRITE_WIDTH_A=9,WRITE_WIDTH_B=9,RAM_EXTENSION_A="NONE",RAM_EXTENSION_B="NONE")>.
 
@@ -92,14 +92,14 @@ Elaborating module <RAMB36E1(WRITE_MODE_A="WRITE_FIRST",WRITE_MODE_B="WRITE_FIRS
 =========================================================================
 
 Synthesizing Unit <SensorMP_bram_block_0_wrapper>.
-    Related source file is "D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\hdl\SensorMP_bram_block_0_wrapper.v".
+    Related source file is "D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\hdl\SensorMP_bram_block_0_wrapper.v".
     Set property "KEEP_HIERARCHY = YES".
     Summary:
 	no macro.
 Unit <SensorMP_bram_block_0_wrapper> synthesized.
 
 Synthesizing Unit <bram_block_0_elaborate>.
-    Related source file is "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v".
+    Related source file is "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/hdl/elaborate/bram_block_0_elaborate_v1_00_a/hdl/verilog/bram_block_0_elaborate.v".
         C_MEMSIZE = 32'b00000000000000000100000000000000
         C_PORT_DWIDTH = 32
         C_PORT_AWIDTH = 32
@@ -234,7 +234,7 @@ Asynchronous Control Signals Information:
 ---------------------------------------------+------------------------------+-------+
 Control Signal                               | Buffer(FF name)              | Load  |
 ---------------------------------------------+------------------------------+-------+
-bram_block_0/net_gnd0(bram_block_0/XST_GND:G)| NONE(bram_block_0/ramb36e1_0)| 16    |
+bram_block_0/net_gnd0(bram_block_0/XST_GND:G)| NONE(bram_block_0/ramb36e1_1)| 16    |
 ---------------------------------------------+------------------------------+-------+
 
 Timing Summary:
@@ -296,12 +296,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 26.00 secs
-Total CPU time to Xst completion: 26.45 secs
+Total REAL time to Xst completion: 25.00 secs
+Total CPU time to Xst completion: 25.47 secs
  
 --> 
 
-Total memory usage is 426088 kilobytes
+Total memory usage is 425512 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    8 (   0 filtered)

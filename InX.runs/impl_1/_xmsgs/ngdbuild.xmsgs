@@ -33,7 +33,7 @@
 </msg>
 
 <msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_0</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_0</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">clock_generator_0/MMCM1_INST/MMCM_ADV_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
-<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD &quot;SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0&quot; TS_clk_fpga_0 * 1.25 HIGH 50%&gt;</arg>
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD &quot;SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0&quot; TS_clk_fpga_0 * 1.333333333 HIGH 50%&gt;</arg>
 </msg>
 
 <msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;fsl_i2s_0_i2s_bck_pin&quot; PERIOD = 50 ns;&gt; [SensorMP_stub.ucf(577)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.

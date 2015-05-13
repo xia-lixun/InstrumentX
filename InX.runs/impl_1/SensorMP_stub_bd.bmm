@@ -20,9 +20,9 @@ ADDRESS_MAP SensorMP_i_microblaze_0 MICROBLAZE-LE 100 SensorMP_i/microblaze_0
 
     ADDRESS_SPACE SensorMP_i_bram_block_0_combined RAMB32 [0x20000000:0x20003FFF]
         BUS_BLOCK
-            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0 RAMB32 [31:24] [0:4095] INPUT = bram_block_0_combined_0.mem PLACED = X1Y12;
-            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_1 RAMB32 [23:16] [0:4095] INPUT = bram_block_0_combined_1.mem PLACED = X2Y11;
-            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_2 RAMB32 [15:8] [0:4095] INPUT = bram_block_0_combined_2.mem PLACED = X1Y10;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0 RAMB32 [31:24] [0:4095] INPUT = bram_block_0_combined_0.mem PLACED = X2Y12;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_1 RAMB32 [23:16] [0:4095] INPUT = bram_block_0_combined_1.mem PLACED = X1Y12;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_2 RAMB32 [15:8] [0:4095] INPUT = bram_block_0_combined_2.mem PLACED = X1Y13;
             SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3 RAMB32 [7:0] [0:4095] INPUT = bram_block_0_combined_3.mem PLACED = X1Y11;
         END_BUS_BLOCK;
     END_ADDRESS_SPACE;

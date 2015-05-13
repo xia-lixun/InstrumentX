@@ -5,7 +5,7 @@
 ######################################################
 
 proc _main_ {} {
-  cd "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP"
+  cd "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP"
   if { [ catch {xload xmp SensorMP.xmp} result ] } {
     exit 10
   }

@@ -1,4 +1,4 @@
-// File: D:\Git\Sandbox\InX.srcs\sources_1\edk\SensorMP\SensorMP_stub.bmm
+// File: D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP_stub.bmm
 
 ADDRESS_MAP microblaze_0 MICROBLAZE-LE 100
 	ADDRESS_SPACE bram_block_0_combined COMBINED [0x20000000:0x20003fff]

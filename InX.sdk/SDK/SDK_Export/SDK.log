@@ -228,3 +228,18 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
  
 13:16:07.099 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
 13:16:24.270 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:52:21.053 INFO  - Processing command line option -hwspec D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml. 
+16:52:25.358 INFO  - The hardware specification for project 'SensorMP_hw_platform' is different from D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml. 
+16:52:26.778 INFO  - Copied contents of D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml into \SensorMP_hw_platform\system.xml. 
+16:52:26.794 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\SensorMP_stub.bit into \SensorMP_hw_platform\system.bit. 
+16:52:26.794 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\SensorMP_stub_bd.bmm into \SensorMP_hw_platform\system_bd.bmm. 
+16:52:26.809 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.c into \SensorMP_hw_platform\ps7_init.c. 
+16:52:26.825 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.h into \SensorMP_hw_platform\ps7_init.h. 
+16:52:26.856 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.html into \SensorMP_hw_platform\ps7_init.html. 
+16:52:26.872 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \SensorMP_hw_platform\ps7_init.tcl. 
+16:52:27.964 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:52:31.770 INFO  - Updating hardware inferred compiler options for MemTestCortexA90. 
+16:52:32.862 INFO  - Updating hardware inferred compiler options for MemTestMicroblaze80. 
+16:52:32.893 INFO  - Clearing existing target manager status. 
+16:52:36.529 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:55:47.317 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

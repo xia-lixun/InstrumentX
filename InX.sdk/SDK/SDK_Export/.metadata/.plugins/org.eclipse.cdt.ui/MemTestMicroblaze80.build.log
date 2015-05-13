@@ -1,6 +1,39 @@
-12:56:30 **** Incremental Build of configuration Debug for project MemTestMicroblaze80 ****
+16:52:58 **** Build of configuration Debug for project MemTestMicroblaze80 ****
 make all 
-make: Nothing to be done for `all'.
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O3 -c -fmessage-length=0 -std=c99 -I../../MemTestMicroblaze80_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O3 -c -fmessage-length=0 -std=c99 -I../../MemTestMicroblaze80_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MemTestMicroblaze80.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MemTestMicroblaze80_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "MemTestMicroblaze80.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemTestMicroblaze80.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size MemTestMicroblaze80.elf  |tee "MemTestMicroblaze80.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4046	    268	   3132	   7446	   1d16	MemTestMicroblaze80.elf
+'Finished building: MemTestMicroblaze80.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck MemTestMicroblaze80.elf -hw ../../SensorMP_hw_platform/system.xml -pe microblaze_0  |tee "MemTestMicroblaze80.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-12:56:30 Build Finished (took 156ms)
+Command Line: elfcheck -hw ../../SensorMP_hw_platform/system.xml -pe
+microblaze_0 MemTestMicroblaze80.elf 
+
+ELF file	: MemTestMicroblaze80.elf
+elfcheck passed.
+'Finished building: MemTestMicroblaze80.elf.elfcheck'
+' '
+
+16:53:02 Build Finished (took 3s.901ms)
 

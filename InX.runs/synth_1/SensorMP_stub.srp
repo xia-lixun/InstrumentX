@@ -3,7 +3,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: SensorMP_stub.prj
 
@@ -60,10 +60,10 @@ Cores Search Directories           : {..\..\InX.srcs\sources_1\edk\SensorMP\impl
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/hdl/SensorMP.vhd" into library work
+Parsing VHDL file "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/hdl/SensorMP.vhd" into library work
 Parsing entity <SensorMP>.
 Parsing architecture <STRUCTURE> of entity <sensormp>.
-Parsing VHDL file "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/SensorMP_stub.vhd" into library work
+Parsing VHDL file "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/SensorMP_stub.vhd" into library work
 Parsing entity <SensorMP_stub>.
 Parsing architecture <STRUCTURE> of entity <sensormp_stub>.
 
@@ -80,7 +80,7 @@ Elaborating entity <SensorMP> (architecture <>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <SensorMP_stub>.
-    Related source file is "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP/SensorMP_stub.vhd".
+    Related source file is "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/SensorMP_stub.vhd".
     Set property "BOX_TYPE = user_black_box" for instance <SensorMP_i>.
     Summary:
 	no macro.
@@ -100,34 +100,36 @@ Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP.ngc>
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_processing_system7_0_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_microblaze_0_reset_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_clock_generator_0_wrapper.ngc>.
-Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_fsl_i2s_0_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc>.
+Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_fsl_i2s_0_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_fsl_i2s_1_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_microblaze_0_axi_ipc_wrapper.ngc>.
-Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_lmb_v10_0_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_lmb_v10_1_wrapper.ngc>.
+Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_lmb_v10_0_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_microblaze_0_axi_periph_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_microblaze_0_wrapper.ngc>.
-Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_bram_cntlr_instruction_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_bram_cntlr_data_wrapper.ngc>.
+Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_bram_cntlr_instruction_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_debug_module_0_wrapper.ngc>.
+Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_axi_timer_0_wrapper.ngc>.
 Reading core <..\..\InX.srcs\sources_1\edk\SensorMP\implementation/SensorMP_bram_block_0_wrapper.ngc>.
 Loading core <SensorMP_processing_system7_0_wrapper> for timing and area information for instance <processing_system7_0>.
 Loading core <SensorMP_microblaze_0_reset_wrapper> for timing and area information for instance <microblaze_0_reset>.
 Loading core <SensorMP_clock_generator_0_wrapper> for timing and area information for instance <clock_generator_0>.
-Loading core <SensorMP_fsl_i2s_0_wrapper> for timing and area information for instance <fsl_i2s_0>.
 Loading core <SensorMP_fsl_v20_0_i2s_mb0_wrapper> for timing and area information for instance <fsl_v20_0_i2s_mb0>.
+Loading core <SensorMP_fsl_i2s_0_wrapper> for timing and area information for instance <fsl_i2s_0>.
 Loading core <SensorMP_fsl_v20_1_i2s_mb0_wrapper> for timing and area information for instance <fsl_v20_1_i2s_mb0>.
 Loading core <SensorMP_fsl_i2s_1_wrapper> for timing and area information for instance <fsl_i2s_1>.
 Loading core <SensorMP_microblaze_0_axi_ipc_wrapper> for timing and area information for instance <microblaze_0_axi_ipc>.
-Loading core <SensorMP_lmb_v10_0_wrapper> for timing and area information for instance <lmb_v10_0>.
 Loading core <SensorMP_lmb_v10_1_wrapper> for timing and area information for instance <lmb_v10_1>.
+Loading core <SensorMP_lmb_v10_0_wrapper> for timing and area information for instance <lmb_v10_0>.
 Loading core <SensorMP_microblaze_0_axi_periph_wrapper> for timing and area information for instance <microblaze_0_axi_periph>.
 Loading core <SensorMP_microblaze_0_wrapper> for timing and area information for instance <microblaze_0>.
-Loading core <SensorMP_bram_cntlr_instruction_wrapper> for timing and area information for instance <bram_cntlr_instruction>.
 Loading core <SensorMP_bram_cntlr_data_wrapper> for timing and area information for instance <bram_cntlr_data>.
+Loading core <SensorMP_bram_cntlr_instruction_wrapper> for timing and area information for instance <bram_cntlr_instruction>.
 Loading core <SensorMP_debug_module_0_wrapper> for timing and area information for instance <debug_module_0>.
+Loading core <SensorMP_axi_timer_0_wrapper> for timing and area information for instance <axi_timer_0>.
 Loading core <SensorMP_bram_block_0_wrapper> for timing and area information for instance <bram_block_0>.
 Loading core <SensorMP> for timing and area information for instance <SensorMP_i>.
 INFO:Xst:1901 - Instance microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1 in unit microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1 of type RAMB36 has been replaced by RAMB36E1
@@ -161,7 +163,7 @@ Optimizing unit <SensorMP_stub> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 0) on block SensorMP_stub, actual ratio is 8.
+Found area constraint ratio of 100 (+ 0) on block SensorMP_stub, actual ratio is 9.
 INFO:Xst:2260 - The FF/Latch <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_0_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_1_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
@@ -187,6 +189,8 @@ INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1> 
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29_1> 
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1> 
+INFO:Xst:2260 - The FF/Latch <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
+INFO:Xst:2260 - The FF/Latch <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[21].TCSR1_FF_I> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[21].TCSR0_FF_I> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_0_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_1_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
@@ -212,6 +216,8 @@ INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1> 
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29_1> 
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1> 
+INFO:Xst:2260 - The FF/Latch <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
+INFO:Xst:2260 - The FF/Latch <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[21].TCSR1_FF_I> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[21].TCSR0_FF_I> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_0_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_1_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
@@ -255,6 +261,8 @@ INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1> 
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29_1> 
 INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1> 
+INFO:Xst:2260 - The FF/Latch <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[21].TCSR1_FF_I> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[21].TCSR0_FF_I> 
+INFO:Xst:2260 - The FF/Latch <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
 
 Final Macro Processing ...
 
@@ -283,34 +291,34 @@ Top Level Output File Name         : SensorMP_stub.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 4559
-#      GND                         : 24
-#      INV                         : 174
-#      LUT1                        : 106
-#      LUT2                        : 333
-#      LUT3                        : 553
-#      LUT4                        : 587
-#      LUT5                        : 683
-#      LUT6                        : 1032
+# BELS                             : 5119
+#      GND                         : 25
+#      INV                         : 177
+#      LUT1                        : 107
+#      LUT2                        : 355
+#      LUT3                        : 598
+#      LUT4                        : 640
+#      LUT5                        : 804
+#      LUT6                        : 1144
 #      LUT6_2                      : 118
 #      MULT_AND                    : 2
-#      MUXCY                       : 289
-#      MUXCY_L                     : 226
-#      MUXF7                       : 121
-#      VCC                         : 13
-#      XORCY                       : 298
-# FlipFlops/Latches                : 3896
-#      FD                          : 242
+#      MUXCY                       : 357
+#      MUXCY_L                     : 294
+#      MUXF7                       : 120
+#      VCC                         : 14
+#      XORCY                       : 364
+# FlipFlops/Latches                : 4130
+#      FD                          : 262
 #      FD_1                        : 4
-#      FDC                         : 79
+#      FDC                         : 82
 #      FDC_1                       : 5
 #      FDCE                        : 243
 #      FDE                         : 827
 #      FDE_1                       : 64
 #      FDP                         : 83
 #      FDPE                        : 24
-#      FDR                         : 859
-#      FDRE                        : 1395
+#      FDR                         : 887
+#      FDRE                        : 1578
 #      FDRE_1                      : 1
 #      FDS                         : 14
 #      FDSE                        : 56
@@ -345,19 +353,19 @@ Selected Device : 7z010clg400-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            3896  out of  35200    11%  
- Number of Slice LUTs:                 4120  out of  17600    23%  
-    Number used as Logic:              3586  out of  17600    20%  
+ Number of Slice Registers:            4130  out of  35200    11%  
+ Number of Slice LUTs:                 4477  out of  17600    25%  
+    Number used as Logic:              3943  out of  17600    22%  
     Number used as Memory:              534  out of   6000     8%  
        Number used as RAM:              284
        Number used as SRL:              250
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   6362
-   Number with an unused Flip Flop:    2466  out of   6362    38%  
-   Number with an unused LUT:          2242  out of   6362    35%  
-   Number of fully used LUT-FF pairs:  1654  out of   6362    25%  
-   Number of unique control sets:       219
+ Number of LUT Flip Flop pairs used:   6787
+   Number with an unused Flip Flop:    2657  out of   6787    39%  
+   Number with an unused LUT:          2310  out of   6787    34%  
+   Number of fully used LUT-FF pairs:  1820  out of   6787    26%  
+   Number of unique control sets:       238
 
 IO Utilization: 
  Number of IOs:                         137
@@ -390,7 +398,7 @@ Clock Information:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Clock Signal                                                                                                                                                                     | Clock buffer(FF name)                                                                                                                                                                                                                                                                                                                      | Load  |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0                                                                                                                 | BUFG                                                                                                                                                                                                                                                                                                                                       | 3838  |
+SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0                                                                                                                 | BUFG                                                                                                                                                                                                                                                                                                                                       | 4072  |
 fsl_i2s_0_i2s_bck_pin                                                                                                                                                            | BUFGP                                                                                                                                                                                                                                                                                                                                      | 76    |
 SensorMP_i/fsl_v20_0_i2s_mb0/FSL_Control_IRQ                                                                                                                                     | NONE(SensorMP_i/fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem3)                                                                                                                                                                                                         | 4     |
 fsl_i2s_1_i2s_bck_pin                                                                                                                                                            | BUFGP                                                                                                                                                                                                                                                                                                                                      | 76    |
@@ -406,13 +414,13 @@ Asynchronous Control Signals Information:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                                                                             | Buffer(FF name)                                                                                                                                                                                                                                                                                                                            | Load  |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-SensorMP_i/fsl_v20_0_i2s_mb0/N1(SensorMP_i/fsl_v20_0_i2s_mb0/XST_VCC:P)                                                                                                                                                                                                                                                                                                    | NONE(SensorMP_i/fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem2)                                                                                                                                                                                                         | 744   |
+SensorMP_i/fsl_v20_0_i2s_mb0/N1(SensorMP_i/fsl_v20_0_i2s_mb0/XST_VCC:P)                                                                                                                                                                                                                                                                                                    | NONE(SensorMP_i/fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem1)                                                                                                                                                                                                         | 744   |
 SensorMP_i/fsl_v20_1_i2s_mb0/N1(SensorMP_i/fsl_v20_1_i2s_mb0/XST_VCC:P)                                                                                                                                                                                                                                                                                                    | NONE(SensorMP_i/fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem1)                                                                                                                                                                                                         | 744   |
-SensorMP_i/fsl_v20_0_i2s_mb0/FSL_Control_IRQ(SensorMP_i/fsl_v20_0_i2s_mb0/XST_GND:G)                                                                                                                                                                                                                                                                                       | NONE(SensorMP_i/fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem2)                                                                                                                                                                                                         | 432   |
+SensorMP_i/fsl_v20_0_i2s_mb0/FSL_Control_IRQ(SensorMP_i/fsl_v20_0_i2s_mb0/XST_GND:G)                                                                                                                                                                                                                                                                                       | NONE(SensorMP_i/fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem1)                                                                                                                                                                                                         | 432   |
 SensorMP_i/fsl_v20_1_i2s_mb0/FSL_Control_IRQ(SensorMP_i/fsl_v20_1_i2s_mb0/XST_GND:G)                                                                                                                                                                                                                                                                                       | NONE(SensorMP_i/fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem1)                                                                                                                                                                                                         | 432   |
 SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/N1(SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/XST_VCC:P)| NONE(SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1)| 124   |
 SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/N0(SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/XST_GND:G)| NONE(SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1)| 72    |
-SensorMP_i/bram_block_0/bram_block_0/net_gnd0(SensorMP_i/bram_block_0/bram_block_0/XST_GND:G)                                                                                                                                                                                                                                                                              | NONE(SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0)                                                                                                                                                                                                                                                                                      | 8     |
+SensorMP_i/bram_block_0/bram_block_0/net_gnd0(SensorMP_i/bram_block_0/bram_block_0/XST_GND:G)                                                                                                                                                                                                                                                                              | NONE(SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3)                                                                                                                                                                                                                                                                                      | 8     |
 SensorMP_i/microblaze_0/DCACHE_FSL_OUT_CONTROL(SensorMP_i/microblaze_0/XST_GND:G)                                                                                                                                                                                                                                                                                          | NONE(SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1)| 4     |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 
@@ -423,7 +431,7 @@ Speed Grade: -1
    Minimum period: 5.680ns (Maximum Frequency: 176.056MHz)
    Minimum input arrival time before clock: 4.748ns
    Maximum output required time after clock: 5.907ns
-   Maximum combinational path delay: 1.251ns
+   Maximum combinational path delay: 1.237ns
 
 Timing Details:
 ---------------
@@ -431,46 +439,34 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0'
-  Clock period: 4.644ns (frequency: 215.349MHz)
-  Total number of paths / destination ports: 539507 / 10004
+  Clock period: 4.826ns (frequency: 207.225MHz)
+  Total number of paths / destination ports: 562464 / 10632
 -------------------------------------------------------------------------
-Delay:               4.644ns (Levels of Logic = 21)
-  Source:            SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2 (FF)
-  Destination:       SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/jump_logic_I1/FPGA_TARGET.use_Reg_Neg_DI (FF)
+Delay:               4.826ns (Levels of Logic = 9)
+  Source:            SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1 (FF)
+  Destination:       SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0 (FF)
   Source Clock:      SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0 rising
   Destination Clock: SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0 rising
 
-  Data Path: SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2 to SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/jump_logic_I1/FPGA_TARGET.use_Reg_Neg_DI
+  Data Path: SensorMP_i/axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1 to SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDS:C->Q             14   0.282   0.687  microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2 (microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2)
-     LUT3:I0->O          107   0.053   0.804  microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/USE_READ.read_data_inst/S_AXI_RVALID_I1 (DEBUG_SR_SC_RDATACONTROL<0>)
-     end scope: 'SensorMP_i/microblaze_0_axi_ipc:S_AXI_RVALID<0>'
-     begin scope: 'SensorMP_i/microblaze_0:M_AXI_DC_RVALID'
-     LUT4:I0->O           33   0.053   0.755  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Update_Idle1 (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Update_Idle)
-     LUT6:I3->O            1   0.053   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_1/Using_FPGA.A_N1 (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_1/Using_FPGA.A_N)
-     MUXCY_L:S->LO         1   0.291   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_1/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_iii)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_2/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_ii)
-     MUXCY_L:CI->LO       34   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Use_XX_Accesses_Hit.dcache_data_strobe_sel2_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.mem_dcache_data_strobe)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N)
-     MUXCY_L:CI->LO      237   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_PipeRun_carry_and/Using_FPGA.MUXCY_I (Trace_MEM_PipeRun)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[1].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<1>)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[2].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<2>)
-     MUXCY_L:CI->LO      297   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[3].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_EX_PipeRun)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[4].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<4>)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[5].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<5>)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[6].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<6>)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[7].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<7>)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[8].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<8>)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[9].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<9>)
-     MUXCY_L:CI->LO      390   0.015   0.644  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[10].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_OF_PipeRun)
-     LUT3:I2->O            4   0.053   0.419  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/jump_logic_I1/Reset_OR_DriverANDClockEnable1 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/jump_logic_I1/Reset_OR_DriverANDClockEnable)
-     FDRE:R                    0.325          microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/jump_logic_I1/FPGA_TARGET.use_Reg_Neg_DI
+     FD:C->Q              60   0.282   0.761  axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1 (axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1)
+     LUT4:I1->O            1   0.053   0.485  axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/wr_done1_SW0 (N89)
+     LUT6:I4->O            6   0.053   0.446  axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/wr_done1 (S_AXI_WREADY)
+     end scope: 'SensorMP_i/axi_timer_0:S_AXI_AWREADY'
+     begin scope: 'SensorMP_i/microblaze_0_axi_periph:M_AXI_AWREADY<2>'
+     LUT3:I2->O            1   0.053   0.739  microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/_n011011_SW0 (N24)
+     LUT6:I0->O            1   0.053   0.413  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_awready_mux_inst/O2_G (N83)
+     LUT3:I2->O            1   0.053   0.413  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_awready_mux_inst/O21 (microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_awready_mux_inst/O1)
+     LUT6:I5->O            4   0.053   0.433  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_awready_mux_inst/O3 (microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/mi_awready_mux)
+     LUT6:I5->O            2   0.053   0.419  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/out1 (microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/aa_awready)
+     LUT6:I5->O            1   0.053   0.000  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0_glue_set (microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0_glue_set)
+     FDR:D                     0.011          microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0
     ----------------------------------------
-    Total                      4.644ns (1.335ns logic, 3.309ns route)
-                                       (28.7% logic, 71.3% route)
+    Total                      4.826ns (0.717ns logic, 4.109ns route)
+                                       (14.9% logic, 85.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'fsl_i2s_0_i2s_bck_pin'
@@ -583,30 +579,30 @@ Delay:               2.840ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0'
-  Total number of paths / destination ports: 1548 / 929
+  Total number of paths / destination ports: 1549 / 929
 -------------------------------------------------------------------------
-Offset:              3.284ns (Levels of Logic = 7)
+Offset:              3.158ns (Levels of Logic = 7)
   Source:            SensorMP_i/processing_system7_0/processing_system7_0/PS7_i:SAXIGP0WREADY (PAD)
-  Destination:       SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0 (FF)
+  Destination:       SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i (FF)
   Destination Clock: SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0 rising
 
-  Data Path: SensorMP_i/processing_system7_0/processing_system7_0/PS7_i:SAXIGP0WREADY to SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0
+  Data Path: SensorMP_i/processing_system7_0/processing_system7_0/PS7_i:SAXIGP0WREADY to SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
     PS7:SAXIGP0WREADY      1   0.000   0.000  processing_system7_0/PS7_i (S_AXI_GP0_WREADY)
      end scope: 'SensorMP_i/processing_system7_0:S_AXI_GP0_WREADY'
      begin scope: 'SensorMP_i/microblaze_0_axi_periph:M_AXI_WREADY<0>'
-     LUT2:I1->O            1   0.053   0.739  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_valid_i<1>1_SW0 (N36)
-     LUT6:I0->O           14   0.053   0.498  microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_data_inst/cmd_ready_i11 (DEBUG_MC_MP_WDATACONTROL<1>)
-     LUT5:I4->O            2   0.053   0.419  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/w_complete_mux1 (microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/w_complete_mux)
-     LUT6:I5->O            1   0.053   0.725  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/out1_SW0_SW0 (N27)
-     LUT6:I1->O            1   0.053   0.000  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0_glue_set_F (N82)
-     MUXF7:I0->O           1   0.214   0.000  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0_glue_set (microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0_glue_set)
-     FDR:D                     0.011          microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_grant_hot_i_0
+     LUT2:I1->O            1   0.053   0.739  microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_valid_i<1>1_SW0 (N45)
+     LUT6:I0->O           12   0.053   0.557  microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_data_inst/cmd_ready_i11 (DEBUG_MC_MP_WDATACONTROL<1>)
+     LUT2:I0->O            5   0.053   0.440  microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_data_inst/cmd_ready_i2 (microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.wr_cmd_ready)
+     begin scope: 'SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst:RD_EN'
+     LUT4:I3->O           16   0.053   0.733  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/Mmux_RAM_RD_EN_FWFT11 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/ram_rd_en_i)
+     LUT6:I2->O            2   0.053   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_comb3 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_comb)
+     FDP:D                     0.011          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i
     ----------------------------------------
-    Total                      3.284ns (0.903ns logic, 2.381ns route)
-                                       (27.5% logic, 72.5% route)
+    Total                      3.158ns (0.689ns logic, 2.469ns route)
+                                       (21.8% logic, 78.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'fsl_i2s_0_i2s_bck_pin'
@@ -803,7 +799,7 @@ Offset:              5.907ns (Levels of Logic = 9)
 Timing constraint: Default path analysis
   Total number of paths / destination ports: 135 / 135
 -------------------------------------------------------------------------
-Delay:               1.251ns (Levels of Logic = 3)
+Delay:               1.237ns (Levels of Logic = 3)
   Source:            SensorMP_i/processing_system7_0/processing_system7_0/PS7_i:SAXIGP0BVALID (PAD)
   Destination:       SensorMP_i/processing_system7_0/processing_system7_0/PS7_i:SAXIGP0BREADY (PAD)
 
@@ -814,13 +810,13 @@ Delay:               1.251ns (Levels of Logic = 3)
     PS7:SAXIGP0BVALID      3   0.000   0.000  processing_system7_0/PS7_i (S_AXI_GP0_BVALID)
      end scope: 'SensorMP_i/processing_system7_0:S_AXI_GP0_BVALID'
      begin scope: 'SensorMP_i/microblaze_0_axi_periph:M_AXI_BVALID<0>'
-     LUT6:I0->O            8   0.053   0.445  microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.USE_SPLIT.write_resp_inst/M_AXI_BREADY_I1 (DEBUG_MP_MR_BRESP<1>)
+     LUT5:I0->O            8   0.053   0.445  microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.USE_SPLIT.write_resp_inst/M_AXI_BREADY_I1 (DEBUG_MP_MR_BRESP<1>)
      end scope: 'SensorMP_i/microblaze_0_axi_periph:M_AXI_BREADY<0>'
      begin scope: 'SensorMP_i/processing_system7_0:S_AXI_GP0_BREADY'
     PS7:SAXIGP0BREADY          0.000          processing_system7_0/PS7_i
     ----------------------------------------
-    Total                      1.251ns (0.806ns logic, 0.445ns route)
-                                       (64.4% logic, 35.6% route)
+    Total                      1.237ns (0.792ns logic, 0.445ns route)
+                                       (64.0% logic, 36.0% route)
 
 =========================================================================
 
@@ -832,7 +828,7 @@ Clock to Setup on destination clock SensorMP_i/clock_generator_0/clock_generator
                                                                                                                                                                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                                                                                                                                                     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+---------+---------+---------+
-SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0                                                                                                                 |    4.644|         |         |         |
+SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0                                                                                                                 |    4.826|         |         |         |
 SensorMP_i/debug_module_0/Ext_JTAG_UPDATE                                                                                                                                        |    3.197|    1.846|         |         |
 SensorMP_i/debug_module_0/debug_module_0/drck_i                                                                                                                                  |    3.292|         |         |         |
 SensorMP_i/fsl_v20_0_i2s_mb0/FSL_Control_IRQ                                                                                                                                     |    4.716|         |         |         |
@@ -883,14 +879,14 @@ fsl_i2s_1_i2s_bck_pin                                           |    2.893|    2
 =========================================================================
 
 
-Total REAL time to Xst completion: 77.00 secs
-Total CPU time to Xst completion: 76.66 secs
+Total REAL time to Xst completion: 72.00 secs
+Total CPU time to Xst completion: 72.17 secs
  
 --> 
 
-Total memory usage is 560872 kilobytes
+Total memory usage is 562920 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    3 (   0 filtered)
-Number of infos    :   95 (   0 filtered)
+Number of infos    :  101 (   0 filtered)
 

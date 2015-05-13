@@ -1472,7 +1472,7 @@ begin
   microblaze_0 : microblaze
     generic map (
       C_SCO => 0,
-      C_FREQ => 125000000,
+      C_FREQ => 133333333,
       C_DATA_SIZE => 32,
       C_DYNAMIC_BUS_SIZING => 1,
       C_FAMILY => "zynq",

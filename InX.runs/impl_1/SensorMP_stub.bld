@@ -14,7 +14,7 @@ WARNING:NgdBuild:683 - Two nets were found with the same name 'i2s_bck_inv' in
 WARNING:NgdBuild:683 - Two nets were found with the same name 'i2s_bck_inv' in
    the same level of heirarchy. The second net is being renamed to
    'i2s_bck_inv_x'.
-Reading NGO file "D:/Git/Sandbox/InX.runs/impl_1/_ngo/SensorMP_stub.ngo" ...
+Reading NGO file "D:/Git/InstrumentX/InX.runs/impl_1/_ngo/SensorMP_stub.ngo" ...
 Gathering constraint information from source properties...
 Done.
 INFO:NgdBuild:649 - Removing redundant 'IBUF' symbol
@@ -81,7 +81,7 @@ INFO:ConstraintSystem:178 - TNM 'clk_fpga_0', used in period specification
    CLKOUT0: <TIMESPEC
    TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
    "SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
-   TS_clk_fpga_0 * 1.25 HIGH 50%>
+   TS_clk_fpga_0 * 1.333333333 HIGH 50%>
 
 INFO:ConstraintSystem - The Period constraint <NET "fsl_i2s_0_i2s_bck_pin"
    PERIOD = 50 ns;> [SensorMP_stub.ucf(577)], is specified using the Net Period
@@ -118,10 +118,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:  10
 
-Total memory usage is 265968 kilobytes
+Total memory usage is 269680 kilobytes
 
 Writing NGD file "SensorMP_stub.ngd" ...
-Total REAL time to NGDBUILD completion: 1 min  37 sec
-Total CPU time to NGDBUILD completion:   51 sec
+Total REAL time to NGDBUILD completion: 1 min  33 sec
+Total CPU time to NGDBUILD completion:   49 sec
 
 Writing NGDBUILD log file "SensorMP_stub.bld"...

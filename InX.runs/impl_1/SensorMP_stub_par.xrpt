@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Thu May 07 00:07:34 2015">
+  <application stringID="par" timeStamp="Tue May 12 16:44:46 2015">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;D:/Xilinx/14.7/ISE_DS/EDK/bin/nt64;D:/Xilinx/14.7/ISE_DS/EDK/lib/nt64;D:/Xilinx/14.7/ISE_DS/ISE/bin/nt64;D:/Xilinx/14.7/ISE_DS/ISE/lib/nt64;D:/Xilinx/14.7/ISE_DS/common/bin/nt64;D:/Xilinx/14.7/ISE_DS/common/lib/nt64;D:/Xilinx/14.7/ISE_DS/PlanAhead/bin;D:/Xilinx/14.7/ISE_DS/PlanAhead/lib/win64.o;D:/Xilinx/14.7/ISE_DS/PlanAhead/tps/win64/jre/bin/server;D:/Xilinx/14.7/ISE_DS/PlanAhead/tps/win64/jre/bin;C:\Program Files\Broadcom\Broadcom 802.11;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64"/>
+          <item stringID="value" value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;D:/Xilinx/14.7/ISE_DS/EDK/bin/nt64;D:/Xilinx/14.7/ISE_DS/EDK/lib/nt64;D:/Xilinx/14.7/ISE_DS/ISE/bin/nt64;D:/Xilinx/14.7/ISE_DS/ISE/lib/nt64;D:/Xilinx/14.7/ISE_DS/common/bin/nt64;D:/Xilinx/14.7/ISE_DS/common/lib/nt64;D:/Xilinx/14.7/ISE_DS/PlanAhead/bin;D:/Xilinx/14.7/ISE_DS/PlanAhead/lib/win64.o;D:/Xilinx/14.7/ISE_DS/PlanAhead/tps/win64/jre/bin/server;D:/Xilinx/14.7/ISE_DS/PlanAhead/tps/win64/jre/bin;C:\Program Files\Broadcom\Broadcom 802.11;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -63,24 +63,24 @@
     <task stringID="PAR_DEVICE_UTILIZATION">
       <section label="Device Utilization Summary" stringID="PAR_DEVICE_UTLIZATION">
         <item AVAILABLE="32" dataType="int" label="Number of BUFGs" stringID="PAR_BUFG" value="5"/>
-        <item AVAILABLE="4400" dataType="int" stringID="PAR_SLICES" value="1550"/>
-        <item AVAILABLE="35200" dataType="int" label="Number of Slice Registers" stringID="PAR_SLICE_REGISTERS" value="3018">
-          <item dataType="int" label="Number used as Flip Flops" stringID="PAR_FLIP_FLOPS" value="3018"/>
+        <item AVAILABLE="4400" dataType="int" stringID="PAR_SLICES" value="1727"/>
+        <item AVAILABLE="35200" dataType="int" label="Number of Slice Registers" stringID="PAR_SLICE_REGISTERS" value="3234">
+          <item dataType="int" label="Number used as Flip Flops" stringID="PAR_FLIP_FLOPS" value="3234"/>
           <item dataType="int" label="Number used as Latches" stringID="PAR_LATCHES" value="0"/>
           <item dataType="int" label="Number used as LatchThrus" stringID="PAR_LATCH_THRUS" value="0"/>
         </item>
-        <item AVAILABLE="17600" dataType="int" label="Number of Slice LUTS" stringID="PAR_SLICE_LUTS" value="3428"/>
-        <item AVAILABLE="17600" dataType="int" label="Number of Slice LUT-Flip Flop pairs" stringID="PAR_SLICE_LUT_FLIPFLOP_PAIRS" value="4290"/>
+        <item AVAILABLE="17600" dataType="int" label="Number of Slice LUTS" stringID="PAR_SLICE_LUTS" value="3720"/>
+        <item AVAILABLE="17600" dataType="int" label="Number of Slice LUT-Flip Flop pairs" stringID="PAR_SLICE_LUT_FLIPFLOP_PAIRS" value="4602"/>
       </section>
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="1 mins 30 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="1 mins 33 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="1 mins 12 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="1 mins 15 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="1 mins 36 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="1 mins 39 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="1 mins 16 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="1 mins 20 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">
@@ -99,36 +99,36 @@
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y3"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="1211.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.198000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="1312.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.201000"/>
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.844000"/>
           </row>
           <row stringID="row" value="2">
-            <item label="Clock Net" stringID="CLOCK_NET" value="fsl_i2s_0_i2s_bck_pin_BUFGP"/>
+            <item label="Clock Net" stringID="CLOCK_NET" value="SensorMP_i/debug_module_0_MBDEBUG_0_Dbg_Clk"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
-            <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y4"/>
+            <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y1"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="30.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.055000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.708000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="72.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.096000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.752000"/>
           </row>
           <row stringID="row" value="3">
             <item label="Clock Net" stringID="CLOCK_NET" value="fsl_i2s_1_i2s_bck_pin_BUFGP"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y0"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="28.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.055000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.711000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="31.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.056000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.718000"/>
           </row>
           <row stringID="row" value="4">
-            <item label="Clock Net" stringID="CLOCK_NET" value="SensorMP_i/debug_module_0_MBDEBUG_0_Dbg_Clk"/>
+            <item label="Clock Net" stringID="CLOCK_NET" value="fsl_i2s_0_i2s_bck_pin_BUFGP"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
-            <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y1"/>
+            <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y4"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
-            <item dataType="float" label="Fanout" stringID="FANOUT" value="64.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.096000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.755000"/>
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="29.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.098000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="1.749000"/>
           </row>
           <row stringID="row" value="5">
             <item label="Clock Net" stringID="CLOCK_NET" value="SensorMP_i/processing_system7_0_FCLK_CLK0"/>
@@ -144,8 +144,8 @@
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="21.000000"/>
-            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="1.356000"/>
-            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.552000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="1.869000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.835000"/>
           </row>
           <row stringID="row" value="7">
             <item label="Clock Net" stringID="CLOCK_NET" value="SensorMP_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKFBOUT"/>

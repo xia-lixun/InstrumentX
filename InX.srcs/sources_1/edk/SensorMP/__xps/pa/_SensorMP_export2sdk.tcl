@@ -5,14 +5,14 @@
 ######################################################
 
 proc _main_ {} {
-  cd "D:/Git/Sandbox/InX.srcs/sources_1/edk/SensorMP"
+  cd "D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP"
   if { [ catch {xload xmp SensorMP.xmp} result ] } {
     exit 10
   }
   # Set the export bmm/bit 0
   xset sdk_export_bmm_bit 0
   # Set the export dir
-  xset sdk_export_dir D:/Git/Sandbox/InX.sdk/SDK/SDK_Export
+  xset sdk_export_dir D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export
   if { [catch {run exporttosdk} result] } {
     return -1
   }

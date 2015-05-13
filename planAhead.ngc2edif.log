@@ -1,0 +1,2527 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP.edif ...
+ngc2edif: Total memory usage is 88388 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 82244 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_reset_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_reset_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/pr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/bsr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_reset_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_clock_generator_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_clock_generator_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_clock_generator_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77316 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_0_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_0_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78084 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77956 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_1_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_1_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 77892 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_ipc_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_ipc_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/aw_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/ar_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_ipc_wrapper.edif ...
+ngc2edif: Total memory usage is 84484 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_periph_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_periph_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block
+   SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1_NO1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/m_amesg_i[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/s_amesg[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_periph_wrapper.edif ...
+ngc2edif: Total memory usage is 80388 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/control_reg[8 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0/LOCKSTEP_Out[3817 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i[30
+   : 24] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.mem_MSR[28 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.ex_MSR[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry[9 : 1]
+   on block SensorMP_microblaze_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl[10 : 1] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.buffer_or_new[32 : 0] on block SensorMP_microblaze_0_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.srl16[42 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Detect_Commands.sample[6 : 0] on block SensorMP_microblaze_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/status_reg[27 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Use_SRL16.tdo_config_word1[15 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/n0087[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/mem_fwd[30 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_cmb[3
+   0 : 28] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/of_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/ex_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/mem_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_wrapper.edif ...
+ngc2edif: Total memory usage is 92676 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_debug_module_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_debug_module_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus debug_module_0/MDM_Core_I1/Config_Reg<31
+   : 1> on block SensorMP_debug_module_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_debug_module_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78916 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_instruction_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_instruction_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_instruction_wrapper.edif ...
+ngc2edif: Total memory usage is 78468 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_data_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_data_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_data_wrapper.edif ...
+ngc2edif: Total memory usage is 78660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_block_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_block_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_block_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_stub.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP_stub.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_stub.edif ...
+ngc2edif: Total memory usage is 77316 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP.edif ...
+ngc2edif: Total memory usage is 88452 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 82308 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_reset_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_reset_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/pr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/bsr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_reset_wrapper.edif ...
+ngc2edif: Total memory usage is 77956 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_clock_generator_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_clock_generator_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_clock_generator_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77316 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_0_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_0_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78084 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78596 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_1_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_1_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78532 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78532 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_ipc_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_ipc_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/aw_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/ar_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_ipc_wrapper.edif ...
+ngc2edif: Total memory usage is 84484 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78596 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78468 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_periph_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_periph_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block
+   SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1_NO1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/m_amesg_i[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/s_amesg[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_periph_wrapper.edif ...
+ngc2edif: Total memory usage is 81156 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/control_reg[8 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0/LOCKSTEP_Out[3817 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i[30
+   : 24] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.mem_MSR[28 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.ex_MSR[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry[9 : 1]
+   on block SensorMP_microblaze_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl[10 : 1] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.buffer_or_new[32 : 0] on block SensorMP_microblaze_0_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.srl16[42 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Detect_Commands.sample[6 : 0] on block SensorMP_microblaze_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/status_reg[27 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Use_SRL16.tdo_config_word1[15 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/n0087[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/mem_fwd[30 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_cmb[3
+   0 : 28] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/of_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/ex_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/mem_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_wrapper.edif ...
+ngc2edif: Total memory usage is 93444 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_data_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_data_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_data_wrapper.edif ...
+ngc2edif: Total memory usage is 78212 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_instruction_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_instruction_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_instruction_wrapper.edif ...
+ngc2edif: Total memory usage is 78788 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_debug_module_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_debug_module_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus debug_module_0/MDM_Core_I1/Config_Reg<31
+   : 1> on block SensorMP_debug_module_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_debug_module_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_axi_timer_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_axi_timer_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/bus2ip_rdce<6 : 0> on block
+   SensorMP_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7 : 0> on
+   block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/TC_CORE_I/tCSR0_Reg<31 : 20>
+   on block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_axi_timer_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_block_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_block_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_block_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP.edif ...
+ngc2edif: Total memory usage is 88964 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 82436 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_reset_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_reset_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/pr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/bsr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_reset_wrapper.edif ...
+ngc2edif: Total memory usage is 78852 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_clock_generator_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_clock_generator_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_clock_generator_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77380 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_0_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_0_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78468 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_1_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_1_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 77892 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_1_wrapper.edif ...
+ngc2edif: Total memory usage is 77956 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_ipc_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_ipc_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/aw_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/ar_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_ipc_wrapper.edif ...
+ngc2edif: Total memory usage is 85188 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78788 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_periph_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_periph_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block
+   SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1_NO1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/m_amesg_i[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/s_amesg[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_periph_wrapper.edif ...
+ngc2edif: Total memory usage is 80388 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/control_reg[8 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0/LOCKSTEP_Out[3817 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i[30
+   : 24] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.mem_MSR[28 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.ex_MSR[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry[9 : 1]
+   on block SensorMP_microblaze_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl[10 : 1] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.buffer_or_new[32 : 0] on block SensorMP_microblaze_0_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.srl16[42 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Detect_Commands.sample[6 : 0] on block SensorMP_microblaze_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/status_reg[27 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Use_SRL16.tdo_config_word1[15 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/n0087[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/mem_fwd[30 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_cmb[3
+   0 : 28] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/of_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/ex_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/mem_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_wrapper.edif ...
+ngc2edif: Total memory usage is 93124 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_data_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_data_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_data_wrapper.edif ...
+ngc2edif: Total memory usage is 78468 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_instruction_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_instruction_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_instruction_wrapper.edif ...
+ngc2edif: Total memory usage is 78532 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_debug_module_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_debug_module_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus debug_module_0/MDM_Core_I1/Config_Reg<31
+   : 1> on block SensorMP_debug_module_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_debug_module_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_axi_timer_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_axi_timer_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/bus2ip_rdce<6 : 0> on block
+   SensorMP_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7 : 0> on
+   block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/TC_CORE_I/tCSR0_Reg<31 : 20>
+   on block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_axi_timer_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79236 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_block_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_block_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_block_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP.edif ...
+ngc2edif: Total memory usage is 89028 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 82052 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_reset_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_reset_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/pr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/bsr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_reset_wrapper.edif ...
+ngc2edif: Total memory usage is 78148 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_clock_generator_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_clock_generator_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_clock_generator_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77956 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_0_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_0_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_1_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_1_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_ipc_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_ipc_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/aw_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/ar_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_ipc_wrapper.edif ...
+ngc2edif: Total memory usage is 84484 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_periph_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_periph_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block
+   SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1_NO1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/m_amesg_i[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/s_amesg[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_periph_wrapper.edif ...
+ngc2edif: Total memory usage is 80644 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/control_reg[8 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0/LOCKSTEP_Out[3817 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i[30
+   : 24] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.mem_MSR[28 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.ex_MSR[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry[9 : 1]
+   on block SensorMP_microblaze_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl[10 : 1] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.buffer_or_new[32 : 0] on block SensorMP_microblaze_0_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.srl16[42 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Detect_Commands.sample[6 : 0] on block SensorMP_microblaze_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/status_reg[27 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Use_SRL16.tdo_config_word1[15 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/n0087[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/mem_fwd[30 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_cmb[3
+   0 : 28] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/of_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/ex_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/mem_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_wrapper.edif ...
+ngc2edif: Total memory usage is 93380 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_debug_module_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_debug_module_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus debug_module_0/MDM_Core_I1/Config_Reg<31
+   : 1> on block SensorMP_debug_module_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_debug_module_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_instruction_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_instruction_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_instruction_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_data_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_data_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_data_wrapper.edif ...
+ngc2edif: Total memory usage is 78916 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_axi_timer_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_axi_timer_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/bus2ip_rdce<6 : 0> on block
+   SensorMP_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7 : 0> on
+   block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/TC_CORE_I/tCSR0_Reg<31 : 20>
+   on block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_axi_timer_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_block_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_block_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_block_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77892 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_stub.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP_stub.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_stub.edif ...
+ngc2edif: Total memory usage is 77188 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP.edif ...
+ngc2edif: Total memory usage is 88580 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 82308 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_reset_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_reset_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/pr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/bsr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_reset_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_clock_generator_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_clock_generator_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_clock_generator_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77828 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_0_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_0_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_1_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_1_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_ipc_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_ipc_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/aw_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/ar_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_ipc_wrapper.edif ...
+ngc2edif: Total memory usage is 85252 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78212 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_periph_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_periph_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block
+   SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1_NO1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/m_amesg_i[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/s_amesg[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_periph_wrapper.edif ...
+ngc2edif: Total memory usage is 80388 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/control_reg[8 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0/LOCKSTEP_Out[3817 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i[30
+   : 24] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.mem_MSR[28 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.ex_MSR[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry[9 : 1]
+   on block SensorMP_microblaze_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl[10 : 1] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.buffer_or_new[32 : 0] on block SensorMP_microblaze_0_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.srl16[42 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Detect_Commands.sample[6 : 0] on block SensorMP_microblaze_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/status_reg[27 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Use_SRL16.tdo_config_word1[15 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/n0087[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/mem_fwd[30 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_cmb[3
+   0 : 28] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/of_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/ex_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/mem_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_wrapper.edif ...
+ngc2edif: Total memory usage is 93252 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_data_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_data_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_data_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_instruction_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_instruction_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_instruction_wrapper.edif ...
+ngc2edif: Total memory usage is 78916 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_debug_module_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_debug_module_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus debug_module_0/MDM_Core_I1/Config_Reg<31
+   : 1> on block SensorMP_debug_module_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_debug_module_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78532 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_axi_timer_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_axi_timer_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/bus2ip_rdce<6 : 0> on block
+   SensorMP_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7 : 0> on
+   block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/TC_CORE_I/tCSR0_Reg<31 : 20>
+   on block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_axi_timer_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_block_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_block_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_block_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP.edif ...
+ngc2edif: Total memory usage is 88644 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 81732 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_reset_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_reset_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/pr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/bsr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_reset_wrapper.edif ...
+ngc2edif: Total memory usage is 78020 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_clock_generator_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_clock_generator_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_clock_generator_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77316 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_0_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_0_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_1_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_1_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78404 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_ipc_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_ipc_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/aw_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/ar_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_ipc_wrapper.edif ...
+ngc2edif: Total memory usage is 84484 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_1_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78596 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_periph_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_periph_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block
+   SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1_NO1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/m_amesg_i[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/s_amesg[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_periph_wrapper.edif ...
+ngc2edif: Total memory usage is 80388 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/control_reg[8 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0/LOCKSTEP_Out[3817 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i[30
+   : 24] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.mem_MSR[28 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.ex_MSR[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry[9 : 1]
+   on block SensorMP_microblaze_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl[10 : 1] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.buffer_or_new[32 : 0] on block SensorMP_microblaze_0_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.srl16[42 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Detect_Commands.sample[6 : 0] on block SensorMP_microblaze_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/status_reg[27 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Use_SRL16.tdo_config_word1[15 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/n0087[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/mem_fwd[30 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_cmb[3
+   0 : 28] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/of_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/ex_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/mem_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_wrapper.edif ...
+ngc2edif: Total memory usage is 93444 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_debug_module_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_debug_module_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus debug_module_0/MDM_Core_I1/Config_Reg<31
+   : 1> on block SensorMP_debug_module_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_debug_module_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_instruction_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_instruction_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_instruction_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_data_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_data_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_data_wrapper.edif ...
+ngc2edif: Total memory usage is 78084 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_axi_timer_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_axi_timer_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/bus2ip_rdce<6 : 0> on block
+   SensorMP_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7 : 0> on
+   block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/TC_CORE_I/tCSR0_Reg<31 : 20>
+   on block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_axi_timer_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79364 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_block_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_block_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_block_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_stub.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP_stub.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_stub.edif ...
+ngc2edif: Total memory usage is 77252 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP.ngc ...
+WARNING:NetListWriters:298 - No output is written to SensorMP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP.edif ...
+ngc2edif: Total memory usage is 88580 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 82244 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_reset_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_reset_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/pr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0_reset/SEQ/bsr_dec<2 : 0> on
+   block SensorMP_microblaze_0_reset_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_reset_wrapper.edif ...
+ngc2edif: Total memory usage is 77892 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_clock_generator_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_clock_generator_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_clock_generator_0_wrapper.edif ...
+ngc2edif: Total memory usage is 77316 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_0_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_0_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_0_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_0_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 78532 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_v20_1_i2s_mb0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_v20_1_i2s_mb0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRA
+   M_I1/write_addrgray<11 : 0> on block SensorMP_fsl_v20_1_i2s_mb0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_v20_1_i2s_mb0_wrapper.edif ...
+ngc2edif: Total memory usage is 77892 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_fsl_i2s_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_fsl_i2s_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_fsl_i2s_1_wrapper.edif ...
+ngc2edif: Total memory usage is 77956 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_ipc_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_ipc_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_ipc_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/aw_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_i
+   nst/si_register_slice_inst/ar_pipe/storage_data1[66 : 0] on block
+   SensorMP_microblaze_0_axi_ipc_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_ipc_wrapper.edif ...
+ngc2edif: Total memory usage is 84484 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_1_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_1_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_1_wrapper.edif ...
+ngc2edif: Total memory usage is 77892 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_lmb_v10_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_lmb_v10_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_lmb_v10_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78468 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_axi_periph_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_axi_periph_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_2 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block
+   SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1_NO1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg<2 :
+   0> on block SensorMP_microblaze_0_axi_periph_wrapper_fifo_generator_v9_1_1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/m_amesg_i[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0_axi_periph/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.a
+   ddr_arbiter_inst/s_amesg[48 : 1] on block
+   SensorMP_microblaze_0_axi_periph_wrapper is not reconstructed, because there
+   are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_axi_periph_wrapper.edif ...
+ngc2edif: Total memory usage is 80836 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_microblaze_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_microblaze_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/control_reg[8 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus microblaze_0/LOCKSTEP_Out[3817 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i[30
+   : 24] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.mem_MSR[28 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.ex_MSR[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry[9 : 1]
+   on block SensorMP_microblaze_0_wrapper is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl[10 : 1] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.buffer_or_new[32 : 0] on block SensorMP_microblaze_0_wrapper
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_
+   FPGA_Buffers_Mux.srl16[42 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Detect_Commands.sample[6 : 0] on block SensorMP_microblaze_0_wrapper is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/status_reg[27 : 0] on block SensorMP_microblaze_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_
+   Perf/Use_SRL16.tdo_config_word1[15 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/n0087[30 : 0] on block
+   SensorMP_microblaze_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/mem_fwd[30 : 0] on
+   block SensorMP_microblaze_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_cmb[3
+   0 : 28] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/of_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/ex_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/mem_MSR_i[31
+   : 17] on block SensorMP_microblaze_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_microblaze_0_wrapper.edif ...
+ngc2edif: Total memory usage is 93060 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_data_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_data_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_data_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_cntlr_instruction_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_cntlr_instruction_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_cntlr_instruction_wrapper.edif ...
+ngc2edif: Total memory usage is 78340 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_debug_module_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_debug_module_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus debug_module_0/MDM_Core_I1/Config_Reg<31
+   : 1> on block SensorMP_debug_module_0_wrapper is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_debug_module_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78916 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_axi_timer_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_axi_timer_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/bus2ip_rdce<6 : 0> on block
+   SensorMP_axi_timer_0_wrapper is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7 : 0> on
+   block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_timer_0/TC_CORE_I/tCSR0_Reg<31 : 20>
+   on block SensorMP_axi_timer_0_wrapper is not reconstructed, because there are
+   some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file SensorMP_axi_timer_0_wrapper.edif ...
+ngc2edif: Total memory usage is 79236 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SensorMP_bram_block_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   SensorMP_bram_block_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SensorMP_bram_block_0_wrapper.edif ...
+ngc2edif: Total memory usage is 78212 kilobytes
+

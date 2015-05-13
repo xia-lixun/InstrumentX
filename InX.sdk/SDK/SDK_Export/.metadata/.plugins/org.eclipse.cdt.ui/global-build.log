@@ -2465,3 +2465,230 @@ make: Nothing to be done for `all'.
 12:56:31 **** Incremental Build of configuration Debug for project MemTestCortexA90 ****
 make all 
 make: Nothing to be done for `all'.
+16:52:27 **** Auto Build of project MemTestMicroblaze80_bsp ****
+make -k all 
+'Finished building libraries'
+16:52:28 **** Auto Build of project MemTestCortexA90_bsp ****
+make -k all 
+'Finished building libraries'
+16:52:36 **** Clean-only build of project MemTestCortexA90_bsp ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+16:52:38 **** Clean-only build of project MemTestMicroblaze80_bsp ****
+make -k clean 
+rm -rf microblaze_0
+16:52:39 **** Clean-only build of configuration Debug for project MemTestCortexA90 ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  MemTestCortexA90.elf.size  MemTestCortexA90.elf
+' '
+16:52:39 **** Clean-only build of configuration Debug for project MemTestMicroblaze80 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  MemTestMicroblaze80.elf.size  MemTestMicroblaze80.elf.elfcheck  MemTestMicroblaze80.elf
+' '
+16:52:39 **** Build of project MemTestMicroblaze80_bsp ****
+make -k all 
+libgen -hw ../SensorMP_hw_platform/system.xml\
+	       \
+	       -pe microblaze_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../SensorMP_hw_platform/system.xml -pe microblaze_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift
+-mxl-pattern-compare -mcpu=v8.50.c  -O2 -c" "EXTRA_COMPILER_FLAGS=-g
+-ffunction-sections -fdata-sections"'.
+
+Running libs - 'make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift
+-mxl-pattern-compare -mcpu=v8.50.c  -O2 -c" "EXTRA_COMPILER_FLAGS=-g
+-ffunction-sections -fdata-sections"'.
+"Compiling common"
+"Compiling standalone";
+"Compiling bram"
+"Compiling uartlite"
+"Compiling cpu"
+Running execs_generate.
+'Finished building libraries'
+16:52:58 **** Build of configuration Debug for project MemTestMicroblaze80 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O3 -c -fmessage-length=0 -std=c99 -I../../MemTestMicroblaze80_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O3 -c -fmessage-length=0 -std=c99 -I../../MemTestMicroblaze80_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MemTestMicroblaze80.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MemTestMicroblaze80_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "MemTestMicroblaze80.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemTestMicroblaze80.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size MemTestMicroblaze80.elf  |tee "MemTestMicroblaze80.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4046	    268	   3132	   7446	   1d16	MemTestMicroblaze80.elf
+'Finished building: MemTestMicroblaze80.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck MemTestMicroblaze80.elf -hw ../../SensorMP_hw_platform/system.xml -pe microblaze_0  |tee "MemTestMicroblaze80.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../SensorMP_hw_platform/system.xml -pe
+microblaze_0 MemTestMicroblaze80.elf 
+
+ELF file	: MemTestMicroblaze80.elf
+elfcheck passed.
+'Finished building: MemTestMicroblaze80.elf.elfcheck'
+' '
+16:53:02 **** Build of project MemTestCortexA90_bsp ****
+make -k all 
+libgen -hw ../SensorMP_hw_platform/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../SensorMP_hw_platform/system.xml -pe ps7_cortexa9_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling standalone"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling gpiops"
+"Compiling iicps"
+"Compiling qspips"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling usbps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+16:53:35 **** Build of configuration Debug for project MemTestCortexA90 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O3 -c -fmessage-length=0 -I../../MemTestCortexA90_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:89:6: warning: unused variable 'i' [-Wunused-variable]
+../src/main.c:88:17: warning: unused variable 'Ocm' [-Wunused-variable]
+'Finished building: ../src/main.c'
+' '
+'Building target: MemTestCortexA90.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MemTestCortexA90_bsp/ps7_cortexa9_0/lib -o "MemTestCortexA90.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemTestCortexA90.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MemTestCortexA90.elf  |tee "MemTestCortexA90.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25528	   1096	1316464	1343088	 147e70	MemTestCortexA90.elf
+'Finished building: MemTestCortexA90.elf.size'
+' '
+11:01:18 **** Build of project TimerTestMicroblaze_bsp ****
+make -k all 
+libgen -hw ../SensorMP_hw_platform/system.xml\
+	       \
+	       -pe microblaze_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../SensorMP_hw_platform/system.xml -pe microblaze_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift
+-mxl-pattern-compare -mcpu=v8.50.c  -O2 -c" "EXTRA_COMPILER_FLAGS=-g
+-ffunction-sections -fdata-sections"'.
+
+Running libs - 'make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift
+-mxl-pattern-compare -mcpu=v8.50.c  -O2 -c" "EXTRA_COMPILER_FLAGS=-g
+-ffunction-sections -fdata-sections"'.
+"Compiling common"
+"Compiling standalone";
+"Compiling tmrctr"
+"Compiling bram"
+"Compiling uartlite"
+"Compiling cpu"
+Running execs_generate.
+'Finished building libraries'
+11:01:44 **** Build of configuration Debug for project TimerTestMicroblaze ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TimerTestMicroblaze_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.d" -o "src/testperiph.o" "../src/testperiph.c"
+'Finished building: ../src/testperiph.c'
+' '
+'Building file: ../src/xtmrctr_selftest_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../TimerTestMicroblaze_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xtmrctr_selftest_example.d" -MT"src/xtmrctr_selftest_example.d" -o "src/xtmrctr_selftest_example.o" "../src/xtmrctr_selftest_example.c"
+'Finished building: ../src/xtmrctr_selftest_example.c'
+' '
+'Building target: TimerTestMicroblaze.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TimerTestMicroblaze_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TimerTestMicroblaze.elf"  ./src/testperiph.o ./src/xtmrctr_selftest_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TimerTestMicroblaze.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size TimerTestMicroblaze.elf  |tee "TimerTestMicroblaze.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3550	    284	   2124	   5958	   1746	TimerTestMicroblaze.elf
+'Finished building: TimerTestMicroblaze.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck TimerTestMicroblaze.elf -hw ../../SensorMP_hw_platform/system.xml -pe microblaze_0  |tee "TimerTestMicroblaze.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../SensorMP_hw_platform/system.xml -pe
+microblaze_0 TimerTestMicroblaze.elf 
+
+ELF file	: TimerTestMicroblaze.elf
+elfcheck passed.
+'Finished building: TimerTestMicroblaze.elf.elfcheck'
+' '

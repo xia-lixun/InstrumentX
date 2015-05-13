@@ -26,7 +26,7 @@ ISEStep( "bitgen",
          "\"SensorMP_stub_routed.ncd\" \"SensorMP_stub.bit\" \"SensorMP_stub.pcf\" -w -intstyle pa" );
 // post-commands:
 ISEStep( "data2mem",
-         " -bm \"SensorMP_stub_bd.bmm\" -bt \"SensorMP_stub.bit\"  -bd \"D:/Git/Sandbox/InX.srcs/sources_1/imports/microblaze/mb_bootloop_le.elf\" tag SensorMP_i_microblaze_0 -o b \"download.bit\" -p xc7z010clg400-1" );
+         " -bm \"SensorMP_stub_bd.bmm\" -bt \"SensorMP_stub.bit\"  -bd \"D:/Git/InstrumentX/InX.srcs/sources_1/imports/microblaze/mb_bootloop_le.elf\" tag SensorMP_i_microblaze_0 -o b \"download.bit\" -p xc7z010clg400-1" );
 
 
 
