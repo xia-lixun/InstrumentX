@@ -4,6 +4,8 @@
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\TimerTestMicroblaze_bsp\microblaze_0\include"/>
+			<item value="D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\TimerTestMicroblaze_bsp\microblaze_0\libsrc\tmrctr_v2_05_a\src"/>
 			<item value="D:\Git\InstrumentX\InstrumentX.sdk\mem_test_microblaze_0\src"/>
 			<item value="D:\Git\InstrumentX\InstrumentX.sdk\mem_test_cortex_a9_0\src"/>
 		</list>
@@ -12,6 +14,7 @@
 		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.cdt.ui.importWizardCategory"/>
 		</list>
 	</section>
 </section>

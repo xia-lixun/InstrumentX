@@ -1,24 +1,6 @@
-16:53:35 **** Build of configuration Debug for project MemTestCortexA90 ****
+13:16:50 **** Incremental Build of configuration Debug for project MemTestCortexA90 ****
 make all 
-'Building file: ../src/main.c'
-'Invoking: ARM gcc compiler'
-arm-xilinx-eabi-gcc -Wall -O3 -c -fmessage-length=0 -I../../MemTestCortexA90_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'main':
-../src/main.c:89:6: warning: unused variable 'i' [-Wunused-variable]
-../src/main.c:88:17: warning: unused variable 'Ocm' [-Wunused-variable]
-'Finished building: ../src/main.c'
-' '
-'Building target: MemTestCortexA90.elf'
-'Invoking: ARM gcc linker'
-arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MemTestCortexA90_bsp/ps7_cortexa9_0/lib -o "MemTestCortexA90.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: MemTestCortexA90.elf'
-' '
-'Invoking: ARM Print Size'
-arm-xilinx-eabi-size MemTestCortexA90.elf  |tee "MemTestCortexA90.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  25528	   1096	1316464	1343088	 147e70	MemTestCortexA90.elf
-'Finished building: MemTestCortexA90.elf.size'
-' '
+make: Nothing to be done for `all'.
 
-16:53:36 Build Finished (took 1s.404ms)
+13:16:50 Build Finished (took 156ms)
 

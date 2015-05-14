@@ -85,8 +85,7 @@ int main()
 
 	///////////////////////////////////////////////
 	// Loop forever
-	volatile u32 * Ocm = NULL;
-	s32 i;
+	volatile u32 * Ocm = (volatile u32 *) 0xFFFC0004;
 
 	u32 Endian = 0x12345678;
 	u8 * pEndian = (u8 *) (&Endian);
@@ -103,7 +102,7 @@ int main()
     while(1) {
 
     	//Ocm = (volatile u32 *) 0xFFFC0004;
-    	//for(i = 0; i < MN; i++) {
+    	//for(int i = 0; i < MN; i++) {
     	//	OnChipMemBuffer[i] = rand();
     	//	*Ocm = OnChipMemBuffer[i];
     	//	Ocm += 1;
@@ -112,14 +111,12 @@ int main()
 
         //from this point OCM belongs to Microblaze
     	COMM_VAL = 1;
-    	XTime_SetTime(start);
     	while(COMM_VAL == 1);
-    	XTime_GetTime(&stop);
-    	xil_printf("Time benchmark: %d CPU cycles from PMU.\n\r", (stop - start)*2);
+    	xil_printf("Time benchmark: %d CPU cycles from Microblaze.\n\r", *Ocm);
 
     	//now OCM belongs to Cortex A9
     	//Ocm = (volatile u32 *) 0xFFFC0004;
-    	//for(i = 0; i < MN; i++) {
+    	//for(int i = 0; i < MN; i++) {
     	//	if(*Ocm != OnChipMemBuffer[i]+1) {
     	//		xil_printf("CPU0: mismatch found: %x - %x\n\r", *Ocm, OnChipMemBuffer[i]+1);
     	//	}
