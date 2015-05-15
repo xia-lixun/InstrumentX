@@ -38,7 +38,7 @@ module SensorMP_bram_block_0_wrapper
 
   bram_block_0_elaborate
     #(
-      .C_MEMSIZE ( 'h4000 ),
+      .C_MEMSIZE ( 'h8000 ),
       .C_PORT_DWIDTH ( 32 ),
       .C_PORT_AWIDTH ( 32 ),
       .C_NUM_WE ( 4 ),

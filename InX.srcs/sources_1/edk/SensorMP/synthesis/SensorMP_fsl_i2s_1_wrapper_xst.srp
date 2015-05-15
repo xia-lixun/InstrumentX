@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> 
 TABLE OF CONTENTS
@@ -372,12 +372,12 @@ i2s_bck        |    1.071|    0.858|    1.303|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 26.00 secs
-Total CPU time to Xst completion: 25.95 secs
+Total REAL time to Xst completion: 21.00 secs
+Total CPU time to Xst completion: 20.72 secs
  
 --> 
 
-Total memory usage is 454248 kilobytes
+Total memory usage is 460792 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   14 (   0 filtered)

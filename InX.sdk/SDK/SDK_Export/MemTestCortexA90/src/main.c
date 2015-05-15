@@ -60,6 +60,7 @@ int main()
 
 	COMM_VAL = 0;
 
+
 	/**********************************************************
      * mb bootloop
      * If not using FSBL to download Microblaze elf to DDR
@@ -99,6 +100,14 @@ int main()
 	XTime_GetTime(&stop);
 	xil_printf("Time calibrate: %d CPU cycles from PMU.\n\r", (stop - start)*2);
 
+	//u32 * DataBuffer = (u32 *) malloc( 4096 * sizeof(u32) );
+	//xil_printf("Malloc: %x\n\r", DataBuffer);
+
+	*Ocm = 0;
+	volatile u32 * Dram = (volatile u32 *)0x001480C8;
+	*Dram = 654321;
+	Xil_DCacheFlush();
+
     while(1) {
 
     	//Ocm = (volatile u32 *) 0xFFFC0004;
@@ -109,11 +118,13 @@ int main()
         //	//xil_printf("Ocm address: %x\n\r", Ocm);
         //  }
 
+
         //from this point OCM belongs to Microblaze
     	COMM_VAL = 1;
     	while(COMM_VAL == 1);
-    	xil_printf("Time benchmark: %d CPU cycles from Microblaze.\n\r", *Ocm);
-
+    	//xil_printf("Time benchmark: %d CPU cycles from Microblaze.\n\r", *Ocm);
+    	Xil_DCacheInvalidateRange(0x001480C8, 4);
+    	xil_printf("DRAM Shared: %d OCM: %d\n\r", *((volatile u32 *)0x001480C8), *Ocm);
     	//now OCM belongs to Cortex A9
     	//Ocm = (volatile u32 *) 0xFFFC0004;
     	//for(int i = 0; i < MN; i++) {

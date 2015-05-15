@@ -6,13 +6,13 @@
 	<Step Id="ngdbuild">
 	</Step>
 	<Step Id="map">
-		<Option Id="GlobalOptEnum">1</Option>
-		<Option Id="LogicOptBool">0</Option>
-		<Option Id="ExtraEffEnum">0</Option>
-		<Option Id="EffortLvl11Enum">1</Option>
-		<Option Id="TimingBool">1</Option>
 		<Option Id="RegDupBool">1</Option>
 		<Option Id="RetimingBool">0</Option>
+		<Option Id="GlobalOptEnum">1</Option>
+		<Option Id="ExtraEffEnum">0</Option>
+		<Option Id="LogicOptBool">0</Option>
+		<Option Id="EffortLvl11Enum">1</Option>
+		<Option Id="TimingBool">1</Option>
 	</Step>
 	<Step Id="par">
 		<Option Id="OverallEff11Enum">1</Option>

@@ -1472,7 +1472,7 @@ begin
   microblaze_0 : microblaze
     generic map (
       C_SCO => 0,
-      C_FREQ => 133333333,
+      C_FREQ => 125000000,
       C_DATA_SIZE => 32,
       C_DYNAMIC_BUS_SIZING => 1,
       C_FAMILY => "zynq",
@@ -1627,8 +1627,8 @@ begin
       C_USE_INTERRUPT => 0,
       C_USE_EXT_BRK => 1,
       C_USE_EXT_NM_BRK => 1,
-      C_USE_BRANCH_TARGET_CACHE => 0,
-      C_BRANCH_TARGET_CACHE_SIZE => 0,
+      C_USE_BRANCH_TARGET_CACHE => 1,
+      C_BRANCH_TARGET_CACHE_SIZE => 4,
       C_PC_WIDTH => 32
     )
     port map (

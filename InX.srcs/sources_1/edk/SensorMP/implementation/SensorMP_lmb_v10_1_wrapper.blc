@@ -20,10 +20,10 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 199052 kilobytes
+Total memory usage is 201500 kilobytes
 
 Writing NGC file "../SensorMP_lmb_v10_1_wrapper.ngc" ...
-Total REAL time to NGCBUILD completion:  13 sec
-Total CPU time to NGCBUILD completion:   12 sec
+Total REAL time to NGCBUILD completion:  9 sec
+Total CPU time to NGCBUILD completion:   9 sec
 
 Writing NGCBUILD log file "../SensorMP_lmb_v10_1_wrapper.blc"...

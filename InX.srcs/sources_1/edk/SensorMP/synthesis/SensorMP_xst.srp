@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> 
 TABLE OF CONTENTS
@@ -1393,7 +1393,7 @@ Optimizing unit <SensorMP> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 0) on block SensorMP, actual ratio is 18.
+Found area constraint ratio of 100 (+ 0) on block SensorMP, actual ratio is 20.
 INFO:Xst:2260 - The FF/Latch <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_0_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_1_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
@@ -1414,13 +1414,10 @@ INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> in Unit <microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_31> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_31_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_30> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_30_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1> 
-INFO:Xst:2260 - The FF/Latch <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
+INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28> in Unit <microblaze_0> is equivalent to the following 2 FFs/Latches : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1> <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_2> 
+INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i> in Unit <microblaze_0> is equivalent to the following 2 FFs/Latches : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1> <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_2> 
 INFO:Xst:2260 - The FF/Latch <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[21].TCSR1_FF_I> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[21].TCSR0_FF_I> 
+INFO:Xst:2260 - The FF/Latch <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_0_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty> in Unit <fsl_v20_1_i2s_mb0> is equivalent to the following 2 FFs/Latches : <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_1> <fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty_2> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
@@ -1459,11 +1456,8 @@ INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> in Unit <microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_READ.USE_SPLIT.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_31> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_31_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_30> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_30_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29_1> 
-INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28> in Unit <microblaze_0> is equivalent to the following FF/Latch : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1> 
+INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28> in Unit <microblaze_0> is equivalent to the following 2 FFs/Latches : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1> <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_2> 
+INFO:Xst:2260 - The FF/Latch <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i> in Unit <microblaze_0> is equivalent to the following 2 FFs/Latches : <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1> <microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_2> 
 INFO:Xst:2260 - The FF/Latch <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[21].TCSR1_FF_I> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[21].TCSR0_FF_I> 
 INFO:Xst:2260 - The FF/Latch <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg> in Unit <axi_timer_0> is equivalent to the following FF/Latch : <axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_1> 
 
@@ -1494,46 +1488,47 @@ Top Level Output File Name         : SensorMP.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 5119
+# BELS                             : 5348
 #      GND                         : 25
-#      INV                         : 177
+#      INV                         : 180
 #      LUT1                        : 107
-#      LUT2                        : 355
-#      LUT3                        : 598
-#      LUT4                        : 640
-#      LUT5                        : 804
-#      LUT6                        : 1144
+#      LUT2                        : 367
+#      LUT3                        : 612
+#      LUT4                        : 661
+#      LUT5                        : 888
+#      LUT6                        : 1206
 #      LUT6_2                      : 118
 #      MULT_AND                    : 2
-#      MUXCY                       : 357
-#      MUXCY_L                     : 294
-#      MUXF7                       : 120
+#      MUXCY                       : 375
+#      MUXCY_L                     : 305
+#      MUXF7                       : 124
 #      VCC                         : 14
 #      XORCY                       : 364
-# FlipFlops/Latches                : 4130
-#      FD                          : 262
+# FlipFlops/Latches                : 4323
+#      FD                          : 261
 #      FD_1                        : 4
 #      FDC                         : 82
 #      FDC_1                       : 5
 #      FDCE                        : 243
-#      FDE                         : 827
+#      FDE                         : 885
 #      FDE_1                       : 64
 #      FDP                         : 83
 #      FDPE                        : 24
-#      FDR                         : 887
-#      FDRE                        : 1578
+#      FDR                         : 915
+#      FDRE                        : 1686
 #      FDRE_1                      : 1
 #      FDS                         : 14
 #      FDSE                        : 56
-# RAMS                             : 86
+# RAMS                             : 148
 #      RAM128X1D                   : 44
 #      RAM32M                      : 25
 #      RAM32X1D                    : 4
-#      RAMB36E1                    : 13
-# Shift Registers                  : 250
+#      RAM64X1D                    : 58
+#      RAMB36E1                    : 17
+# Shift Registers                  : 254
 #      SRL16                       : 3
 #      SRL16E                      : 34
-#      SRLC16E                     : 153
+#      SRLC16E                     : 157
 #      SRLC32E                     : 60
 # Clock Buffers                    : 5
 #      BUFG                        : 5
@@ -1553,27 +1548,27 @@ Selected Device : 7z010clg400-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            4130  out of  35200    11%  
- Number of Slice LUTs:                 4477  out of  17600    25%  
-    Number used as Logic:              3943  out of  17600    22%  
-    Number used as Memory:              534  out of   6000     8%  
-       Number used as RAM:              284
-       Number used as SRL:              250
+ Number of Slice Registers:            4323  out of  35200    12%  
+ Number of Slice LUTs:                 4793  out of  17600    27%  
+    Number used as Logic:              4139  out of  17600    23%  
+    Number used as Memory:              654  out of   6000    10%  
+       Number used as RAM:              400
+       Number used as SRL:              254
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   6787
-   Number with an unused Flip Flop:    2657  out of   6787    39%  
-   Number with an unused LUT:          2310  out of   6787    34%  
-   Number of fully used LUT-FF pairs:  1820  out of   6787    26%  
-   Number of unique control sets:       238
+ Number of LUT Flip Flop pairs used:   7229
+   Number with an unused Flip Flop:    2906  out of   7229    40%  
+   Number with an unused LUT:          2436  out of   7229    33%  
+   Number of fully used LUT-FF pairs:  1887  out of   7229    26%  
+   Number of unique control sets:       244
 
 IO Utilization: 
  Number of IOs:                         137
  Number of bonded IOBs:                   0  out of    100     0%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:               13  out of     60    21%  
-    Number using Block RAM only:         13
+ Number of Block RAM/FIFO:               17  out of     60    28%  
+    Number using Block RAM only:         17
  Number of BUFG/BUFGCTRLs:                5  out of     32    15%  
  Number of DSP48E1s:                      3  out of     80     3%  
 
@@ -1598,7 +1593,7 @@ Clock Information:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Clock Signal                                                                                                                                                          | Clock buffer(FF name)                                                                                                                                                                                                                                                                                                           | Load  |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0                                                                                                                 | BUFG                                                                                                                                                                                                                                                                                                                            | 4072  |
+clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0                                                                                                                 | BUFG                                                                                                                                                                                                                                                                                                                            | 4331  |
 fsl_i2s_0_i2s_bck_pin                                                                                                                                                 | NONE(fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/POR_FF_I)                                                                                                                                                                                                                                                                              | 76    |
 fsl_v20_0_i2s_mb0/FSL_Control_IRQ                                                                                                                                     | NONE(fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem3)                                                                                                                                                                                                         | 4     |
 fsl_i2s_1_i2s_bck_pin                                                                                                                                                 | NONE(fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/POR_FF_I)                                                                                                                                                                                                                                                                              | 76    |
@@ -1615,12 +1610,12 @@ Asynchronous Control Signals Information:
 Control Signal                                                                                                                                                                                                                                                                                                                                       | Buffer(FF name)                                                                                                                                                                                                                                                                                                                 | Load  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 fsl_v20_0_i2s_mb0/N1(fsl_v20_0_i2s_mb0/XST_VCC:P)                                                                                                                                                                                                                                                                                                    | NONE(fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem2)                                                                                                                                                                                                         | 744   |
-fsl_v20_1_i2s_mb0/N1(fsl_v20_1_i2s_mb0/XST_VCC:P)                                                                                                                                                                                                                                                                                                    | NONE(fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem1)                                                                                                                                                                                                         | 744   |
+fsl_v20_1_i2s_mb0/N1(fsl_v20_1_i2s_mb0/XST_VCC:P)                                                                                                                                                                                                                                                                                                    | NONE(fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem4)                                                                                                                                                                                                         | 744   |
 fsl_v20_0_i2s_mb0/FSL_Control_IRQ(fsl_v20_0_i2s_mb0/XST_GND:G)                                                                                                                                                                                                                                                                                       | NONE(fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem2)                                                                                                                                                                                                         | 432   |
-fsl_v20_1_i2s_mb0/FSL_Control_IRQ(fsl_v20_1_i2s_mb0/XST_GND:G)                                                                                                                                                                                                                                                                                       | NONE(fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem1)                                                                                                                                                                                                         | 432   |
+fsl_v20_1_i2s_mb0/FSL_Control_IRQ(fsl_v20_1_i2s_mb0/XST_GND:G)                                                                                                                                                                                                                                                                                       | NONE(fsl_v20_1_i2s_mb0/fsl_v20_1_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Mram_ram_mem4)                                                                                                                                                                                                         | 432   |
 microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/N1(microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/XST_VCC:P)| NONE(microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1)| 124   |
 microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/N0(microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/XST_GND:G)| NONE(microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1)| 72    |
-bram_block_0/bram_block_0/net_gnd0(bram_block_0/bram_block_0/XST_GND:G)                                                                                                                                                                                                                                                                              | NONE(bram_block_0/bram_block_0/ramb36e1_0)                                                                                                                                                                                                                                                                                      | 8     |
+bram_block_0/bram_block_0/net_gnd0(bram_block_0/bram_block_0/XST_GND:G)                                                                                                                                                                                                                                                                              | NONE(bram_block_0/bram_block_0/ramb36e1_2)                                                                                                                                                                                                                                                                                      | 16    |
 microblaze_0/DCACHE_FSL_OUT_CONTROL(microblaze_0/XST_GND:G)                                                                                                                                                                                                                                                                                          | NONE(microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1)| 4     |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 
@@ -1640,7 +1635,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0'
   Clock period: 4.826ns (frequency: 207.225MHz)
-  Total number of paths / destination ports: 562464 / 10632
+  Total number of paths / destination ports: 730835 / 11607
 -------------------------------------------------------------------------
 Delay:               4.826ns (Levels of Logic = 9)
   Source:            axi_timer_0/axi_timer_0/AXI4_LITE_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1 (FF)
@@ -1770,7 +1765,7 @@ Delay:               2.840ns (Levels of Logic = 4)
      LUT2:I0->O            2   0.053   0.731  debug_module_0/MDM_Core_I1/JTAG_CONTROL_I/Mmux_Dbg_Reg_En_I41 (Dbg_Reg_En_0<3>)
      end scope: 'debug_module_0:Dbg_Reg_En_0<3>'
      begin scope: 'microblaze_0:DBG_REG_EN<3>'
-     LUT5:I0->O            4   0.053   0.433  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_GND_329_o_PWR_136_o_MUX_5563_o111 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_GND_329_o_PWR_136_o_MUX_5563_o11)
+     LUT5:I0->O            4   0.053   0.433  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_GND_332_o_PWR_139_o_MUX_5908_o111 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Mmux_GND_332_o_PWR_139_o_MUX_5908_o11)
      LUT4:I3->O           10   0.053   0.458  microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En<0>1 (microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Control_Reg_En)
      FDCE:CE                   0.200          microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/single_Step_TClk
     ----------------------------------------
@@ -1902,36 +1897,31 @@ Offset:              4.748ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0'
-  Total number of paths / destination ports: 1595 / 338
+  Total number of paths / destination ports: 1601 / 338
 -------------------------------------------------------------------------
-Offset:              3.707ns (Levels of Logic = 13)
-  Source:            microblaze_0_axi_ipc/microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2 (FF)
+Offset:              3.829ns (Levels of Logic = 8)
+  Source:            fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty (FF)
   Destination:       microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DLMB.Using_Latch_AS_Logic.AND2B1L_I1:DI (PAD)
   Source Clock:      clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0 rising
 
-  Data Path: microblaze_0_axi_ipc/microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2 to microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DLMB.Using_Latch_AS_Logic.AND2B1L_I1:DI
+  Data Path: fsl_v20_0_i2s_mb0/fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty to microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DLMB.Using_Latch_AS_Logic.AND2B1L_I1:DI
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDS:C->Q             14   0.282   0.687  microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2 (microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/mi_register_slice_inst/r_pipe/state_FSM_FFd2)
-     LUT3:I0->O          107   0.053   0.804  microblaze_0_axi_ipc/si_converter_bank/gen_conv_slot[0].gen_upsizer.upsizer_inst/USE_READ.read_data_inst/S_AXI_RVALID_I1 (DEBUG_SR_SC_RDATACONTROL<0>)
-     end scope: 'microblaze_0_axi_ipc:S_AXI_RVALID<0>'
-     begin scope: 'microblaze_0:M_AXI_DC_RVALID'
-     LUT4:I0->O           33   0.053   0.755  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Update_Idle1 (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Update_Idle)
-     LUT6:I3->O            1   0.053   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_1/Using_FPGA.A_N1 (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_1/Using_FPGA.A_N)
-     MUXCY_L:S->LO         1   0.291   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_1/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_iii)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_sel_carry_or_2/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/dcache_data_strobe_ii)
-     MUXCY_L:CI->LO       34   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Use_XX_Accesses_Hit.dcache_data_strobe_sel2_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.mem_dcache_data_strobe)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready_sel_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.mem_databus_ready)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N_carry_or/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_wait_on_ready_N)
-     MUXCY_L:CI->LO      237   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_PipeRun_carry_and/Using_FPGA.MUXCY_I (Trace_MEM_PipeRun)
-     MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[1].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<1>)
+     FDPE:C->Q            27   0.282   0.550  fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty (fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/empty)
+     INV:I->O              1   0.067   0.739  fsl_v20_0_i2s_mb0/Using_FIFO.Async_FIFO_Gen.Use_Data.Use_BRAM0.Async_FIFO_BRAM_I1/Exists1_INV_0 (FSL_Has_Data)
+     end scope: 'fsl_v20_0_i2s_mb0:FSL_S_Exists'
+     begin scope: 'microblaze_0:FSL0_S_EXISTS'
+     LUT6:I0->O           10   0.053   0.661  microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/Mmux_fsl_get_no_i[3]_FSL_S_Exists[15]_Mux_2_o11 (microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/fsl_get_no_i[3]_FSL_S_Exists[15]_Mux_2_o)
+     LUT6:I3->O            5   0.053   0.440  microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/FSL_Stall1 (microblaze_0/MicroBlaze_Core_I/FSL_Stall)
+     LUT2:I1->O            1   0.053   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl<1>1 (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_pipe_ctrl<1>)
+     MUXCY_L:S->LO         1   0.291   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[1].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<1>)
      MUXCY_L:CI->LO        1   0.015   0.000  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[2].OF_Piperun_Stage/Using_FPGA.MUXCY_I (microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/of_PipeRun_carry<2>)
-     MUXCY_L:CI->LO      297   0.015   0.610  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[3].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_EX_PipeRun)
+     MUXCY_L:CI->LO      299   0.015   0.610  microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Use_MuxCy[3].OF_Piperun_Stage/Using_FPGA.MUXCY_I (Trace_EX_PipeRun)
     AND2B1L:DI                 0.000          microblaze_0/MicroBlaze_Core_I/Performance.Use_DLMB.Using_Latch_AS_Logic.AND2B1L_I1
     ----------------------------------------
-    Total                      3.707ns (0.852ns logic, 2.855ns route)
-                                       (23.0% logic, 77.0% route)
+    Total                      3.829ns (0.829ns logic, 3.000ns route)
+                                       (21.6% logic, 78.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'debug_module_0/Ext_JTAG_UPDATE'
@@ -2049,7 +2039,7 @@ Clock to Setup on destination clock debug_module_0/debug_module_0/drck_i
                                                      | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -----------------------------------------------------+---------+---------+---------+---------+
-clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0|    2.948|         |         |         |
+clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0|    3.082|         |         |         |
 debug_module_0/Ext_JTAG_UPDATE                       |         |    3.061|    1.765|         |
 debug_module_0/debug_module_0/drck_i                 |    1.841|    2.423|    2.049|         |
 -----------------------------------------------------+---------+---------+---------+---------+
@@ -2075,14 +2065,14 @@ fsl_i2s_1_i2s_bck_pin                                |    2.893|    2.167|    1.
 =========================================================================
 
 
-Total REAL time to Xst completion: 70.00 secs
-Total CPU time to Xst completion: 69.97 secs
+Total REAL time to Xst completion: 68.00 secs
+Total CPU time to Xst completion: 67.72 secs
  
 --> 
 
-Total memory usage is 566056 kilobytes
+Total memory usage is 570872 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   15 (   0 filtered)
-Number of infos    : 1280 (   0 filtered)
+Number of infos    : 1274 (   0 filtered)
 

@@ -26,6 +26,18 @@
 <msg type="warning" file="NgdBuild" num="931" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3</arg>&apos; of type <arg fmt="%s" index="2">RAMB36E1</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX6</arg>&apos; to &apos;<arg fmt="%s" index="4">7SERIES</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf.
 </msg>
 
+<msg type="warning" file="NgdBuild" num="931" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4</arg>&apos; of type <arg fmt="%s" index="2">RAMB36E1</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX6</arg>&apos; to &apos;<arg fmt="%s" index="4">7SERIES</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="931" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5</arg>&apos; of type <arg fmt="%s" index="2">RAMB36E1</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX6</arg>&apos; to &apos;<arg fmt="%s" index="4">7SERIES</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="931" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6</arg>&apos; of type <arg fmt="%s" index="2">RAMB36E1</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX6</arg>&apos; to &apos;<arg fmt="%s" index="4">7SERIES</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="931" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7</arg>&apos; of type <arg fmt="%s" index="2">RAMB36E1</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX6</arg>&apos; to &apos;<arg fmt="%s" index="4">7SERIES</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf.
+</msg>
+
 <msg type="warning" file="ConstraintSystem" num="58" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP microblaze_0_axi_periph_reset_source =   FFS  PADS  CPUS;&gt; [SensorMP_stub.ucf(532)]</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
 </msg>
 
@@ -33,7 +45,7 @@
 </msg>
 
 <msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_0</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_0</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">clock_generator_0/MMCM1_INST/MMCM_ADV_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
-<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD &quot;SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0&quot; TS_clk_fpga_0 * 1.333333333 HIGH 50%&gt;</arg>
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD &quot;SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0&quot; TS_clk_fpga_0 * 1.25 HIGH 50%&gt;</arg>
 </msg>
 
 <msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;fsl_i2s_0_i2s_bck_pin&quot; PERIOD = 50 ns;&gt; [SensorMP_stub.ucf(577)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.

@@ -57,6 +57,42 @@ WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
    this primitive to 7SERIES, please see
    http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
    n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
 Resolving constraint associations...
 Checking Constraint Associations...
 WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
@@ -95,11 +131,11 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings:  10
+  Number of warnings:  14
 
 Writing NGD file "SensorMP_stub.ngd" ...
-Total REAL time to NGDBUILD completion: 1 min  33 sec
-Total CPU time to NGDBUILD completion:   49 sec
+Total REAL time to NGDBUILD completion: 1 min  48 sec
+Total CPU time to NGDBUILD completion:   55 sec
 
 Writing NGDBUILD log file "SensorMP_stub.bld"...
 
@@ -118,17 +154,17 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 1 mins 7 secs 
-Total CPU  time at the beginning of Placer: 1 mins 7 secs 
+Total REAL time at the beginning of Placer: 1 mins 31 secs 
+Total CPU  time at the beginning of Placer: 1 mins 31 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:fa47113d) REAL time: 1 mins 10 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:9698b923) REAL time: 1 mins 37 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:fa47113d) REAL time: 1 mins 11 secs 
+Phase 2.7  Design Feasibility Check (Checksum:9698b923) REAL time: 1 mins 38 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:55a03e8d) REAL time: 1 mins 11 secs 
+Phase 3.31  Local Placement Optimization (Checksum:a27a9073) REAL time: 1 mins 38 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
@@ -162,38 +198,38 @@ WARNING:Place:1399 - A clock IOB / BUFGCTRL clock component pair have been found
    timing results. It is recommended that this error condition be corrected in
    the design.
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:d7bdacea) REAL time: 1 mins 22 secs 
+(Checksum:b6ed3d0) REAL time: 1 mins 54 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:d7bdacea) REAL time: 1 mins 22 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:b6ed3d0) REAL time: 1 mins 54 secs 
 
 Phase 6.3  Local Placement Optimization
-Phase 6.3  Local Placement Optimization (Checksum:d7bdacea) REAL time: 1 mins 22 secs 
+Phase 6.3  Local Placement Optimization (Checksum:b6ed3d0) REAL time: 1 mins 54 secs 
 
 Phase 7.5  Local Placement Optimization
-Phase 7.5  Local Placement Optimization (Checksum:d7bdacea) REAL time: 1 mins 23 secs 
+Phase 7.5  Local Placement Optimization (Checksum:b6ed3d0) REAL time: 1 mins 55 secs 
 
 Phase 8.8  Global Placement
-.................................
-....................................................................
-...........................................................................................
+..........................
+...............................................................................
 ................................................................................................
-Phase 8.8  Global Placement (Checksum:86e8198) REAL time: 2 mins 55 secs 
+.........................................................................
+Phase 8.8  Global Placement (Checksum:1994a95b) REAL time: 4 mins 6 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:86e8198) REAL time: 2 mins 55 secs 
+Phase 9.5  Local Placement Optimization (Checksum:1994a95b) REAL time: 4 mins 7 secs 
 
 Phase 10.18  Placement Optimization
-Phase 10.18  Placement Optimization (Checksum:e27c93f4) REAL time: 3 mins 11 secs 
+Phase 10.18  Placement Optimization (Checksum:b6c2f5d4) REAL time: 4 mins 32 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:e27c93f4) REAL time: 3 mins 11 secs 
+Phase 11.5  Local Placement Optimization (Checksum:b6c2f5d4) REAL time: 4 mins 32 secs 
 
 Phase 12.34  Placement Validation
-Phase 12.34  Placement Validation (Checksum:e27c93f4) REAL time: 3 mins 12 secs 
+Phase 12.34  Placement Validation (Checksum:b6c2f5d4) REAL time: 4 mins 33 secs 
 
-Total REAL time to Placer completion: 3 mins 12 secs 
-Total CPU  time to Placer completion: 3 mins 12 secs 
+Total REAL time to Placer completion: 4 mins 33 secs 
+Total CPU  time to Placer completion: 4 mins 30 secs 
 Running physical synthesis...
 
 Physical synthesis completed.
@@ -205,41 +241,44 @@ Design Summary:
 Number of errors:      0
 Number of warnings:   30
 Slice Logic Utilization:
-  Number of Slice Registers:                 3,234 out of  35,200    9%
-    Number used as Flip Flops:               3,183
+  Number of Slice Registers:                 3,423 out of  35,200    9%
+    Number used as Flip Flops:               3,372
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:               51
-  Number of Slice LUTs:                      3,720 out of  17,600   21%
-    Number used as logic:                    3,105 out of  17,600   17%
-      Number using O6 output only:           2,275
-      Number using O5 output only:             114
-      Number using O5 and O6:                  716
+  Number of Slice LUTs:                      3,964 out of  17,600   22%
+    Number used as logic:                    3,280 out of  17,600   18%
+      Number using O6 output only:           2,424
+      Number using O5 output only:             115
+      Number using O5 and O6:                  741
       Number used as ROM:                        0
-    Number used as Memory:                     528 out of   6,000    8%
+    Number used as Memory:                     590 out of   6,000    9%
       Number used as Dual Port RAM:            284
         Number using O6 output only:           184
         Number using O5 output only:             4
         Number using O5 and O6:                 96
-      Number used as Single Port RAM:            0
-      Number used as Shift Register:           244
-        Number using O6 output only:           243
+      Number used as Single Port RAM:           58
+        Number using O6 output only:            58
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Shift Register:           248
+        Number using O6 output only:           247
         Number using O5 output only:             1
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     87
-      Number with same-slice register load:     71
-      Number with same-slice carry load:        16
+    Number used exclusively as route-thrus:     94
+      Number with same-slice register load:     79
+      Number with same-slice carry load:        15
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 1,727 out of   4,400   39%
-  Number of LUT Flip Flop pairs used:        4,698
-    Number with an unused Flip Flop:         1,685 out of   4,698   35%
-    Number with an unused LUT:                 978 out of   4,698   20%
-    Number of fully used LUT-FF pairs:       2,035 out of   4,698   43%
-    Number of unique control sets:             225
+  Number of occupied Slices:                 1,770 out of   4,400   40%
+  Number of LUT Flip Flop pairs used:        4,964
+    Number with an unused Flip Flop:         1,761 out of   4,964   35%
+    Number with an unused LUT:               1,000 out of   4,964   20%
+    Number of fully used LUT-FF pairs:       2,203 out of   4,964   44%
+    Number of unique control sets:             232
     Number of slice register sites lost
-      to control set restrictions:             961 out of  35,200    2%
+      to control set restrictions:             990 out of  35,200    2%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -255,8 +294,8 @@ IO Utilization:
   Number of bonded IOPAD:                      130 out of     130  100%
 
 Specific Feature Utilization:
-  Number of RAMB36E1/FIFO36E1s:                 13 out of      60   21%
-    Number using RAMB36E1 only:                 13
+  Number of RAMB36E1/FIFO36E1s:                 17 out of      60   28%
+    Number using RAMB36E1 only:                 17
     Number using FIFO36E1 only:                  0
   Number of RAMB18E1/FIFO18E1s:                  0 out of     120    0%
   Number of BUFG/BUFGCTRLs:                      5 out of      32   15%
@@ -288,11 +327,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                4.08
+Average Fanout of Non-Clock Nets:                4.17
 
-Peak Memory Usage:  828 MB
-Total REAL time to MAP completion:  3 mins 21 secs 
-Total CPU time to MAP completion:   3 mins 21 secs 
+Peak Memory Usage:  841 MB
+Total REAL time to MAP completion:  4 mins 46 secs 
+Total CPU time to MAP completion:   4 mins 43 secs 
 
 Mapping completed.
 See MAP report file "SensorMP_stub.mrp" for details.
@@ -328,15 +367,15 @@ Device Utilization Summary:
 
    Number of MMCME2_ADVs                     1 out of 2      50%
    Number of PS7s                            1 out of 1     100%
-   Number of RAMB36E1s                      13 out of 60     21%
-   Number of Slices                       1727 out of 4400   39%
-   Number of Slice Registers              3234 out of 35200   9%
-      Number used as Flip Flops           3234
+   Number of RAMB36E1s                      17 out of 60     28%
+   Number of Slices                       1770 out of 4400   40%
+   Number of Slice Registers              3423 out of 35200   9%
+      Number used as Flip Flops           3423
       Number used as Latches                 0
       Number used as LatchThrus              0
 
-   Number of Slice LUTS                   3720 out of 17600  21%
-   Number of Slice LUT-Flip Flop pairs    4602 out of 17600  26%
+   Number of Slice LUTS                   3964 out of 17600  22%
+   Number of Slice LUT-Flip Flop pairs    4872 out of 17600  27%
 
 
 Overall effort level (-ol):   High 
@@ -344,17 +383,13 @@ Router effort level (-rl):    High
 
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 30 secs 
-Finished initial Timing Analysis.  REAL time: 30 secs 
+Starting initial Timing Analysis.  REAL time: 42 secs 
+Finished initial Timing Analysis.  REAL time: 43 secs 
 
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_con
    v_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/
    gdm.dm/Mram_RAM_RAMD_D1_O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_con
-   v_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo
-   .mem/gdm.dm/Mram_RAM_RAMD_D1_O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.ax
    i3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fif
@@ -364,36 +399,43 @@ WARNING:Par:288 - The signal
    i3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_syn
    c_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1
-   _O has no load.  PAR will not attempt to route this signal.
+   SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_con
+   v_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo
+   .mem/gdm.dm/Mram_RAM_RAMD_D1_O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1
    _O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy2_RAMD_D1
    _O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1
    _O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy4_RAMD_D1
    _O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[31] has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1
+   _O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[31] has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[30] has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[15].ram32m_i_RAMD_D1
+   _O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_
    O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1
+   _O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[14].ram32m_i_RAMD_D1
    _O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[9].ram32m_i_RAMD_D1_
    O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[30] has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_
-   O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[15].ram32m_i_RAMD_D1
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1
    _O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[12].ram32m_i_RAMD_D1
@@ -402,56 +444,53 @@ WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[7].ram32m_i_RAMD_D1_
    O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[2].ram32m_i_RAMD_D1_
-   O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1
-   _O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[1].ram32m_i_RAMD_D1_
-   O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_
-   O has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[3].ram32m_i_RAMD_D1_
    O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[5].ram32m_i_RAMD_D1_
+   O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[1].ram32m_i_RAMD_D1_
    O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[10].ram32m_i_RAMD_D1
    _O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[5].ram32m_i_RAMD_D1_
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_
    O has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1
-   _O has no load.  PAR will not attempt to route this signal.
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_
+   O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[2].ram32m_i_RAMD_D1_
+   O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_
+   O has no load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 27713 unrouted;      REAL time: 31 secs 
+Phase  1  : 30057 unrouted;      REAL time: 45 secs 
 
-Phase  2  : 21714 unrouted;      REAL time: 33 secs 
+Phase  2  : 23502 unrouted;      REAL time: 47 secs 
 
-Phase  3  : 7243 unrouted;      REAL time: 44 secs 
+Phase  3  : 8103 unrouted;      REAL time: 1 mins 2 secs 
 
-Phase  4  : 7224 unrouted; (Setup:0, Hold:36725, Component Switching Limit:0)     REAL time: 49 secs 
+Phase  4  : 8178 unrouted; (Setup:0, Hold:39530, Component Switching Limit:0)     REAL time: 1 mins 17 secs 
 
 Updating file: SensorMP_stub_routed.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:28, Hold:33018, Component Switching Limit:0)     REAL time: 1 mins 4 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:35236, Component Switching Limit:0)     REAL time: 1 mins 44 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:33018, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:35236, Component Switching Limit:0)     REAL time: 1 mins 44 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:33018, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:35236, Component Switching Limit:0)     REAL time: 1 mins 44 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:33018, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:35236, Component Switching Limit:0)     REAL time: 1 mins 44 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 12 secs 
-Total REAL time to Router completion: 1 mins 12 secs 
-Total CPU time to Router completion: 1 mins 15 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 55 secs 
+Total REAL time to Router completion: 1 mins 55 secs 
+Total CPU time to Router completion: 1 mins 58 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -471,17 +510,17 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |SensorMP_i/bram_cntl |              |      |      |            |             |
 |r_data_portb_BRAM_Cl |              |      |      |            |             |
-|                   k | BUFGCTRL_X0Y3| No   | 1312 |  0.201     |  1.844      |
+|                   k | BUFGCTRL_X0Y3| No   | 1389 |  0.201     |  1.844      |
++---------------------+--------------+------+------+------------+-------------+
+|fsl_i2s_1_i2s_bck_pi |              |      |      |            |             |
+|             n_BUFGP | BUFGCTRL_X0Y0| No   |   29 |  0.059     |  1.713      |
++---------------------+--------------+------+------+------------+-------------+
+|fsl_i2s_0_i2s_bck_pi |              |      |      |            |             |
+|             n_BUFGP | BUFGCTRL_X0Y4| No   |   30 |  0.095     |  1.741      |
 +---------------------+--------------+------+------+------------+-------------+
 |SensorMP_i/debug_mod |              |      |      |            |             |
 |ule_0_MBDEBUG_0_Dbg_ |              |      |      |            |             |
-|                 Clk | BUFGCTRL_X0Y1| No   |   72 |  0.096     |  1.752      |
-+---------------------+--------------+------+------+------------+-------------+
-|fsl_i2s_1_i2s_bck_pi |              |      |      |            |             |
-|             n_BUFGP | BUFGCTRL_X0Y0| No   |   31 |  0.056     |  1.718      |
-+---------------------+--------------+------+------+------------+-------------+
-|fsl_i2s_0_i2s_bck_pi |              |      |      |            |             |
-|             n_BUFGP | BUFGCTRL_X0Y4| No   |   29 |  0.098     |  1.749      |
+|                 Clk | BUFGCTRL_X0Y1| No   |   67 |  0.098     |  1.754      |
 +---------------------+--------------+------+------+------------+-------------+
 |SensorMP_i/processin |              |      |      |            |             |
 |g_system7_0_FCLK_CLK |              |      |      |            |             |
@@ -489,7 +528,7 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |SensorMP_i/debug_mod |              |      |      |            |             |
 |ule_0_MBDEBUG_0_Dbg_ |              |      |      |            |             |
-|              Update |         Local|      |   21 |  1.869     |  2.835      |
+|              Update |         Local|      |   21 |  2.606     |  3.887      |
 +---------------------+--------------+------+------+------------+-------------+
 |SensorMP_i/clock_gen |              |      |      |            |             |
 |erator_0/clock_gener |              |      |      |            |             |
@@ -516,37 +555,35 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_SensorMP_i_clock_generator_0_clock_gen | SETUP       |     0.004ns|     7.496ns|       0|           0
-  erator_0_SIG_MMCM1_CLKOUT0 = PERIOD       | HOLD        |     0.000ns|            |       0|           0
+  TS_SensorMP_i_clock_generator_0_clock_gen | SETUP       |     0.010ns|     7.990ns|       0|           0
+  erator_0_SIG_MMCM1_CLKOUT0 = PERIOD       | HOLD        |     0.007ns|            |       0|           0
      TIMEGRP         "SensorMP_i_clock_gene |             |            |            |        |            
   rator_0_clock_generator_0_SIG_MMCM1_CLKOU |             |            |            |        |            
-  T0"         TS_clk_fpga_0 * 1.33333333 HI |             |            |            |        |            
-  GH 50%                                    |             |            |            |        |            
+  T0"         TS_clk_fpga_0 * 1.25 HIGH 50% |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_clock_generator_0_CLKOUT0 = PERIOD TIM | MINPERIOD   |     4.556ns|     2.944ns|       0|           0
-  EGRP "tnm_clk_125MHz" 7.5 ns HIGH         |             |            |            |        |            
-   50%                                      |             |            |            |        |            
+  TS_clock_generator_0_CLKOUT0 = PERIOD TIM | MINPERIOD   |     5.056ns|     2.944ns|       0|           0
+  EGRP "tnm_clk_125MHz" 8 ns HIGH 50%       |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_ | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
   0" 100 MHz HIGH 50%                       |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  NET "fsl_i2s_1_i2s_bck_pin_BUFGP/IBUFG" P | SETUP       |    18.768ns|    12.464ns|       0|           0
-  ERIOD = 50 ns HIGH 50%                    | HOLD        |     0.014ns|            |       0|           0
+  NET "fsl_i2s_0_i2s_bck_pin_BUFGP/IBUFG" P | SETUP       |    19.939ns|    10.122ns|       0|           0
+  ERIOD = 50 ns HIGH 50%                    | HOLD        |     0.045ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  NET "fsl_i2s_0_i2s_bck_pin_BUFGP/IBUFG" P | SETUP       |    19.036ns|    11.928ns|       0|           0
-  ERIOD = 50 ns HIGH 50%                    | HOLD        |     0.008ns|            |       0|           0
+  NET "fsl_i2s_1_i2s_bck_pin_BUFGP/IBUFG" P | SETUP       |    20.043ns|     9.914ns|       0|           0
+  ERIOD = 50 ns HIGH 50%                    | HOLD        |     0.009ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_microblaze_0_axi_periph_reset_re | SETUP       |         N/A|     1.678ns|     N/A|           0
+  PATH "TS_microblaze_0_axi_periph_reset_re | SETUP       |         N/A|     2.888ns|     N/A|           0
   sync_path" TIG                            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_microblaze_0_axi_ipc_reset_resyn | SETUP       |         N/A|     3.125ns|     N/A|           0
+  PATH "TS_microblaze_0_axi_ipc_reset_resyn | SETUP       |         N/A|     3.088ns|     N/A|           0
   c_path" TIG                               |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_TIG_microblaze_0_Reset_path" TIG | SETUP       |         N/A|     1.665ns|     N/A|           0
+  PATH "TS_TIG_microblaze_0_Reset_path" TIG | SETUP       |         N/A|     2.251ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_TIG_lmb_v10_1_POR_FF_I_path" TIG | SETUP       |         N/A|     2.444ns|     N/A|           0
+  PATH "TS_TIG_lmb_v10_1_POR_FF_I_path" TIG | SETUP       |         N/A|     1.968ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_TIG_lmb_v10_0_POR_FF_I_path" TIG | SETUP       |         N/A|     2.801ns|     N/A|           0
+  PATH "TS_TIG_lmb_v10_0_POR_FF_I_path" TIG | SETUP       |         N/A|     2.450ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -560,8 +597,8 @@ Derived Constraints for TS_clk_fpga_0
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_clk_fpga_0                  |     10.000ns|      4.000ns|      9.995ns|            0|            0|            0|       546197|
-| TS_SensorMP_i_clock_generator_|      7.500ns|      7.496ns|          N/A|            0|            0|       546197|            0|
+|TS_clk_fpga_0                  |     10.000ns|      4.000ns|      9.988ns|            0|            0|            0|       819815|
+| TS_SensorMP_i_clock_generator_|      8.000ns|      7.990ns|          N/A|            0|            0|       819815|            0|
 | 0_clock_generator_0_SIG_MMCM1_|             |             |             |             |             |             |             |
 | CLKOUT0                       |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
@@ -580,10 +617,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 27 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 1 mins 16 secs 
-Total CPU time to PAR completion: 1 mins 20 secs 
+Total REAL time to PAR completion: 2 mins 3 secs 
+Total CPU time to PAR completion: 2 mins 6 secs 
 
-Peak Memory Usage:  742 MB
+Peak Memory Usage:  740 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
@@ -607,13 +644,13 @@ D:\Xilinx\14.7\ISE_DS\ISE\.
    "SensorMP_stub" is an NCD, version 3.2, device xc7z010, package clg400, speed
 -1
 
-Analysis completed Tue May 12 16:46:24 2015
+Analysis completed Thu May 14 19:04:02 2015
 --------------------------------------------------------------------------------
 
 Generating Report ...
 
 Number of warnings: 0
-Total time: 38 secs 
+Total time: 58 secs 
 
 *** Running xdl
     with args -secure -ncd2xdl -nopips "SensorMP_stub_routed.ncd" "SensorMP_stub_routed.xdl"
@@ -636,12 +673,6 @@ WARNING:PhysDesignRules:367 - The signal
    r/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/g
-   en_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE
-   .write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_gen
-   erator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O>
-   is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0_axi_periph/microblaze_0_axi_periph/mi_protocol_conv_
    bank/gen_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE
    _WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/U0/xst_fifo_ge
@@ -654,12 +685,14 @@ WARNING:PhysDesignRules:367 - The signal
    fo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D
    1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
-   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
+   <SensorMP_i/microblaze_0_axi_ipc/microblaze_0_axi_ipc/mi_protocol_conv_bank/g
+   en_protocol_slot[0].gen_prot_conv.conv_inst/gen_axi3.axi3_conv_inst/USE_WRITE
+   .write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/U0/xst_fifo_gen
+   erator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM_RAMD_D1_O>
+   is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
-   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1_O> is
+   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
@@ -667,18 +700,33 @@ WARNING:PhysDesignRules:367 - The signal
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
-   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1_O> is
+   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
    che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy4_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCa
+   che.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[31]> is incomplete. The signal
    does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[30]> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_O> is
+   _I/Register_File_I/Using_LUT6.All_RAM32M[15].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
@@ -689,15 +737,8 @@ WARNING:PhysDesignRules:367 - The signal
    _I/Register_File_I/Using_LUT6.All_RAM32M[9].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/bram_cntlr_data_portb_BRAM_Addr[30]> is incomplete. The signal
-   does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[15].ram32m_i_RAMD_D1_O> is
+   _I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
@@ -709,31 +750,7 @@ WARNING:PhysDesignRules:367 - The signal
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[2].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[1].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
    _I/Register_File_I/Using_LUT6.All_RAM32M[3].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[10].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
@@ -741,8 +758,34 @@ WARNING:PhysDesignRules:367 - The signal
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
-   _I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1_O> is
+   _I/Register_File_I/Using_LUT6.All_RAM32M[1].ram32m_i_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[10].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[2].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow
+   _I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+
+INFO:WebTalk:4 - /usage_statistics_webtalk.html WebTalk report has been
+successfully sent to Xilinx.  For additional details about this file, please
+refer to the WebTalk log file at webtalk.log
+
+WebTalk is complete.
 
 *** Running data2mem
     with args  -bm "SensorMP_stub_bd.bmm" -bt "SensorMP_stub.bit"  -bd "D:/Git/InstrumentX/InX.srcs/sources_1/imports/microblaze/mb_bootloop_le.elf" tag SensorMP_i_microblaze_0 -o b "download.bit" -p xc7z010clg400-1

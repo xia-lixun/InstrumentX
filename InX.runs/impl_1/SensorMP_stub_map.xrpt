@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Tue May 12 16:44:22 2015">
+  <application stringID="Map" timeStamp="Thu May 14 19:00:51 2015">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -64,16 +64,16 @@
       <item DEFAULT="off" label="-pr" stringID="MAP_PACK_INTERNAL" value="b"/>
     </section>
     <task stringID="MAP_PACK_REPORT">
-      <item AVAILABLE="35200" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="3234">
-        <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="3183"/>
+      <item AVAILABLE="35200" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="3423">
+        <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="3372"/>
         <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SLICE_LATCHTHRU" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="51"/>
       </item>
-      <item AVAILABLE="17600" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="3649">
+      <item AVAILABLE="17600" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="3886">
         <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="114"/>
-        <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="2275"/>
-        <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="716"/>
+        <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="2426"/>
+        <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="740"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O5ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O6ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O5ANDO6" value="0"/>
@@ -81,10 +81,10 @@
         <item dataType="int" stringID="MAP_NUM_DPRAM_O6ONLY" value="184"/>
         <item dataType="int" stringID="MAP_NUM_DPRAM_O5ANDO6" value="96"/>
         <item dataType="int" stringID="MAP_NUM_SPRAM_O5ONLY" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_SPRAM_O6ONLY" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_SPRAM_O6ONLY" value="58"/>
         <item dataType="int" stringID="MAP_NUM_SPRAM_O5ANDO6" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SRL_O5ONLY" value="1"/>
-        <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="243"/>
+        <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="247"/>
         <item dataType="int" stringID="MAP_NUM_SRL_O5ANDO6" value="0"/>
         <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="14"/>
         <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO5" value="0"/>
@@ -116,21 +116,21 @@
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="30"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="848380"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="3 mins 21 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="3 mins 21 secs "/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="861068"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="4 mins 46 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="4 mins 43 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
-        <item AVAILABLE="35200" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="3234">
-          <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="3183"/>
+        <item AVAILABLE="35200" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="3423">
+          <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="3372"/>
           <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SLICE_LATCHTHRU" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="51"/>
         </item>
-        <item AVAILABLE="17600" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="3720">
-          <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="114"/>
-          <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="2275"/>
-          <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="716"/>
+        <item AVAILABLE="17600" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="3964">
+          <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="115"/>
+          <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="2424"/>
+          <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="741"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O5ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O6ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O5ANDO6" value="0"/>
@@ -138,26 +138,26 @@
           <item dataType="int" stringID="MAP_NUM_DPRAM_O6ONLY" value="184"/>
           <item dataType="int" stringID="MAP_NUM_DPRAM_O5ANDO6" value="96"/>
           <item dataType="int" stringID="MAP_NUM_SPRAM_O5ONLY" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_SPRAM_O6ONLY" value="0"/>
+          <item dataType="int" stringID="MAP_NUM_SPRAM_O6ONLY" value="58"/>
           <item dataType="int" stringID="MAP_NUM_SPRAM_O5ANDO6" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SRL_O5ONLY" value="1"/>
-          <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="243"/>
+          <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="247"/>
           <item dataType="int" stringID="MAP_NUM_SRL_O5ANDO6" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="14"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO5" value="71"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_O5ANDO6" value="2"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_FLOP" value="71"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="16"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="13"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO5" value="78"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_O5ANDO6" value="3"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_FLOP" value="79"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="15"/>
           <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_OTHERS" value="0"/>
         </item>
-        <item AVAILABLE="4400" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="1727">
-          <item AVAILABLE="2900" dataType="int" stringID="MAP_NUM_SLICEL" value="1497"/>
-          <item AVAILABLE="1500" dataType="int" stringID="MAP_NUM_SLICEM" value="230"/>
+        <item AVAILABLE="4400" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="1770">
+          <item AVAILABLE="2900" dataType="int" stringID="MAP_NUM_SLICEL" value="1545"/>
+          <item AVAILABLE="1500" dataType="int" stringID="MAP_NUM_SLICEM" value="225"/>
         </item>
-        <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="MAP_OCCUPIED_LUT_AND_FF" value="4698">
-          <item dataType="int" stringID="MAP_OCCUPIED_LUT_ONLY" value="1685"/>
-          <item dataType="int" label="Number with an unused LUT" stringID="MAP_OCCUPIED_FF_ONLY" value="978"/>
-          <item dataType="int" label="Number of fully used LUT-FF pairs" stringID="MAP_OCCUPIED_FF_AND_LUT" value="2035"/>
+        <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="MAP_OCCUPIED_LUT_AND_FF" value="4964">
+          <item dataType="int" stringID="MAP_OCCUPIED_LUT_ONLY" value="1761"/>
+          <item dataType="int" label="Number with an unused LUT" stringID="MAP_OCCUPIED_FF_ONLY" value="1000"/>
+          <item dataType="int" label="Number of fully used LUT-FF pairs" stringID="MAP_OCCUPIED_FF_AND_LUT" value="2203"/>
         </item>
       </section>
       <section stringID="MAP_IOB_REPORTING">
@@ -176,7 +176,7 @@
       </section>
       <section stringID="MAP_HARD_IP_REPORTING"/>
       <section stringID="MAP_RAM_FIFO_DATA">
-        <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="13"/>
+        <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="17"/>
         <item dataType="int" stringID="MAP_NUM_FIFO36E1" value="0"/>
         <item dataType="int" stringID="MAP_AVAILABLE" value="120"/>
         <item dataType="int" stringID="MAP_NUM_RAMB18E1" value="0"/>
@@ -1225,7 +1225,7 @@
       </section>
       <section stringID="MAP_RPM_MACROS">
         <section stringID="MAP_SHAPE_SECTION">
-          <item dataType="int" stringID="MAP_NUM_SHAPE" value="77"/>
+          <item dataType="int" stringID="MAP_NUM_SHAPE" value="79"/>
         </section>
       </section>
       <section stringID="MAP_GUIDE_REPORT"/>
@@ -1291,11 +1291,11 @@
         <item stringID="MAP_STARTUP_WAIT" value="FALSE"/>
         <item stringID="MAP_VLF_HIGH_DIS_B" value="TRUE"/>
         <item stringID="MAP_VLF_HIGH_PWDN_B" value="TRUE"/>
-        <item stringID="MAP_CLKFBOUT_MULT_F" value="12.0"/>
+        <item stringID="MAP_CLKFBOUT_MULT_F" value="10.0"/>
         <item stringID="MAP_CLKFBOUT_PHASE" value="0.0"/>
         <item stringID="MAP_CLKIN1_PERIOD" value="10"/>
         <item stringID="MAP_CLKIN2_PERIOD" value="10"/>
-        <item stringID="MAP_CLKOUT0_DIVIDE_F" value="9.0"/>
+        <item stringID="MAP_CLKOUT0_DIVIDE_F" value="8.0"/>
         <item stringID="MAP_CLKOUT0_DUTY_CYCLE" value="0.5"/>
         <item stringID="MAP_CLKOUT0_PHASE" value="0.0"/>
         <item stringID="MAP_CLKOUT1_DIVIDE" value="1"/>
@@ -1346,7 +1346,7 @@
         <item stringID="MAP_PATTERN" value="FFFFFFFFFFFF"/>
       </section>
       <section stringID="MAP_CONTROL_SET_INFORMATION">
-        <item dataType="int" label="Number of unique control sets" stringID="MAP_NUM_CONTROL_SETS" value="225"/>
+        <item dataType="int" label="Number of unique control sets" stringID="MAP_NUM_CONTROL_SETS" value="232"/>
         <tree stringID="MAP_CONTROL_SET_HIERARCHY">
           <property stringID="MAP_CLOCK_SIGNAL"/>
           <property stringID="MAP_RESET_SIGNAL"/>
@@ -1358,7 +1358,7 @@
       </section>
     </task>
     <section stringID="MAP_RAM_FIFO_DATA">
-      <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="13"/>
+      <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="17"/>
       <item dataType="int" stringID="MAP_NUM_FIFO36E1" value="0"/>
       <item dataType="int" stringID="MAP_AVAILABLE" value="120"/>
       <item dataType="int" stringID="MAP_NUM_RAMB18E1" value="0"/>
@@ -1449,11 +1449,11 @@
       <item stringID="MAP_STARTUP_WAIT" value="FALSE"/>
       <item stringID="MAP_VLF_HIGH_DIS_B" value="TRUE"/>
       <item stringID="MAP_VLF_HIGH_PWDN_B" value="TRUE"/>
-      <item stringID="MAP_CLKFBOUT_MULT_F" value="12.0"/>
+      <item stringID="MAP_CLKFBOUT_MULT_F" value="10.0"/>
       <item stringID="MAP_CLKFBOUT_PHASE" value="0.0"/>
       <item stringID="MAP_CLKIN1_PERIOD" value="10"/>
       <item stringID="MAP_CLKIN2_PERIOD" value="10"/>
-      <item stringID="MAP_CLKOUT0_DIVIDE_F" value="9.0"/>
+      <item stringID="MAP_CLKOUT0_DIVIDE_F" value="8.0"/>
       <item stringID="MAP_CLKOUT0_DUTY_CYCLE" value="0.5"/>
       <item stringID="MAP_CLKOUT0_PHASE" value="0.0"/>
       <item stringID="MAP_CLKOUT1_DIVIDE" value="1"/>

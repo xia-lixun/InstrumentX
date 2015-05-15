@@ -304,3 +304,216 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 13:16:44.821 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
 13:16:54.511 INFO  - Processor reset is completed for ps7_cortexa9_0 
 13:33:19.564 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:32:59.580 INFO  - Processing command line option -hwspec D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml. 
+19:33:04.666 INFO  - The hardware specification for project 'SensorMP_hw_platform' is different from D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml. 
+19:33:05.711 INFO  - Copied contents of D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml into \SensorMP_hw_platform\system.xml. 
+19:33:05.711 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\SensorMP_stub.bit into \SensorMP_hw_platform\system.bit. 
+19:33:05.727 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\SensorMP_stub_bd.bmm into \SensorMP_hw_platform\system_bd.bmm. 
+19:33:05.727 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.c into \SensorMP_hw_platform\ps7_init.c. 
+19:33:05.727 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.h into \SensorMP_hw_platform\ps7_init.h. 
+19:33:05.773 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.html into \SensorMP_hw_platform\ps7_init.html. 
+19:33:05.773 INFO  - Copied contents of D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \SensorMP_hw_platform\ps7_init.tcl. 
+19:33:06.787 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:33:54.009 INFO  - Updating hardware inferred compiler options for MemTestCortexA90. 
+19:33:55.069 INFO  - Updating hardware inferred compiler options for MemTestMicroblaze80. 
+19:33:55.865 INFO  - Updating hardware inferred compiler options for TimerTestMicroblaze. 
+19:33:55.896 INFO  - Clearing existing target manager status. 
+19:34:00.406 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+20:10:23.890 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+20:10:23.890 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+20:11:17.602 INFO  - Processing command line option -hwspec D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/hw/SensorMP.xml. 
+20:18:09.643 INFO  - Successfully generated D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\MemTestMicroblaze80\src\lscript.ld. 
+20:18:09.643 INFO  - Applying linker script to all configurations of project MemTestMicroblaze80. 
+20:18:09.643 INFO  - Setting rebuild state to true for all configurations of project MemTestMicroblaze80. 
+20:29:36.054 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+20:29:48.305 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+20:30:27.336 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:30:27.445 INFO  - PS initialization will be done as it is not done before. 
+20:30:27.445 INFO  - Running PS initialization.... 
+20:30:27.851 INFO  - ps7_init is completed. 
+20:30:27.960 INFO  - ps7_post_config is completed. 
+20:30:28.069 INFO  - PS Initialization is complete. 
+20:30:41.549 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+20:30:53.001 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:59:14.656 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:59:26.888 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+20:59:36.952 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:00:55.056 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+00:01:04.616 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+00:01:38.648 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:01:38.757 INFO  - PS initialization will be done as it is not done before. 
+00:01:38.757 INFO  - Running PS initialization.... 
+00:01:39.147 INFO  - ps7_init is completed. 
+00:01:39.256 INFO  - ps7_post_config is completed. 
+00:01:39.365 INFO  - PS Initialization is complete. 
+00:26:43.876 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:26:53.814 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+00:27:05.205 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:28:13.738 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+00:28:13.738 ERROR - Timeout occured while waiting to get reply for command "xstop 0" 
+00:43:17.865 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+00:43:33.550 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+00:46:13.794 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:46:24.496 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+00:46:36.308 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:51:39.404 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:52:37.499 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+00:52:54.178 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:53:58.187 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+00:53:58.187 ERROR - Timeout occured while waiting to get reply for command "xdisconnect 64" 
+00:53:58.187 ERROR - Disconnect target failed. 
+00:59:37.722 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+00:59:37.831 ERROR - Disconnect target failed.No Target with ID 64 in the System
+
+ 
+00:59:42.199 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+00:59:42.309 ERROR - Disconnect target failed.No Target with ID 64 in the System
+
+ 
+00:59:43.230 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+00:59:43.293 ERROR - Disconnect target failed.No Target with ID 64 in the System
+
+ 
+01:00:00.859 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+01:00:21.593 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+01:00:21.593 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+01:01:07.643 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+01:01:17.012 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+01:01:46.223 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:01:46.332 INFO  - PS initialization will be done as it is not done before. 
+01:01:46.332 INFO  - Running PS initialization.... 
+01:01:46.738 INFO  - ps7_init is completed. 
+01:01:46.847 INFO  - ps7_post_config is completed. 
+01:01:46.956 INFO  - PS Initialization is complete. 
+01:02:03.057 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+01:02:13.074 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:09:04.419 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:09:12.938 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+01:09:23.969 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:24:44.889 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:24:55.829 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+01:25:07.477 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:28:27.604 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:28:35.144 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+01:28:44.525 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:36:33.959 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:36:34.162 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+D-Side Memory Access Check Failed
+    Section, 0x00008010-0x00048077 Not Accessible from Processor D-Side Interface
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:37:20.920 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+01:37:52.738 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+01:38:02.514 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+01:38:36.793 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:38:36.893 INFO  - PS initialization will be done as it is not done before. 
+01:38:36.893 INFO  - Running PS initialization.... 
+01:38:37.295 INFO  - ps7_init is completed. 
+01:38:37.395 INFO  - ps7_post_config is completed. 
+01:38:37.495 INFO  - PS Initialization is complete. 
+01:38:38.198 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+D-Side Memory Access Check Failed
+    Section, 0x00008010-0x00048077 Not Accessible from Processor D-Side Interface
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:39:34.534 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:39:34.734 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+D-Side Memory Access Check Failed
+    Section, 0x00008010-0x00048077 Not Accessible from Processor D-Side Interface
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:40:23.755 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:40:38.298 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+01:40:48.729 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:44:29.567 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+01:44:58.047 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+01:45:14.238 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+01:45:38.441 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:45:38.541 INFO  - PS initialization will be done as it is not done before. 
+01:45:38.541 INFO  - Running PS initialization.... 
+01:45:38.946 INFO  - ps7_init is completed. 
+01:45:39.046 INFO  - ps7_post_config is completed. 
+01:45:39.146 INFO  - PS Initialization is complete. 
+01:45:52.721 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+01:46:52.921 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+01:46:52.923 ERROR - Timeout occured while waiting to get reply for command "xdisconnect -cable" 
+01:46:52.928 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectCable(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+01:46:55.738 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:47:24.666 INFO  - Processor reset is completed for ps7_cortexa9_0 
+01:47:56.408 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+01:48:09.964 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:17:11.560 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+02:17:27.402 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+02:17:46.138 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:18:50.698 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:19:03.340 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:22:11.955 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:22:30.700 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:22:43.439 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:29:06.474 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:29:14.415 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:29:23.503 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+02:29:28.402 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+02:29:50.125 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+02:29:50.141 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+02:29:50.141 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+02:30:59.402 INFO  - mb-objcopy -I elf32-microblazeel -O elf32-microblazeel --change-section-address .boot=0x20000000 D:/Xilinx/14.7/ISE_DS/EDK/sw/lib/microblaze/mb_bootloop_le.elf D:\Git\InstrumentX\InX.sdk\SDK\SDK_Export\SensorMP_hw_platform\new.elf 
+02:31:09.167 INFO  - FPGA configured successfully with bitstream "D:/Git/InstrumentX/InX.sdk/SDK/SDK_Export/SensorMP_hw_platform/download.bit" 
+02:31:39.029 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:31:39.129 INFO  - PS initialization will be done as it is not done before. 
+02:31:39.129 INFO  - Running PS initialization.... 
+02:31:39.536 INFO  - ps7_init is completed. 
+02:31:39.636 INFO  - ps7_post_config is completed. 
+02:31:39.736 INFO  - PS Initialization is complete. 
+02:31:48.910 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:32:07.576 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:32:46.091 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:33:26.833 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:33:38.873 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:35:27.227 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:35:36.372 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:35:48.426 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:38:30.253 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:38:39.587 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:38:51.149 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:44:40.524 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:44:48.663 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+02:44:58.270 INFO  - Processor reset is completed for ps7_cortexa9_0 
+02:47:34.451 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

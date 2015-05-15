@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/helloworld.c \
+../src/md5.c \
 ../src/platform.c 
 
 LD_SRCS += \
@@ -12,10 +13,12 @@ LD_SRCS += \
 
 OBJS += \
 ./src/helloworld.o \
+./src/md5.o \
 ./src/platform.o 
 
 C_DEPS += \
 ./src/helloworld.d \
+./src/md5.d \
 ./src/platform.d 
 
 
@@ -23,7 +26,7 @@ C_DEPS += \
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MicroBlaze gcc compiler'
-	mb-gcc -Wall -O3 -c -fmessage-length=0 -std=c99 -I../../TimerTestMicroblaze_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	mb-gcc -Wall -O3 -c -fmessage-length=0 -std=gnu99 -I../../TimerTestMicroblaze_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.c -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

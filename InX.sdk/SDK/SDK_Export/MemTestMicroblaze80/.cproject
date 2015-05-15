@@ -39,7 +39,7 @@
 									<listOptionValue builtIn="false" value="../../TimerTestMicroblaze_bsp/microblaze_0/include"/>
 								</option>
 								<option id="xilinx.gnu.compiler.misc.verbose.1405519476" name="Verbose (-v)" superClass="xilinx.gnu.compiler.misc.verbose" value="false" valueType="boolean"/>
-								<option id="xilinx.gnu.compiler.misc.other.823900963" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -std=c99" valueType="string"/>
+								<option id="xilinx.gnu.compiler.misc.other.823900963" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -std=gnu99" valueType="string"/>
 								<option id="xilinx.gnu.compiler.option.profiling.enable.1493547653" name="Enable Profiling (-pg)" superClass="xilinx.gnu.compiler.option.profiling.enable" value="false" valueType="boolean"/>
 								<inputType id="xilinx.gnu.compiler.input.763124311" name="C source files" superClass="xilinx.gnu.compiler.input"/>
 							</tool>

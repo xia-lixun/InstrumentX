@@ -25,10 +25,10 @@ EnableParTimingError: 1
 ShowLicenseDialog: 1
 BInfo: 
 LockAddr: processing_system7_0,C_S_AXI_HP1_BASEADDR
-LockAddr: bram_cntlr_data,C_BASEADDR
-LockAddr: bram_cntlr_instruction,C_BASEADDR
 LockAddr: debug_module_0,C_BASEADDR
 LockAddr: axi_timer_0,C_BASEADDR
+LockAddr: bram_cntlr_data,C_BASEADDR
+LockAddr: bram_cntlr_instruction,C_BASEADDR
 Processor: processing_system7_0
 ElfImp: 
 ElfSim: 

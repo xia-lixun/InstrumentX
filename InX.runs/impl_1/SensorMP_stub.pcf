@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue May 12 16:44:18 2015
+// Written by: Map P.20131013 on Thu May 14 19:00:44 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -173,6 +173,38 @@ PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<65> = BEL
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3" PINNAME CLKBWRCLKU;
 PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<64> = BEL
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3" PINNAME CLKBWRCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<63> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4" PINNAME CLKARDCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<62> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4" PINNAME CLKARDCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<65> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4" PINNAME CLKBWRCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<64> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4" PINNAME CLKBWRCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<63> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5" PINNAME CLKARDCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<62> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5" PINNAME CLKARDCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<65> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5" PINNAME CLKBWRCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<64> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5" PINNAME CLKBWRCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<63> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6" PINNAME CLKARDCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<62> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6" PINNAME CLKARDCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<65> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6" PINNAME CLKBWRCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<64> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6" PINNAME CLKBWRCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<63> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7" PINNAME CLKARDCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<62> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7" PINNAME CLKARDCLKL;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<65> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7" PINNAME CLKBWRCLKU;
+PIN SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<64> = BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7" PINNAME CLKBWRCLKL;
 PIN
         SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Architectures.No_MUL64.dsp_module_I3/Using_DSP48E1.DSP48E1_I1_pins<117>
         = BEL
@@ -310,7 +342,23 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<63>" PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<62>" PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<65>" PIN
-        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<64>" BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<64>" BEL
         "SensorMP_i/microblaze_0_reset/microblaze_0_reset/EXT_LPF/asr_lpf_0"
         BEL
         "SensorMP_i/microblaze_0_reset/microblaze_0_reset/EXT_LPF/Mshreg_asr_lpf_0"
@@ -3283,9 +3331,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/keep_jump_taken_with_ds"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[22].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[17].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[22].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Detect_Commands.sample_1_6"
         BEL
@@ -3303,9 +3351,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers.Last_Sel_DFF"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_42_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_37_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_42_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_36_0"
         BEL
@@ -3329,9 +3377,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_valid_jump"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_34_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_29_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_34_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[12].Gen_Instr_DFF"
         BEL
@@ -3519,9 +3567,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_27"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_26"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_31"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_26"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_30"
         BEL
@@ -3633,7 +3681,27 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[16].WB_PC_FDE"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_2"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_gpr_write_dbg"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.first_word"
         BEL
@@ -3644,6 +3712,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_9"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_clear_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_7"
         BEL
@@ -3789,6 +3859,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[17].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_jump_hold"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[20].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[15].Gen_Instr_DFF"
@@ -3861,6 +3933,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/WB_DelaySlot_Instr"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_Take_Intr_or_Exc_keep"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[27].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[5].Gen_Instr_DFF"
@@ -3913,9 +3987,29 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/continue_from_brk"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_8"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers.Gen_Mux_Select_LUT6[4].Gen_Sel_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_6"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/fsl_control_error_hold_value"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers.Gen_Mux_Select_LUT6[1].Gen_Sel_DFF"
         BEL
@@ -4005,6 +4099,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARADDR_I_15"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_clearing_q"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARADDR_I_14"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARADDR_I_13"
@@ -4019,6 +4115,34 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_read_imm_reg_1"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_18"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_16"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_15"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_13"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_12"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_10"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/Read_FSL_Performance.Using_FPGA.Gen_Bits[11].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/EX_Pattern_Cmp_Sel"
@@ -4030,6 +4154,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[12].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[8].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_valid"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/MEM_DataBus_Addr_29"
         BEL
@@ -4161,11 +4287,11 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_enable_sext_shift_i"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29_1"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_8_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/WB_Byte_Access"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_2"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1"
         BEL
@@ -4175,25 +4301,27 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_fsl_test"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.we_hold"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_Write_DCache"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_6_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_2"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_19"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_18"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Barrel_Shifter_I/Use_HW_BS.mem_void_bit"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_18"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_17"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_21"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_16"
-        BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_31_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_20"
         BEL
@@ -4213,15 +4341,29 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_10"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_30_1"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_4_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_3_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_return_set"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_exception_from_ex"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_2_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/FSL_Will_Break"
         BEL
@@ -4246,6 +4388,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[6].WB_PC_FDE"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Detect_Commands.sample_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_taken_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_0_0"
         BEL
@@ -4357,6 +4501,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/M_AXI_ARLEN_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[3].Gen_Instr_DFF"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_29_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[20].Gen_Instr_DFF"
@@ -4449,6 +4595,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/Using_FPGA_2.MSR_Bits[27].Using_FDR.MSR_ex_I"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_imm_cond_branch"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_29"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_28"
@@ -4459,33 +4607,33 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_31"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_25"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_30"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_25"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_24"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_19"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_18"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_23"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_17"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_18"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_22"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_16"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_17"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_16"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[24].WB_PC_FDE"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[19].WB_PC_FDE"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_15"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_15"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_14"
         BEL
@@ -4529,9 +4677,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_19_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[31].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[26].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[31].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_18_0"
         BEL
@@ -4555,13 +4703,15 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/wb_read_msb_doublet_sel"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[30].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[25].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[30].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_15_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_20_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_jump_held"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/dbg_stop_i"
         BEL
@@ -4629,7 +4779,15 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[1].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_1"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_3_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/delay_update_idle"
         BEL
@@ -4699,6 +4857,26 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/M_AXI_ARUSER_4"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_0"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[16].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[21].MEM_EX_Result_Inst"
@@ -4736,6 +4914,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/MEM_DataBus_Addr_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/ex_branch_with_delayslot_i"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_return"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/WB_PC_Valid"
         BEL
@@ -4775,11 +4955,13 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_21"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_15"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_20"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_15"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_addr_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_13"
         BEL
@@ -4799,6 +4981,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/EX_Use_Carry"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_jump_wanted_delayslot"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[13].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Performace_Debug_Control.Normal_Stop_Handle.normal_stop_cmd_1"
@@ -4814,6 +4998,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_sel_alu_i"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[5].WB_PC_FDE"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[2].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Using_FPGA_2.ex_is_lwx_instr_Inst"
         BEL
@@ -4933,6 +5119,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[30].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_imm_cond_branch"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Using_FPGA_2.ex_load_store_instr_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[3].Gen_Instr_DFF"
@@ -4951,9 +5139,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.pending_write_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[19].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[24].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[19].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_gpr_write_addr_4"
         BEL
@@ -4991,6 +5179,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_22"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_return"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_21"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_16"
@@ -5008,6 +5198,16 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_11"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_10"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_pc_write_q"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_29_0"
         BEL
@@ -5089,37 +5289,37 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[8].Gen_Instr_DFF"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_31_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_26_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_31_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_29"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_28"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_32"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_32"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_26"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_31"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_30"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_25"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_24"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_30"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_24"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_23"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_18"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_22"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_22"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[18].WB_PC_FDE"
         BEL
@@ -5137,6 +5337,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_13"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[1].Gen_Instr_DFF"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_12"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_11"
@@ -5151,9 +5353,11 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.aw_w_read_fifo_addr_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_25_0"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_30_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_25_0"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.jump_done"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[13].Gen_Instr_DFF"
         BEL
@@ -5211,47 +5415,145 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_23_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_57"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_56"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_55"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_28"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_49"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_54"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_53"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_48"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_52"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_47"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_30"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_51"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_46"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_24"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_50"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_45"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_write_delayslot"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_44"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_39"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[31].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[26].MEM_EX_Result_Inst"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_38"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_43"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_42"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_37"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_36"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_41"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[10].MEM_EX_Result_Inst"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_35"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_40"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_34"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_33"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_28"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_32"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_return_data_kind_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_17_0"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_26"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_31"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_25"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_30"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_19"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_22_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_17_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_24"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_18"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_8"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_17"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_7"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_16"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_15"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_mfsmsr_i"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_5"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_14"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_13"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_3"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_12"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_2"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_11"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/FSL_Will_Break_No_Dbg"
         BEL
@@ -5261,9 +5563,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_mbar_sleep"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_21_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_16_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_21_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[0].Gen_Instr_DFF"
         BEL
@@ -5272,6 +5574,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_15_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/Using_FPGA_1.MSR_Bits[27].Using_FDR.MSR_I"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_if_pc_write_wait"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[6].Gen_Instr_DFF"
         BEL
@@ -5317,9 +5621,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/mem_pc_i_12"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_9_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/mem_pc_i_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_9_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/mem_pc_i_10"
         BEL
@@ -5351,6 +5655,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_4_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_written"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/M_AXI_ARBURST_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/normal_stop_i"
@@ -5375,6 +5681,10 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_atomic_Instruction_Pair"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_in_delayslot"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_valid_hold"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_read_imm_reg_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.read_req_done"
@@ -5382,6 +5692,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Performace_Debug_Control.Force_Stop_Handle.force_stop_cmd_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DBUS.Using_D_AXI.DAXI_Interface_I1/WB_DAXI_Read_Data_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_pc_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DBUS.Using_D_AXI.DAXI_Interface_I1/WB_DAXI_Read_Data_28"
         BEL
@@ -5427,17 +5739,25 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DBUS.Using_D_AXI.DAXI_Interface_I1/WB_DAXI_Read_Data_10"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_3_0"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[13].WB_PC_FDE"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_2_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/mem_first_cycle"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/jump_logic_I1/FPGA_TARGET.use_Reg_Neg_S"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_1_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/MEM_DataBus_Access"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[18].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[23].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_0_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[39].Gen_Instr_DFF"
         BEL
@@ -5521,9 +5841,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[29].Gen_Instr_DFF"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[30].MEM_EX_Result_Inst"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[25].MEM_EX_Result_Inst"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[30].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[20].MEM_EX_Result_Inst"
         BEL
@@ -5540,6 +5860,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Barrel_Shifter_I/Use_HW_BS.mem_left_shift"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/FSL_Break"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_bt_branch"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[19].Gen_Instr_DFF"
         BEL
@@ -5559,9 +5881,49 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_valid"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[23].Gen_Instr_DFF"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_28"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_26"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_25"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_24"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_18"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_16"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_15"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_13"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_12"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[18].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[23].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/cacheline_copy_valid_3"
         BEL
@@ -5589,9 +5951,13 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[0].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_if_pc_incr_wait"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_Ext_BRK_i"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[7].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[0].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Full_32_bit_1"
         BEL
@@ -5635,6 +6001,28 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_is_multi_or_load_instr"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_handled"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/Read_FSL_Performance.Using_FPGA.Gen_Bits[8].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[22].WB_PC_FDE"
@@ -5644,6 +6032,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/Read_FSL_Performance.Using_FPGA.Gen_Bits[3].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[2].MEM_EX_Result_Inst"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_clear_wait"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[4].Gen_Instr_DFF"
         BEL
@@ -5655,9 +6045,9 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_17"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_16"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_16"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_15"
         BEL
@@ -5729,11 +6119,51 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_enable_alu_i"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[26].WB_PC_FDE"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_28"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[31].WB_PC_FDE"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[26].WB_PC_FDE"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_26"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_25"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_24"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_18"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_16"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_15"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_13"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_12"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_Ext_NM_BRK_i"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_move_to_MSR_instr"
         BEL
@@ -5754,6 +6184,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_which_branch_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.aw_read_fifo_not_empty"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_jump_wanted_keep"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Detect_Commands.sample_11"
         BEL
@@ -5808,6 +6240,8 @@ TIMEGRP tnm_clk_125MHz = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[12].WB_PC_FDE"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[28].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_write_q"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.w_read_fifo_addr_LUT6.Addr_bit[2].Addr_bit_FDSE"
         BEL
@@ -7160,7 +7594,123 @@ TIMEGRP tnm_clk_125MHz = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD";
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM1_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM2_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM3_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM4_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM5_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM6_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM7_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM8_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00341_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00342_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00343_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00344_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00345_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00346_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00347_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00348_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00681_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00682_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00683_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00684_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00685_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00686_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00687_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00688_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01021_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01022_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01023_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01024_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01025_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01026_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01027_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01028_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01361_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01362_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01363_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01364_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01365_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01366_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01367_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01368_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01701_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01702_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01703_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01704_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01705_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01706_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01707_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01708_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02041_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02042_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02043_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02044_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02045_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02046_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02047_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02048_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02387_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02388_Narrowed";
 TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0_pins<63>" PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0_pins<62>" PIN
@@ -7177,7 +7727,23 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<63>" PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<62>" PIN
         "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<65>" PIN
-        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<64>" BEL
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6_pins<64>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<63>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<62>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<65>" PIN
+        "SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7_pins<64>" BEL
         "SensorMP_i/microblaze_0_reset/microblaze_0_reset/EXT_LPF/asr_lpf_0"
         BEL
         "SensorMP_i/microblaze_0_reset/microblaze_0_reset/EXT_LPF/Mshreg_asr_lpf_0"
@@ -10152,9 +10718,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/keep_jump_taken_with_ds"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[22].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[17].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[22].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Detect_Commands.sample_1_6"
         BEL
@@ -10172,9 +10738,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers.Last_Sel_DFF"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_42_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_37_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_42_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_36_0"
         BEL
@@ -10198,9 +10764,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_valid_jump"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_34_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_29_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_34_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[12].Gen_Instr_DFF"
         BEL
@@ -10388,9 +10954,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_27"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_26"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_31"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_26"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_30"
         BEL
@@ -10502,7 +11068,27 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[16].WB_PC_FDE"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_2"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_gpr_write_dbg"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.first_word"
         BEL
@@ -10513,6 +11099,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_9"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_clear_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Branch_CMP_Op1_7"
         BEL
@@ -10658,6 +11246,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[17].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_jump_hold"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[20].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[15].Gen_Instr_DFF"
@@ -10730,6 +11320,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/WB_DelaySlot_Instr"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_Take_Intr_or_Exc_keep"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[27].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[5].Gen_Instr_DFF"
@@ -10782,9 +11374,29 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/continue_from_brk"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_8"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers.Gen_Mux_Select_LUT6[4].Gen_Sel_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_6"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/fsl_control_error_hold_value"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers.Gen_Mux_Select_LUT6[1].Gen_Sel_DFF"
         BEL
@@ -10874,6 +11486,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARADDR_I_15"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_clearing_q"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARADDR_I_14"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARADDR_I_13"
@@ -10888,6 +11502,34 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_read_imm_reg_1"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_18"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_16"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_15"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_13"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_12"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_equal_pc_10"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/Read_FSL_Performance.Using_FPGA.Gen_Bits[11].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/EX_Pattern_Cmp_Sel"
@@ -10899,6 +11541,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[12].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[8].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_valid"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/MEM_DataBus_Addr_29"
         BEL
@@ -11030,11 +11674,11 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_enable_sext_shift_i"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_29_1"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_8_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/WB_Byte_Access"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_2"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_28_1"
         BEL
@@ -11044,25 +11688,27 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_fsl_test"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.we_hold"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_Write_DCache"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_6_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_2"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_i_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_19"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_18"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Barrel_Shifter_I/Use_HW_BS.mem_void_bit"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_18"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_17"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_21"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_16"
-        BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_31_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_20"
         BEL
@@ -11082,15 +11728,29 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[0].RAM_Inst/data_outa_i_10"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_exception_kind_i_30_1"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_4_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_3_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_return_set"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_exception_from_ex"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_2_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_addr_count_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/FSL_Will_Break"
         BEL
@@ -11115,6 +11775,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[6].WB_PC_FDE"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Detect_Commands.sample_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_taken_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Using_FPGA_Buffers_Mux.srl16_0_0"
         BEL
@@ -11226,6 +11888,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/M_AXI_ARLEN_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[3].Gen_Instr_DFF"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_29_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[20].Gen_Instr_DFF"
@@ -11318,6 +11982,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/Using_FPGA_2.MSR_Bits[27].Using_FDR.MSR_ex_I"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_imm_cond_branch"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_29"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_28"
@@ -11328,33 +11994,33 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_31"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_25"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_30"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_25"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_24"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_19"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_18"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_23"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_17"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_18"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_22"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_16"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_17"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_16"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[24].WB_PC_FDE"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[19].WB_PC_FDE"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_15"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_15"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/WB_MEM_Result_14"
         BEL
@@ -11398,9 +12064,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_19_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[31].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[26].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[31].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_18_0"
         BEL
@@ -11424,13 +12090,15 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/wb_read_msb_doublet_sel"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[30].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[25].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[30].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_15_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_Using_AXI.Use_AXI_Write.write_data_word_20_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_jump_held"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/dbg_stop_i"
         BEL
@@ -11498,7 +12166,15 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[1].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_1"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_3_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_prediction_bits_keep_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/delay_update_idle"
         BEL
@@ -11568,6 +12244,26 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/M_AXI_ARUSER_4"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_0"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[16].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[21].MEM_EX_Result_Inst"
@@ -11605,6 +12301,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/MEM_DataBus_Addr_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/ex_branch_with_delayslot_i"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_return"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/WB_PC_Valid"
         BEL
@@ -11644,11 +12342,13 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_21"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_15"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_20"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_15"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_addr_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_13"
         BEL
@@ -11668,6 +12368,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/EX_Use_Carry"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_jump_wanted_delayslot"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[13].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Performace_Debug_Control.Normal_Stop_Handle.normal_stop_cmd_1"
@@ -11683,6 +12385,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_sel_alu_i"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[5].WB_PC_FDE"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[2].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Using_FPGA_2.ex_is_lwx_instr_Inst"
         BEL
@@ -11802,6 +12506,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[30].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_imm_cond_branch"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Using_FPGA_2.ex_load_store_instr_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[3].Gen_Instr_DFF"
@@ -11820,9 +12526,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.pending_write_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[19].Gen_Instr_DFF"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[24].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[19].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/wb_gpr_write_addr_4"
         BEL
@@ -11860,6 +12566,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_22"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_return"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_21"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_16"
@@ -11877,6 +12585,16 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_11"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Operand_Select_I/EX_Op2_10"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_prediction_bits_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.if_pc_write_q"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_29_0"
         BEL
@@ -11958,37 +12676,37 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[8].Gen_Instr_DFF"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_31_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_26_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_31_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_29"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_28"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_32"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_32"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_26"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_31"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_30"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_25"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_24"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_30"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_24"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_23"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_18"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_22"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_22"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[18].WB_PC_FDE"
         BEL
@@ -12006,6 +12724,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_13"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[1].Gen_Instr_DFF"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_12"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/data_rd_reg_11"
@@ -12020,9 +12740,11 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.aw_w_read_fifo_addr_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_25_0"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_30_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_25_0"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.jump_done"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[13].Gen_Instr_DFF"
         BEL
@@ -12080,47 +12802,145 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_23_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_57"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_56"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_55"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_28"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_49"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_54"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_53"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_48"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_52"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_47"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_30"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_51"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_46"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/wb_MSR_i_24"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_50"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_45"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_write_delayslot"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_44"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_39"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[31].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[26].MEM_EX_Result_Inst"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_38"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_43"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_42"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_37"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_36"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_41"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[10].MEM_EX_Result_Inst"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_35"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_40"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_34"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_33"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_28"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_32"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_return_data_kind_0"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_17_0"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_26"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_31"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_25"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_30"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_19"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_22_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_17_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_24"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_18"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_8"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_17"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_7"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_16"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_15"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_mfsmsr_i"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_5"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_14"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_13"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_3"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_12"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_2"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_11"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Byte_Doublet_Handle_gti_I/MEM_DataBus_Write_Data_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/data_outb_i_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/FSL_Will_Break_No_Dbg"
         BEL
@@ -12130,9 +12950,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_mbar_sleep"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_21_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_16_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_21_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[0].Gen_Instr_DFF"
         BEL
@@ -12141,6 +12961,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Mshreg_M_AXI_AWADDR_15_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/msr_reg_i/Using_FPGA_1.MSR_Bits[27].Using_FDR.MSR_I"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_if_pc_write_wait"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[6].Gen_Instr_DFF"
         BEL
@@ -12186,9 +13008,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/mem_pc_i_12"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_9_0"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/mem_pc_i_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_9_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/mem_pc_i_10"
         BEL
@@ -12220,6 +13042,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Mshreg_Using_FPGA_Buffers_Mux.srl16_4_0"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_written"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/M_AXI_ARBURST_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/normal_stop_i"
@@ -12244,6 +13068,10 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_atomic_Instruction_Pair"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_in_delayslot"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_valid_hold"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_read_imm_reg_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.read_req_done"
@@ -12251,6 +13079,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Performace_Debug_Control.Force_Stop_Handle.force_stop_cmd_1"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DBUS.Using_D_AXI.DAXI_Interface_I1/WB_DAXI_Read_Data_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_pc_hold"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DBUS.Using_D_AXI.DAXI_Interface_I1/WB_DAXI_Read_Data_28"
         BEL
@@ -12296,17 +13126,25 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_DBUS.Using_D_AXI.DAXI_Interface_I1/WB_DAXI_Read_Data_10"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_3_0"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[13].WB_PC_FDE"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_2_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/mem_first_cycle"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/jump_logic_I1/FPGA_TARGET.use_Reg_Neg_S"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_1_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/MEM_DataBus_Access"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[18].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[23].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Mshreg_Use_BTC_2.Using_FPGA_Buffers_Mux.srl16_0_0"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[39].Gen_Instr_DFF"
         BEL
@@ -12390,9 +13228,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[29].Gen_Instr_DFF"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[30].MEM_EX_Result_Inst"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[25].MEM_EX_Result_Inst"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[30].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[20].MEM_EX_Result_Inst"
         BEL
@@ -12409,6 +13247,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Barrel_Shifter_I/Use_HW_BS.mem_left_shift"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/FSL_Break"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_bt_branch"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[19].Gen_Instr_DFF"
         BEL
@@ -12428,9 +13268,49 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/mem_valid"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[23].Gen_Instr_DFF"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_28"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_26"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_25"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_24"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_18"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_16"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_15"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_13"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_12"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_saved_pc_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[18].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[23].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/cacheline_copy_valid_3"
         BEL
@@ -12458,9 +13338,13 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[0].Gen_Instr_DFF"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_if_pc_incr_wait"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_Ext_BRK_i"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PreFetch_Buffer_I1/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[7].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.Using_FPGA_Buffers_Mux.PC_Predict_Mux[0].Gen_Instr_DFF"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Full_32_bit_1"
         BEL
@@ -12504,6 +13388,28 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_is_multi_or_load_instr"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_9"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_8"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_7"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_6"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_5"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_4"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_3"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_2"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_1"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_0"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_ex_mispredict_handled"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/Read_FSL_Performance.Using_FPGA.Gen_Bits[8].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[22].WB_PC_FDE"
@@ -12513,6 +13419,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Using_Streaming.Using_FSL.FSL_Module_I/Read_FSL_Performance.Using_FPGA.Gen_Bits[3].MEM_EX_Result_Inst"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Data_Flow_Logic_I/Using_FPGA.Gen_Bits[2].MEM_EX_Result_Inst"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_clear_wait"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[4].Gen_Instr_DFF"
         BEL
@@ -12524,9 +13432,9 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_17"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_16"
-        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_16"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/TAG_RAM_Module/Using_DistRAM.Recursive.The_RAM_INSTs[1].RAM_Inst/data_outa_i_15"
         BEL
@@ -12598,11 +13506,51 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_enable_alu_i"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[26].WB_PC_FDE"
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_29"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_28"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[31].WB_PC_FDE"
         BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[26].WB_PC_FDE"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_27"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_26"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_25"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_19"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_24"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_18"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_23"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_17"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_22"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_16"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_21"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_15"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_20"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_14"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_13"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_12"
+        BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_Ext_NM_BRK_i"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_11"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_delayslot_target_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_move_to_MSR_instr"
         BEL
@@ -12623,6 +13571,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/ex_which_branch_10"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.aw_read_fifo_not_empty"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.ex_jump_wanted_keep"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Use_Debug_Logic.Master_Core.Debug_Perf/Detect_Commands.sample_11"
         BEL
@@ -12677,6 +13627,8 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/exception_registers_I1/FPGA_Target.Using_FPGA_LUT6.Gen_Ret_Addr[12].WB_PC_FDE"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_6LUT_WB_DCache_Valid_Read_data.WB_DCache_Valid_Read_data_Mux[28].Gen_Instr_DFF"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.bt_write_q"
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.w_read_fifo_addr_LUT6.Addr_bit[2].Addr_bit_FDSE"
         BEL
@@ -14029,7 +14981,123 @@ TIMEGRP SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PIN
         BEL
         "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1"
         BEL
-        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD";
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM1_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM2_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM3_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM4_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM5_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM6_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM7_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM8_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00341_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00342_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00343_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00344_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00345_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00346_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00347_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00348_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00681_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00682_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00683_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00684_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00685_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00686_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00687_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_00688_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01021_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01022_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01023_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01024_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01025_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01026_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01027_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01028_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01361_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01362_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01363_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01364_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01365_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01366_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01367_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01368_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01701_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01702_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01703_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01704_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01705_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01706_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01707_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_01708_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02041_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02042_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02043_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02044_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02045_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02046_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02047_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02048_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02387_Narrowed"
+        BEL
+        "SensorMP_i/microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/PC_Module_I/Use_BTC_2.BTC_RAM_Module/Mram_RAM_02388_Narrowed";
 PIN
         SensorMP_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst_pins<2>
         = BEL
@@ -14078,11 +15146,10 @@ PATH "TS_TIG_lmb_v10_1_POR_FF_I_path" TIG;
 PATH TS_TIG_lmb_v10_0_POR_FF_I_path = FROM TIMEGRP "FFS" TO TIMEGRP
         "lmb_v10_0_POR_FF_I_dst";
 PATH "TS_TIG_lmb_v10_0_POR_FF_I_path" TIG;
-TS_clock_generator_0_CLKOUT0 = PERIOD TIMEGRP "tnm_clk_125MHz" 7.5 ns HIGH
-        50%;
+TS_clock_generator_0_CLKOUT0 = PERIOD TIMEGRP "tnm_clk_125MHz" 8 ns HIGH 50%;
 TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
         TIMEGRP
         "SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
-        TS_clk_fpga_0 * 1.33333333 HIGH 50%;
+        TS_clk_fpga_0 * 1.25 HIGH 50%;
 SCHEMATIC END;
 

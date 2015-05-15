@@ -296,7 +296,7 @@ begin
   bram_cntlr_instruction : lmb_bram_if_cntlr
     generic map (
       C_BASEADDR => X"20000000",
-      C_HIGHADDR => X"20003FFF",
+      C_HIGHADDR => X"20007FFF",
       C_FAMILY => "zynq",
       C_MASK => X"60000000",
       C_MASK1 => X"00800000",

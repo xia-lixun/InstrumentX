@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2015 5 12 16 38 37)
+      (timestamp 2015 5 14 18 53 30)
       (program "Xilinx ngc2edif" (version "P.20131013"))
       (author "Xilinx. Inc ")
       (comment "This EDIF netlist is to be used within supported synthesis tools")
@@ -465,12 +465,12 @@
               (property BUS_INFO (string "16:INPUT:DI<15:0>") (owner "Xilinx"))
               (property BUS_INFO (string "16:OUTPUT:DO<15:0>") (owner "Xilinx"))
               (property BANDWIDTH (string "OPTIMIZED") (owner "Xilinx"))
-              (property CLKFBOUT_MULT_F (number (e 12 0)) (owner "Xilinx"))
+              (property CLKFBOUT_MULT_F (number (e 1 1)) (owner "Xilinx"))
               (property CLKFBOUT_PHASE (number 0) (owner "Xilinx"))
               (property CLKFBOUT_USE_FINE_PS (string "FALSE") (owner "Xilinx"))
               (property CLKIN1_PERIOD (string "10") (owner "Xilinx"))
               (property CLKIN2_PERIOD (string "10") (owner "Xilinx"))
-              (property CLKOUT0_DIVIDE_F (number (e 9 0)) (owner "Xilinx"))
+              (property CLKOUT0_DIVIDE_F (number (e 8 0)) (owner "Xilinx"))
               (property CLKOUT0_DUTY_CYCLE (number (e 5 -1)) (owner "Xilinx"))
               (property CLKOUT0_PHASE (number 0) (owner "Xilinx"))
               (property CLKOUT0_USE_FINE_PS (string "FALSE") (owner "Xilinx"))

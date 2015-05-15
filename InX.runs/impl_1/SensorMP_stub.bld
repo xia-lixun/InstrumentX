@@ -64,6 +64,42 @@ WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
    this primitive to 7SERIES, please see
    http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
    n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7' of type RAMB36E1 has been
+   changed from 'VIRTEX6' to '7SERIES' to correct post-ngdbuild and timing
+   simulation for this primitive.  In order for functional simulation to be
+   correct, the value of SIM_DEVICE should be changed in this same manner in the
+   source netlist or constraint file. For additional information on retargeting
+   this primitive to 7SERIES, please see
+   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
+   n.pdf.
 Resolving constraint associations...
 Checking Constraint Associations...
 WARNING:ConstraintSystem:58 - Constraint <TIMEGRP
@@ -81,7 +117,7 @@ INFO:ConstraintSystem:178 - TNM 'clk_fpga_0', used in period specification
    CLKOUT0: <TIMESPEC
    TS_SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
    "SensorMP_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
-   TS_clk_fpga_0 * 1.333333333 HIGH 50%>
+   TS_clk_fpga_0 * 1.25 HIGH 50%>
 
 INFO:ConstraintSystem - The Period constraint <NET "fsl_i2s_0_i2s_bck_pin"
    PERIOD = 50 ns;> [SensorMP_stub.ucf(577)], is specified using the Net Period
@@ -116,12 +152,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings:  10
+  Number of warnings:  14
 
-Total memory usage is 269680 kilobytes
+Total memory usage is 275328 kilobytes
 
 Writing NGD file "SensorMP_stub.ngd" ...
-Total REAL time to NGDBUILD completion: 1 min  33 sec
-Total CPU time to NGDBUILD completion:   49 sec
+Total REAL time to NGDBUILD completion: 1 min  48 sec
+Total CPU time to NGDBUILD completion:   55 sec
 
 Writing NGDBUILD log file "SensorMP_stub.bld"...

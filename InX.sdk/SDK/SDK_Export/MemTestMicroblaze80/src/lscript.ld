@@ -11,14 +11,14 @@
 /*******************************************************************/
 
 _STACK_SIZE = DEFINED(_STACK_SIZE) ? _STACK_SIZE : 0x1000;
-_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x400;
+_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x0;
 
 /* Define Memories in the system */
 
 MEMORY
 {
-   bram_cntlr_instruction_bram_cntlr_data : ORIGIN = 0x20000050, LENGTH = 0x00003FB0
-   ps7_ddr_0_S_AXI_HP1_BASEADDR : ORIGIN = 0x00000000, LENGTH = 0x20000000
+   bram_cntlr_instruction_bram_cntlr_data : ORIGIN = 0x20000050, LENGTH = 0x00007FB0
+   ps7_ddr_0_S_AXI_HP1_BASEADDR : ORIGIN = 0x00100000, LENGTH = 0x1FF00000
 }
 
 /* Specify the default entry point to the program */

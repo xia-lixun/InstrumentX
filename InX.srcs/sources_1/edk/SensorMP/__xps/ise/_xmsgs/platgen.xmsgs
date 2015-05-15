@@ -5,16 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">clock_generator</arg>, INSTANCE: <arg fmt="%s" index="2">clock_generator_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261</arg> 
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">clock_generator</arg>, INSTANCE: <arg fmt="%s" index="2">clock_generator_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 263</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE: <arg fmt="%s" index="2">bram_block_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292</arg> 
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE: <arg fmt="%s" index="2">bram_block_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 294</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">clock_generator</arg>, INSTANCE: <arg fmt="%s" index="2">clock_generator_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261</arg> 
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">clock_generator</arg>, INSTANCE: <arg fmt="%s" index="2">clock_generator_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 263</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE: <arg fmt="%s" index="2">bram_block_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292</arg> 
+<msg type="warning" file="EDK" num="4092" delta="old" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE: <arg fmt="%s" index="2">bram_block_0</arg> - <arg fmt="%s" index="3">Pre-Production</arg> version not verified on hardware for architecture &apos;<arg fmt="%s" index="4">zynq</arg>&apos; - <arg fmt="%s" index="5">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 294</arg> 
 </msg>
 
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_PACKAGE_NAME</arg> value to <arg fmt="%s" index="6">clg400</arg> - <arg fmt="%s" index="7">D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 185</arg> 
@@ -81,7 +81,7 @@
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">lmb_v10</arg>, INSTANCE:<arg fmt="%s" index="2">lmb_v10_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_LMB_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data\lmb_v10_v2_1_0.mpd line 82</arg> 
 </msg>
 
-<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE:<arg fmt="%s" index="2">bram_block_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_MEMSIZE</arg> value to <arg fmt="%s" index="6">0x4000</arg> - <arg fmt="%s" index="7">D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.mpd line 78</arg> 
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE:<arg fmt="%s" index="2">bram_block_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_MEMSIZE</arg> value to <arg fmt="%s" index="6">0x8000</arg> - <arg fmt="%s" index="7">D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.mpd line 78</arg> 
 </msg>
 
 <msg type="warning" file="EDK" num="4180" delta="old" >PORT: <arg fmt="%s" index="1">FSL_Rst</arg>, CONNECTOR: <arg fmt="%s" index="2">fsl_v20_1_i2s_mb0_OPB_Rst</arg> - No driver found. Port will be driven to <arg fmt="%s" index="3">GND</arg> - <arg fmt="%s" index="4">D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\pcores\fsl_i2s_v1_00_a\data\fsl_i2s_v2_1_0.mpd line 26</arg> 

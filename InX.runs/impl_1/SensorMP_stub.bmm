@@ -14,16 +14,20 @@ ADDRESS_MAP SensorMP_i_microblaze_0 MICROBLAZE-LE 100 SensorMP_i/microblaze_0
 
     ///////////////////////////////////////////////////////////////////////////////
     //
-    // Processor 'SensorMP_i_microblaze_0' address space 'SensorMP_i_bram_block_0_combined' 0x20000000:0x20003FFF (16 KBytes).
+    // Processor 'SensorMP_i_microblaze_0' address space 'SensorMP_i_bram_block_0_combined' 0x20000000:0x20007FFF (32 KBytes).
     //
     ///////////////////////////////////////////////////////////////////////////////
 
-    ADDRESS_SPACE SensorMP_i_bram_block_0_combined RAMB32 [0x20000000:0x20003FFF]
+    ADDRESS_SPACE SensorMP_i_bram_block_0_combined RAMB32 [0x20000000:0x20007FFF]
         BUS_BLOCK
-            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0 RAMB32 [31:24] [0:4095] INPUT = bram_block_0_combined_0.mem;
-            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_1 RAMB32 [23:16] [0:4095] INPUT = bram_block_0_combined_1.mem;
-            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_2 RAMB32 [15:8] [0:4095] INPUT = bram_block_0_combined_2.mem;
-            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3 RAMB32 [7:0] [0:4095] INPUT = bram_block_0_combined_3.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_0 RAMB32 [31:28] [0:8191] INPUT = bram_block_0_combined_0.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_1 RAMB32 [27:24] [0:8191] INPUT = bram_block_0_combined_1.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_2 RAMB32 [23:20] [0:8191] INPUT = bram_block_0_combined_2.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_3 RAMB32 [19:16] [0:8191] INPUT = bram_block_0_combined_3.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_4 RAMB32 [15:12] [0:8191] INPUT = bram_block_0_combined_4.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_5 RAMB32 [11:8] [0:8191] INPUT = bram_block_0_combined_5.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_6 RAMB32 [7:4] [0:8191] INPUT = bram_block_0_combined_6.mem;
+            SensorMP_i/bram_block_0/bram_block_0/ramb36e1_7 RAMB32 [3:0] [0:8191] INPUT = bram_block_0_combined_7.mem;
         END_BUS_BLOCK;
     END_ADDRESS_SPACE;
 

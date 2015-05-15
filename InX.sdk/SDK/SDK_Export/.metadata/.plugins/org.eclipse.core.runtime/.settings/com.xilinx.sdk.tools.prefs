@@ -1,0 +1,13 @@
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.bss=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.data=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.rodata=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.sbss=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.sbss2=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.sdata=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.sdata2=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:.text=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:Heap=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:Stack=bram_cntlr_instruction_bram_cntlr_data
+com.xilinx.sdk.linkgen.prefs.MemTestMicroblaze80\:Stack-size=4096
+eclipse.preferences.version=1

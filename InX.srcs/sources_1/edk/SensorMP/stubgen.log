@@ -10,10 +10,10 @@ Parse D:/Git/InstrumentX/InX.srcs/sources_1/edk/SensorMP/SensorMP.mhs ...
 Create merged mhs ...
 WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
    Pre-Production version not verified on hardware for architecture 'zynq' -
-   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 261 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 263 
 WARNING:EDK:4092 - IPNAME: bram_block, INSTANCE: bram_block_0 - Pre-Production
    version not verified on hardware for architecture 'zynq' -
-   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292 
+   D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 294 
 
 Overriding IP level properties ...
 INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
@@ -96,8 +96,8 @@ INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
 Address Map for Processor processing_system7_0
 Address Map for Processor microblaze_0
   (0000000000-0x1fffffff) processing_system7_0	microblaze_0_axi_ipc
-  (0x20000000-0x20003fff) bram_cntlr_data	lmb_v10_1
-  (0x20000000-0x20003fff) bram_cntlr_instruction	lmb_v10_0
+  (0x20000000-0x20007fff) bram_cntlr_data	lmb_v10_1
+  (0x20000000-0x20007fff) bram_cntlr_instruction	lmb_v10_0
   (0x40000000-0x4000ffff) debug_module_0	microblaze_0_axi_periph
   (0x40010000-0x4001ffff) axi_timer_0	microblaze_0_axi_periph
   (0xe0000000-0xffffffff) processing_system7_0	microblaze_0_axi_periph
@@ -113,7 +113,7 @@ INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:lmb_v10_0 - tool is overriding
    D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data
    \lmb_v10_v2_1_0.mpd line 82 
 INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:bram_block_0 - tool is overriding
-   PARAMETER C_MEMSIZE value to 0x4000 -
+   PARAMETER C_MEMSIZE value to 0x8000 -
    D:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\d
    ata\bram_block_v2_1_0.mpd line 78 
 
@@ -125,7 +125,7 @@ Creating stub ...
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:bram_block_0 -
-D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 292 -
+D:\Git\InstrumentX\InX.srcs\sources_1\edk\SensorMP\SensorMP.mhs line 294 -
 elaborating IP
 
 Inserting wrapper level ...
@@ -134,4 +134,4 @@ Writing (stub) BMM ...
 
 Writing top-level HDL ...
 
-Total run time: 9.00 seconds
+Total run time: 7.00 seconds

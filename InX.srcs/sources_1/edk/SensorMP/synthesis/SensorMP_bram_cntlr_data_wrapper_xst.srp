@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> 
 TABLE OF CONTENTS
@@ -127,7 +127,7 @@ Unit <SensorMP_bram_cntlr_data_wrapper> synthesized.
 Synthesizing Unit <lmb_bram_if_cntlr>.
     Related source file is "D:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_bram_if_cntlr.vhd".
         C_FAMILY = "zynq"
-        C_HIGHADDR = "00100000000000000011111111111111"
+        C_HIGHADDR = "00100000000000000111111111111111"
         C_BASEADDR = "00100000000000000000000000000000"
         C_MASK = "01100000000000000000000000000000"
         C_MASK1 = "00000000100000000000000000000000"
@@ -446,12 +446,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 24.00 secs
-Total CPU time to Xst completion: 24.13 secs
+Total REAL time to Xst completion: 21.00 secs
+Total CPU time to Xst completion: 20.89 secs
  
 --> 
 
-Total memory usage is 470568 kilobytes
+Total memory usage is 473592 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   57 (   0 filtered)

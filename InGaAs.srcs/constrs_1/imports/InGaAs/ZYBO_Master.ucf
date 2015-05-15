@@ -11,7 +11,7 @@ NET "fsl_i2s_0_i2s_bck_pin" PERIOD = 50.0 ns;
 NET "fsl_i2s_1_i2s_bck_pin" PERIOD = 50.0 ns;
 
 NET "SensorMP_i/clock_generator_0_CLKOUT0" TNM_NET = "tnm_clk_125MHz";
-TIMESPEC TS_clock_generator_0_CLKOUT0 = PERIOD "tnm_clk_125MHz" 7.5 ns HIGH 50%; 
+TIMESPEC TS_clock_generator_0_CLKOUT0 = PERIOD "tnm_clk_125MHz" 8.0 ns HIGH 50%; 
 # Shall we introduce OFFSET_IN constraints here?
 
 ############################################################################
