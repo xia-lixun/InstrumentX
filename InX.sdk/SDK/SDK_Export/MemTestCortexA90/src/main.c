@@ -36,15 +36,51 @@
 #define GPIO_DIRM  (GPIO_BASE+0x0284)
 #define GPIO_MASK_DATA  (GPIO_BASE+0x0010)
 
+
+
+
+#define WORD_SIZE		(4)
+#define BLOCK_SIZE		(2048)
+#define NUM_CHANNEL		(2)
+#define PCM_SIZE		(BLOCK_SIZE * NUM_CHANNEL)
+#define MD5_BYTES		(16)
+#define PACKET_SIZE		(PCM_SIZE + MD5_BYTES/WORD_SIZE)
+
+
+
 // OCM memory used to communicate with CPU0
-#define COMM_VAL  (*(volatile u32 *)(0xFFFC0000))
+#define SEMAPHORE_BLOCK_INDEX		(*(volatile u32 *)(0xFFFFFDFC))
+#define SEMAPHORE_SYSTEM_STATUS_0	(*(volatile u32 *)(0xFFFFFDF8))
+#define SEMAPHORE_SYSTEM_STATUS_1	(*(volatile u32 *)(0xFFFFFDF4))
 
 
-//u32 OnChipMemBuffer[262143];
-#define MN (65535)
-u32 OnChipMemBuffer[MN];
-XTime start = 0x0;
-XTime stop;
+#define SEMAPHORE_VAL			(*(volatile u32 *)(0xFFFC0000))		// OCM memory starting address used as semaphore
+#define SEMAPHORE_PEND()		while ( SEMAPHORE_VAL == 1 )		// blocking the thread waiting for the flag set
+#define SEMAPHORE_POST()		SEMAPHORE_VAL = 1					// clear the flag to signify resource release
+#define SEMAPHORE_INIT()		SEMAPHORE_VAL = 0					// clear the flag to signify resource release
+
+typedef struct SharedMem_ {
+	volatile u32 *	Base;			// shared memory pointer
+	volatile u32 *	Iterator;		// current pointer
+	u32 			NumElement;	// number of 32-bit words
+} SharedMem_t;
+SharedMem_t Shm;
+
+
+/*
+ * Enormous circular buffer for sensory data block queue
+ */
+typedef struct DramBuffer_ {
+	u32 * Base;
+	u32 * Iterator;
+	s32 BlockIndex;
+	u32 NumBlocks;
+} DramBuffer_t;
+DramBuffer_t Dram;
+
+
+
+
 
 
 
@@ -58,7 +94,8 @@ int main()
 	// Disable L1 cache for OCM
 	Xil_SetTlbAttributes(0xFFFC0000,0x04de2);           // S=b0 TEX=b100 AP=b11, Domain=b1111, C=b0, B=b0
 
-	COMM_VAL = 0;
+	// initialize semaphore to zero, Cortex CPU owns the OCM now
+	SEMAPHORE_INIT();
 
 
 	/**********************************************************
@@ -76,7 +113,7 @@ int main()
 	Xil_Out32(0x30000000, 0xb8000000);
 	Xil_DCacheFlush();
 
-	///////////////////////////////////////////////
+
 	//Take PL out of reset
 	//Enable emio bit 0
 	Xil_Out32(GPIO_DIRM, 0x1);
@@ -84,47 +121,74 @@ int main()
 	Xil_Out32(GPIO_MASK_DATA, 0xfffe0001);
 
 
-	///////////////////////////////////////////////
-	// Loop forever
-	volatile u32 * Ocm = (volatile u32 *) 0xFFFC0004;
+	// initialize shared memory
+    Shm.Base = (volatile u32 *) 0xFFFC0004;
+    Shm.NumElement = (0x0003FE00 - sizeof(u32)) / sizeof(u32);
 
-	u32 Endian = 0x12345678;
-	u8 * pEndian = (u8 *) (&Endian);
 
-	XTime_SetTime(start);
-	xil_printf("Endianess: 0x12345678\n\r");
-	xil_printf("Memory: %x - %x - %x - %x\n\r", *pEndian, *(pEndian+1), *(pEndian+2), *(pEndian+3));
-	xil_printf("CPU0: start to write random number to shared location...\n\r");
-	// Wait until UART TX FIFO is empty
-	while ((Xil_In32(STDOUT_BASEADDRESS + 0x2C) & 0x08) != 0x08);
-	XTime_GetTime(&stop);
-	xil_printf("Time calibrate: %d CPU cycles from PMU.\n\r", (stop - start)*2);
+	xil_printf("Cortex CPU Starts:\n\r");
+	while ((Xil_In32(STDOUT_BASEADDRESS + 0x2C) & 0x08) != 0x08);	// Wait until UART TX FIFO is empty
 
-	//u32 * DataBuffer = (u32 *) malloc( 4096 * sizeof(u32) );
-	//xil_printf("Malloc: %x\n\r", DataBuffer);
 
-	*Ocm = 0;
-	volatile u32 * Dram = (volatile u32 *)0x001480C8;
-	*Dram = 654321;
+	SEMAPHORE_POST();
+	SEMAPHORE_PEND();
+	xil_printf("First handshake...[OK]\n\r");
+
+
+	Dram.NumBlocks = 8192;
+	Dram.Base = (u32 *) malloc(sizeof(u32) * PACKET_SIZE * Dram.NumBlocks);
+	xil_printf("Malloc address: 0x%x, size %d KB\n\r", Dram.Base, sizeof(u32) * PACKET_SIZE * Dram.NumBlocks / 1024);
+
+	Shm.Iterator = Shm.Base;
+	*(Shm.Iterator)++ = (u32) Dram.Base;
+	*(Shm.Iterator) = Dram.NumBlocks;
+
+	SEMAPHORE_POST();
+	SEMAPHORE_PEND();
+	if(*(Shm.Base) == 0) {
+		xil_printf("Microblaze CPU: test DRAM...[OK]\n\r");
+	} else {
+		xil_printf("Microblaze CPU: test DRAM...[Failed]\n\r");
+	}
+
+	xil_printf("Cortex CPU: test DRAM...");
+	u32 DramError = 0;
+	memset(Dram.Base, 0xAA, sizeof(u32) * PACKET_SIZE * Dram.NumBlocks);
 	Xil_DCacheFlush();
+	//Xil_DCacheInvalidate();
+	Dram.Iterator = Dram.Base;
+	for(int i = 0; i < PACKET_SIZE * Dram.NumBlocks; i++) {
+		if( *(Dram.Iterator)++ != 0xAAAAAAAA ) {
+			DramError += 1;
+		}
+	}
+	xil_printf("0xAA error: %d  ", DramError);
+
+	DramError = 0;
+	memset(Dram.Base, 0x55, sizeof(u32) * PACKET_SIZE * Dram.NumBlocks);
+	Xil_DCacheFlush();
+	//Xil_DCacheInvalidate();
+	Dram.Iterator = Dram.Base;
+	for(int i = 0; i < PACKET_SIZE * Dram.NumBlocks; i++) {
+		if( *(Dram.Iterator)++ != 0x55555555 ) {
+			DramError += 1;
+		}
+	}
+	xil_printf("0x55 error: %d \n\r", DramError);
+
+
 
     while(1) {
 
-    	//Ocm = (volatile u32 *) 0xFFFC0004;
-    	//for(int i = 0; i < MN; i++) {
-    	//	OnChipMemBuffer[i] = rand();
-    	//	*Ocm = OnChipMemBuffer[i];
-    	//	Ocm += 1;
-        //	//xil_printf("Ocm address: %x\n\r", Ocm);
-        //  }
-
+    	xil_printf("Count: %d  index: %d  Sts: 0x%x  0x%x\n\r", *(Shm.Base), SEMAPHORE_BLOCK_INDEX, SEMAPHORE_SYSTEM_STATUS_0, SEMAPHORE_SYSTEM_STATUS_1);
+    	while ((Xil_In32(STDOUT_BASEADDRESS + 0x2C) & 0x08) != 0x08);	// Wait until UART TX FIFO is empty
 
         //from this point OCM belongs to Microblaze
-    	COMM_VAL = 1;
-    	while(COMM_VAL == 1);
+    	//COMM_VAL = 1;
+    	//while(COMM_VAL == 1);
     	//xil_printf("Time benchmark: %d CPU cycles from Microblaze.\n\r", *Ocm);
-    	Xil_DCacheInvalidateRange(0x001480C8, 4);
-    	xil_printf("DRAM Shared: %d OCM: %d\n\r", *((volatile u32 *)0x001480C8), *Ocm);
+    	//Xil_DCacheInvalidateRange(0x001480C8, 4);
+    	//xil_printf("DRAM Shared: %d OCM: %d\n\r", *((volatile u32 *)0x001480C8), *Ocm);
     	//now OCM belongs to Cortex A9
     	//Ocm = (volatile u32 *) 0xFFFC0004;
     	//for(int i = 0; i < MN; i++) {

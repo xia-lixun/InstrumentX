@@ -1,6 +1,6 @@
-02:31:10 **** Auto Build of project MemTestCortexA90_bsp ****
+01:51:49 **** Auto Build of project MemTestCortexA90_bsp ****
 make -k all 
 'Finished building libraries'
 
-02:31:10 Build Finished (took 145ms)
+01:51:49 Build Finished (took 150ms)
 

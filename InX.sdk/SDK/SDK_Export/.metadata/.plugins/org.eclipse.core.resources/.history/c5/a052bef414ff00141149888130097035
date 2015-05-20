@@ -1,0 +1,524 @@
+/*
+ * Copyright (c) 2009 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
+
+
+
+/*
+ * helloworld.c: Reed Solomon (255, 239) Encoder for Cortex A9 and
+ * Microblaze Heterogeneous platform
+ *
+ * Fs = 312500 Hz
+ * FSL-0 Length = 4096 samples
+ * FSL-1 Length = 4096 samples
+ *
+ * MD5 @ 256 bytes = 42.672 us
+ * Adler32 @ 256 bytes (32 samples) = 9.0525 us
+ * Sampling time of 32 samples = 32/FS = 102.4 us
+ * Time benchmark of RS 239, 255: 590033 CPU cycles from Microblaze. 4ms is too long.
+ *
+ * DRAM write estimate:
+ * 256 byte = 64 word. 20 cycles / word => 64*20 = 1280 cycles = 10.24 us
+ *
+ *
+ * @2015/5/20
+ * 517221 cycles = 4137.688 us
+ * 2048 samples = 2048 / 312500 = 6553.6 us
+ *
+ * FIFO operation requirement:
+ *     For FIFO with sample length L, make sure the number of elements it holds does not exceed Xt.
+ *
+ * Solution (start with FIFO full):
+ *     For block based processing, we have:
+ *     Xb  - elements fetched per iteration
+ *     Tc  - cpu cycle period
+ *     Ta  - adc sampling period
+ *     f(X)- number of CPU cycles needed to process X samples of data
+ *
+ *     f(Xb)Tc/Ta + (L - Xb) <= Xt
+ *     Assume f(X) ~ KX which is linear, we have KXbTc/Ta + (L - Xb) <= Xt
+ *     Here:
+ *           Xb is the value we need to evaluate
+ *           L = 4096
+ *           Tc = 8 ns
+ *           Ta = 1e9/312500 ns
+ *           K = 517221/2048 ~ 252.54931640625
+ *
+ *     Then we get   252.55 Xb 8 312500 / 1e9 + (4096 - Xb) <= Xt
+ *                   0.631373291015625 Xb + 4096 - Xb <= Xt
+ *                   -0.368626708984375 Xb <= Xt - 4096
+ *                   Xb >= (4096 - Xt) / 0.368626708984375
+ *
+ *     So if Xb = 2048 Xt_worst = 3341.
+ *     As iteration goes on Xt will decrease down to zero due to KTc/Ta = 0.63 < 1.
+ *
+ *
+ *
+ * Created on August 16, 2014, 10:32 PM
+ *
+ */
+
+
+
+#include <stdio.h>
+#include <xil_io.h>
+#include <xil_cache.h>
+#include <xparameters.h>
+#include <xil_exception.h>
+#include <stdlib.h>
+#include <string.h>
+#include <inttypes.h>
+#include <xil_types.h>
+#include <xbasic_types.h>
+#include <xil_assert.h>
+#include <fsl.h>
+#include <mb_interface.h>
+#include <xstatus.h>
+
+#include "xtmrctr.h"
+#include "platform.h"
+#include "md5.h"
+
+
+
+
+/*
+ * Command enumerate from Cortex CPU to Microblaze
+ */
+
+#define FILTER_SETTLE_BIT	(0x00000080)
+#define OVER_RANGE_BIT		(0x00000040)
+#define LOW_POWER_BIT		(0x00000020)
+#define DECIMATE_RATE_1_BIT	(0x00000010)
+#define DECIMATE_RATE_0_BIT	(0x00000008)
+#define SEQUENCE_BIT		(0x00000007)
+
+u32 ProcessReset;
+u32 SystemStatus;
+
+
+
+
+/*
+ * Resource for inter-processor communication based on OCM
+ * OCM used for customer: 0xFFFC0000 .. 0xFFFFFDFF
+ * OCM used for CPU_1 : 0xFFFFFE00 .. 0xFFFFFFFF
+ * In out framework, we define 0xFFFC0000 as the semaphore flag;
+ * and 0xFFFC0004 .. 0xFFFFFDFF as the data packet (255.5 KB or 65407 words(32-bit)).
+ *
+ * Queue from Microblaze to Cortex uses OCM from high address.
+ * Queue from Cortex to Microblaze uses OCM from low address.
+ */
+
+#define SEMAPHORE_BLOCK_INDEX		(*(volatile u32 *)(0xFFFFFDFC))
+#define SEMAPHORE_SEQUENCE_ERROR	(*(volatile u32 *)(0xFFFFFDF8))
+
+
+#define SEMAPHORE_VAL				(*(volatile u32 *)(0xFFFC0000))	// OCM memory starting address used as semaphore
+#define SEMAPHORE_PEND()			while ( SEMAPHORE_VAL == 0 )	// blocking the thread waiting for the flag set
+#define SEMAPHORE_POST()			SEMAPHORE_VAL = 0				// clear the flag to signify resource release
+#define SEMAPHORE_INIT()			SEMAPHORE_VAL = 0
+#define SEMAPHORE_PEND_NONBLOCK()	if(SEMAPHORE_VAL == 1)			// Non-blocking IPC feature
+
+typedef struct SharedMem_ {
+	volatile u32 *	Base;		// shared memory pointer
+	volatile u32 *	Iterator;	// current pointer
+	u32 			NumElement;	// number of 32-bit words
+} SharedMem_t;
+SharedMem_t Shm;
+
+
+/*
+ * Resource for data processing.
+ * The processing is block based. Block size is half the length of the FSL FIFO size.
+ * So 2048 samples must be taken care of per channel.
+ * The data layout is:
+ *
+ *                       +---------BLOCK SIZE--------+
+ *                       |                           |
+ *                     [ [2048 samples from channel 0] [2048 samples from channel 1] [MD5] ]
+ *                       |                                                         |     |
+ *                       +------------------------PCM SIZE-------------------------+     |
+ *                       |                                                               |
+ *                       +-----------------------------PACKET SIZE-----------------------+
+ *
+ */
+#define WORD_SIZE		(4)
+#define BLOCK_SIZE		(2048)
+#define NUM_CHANNEL		(2)
+#define PCM_SIZE		(BLOCK_SIZE * NUM_CHANNEL)
+#define MD5_BYTES		(16)
+#define PACKET_SIZE		(PCM_SIZE + MD5_BYTES/WORD_SIZE)
+
+typedef struct Packet_ {
+	u32		Pcm[PCM_SIZE];		// sensory data in parallel PCM format
+	u32 *	Chn[NUM_CHANNEL];	// alias for channel 0 block
+	u8		Md5[MD5_BYTES];		// slot for hash digest
+} Packet_t;
+Packet_t Pac;
+
+
+/*
+ * Enormous circular buffer for sensory data block queue
+ */
+typedef struct DramBuffer_ {
+	u32 * Base;
+	u32 * Iterator;
+	s32 BlockIndex;
+	u32 NumBlocks;
+} DramBuffer_t;
+DramBuffer_t Dram;
+
+
+/*
+ * FSL FIFO control variables
+ */
+typedef struct FifoFslSlave_ {
+	u8	Invalid;		//non-blocking FSL read/write test flag
+	u32	Value;			//value read from the FIFO
+	u32 SeqCntPre;
+	u32 SeqCntNow;
+} FifoFslSlave_t;
+FifoFslSlave_t Fsl[NUM_CHANNEL];
+
+
+/*
+ * MD5 context block
+ * Calculation of the 4096-sample data block.
+ * I.e. hash of 16 KB data
+ * The measured timing performance can be found in the beginning of the file
+ */
+MD5_CTX mdContext;
+
+
+#ifdef PERFORMANCE_MEASURE
+/*
+ * Resource for the timer.
+ * We use timer for performance benchmark. Ts = 8ns
+ * Entering and exiting the timer take 10 cycles.
+ */
+
+XTmrCtr TimerCounter;	// The instance of the timer counter
+u32 TimerCount1 = 0;
+u32 TimerCount2 = 0;
+u8 TmrCtrNumber = 0;
+#endif
+
+
+/****************************************************************************
+* Convert Q0.31 data fetched from the ADC to IEEE754 single precision
+*
+* @param
+*		Xuint32 fixedp
+*
+* @return
+*		Floating point in 32-bit unsigned int format
+*
+* @note
+* 		There is no need to consider de-normalized values
+*
+*****************************************************************************/
+Xuint32 q2f ( Xuint32 fixedp )
+{
+	Xuint32 floatp;
+	Xuint32 sign;
+	Xuint32 exp;
+
+    if( fixedp == 0x0 ) {
+	    return 0x0;      //zero case is special
+    }
+    else {
+	    sign = fixedp & 0x80000000;               //get sign to bit 31
+	    if( sign ) {                              //get absolute value
+		    fixedp = ~fixedp;
+		    fixedp += 1;
+	    }
+	    asm("clz %0, %1":"=r"(exp):"r"(fixedp));  //get exponential offset, and we know here exp less than 32
+	    fixedp = fixedp << exp;             //normalize the fractional part
+	    fixedp = fixedp << 1;               //kill the leading 1
+
+	    exp = 0x7F - exp;                         //calculate exponential part
+	    exp = exp << 23;                               //move exp to bit 30 down to 23
+
+	    fixedp = fixedp >> 9;                             //move fractional to bit 22..0
+
+	    floatp = sign | exp;
+	    floatp |= fixedp;
+
+	    return floatp;
+    }
+}
+
+
+
+/****************************************************************************
+* This function is the main function for the Microblaze in the AMP PS/MB xapp
+* It is responsible for initializing the irq generator device, setting up
+* interrupts, communicating with the PS via OCM, and writing output to the
+* PS UART
+*
+* @param	None.
+*
+* @return
+*		- XST_SUCCESS to indicate success.
+*		- XST_FAILURE to indicate Failure.
+*
+* @note		None.
+*
+*****************************************************************************/
+int main(void)
+{
+	// enable the data cache.
+	// note that there is no instruction cache for MB1(DAQ-DMA) as all
+	// program and data will be placed in the 64KB local BRAM.
+    init_platform();
+
+    // initialize semaphore flag value
+    SEMAPHORE_INIT();
+
+    // first handshake with Cortex CPU
+    SEMAPHORE_PEND();
+    SEMAPHORE_POST();
+
+
+    // initialize the packet data structure
+	Pac.Chn[0] = &(Pac.Pcm[0]);
+	Pac.Chn[1] = &(Pac.Pcm[BLOCK_SIZE]);
+
+    // initialize shared memory
+    Shm.Base = (volatile u32 *) 0xFFFC0004;
+    Shm.NumElement = (0x0003FE00 - sizeof(u32)) / sizeof(u32);
+
+#ifdef PERFORMANCE_MEASURE
+    // initialize the timer
+	int status = XTmrCtr_Initialize(&TimerCounter, XPAR_AXI_TIMER_0_DEVICE_ID);
+	if (status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	Xil_AssertNonvoid(TmrCtrNumber < XTC_DEVICE_TIMER_COUNT);
+	Xil_AssertNonvoid(TimerCounter.IsReady == XIL_COMPONENT_IS_READY);
+#endif
+
+	// initialize the DRAM data structure
+	// transaction: Cortex CPU pushes base address and size to Microblaze
+	// Microblaze does simple test and set flag if write-read test fails.
+
+	//wait until CPU0 hands off flag
+	SEMAPHORE_PEND();
+
+	Shm.Iterator = Shm.Base;
+	Dram.Base = (u32 *) *(Shm.Iterator)++;
+	Dram.NumBlocks = *(Shm.Iterator);
+	Dram.BlockIndex = 0;
+
+	// verify memory allocated by Cortex CPU is OK otherwise signal an error
+	*(Shm.Base) = 0;
+	memset(Dram.Base, 0xAA, sizeof(u32) * PACKET_SIZE * Dram.NumBlocks);
+	microblaze_flush_dcache();
+
+	Dram.Iterator = Dram.Base;
+	for(int i = 0; i < PACKET_SIZE * Dram.NumBlocks; i++) {
+		if( *(Dram.Iterator)++ != 0xAAAAAAAA ) {
+			*(Shm.Base) = 1;
+			break;
+		}
+	}
+
+	memset(Dram.Base, 0x55, sizeof(u32) * PACKET_SIZE * Dram.NumBlocks);
+	microblaze_flush_dcache();
+
+	Dram.Iterator = Dram.Base;
+	for(int i = 0; i < PACKET_SIZE * Dram.NumBlocks; i++) {
+		if( *(Dram.Iterator)++ != 0x55555555 ) {
+			*(Shm.Base) = 1;
+			break;
+		}
+	}
+	//pass control of OCM to Cortex CPU
+	SEMAPHORE_POST();
+
+
+
+
+
+	// C O R E    R E S E T    L O O P
+    while(1) {
+
+    	ProcessReset = 0;
+    	Dram.BlockIndex = 0;
+    	memset(Pac.Pcm, 0x0, sizeof(u32) * PCM_SIZE);
+
+    	SEMAPHORE_BLOCK_INDEX = 0;
+    	SEMAPHORE_SEQUENCE_ERROR = 0x0;
+
+        /*
+         * Initialize the FIFO to initial states: keep the capture FIFO empty.
+         * The capture FIFO can hold up to 4096 samples.
+         */
+        Fsl[0].Invalid = 0;
+        Fsl[1].Invalid = 0;
+        while ( (!Fsl[0].Invalid) || (!Fsl[1].Invalid) ) {
+	        getfslx( Fsl[0].Value, 0, FSL_NONBLOCKING_ATOMIC );
+	        fsl_isinvalid( Fsl[0].Invalid );
+	        getfslx( Fsl[1].Value, 1, FSL_NONBLOCKING_ATOMIC );
+	        fsl_isinvalid( Fsl[1].Invalid );
+	    }
+
+        //getfslx( Fsl[0].Value, 0, FSL_ATOMIC );
+        //getfslx( Fsl[1].Value, 1, FSL_ATOMIC );
+        Fsl[0].Value = 0x12345678;
+        Fsl[1].Value = 0x87654321;
+
+        Fsl[0].SeqCntPre = Fsl[0].Value & SEQUENCE_BIT; /* 3-bit counter for breaking point detection */
+        Fsl[1].SeqCntPre = Fsl[1].Value & SEQUENCE_BIT; /* 3-bit counter for breaking point detection */
+
+
+        // T A S K    I T E R A T I O N    L O O P
+        while(1) {
+#ifdef PERFORMANCE_MEASURE
+            XTmrCtr_WriteReg(TimerCounter.BaseAddress, TmrCtrNumber, XTC_TLR_OFFSET, 0);												//Set the Capture register to 0
+            XTmrCtr_WriteReg(TimerCounter.BaseAddress, TmrCtrNumber, XTC_TCSR_OFFSET, XTC_CSR_INT_OCCURED_MASK | XTC_CSR_LOAD_MASK);	//Reset the timer and the interrupt
+        	XTmrCtr_WriteReg(TimerCounter.BaseAddress, TmrCtrNumber, XTC_TCSR_OFFSET, XTC_CSR_ENABLE_TMR_MASK);							//Set the control/status register to enable timer
+        	TimerCount1 = XTmrCtr_ReadReg(TimerCounter.BaseAddress, TmrCtrNumber, XTC_TCR_OFFSET);										//Read the timer
+        	//performance hint: subsequent read operations of timer registers consume 10 CPU cycles
+#endif
+        	// read data converter samples from FSL0 and FSL1
+    	    for(int k = 0; k < BLOCK_SIZE; k++ ) {
+
+    	    	// fetch samples from FSL FIFO
+    	    	//getfslx( Fsl[0].Value, 0, FSL_ATOMIC );
+    	    	//getfslx( Fsl[1].Value, 1, FSL_ATOMIC );
+    	        Fsl[0].Value = 0x12345678;
+    	        Fsl[1].Value = 0x87654321;
+
+    	    	// Q0.31 to IEEE754 single precision conversion
+    	    	*(Pac.Chn[0] + k) = q2f( Fsl[0].Value );
+    	    	*(Pac.Chn[1] + k) = q2f( Fsl[1].Value );
+
+    	    	// check sequence validity
+    	        Fsl[0].SeqCntNow = Fsl[0].Value & SEQUENCE_BIT;
+    	        Fsl[1].SeqCntNow = Fsl[1].Value & SEQUENCE_BIT;
+    	        if(Fsl[0].SeqCntNow != ((Fsl[0].SeqCntPre + 1) & SEQUENCE_BIT)) {
+    	        	SEMAPHORE_SEQUENCE_ERROR = 0x1;
+    	        }
+    	        if(Fsl[1].SeqCntNow != ((Fsl[1].SeqCntPre + 1) & SEQUENCE_BIT)) {
+    	        	SEMAPHORE_SEQUENCE_ERROR = 0x1;
+    	        }
+    	        Fsl[0].SeqCntPre = Fsl[0].SeqCntNow;
+    	        Fsl[1].SeqCntPre = Fsl[1].SeqCntNow;
+
+    	    } //for(int k = 0; k < PCM_BLOCK; k++)
+
+    	    // calculate MD5 digest
+    	    // u32 checksum = adler32(1, x, 255);
+    	    MD5_Init( &mdContext );
+    	    MD5_Update( &mdContext, Pac.Pcm, sizeof(u32) * PCM_SIZE );
+    	    MD5_Final( Pac.Md5, &mdContext );
+
+    	    // write data chunk processed to the DRAM
+    	    Dram.Iterator = Dram.Base + Dram.BlockIndex * PACKET_SIZE;
+    	    memcpy(Dram.Iterator, Pac.Pcm, sizeof(u32) * PCM_SIZE);
+    	    Dram.Iterator += PCM_SIZE;
+    	    memcpy(Dram.Iterator, Pac.Md5, sizeof(u8) * MD5_BYTES);
+    	    microblaze_flush_dcache();
+
+    	    Dram.BlockIndex += 1;
+    	    if( Dram.BlockIndex >= Dram.NumBlocks ) {
+    	    	Dram.BlockIndex = 0;
+    	    }
+    	    SEMAPHORE_BLOCK_INDEX = (u32) Dram.BlockIndex;
+
+    	    // process commands from Cortex CPU
+    	    SEMAPHORE_PEND_NONBLOCK() {
+    	    	ProcessReset = 1;
+    	    	SEMAPHORE_POST();
+    	    }
+    	    if(ProcessReset) {
+    	    	break;
+    	    }
+
+#ifdef PERFORMANCE_MEASURE
+            TimerCount2 = XTmrCtr_ReadReg(TimerCounter.BaseAddress, TmrCtrNumber, XTC_TCR_OFFSET);
+            *(Shm.Base) = TimerCount2 - TimerCount1;
+        	XTmrCtr_WriteReg(TimerCounter.BaseAddress, TmrCtrNumber, XTC_TCSR_OFFSET, XTC_CSR_INT_OCCURED_MASK | XTC_CSR_LOAD_MASK);
+        	XTmrCtr_WriteReg(TimerCounter.BaseAddress, TmrCtrNumber, XTC_TCSR_OFFSET, 0);
+#endif
+        } //while(1)
+    }
+
+    cleanup_platform();
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+// resource for adler32 checksum
+//#define BASE 65521 // largest prime smaller than 65536
+//#define NMAX 5552  // NMAX is the largest n such that 255n(n+1)/2 + (n+1)(BASE-1) <= 2^32-1
+//
+//#define DO1(buf)  {s1 += *buf++; s2 += s1;}
+//#define DO2(buf)  DO1(buf); DO1(buf);
+//#define DO4(buf)  DO2(buf); DO2(buf);
+//#define DO8(buf)  DO4(buf); DO4(buf);
+//#define DO16(buf) DO8(buf); DO8(buf);
+
+////function prototypes
+//u32 adler32(u32 adler, u8 * buf, u32 len) {
+//
+//    u32 s1 = adler & 0xffff;
+//    u32 s2 = (adler >> 16) & 0xffff;
+//    s32 k;
+//
+//    while (len > 0) {
+//    	k = len < NMAX ? len : NMAX;
+//    	len -= k;
+//    	while (k >= 16) {
+//    		DO16(buf);
+//    		k -= 16;
+//    	}
+//    	if (k != 0) do {
+//    		DO1(buf);
+//    	} while (--k);
+//    	s1 %= BASE;
+//    	s2 %= BASE;
+//    }
+//    return (s2 << 16) | s1;
+//}
+
+
+
+//EOF
+
+
+
+
+
+
+
+
+
+
+
+
+

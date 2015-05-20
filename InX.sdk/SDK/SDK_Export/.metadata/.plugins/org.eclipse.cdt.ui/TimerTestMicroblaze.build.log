@@ -1,6 +1,6 @@
-02:44:55 **** Incremental Build of configuration Debug for project TimerTestMicroblaze ****
+02:00:21 **** Incremental Build of configuration Debug for project TimerTestMicroblaze ****
 make all 
 make: Nothing to be done for `all'.
 
-02:44:55 Build Finished (took 186ms)
+02:00:21 Build Finished (took 189ms)
 
